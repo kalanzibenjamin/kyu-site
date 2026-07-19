@@ -24,6 +24,11 @@ $light-glass-bg: rgba(255, 255, 255, 0.45);
 $light-glass-border: rgba(255, 255, 255, 0.55);
 $light-glass-shadow: 0 24px 48px rgba(0, 0, 0, 0.12);
 
+// ✅ NEW: Menu-specific colors (more opaque for readability)
+$menu-bg: rgba(20, 25, 35, 0.95);
+$menu-border: rgba(255, 255, 255, 0.15);
+$light-menu-bg: rgba(255, 255, 255, 0.95);
+$light-menu-border: rgba(0, 0, 0, 0.1);
 
 // ========================================
 // 2. GLASSMORPHISM
@@ -35,7 +40,6 @@ $glass-shadow: 0 34px 68px rgba(0, 0, 0, 0.24);
 $glass-blur: 24px;
 $glass-saturate: 180%;
 $glass-radius: 28px;
-
 
 // ========================================
 // 3. FONTS
@@ -50,7 +54,6 @@ $font-weight-semibold: 600;
 $font-weight-bold: 700;
 $font-weight-extrabold: 800;
 
-
 // ========================================
 // 4. SPACING
 // ========================================
@@ -62,7 +65,6 @@ $spacing-lg: 2rem;      // 32px
 $spacing-xl: 4rem;      // 64px
 $spacing-xxl: 6rem;     // 96px
 
-
 // ========================================
 // 5. BREAKPOINTS
 // ========================================
@@ -71,7 +73,6 @@ $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
-
 
 // ========================================
 // 6. BORDERS & SHADOWS
@@ -86,7 +87,7 @@ $border-radius-full: 999px;
 $shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
 $shadow-md: 0 4px 16px rgba(0, 0, 0, 0.15);
 $shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.2);
-
+$shadow-menu: 0 20px 60px rgba(0, 0, 0, 0.5); // ✅ NEW: Stronger shadow for menu
 
 // ========================================
 // 7. TRANSITIONS
@@ -95,7 +96,6 @@ $shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.2);
 $transition-fast: 0.15s ease;
 $transition-base: 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
 $transition-slow: 0.5s ease;
-
 
 // ========================================
 // 8. CSS CUSTOM PROPERTIES (Root)
@@ -113,6 +113,11 @@ $transition-slow: 0.5s ease;
   --glass-bg: #{$glass-bg};
   --glass-border: #{$glass-border};
   --glass-shadow: #{$glass-shadow};
+  
+  // ✅ NEW: Menu-specific variables (more opaque)
+  --menu-bg: #{$menu-bg};
+  --menu-border: #{$menu-border};
+  --menu-shadow: #{$shadow-menu};
 }
 
 // Light mode override
@@ -124,6 +129,11 @@ html.light-mode {
   --glass-bg: #{$light-glass-bg};
   --glass-border: #{$light-glass-border};
   --glass-shadow: #{$light-glass-shadow};
+  
+  // ✅ NEW: Light mode menu variables
+  --menu-bg: #{$light-menu-bg};
+  --menu-border: #{$light-menu-border};
+  --menu-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
 }
 
 body.light-mode {
@@ -134,4 +144,9 @@ body.light-mode {
   --glass-bg: #{$light-glass-bg};
   --glass-border: #{$light-glass-border};
   --glass-shadow: #{$light-glass-shadow};
+  
+  // ✅ NEW: Light mode menu variables
+  --menu-bg: #{$light-menu-bg};
+  --menu-border: #{$light-menu-border};
+  --menu-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
 }

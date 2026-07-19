@@ -1,4 +1,19 @@
 ﻿// ========================================
+// 0. MENU VARIABLES (Add at the top of your file or in variables)
+// ========================================
+
+:root {
+  // Menu-specific with higher opacity for better readability
+  --menu-bg: rgba(20, 25, 35, 0.95);
+  --menu-border: rgba(255, 255, 255, 0.15);
+}
+
+body.light-mode {
+  --menu-bg: rgba(255, 255, 255, 0.95);
+  --menu-border: rgba(0, 0, 0, 0.1);
+}
+
+// ========================================
 // 1. HEADER WRAPPER
 // ========================================
 
@@ -165,6 +180,7 @@
     cursor: pointer;
     transition: $transition-fast;
     border-radius: $border-radius-full;
+    z-index: 1200; // ✅ ADDED: Ensures toggle stays above menu
     
     &:hover {
       background: rgba(255, 255, 255, 0.08);
@@ -181,27 +197,36 @@
     }
     
     ul {
-      display: none;
+      display: none; // ✅ KEPT: Hidden by default
       position: fixed;
       top: calc(4.25rem + env(safe-area-inset-top, 0px));
       left: 0.75rem;
       right: 0.75rem;
       flex-direction: column;
-      background: var(--glass-bg, $glass-bg);
-      backdrop-filter: blur($glass-blur) saturate($glass-saturate);
-      -webkit-backdrop-filter: blur($glass-blur) saturate($glass-saturate);
-      border: 1px solid var(--glass-border, $glass-border);
+      
+      // ✅ FIXED: Use menu-specific variables with higher opacity
+      background: var(--menu-bg, rgba(20, 25, 35, 0.95));
+      
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      
+      // ✅ FIXED: Use menu-specific border
+      border: 1px solid var(--menu-border, rgba(255, 255, 255, 0.15));
       border-radius: $border-radius-xl;
       padding: $spacing-sm;
       gap: 0.25rem;
-      box-shadow: var(--glass-shadow, $glass-shadow);
+      
+      // ✅ IMPROVED: Stronger shadow for better depth
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
       z-index: 1100;
       max-height: min(70dvh, 26rem);
       overflow-y: auto;
       overscroll-behavior: contain;
       
       body.light-mode & {
-        background: rgba(255, 255, 255, 0.9);
+        background: var(--menu-bg, rgba(255, 255, 255, 0.95));
+        border-color: var(--menu-border, rgba(0, 0, 0, 0.1));
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
       }
       
       &.is-open {
@@ -214,6 +239,29 @@
         border-radius: $border-radius-md;
         text-align: left;
         font-size: 1rem;
+        
+        // ✅ ADDED: Better contrast for dark mode
+        color: rgba(255, 255, 255, 0.9);
+        
+        &:hover {
+          background: rgba(255, 255, 255, 0.1);
+          color: #ffffff;
+        }
+        
+        &.active {
+          background: rgba($color-accent-blue, 0.2);
+          color: $color-accent-blue;
+        }
+        
+        // ✅ ADDED: Light mode link styles
+        body.light-mode & {
+          color: rgba(0, 0, 0, 0.85);
+          
+          &:hover {
+            background: rgba(0, 0, 0, 0.05);
+            color: #000000;
+          }
+        }
       }
     }
   }
