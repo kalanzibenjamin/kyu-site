@@ -2,7 +2,7 @@
   "name": "kyu-site",
   "icons": [
     {
-      "src": "/images/logo/kyu-logo.png",
+      "src": "/assets/images/logo/kyu-logo.png",
       "sizes": "any",
       "type": "image/png"
     }
