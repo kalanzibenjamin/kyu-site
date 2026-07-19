@@ -1,0 +1,254 @@
+﻿// ========================================
+// 1. RESPONSIVE UTILITY CLASSES
+// ========================================
+
+// Hide on specific breakpoints
+.hide-mobile {
+  @media (max-width: $breakpoint-md) {
+    display: none !important;
+  }
+}
+
+.hide-desktop {
+  @media (min-width: ($breakpoint-md + 1)) {
+    display: none !important;
+  }
+}
+
+.hide-tablet {
+  @media (min-width: ($breakpoint-sm + 1)) and (max-width: ($breakpoint-lg - 1)) {
+    display: none !important;
+  }
+}
+
+// Show on specific breakpoints
+.show-mobile {
+  display: none !important;
+  
+  @media (max-width: $breakpoint-md) {
+    display: block !important;
+  }
+}
+
+.show-desktop {
+  @media (min-width: ($breakpoint-md + 1)) {
+    display: block !important;
+  }
+}
+
+
+// ========================================
+// 2. RESPONSIVE TEXT
+// ========================================
+
+.responsive-text {
+  font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+}
+
+.responsive-heading {
+  font-size: clamp(1.6rem, 5vw, 2.4rem);
+}
+
+.responsive-hero {
+  font-size: clamp(2.2rem, 8vw, 3.8rem);
+}
+
+
+// ========================================
+// 3. TOUCH DEVICE OVERRIDES
+// ========================================
+
+// Fix for elastic scroll artifacts on mobile
+html.touch-device,
+body.touch-device {
+  background-attachment: scroll !important;
+  background-size: auto !important;
+  
+  .cosmic-bg,
+  .floating-orb {
+    display: none !important;
+  }
+  
+  // Reduce backdrop filters on mobile for performance
+  .glass,
+  .glass-card,
+  .search-wrapper,
+  .feature-tile,
+  .testimonial-card,
+  .footer-wrapper {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+  
+  // Solid background fallback for glass elements
+  .glass {
+    background: rgba(7, 28, 58, 0.85);
+  }
+  
+  body.light-mode .glass {
+    background: rgba(255, 255, 255, 0.85);
+  }
+}
+
+
+// ========================================
+// 4. REDUCED MOTION OVERRIDES
+// ========================================
+
+@media (prefers-reduced-motion: reduce) {
+  html,
+  body {
+    scroll-behavior: auto;
+  }
+  
+  body {
+    animation: none !important;
+  }
+  
+  .floating-orb {
+    animation: none !important;
+  }
+  
+  .fade-up {
+    opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
+    transition: none !important;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+// ========================================
+// 5. MEDIA QUERIES
+// ========================================
+
+// Mobile first approach — default styles are for mobile
+// then we add styles for larger screens
+
+// Tablets & small laptops
+@media (min-width: $breakpoint-md) {
+  .container {
+    padding: 2rem 2.5rem;
+  }
+}
+
+// Desktops
+@media (min-width: $breakpoint-lg) {
+  .container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 2.5rem 3rem;
+  }
+}
+
+// Large desktops
+@media (min-width: $breakpoint-xl) {
+  .container {
+    max-width: 1200px;
+    padding: 3rem 4rem;
+  }
+}
+
+// Mobile specific overrides
+@media (max-width: $breakpoint-md) {
+  .container {
+    padding: 1rem 0.9rem 1.5rem;
+  }
+  
+  .glass,
+  .glass-card,
+  .feature-tile,
+  .testimonial-card {
+    padding: 1.25rem;
+  }
+  
+  .search-wrapper {
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+  }
+  
+  .search-wrapper input {
+    font-size: 0.9rem;
+    padding: 0.6rem 0;
+  }
+}
+
+// Small phones
+@media (max-width: 400px) {
+  .container {
+    padding: 0.75rem 0.6rem 1rem;
+  }
+  
+  .glass,
+  .glass-card {
+    padding: 1rem;
+    border-radius: $border-radius-md;
+  }
+}
+
+
+// ========================================
+// 6. PRINT STYLES
+// ========================================
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  
+  .glass,
+  .glass-card {
+    background: white !important;
+    border: 1px solid #ddd !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+}
+
+
+// ========================================
+// 7. ANIMATION KEYFRAMES (Responsive-aware)
+// ========================================
+
+@keyframes drift {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    transform: translate(50px, 40px) scale(1.08);
+  }
+}
+
+@keyframes dayGradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+// Apply background animation to body
+body {
+  animation: dayGradientFlow 24s ease infinite;
+  
+  @media (prefers-reduced-motion: reduce) {
+    animation: none !important;
+  }
+}

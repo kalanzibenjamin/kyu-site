@@ -1,0 +1,18 @@
+{
+  "name": "Kyambogo Student Hub",
+  "version": "1.0.0",
+  "description": "Kyambogo 2026/2027 student hub — resources, announcements, and community",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8",
+    "vite": "^5.3.5"
+  },
+  "author": "Student, Kyambogo University",
+  "license": "MIT"
+}

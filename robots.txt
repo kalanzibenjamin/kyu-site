@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://kyu.clareon.live/sitemap.xml
+Disallow: /404.html
