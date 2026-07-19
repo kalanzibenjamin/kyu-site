@@ -2,8 +2,7 @@
 node_modules/
 yarn.lock
 
-# Build output
-dist/
+
 
 # Environment variables
 .env
