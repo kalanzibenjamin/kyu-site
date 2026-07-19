@@ -1,0 +1,316 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ======================================== -->
+  <!-- META PARTIAL -->
+  <!-- ======================================== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>Kyambogo 2026/2027 Student Hub | kyu.clareon.live</title>
+  <meta name="description" content="Free study resources, past papers, and practice quizzes for Kyambogo University students. Join the 2026/2027 admitted students community." />
+  <meta name="keywords" content="Kyambogo University, KYU, past papers, quizzes, study resources, BITC, BEEM, nursing, Uganda" />
+  <meta name="author" content="Student, Kyambogo University" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kyambogo 2026/2027 Student Hub | kyu.clareon.live" />
+  <meta property="og:description" content="Free study resources, past papers, and practice quizzes for Kyambogo University students." />
+  <meta property="og:url" content="https://kyu.clareon.live/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="kyu.clareon.live" />
+  <meta property="og:image" content="https://kyu.clareon.live/assets/images/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kyambogo 2026/2027 Student Hub | kyu.clareon.live" />
+  <meta name="twitter:description" content="Free study resources, past papers, and practice quizzes for Kyambogo University students." />
+  <meta name="twitter:image" content="https://kyu.clareon.live/assets/images/og-image.png" />
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#071c3a" />
+  <meta name="color-scheme" content="dark light" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/kyu-logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo/kyu-logo.png" />
+  <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  <!-- CSS -->
+  <style>
+    :root {
+      color-scheme: dark;
+      background-color: #030615;
+      color: #f0f3fa;
+    }
+    html.light-mode {
+      color-scheme: light;
+      background-color: #f5f7ff;
+      color: #1a1f2e;
+    }
+    body {
+      background: transparent;
+    }
+  </style>
+  <script>
+    (function () {
+      const key = 'kyu-theme';
+      const stored = localStorage.getItem(key);
+      const theme = stored === 'light' ? 'light' : 'dark';
+      const root = document.documentElement;
+      const body = document.body;
+
+      if (theme === 'light') {
+        root.classList.add('light-mode');
+        body && body.classList.add('light-mode');
+        root.style.colorScheme = 'light';
+      } else {
+        root.classList.remove('light-mode');
+        body && body.classList.remove('light-mode');
+        root.style.colorScheme = 'dark';
+      }
+
+      root.setAttribute('data-theme', theme);
+    })();
+  </script>
+  <link rel="stylesheet" href="/src/scss/main.scss" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://kyu.clareon.live/" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "kyu.clareon.live",
+    "url": "https://kyu.clareon.live/",
+    "description": "Free study resources, past papers, and practice quizzes for Kyambogo University students.",
+    "logo": "https://kyu.clareon.live/assets/images/logo.png"
+  }
+  </script>
+</head>
+<body data-page="home" class="home-page">
+
+  <!-- ======================================== -->
+  <!-- COSMIC BACKGROUND (Animated Orbs) -->
+  <!-- ======================================== -->
+  <div class="cosmic-bg" aria-hidden="true">
+    <div class="floating-orb orb-a"></div>
+    <div class="floating-orb orb-b"></div>
+    <div class="floating-orb orb-c"></div>
+  </div>
+
+  <!-- ======================================== -->
+  <!-- HEADER PARTIAL -->
+  <!-- ======================================== -->
+  <header class="site-header" role="banner">
+    <div class="header-container">
+      <a href="/" class="logo" aria-label="Home | kyu.clareon.live ">
+        <span class="logo-icon">
+          <img src="/images/logo/kyu-logo.png" alt="KYU logo" loading="eager" />
+        </span>
+        <span class="logo-text">kyu.clareon.live</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul id="nav-menu" role="menubar">
+          <li role="none"><a href="/" role="menuitem" class="active">Home</a></li>
+          <li role="none"><a href="/pages/programs/" role="menuitem">Programs</a></li>
+          <li role="none"><a href="/pages/resources/" role="menuitem">Resources</a></li>
+          <li role="none"><a href="/pages/announcements/" role="menuitem">Announcements</a></li>
+          <li role="none"><a href="/pages/faq/" role="menuitem">FAQ</a></li>
+          <li role="none"><a href="/pages/contribute/" role="menuitem">Contribute</a></li>
+          <li role="none"><a href="/pages/about/" role="menuitem">About</a></li>
+          <li role="none"><a href="/pages/contact/" role="menuitem">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="header-btn search-toggle" aria-label="Search">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======================================== -->
+  <!-- MAIN CONTENT -->
+  <!-- ======================================== -->
+  <main class="container" id="main-content">
+
+    <!-- Brand Center -->
+    <div class="brand-center fade-up">
+      <h1 class="brand-title">
+        <img src="/images/logo/kyu-logo.png" alt="kyu.clareon.live logo" class="brand-logo" />
+      </h1>
+      <p class="brand-subtitle">Kyambogo 2026/2027 Student Hub</p>
+    </div>
+
+    <!-- Search Section -->
+    <div class="search-section fade-up">
+      <div class="search-wrapper">
+        <i class="fas fa-search"></i>
+        <input type="text" id="searchInput" placeholder="Search episodes, seasons, or topics..." aria-label="Search" />
+        <button id="searchClearBtn" class="search-clear" aria-label="Clear search">
+          <i class="fas fa-times-circle"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Group Card (UNMEB-style) -->
+    <div class="group-card fade-up" id="groupCard" data-href="https://chat.whatsapp.com/F3S3JbXMDKN1bYcynIB74B?s=cl&p=a&ilr=4&amv=3" data-target="_blank" role="link" tabindex="0" aria-label="Join the Kyambogo 2026/2027 WhatsApp group">
+      <h3><i class="fas fa-users"></i> Kyambogo 2026/2027 Students</h3>
+      <p>Join the official admitted students group — connect with your classmates</p>
+      <div class="badges">
+        <span class="badge"><i class="fas fa-user-plus"></i> 120+ students joined</span>
+        <span class="badge"><i class="fas fa-calendar-alt"></i> Semester starts Aug 2026</span>
+      </div>
+      <small>
+        <a href="https://chat.whatsapp.com/F3S3JbXMDKN1bYcynIB74B?s=cl&p=a&ilr=4&amv=3" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="whatsapp-icon">
+            <path fill="currentColor" d="M380.9 97.1C339 55.2 283.6 32 224.1 32 100.3 32 0 132.3 0 256.1c0 45.2 12.2 89.6 35.4 128L0 480l100.5-33.2c36 19.7 76.3 29.9 119 29.9h.1c123.8 0 224.1-100.3 224.1-224.1 0-59.5-23.2-114.9-64.7-156.6zM224.1 418.6h-.1c-38.5 0-76-10.4-108.4-30.1l-7.8-4.6-59.8 19.7 20.1-58.4-5-8c-21.9-35.5-33.4-75.1-33.4-116.7 0-105 85.4-190.4 190.4-190.4 50.9 0 98.7 19.8 134.6 55.7s55.7 83.7 55.7 134.6c-.1 105-85.5 190.4-190.5 190.4zm101.2-138.3c-5.5-2.8-32.5-16.1-37.5-17.9-5-1.8-8.6-2.8-12.2 2.8s-14 17.9-17.2 21.6c-3.1 3.7-6.2 4.2-11.7 1.4-5.5-2.8-23.3-8.6-44.4-27.3-16.4-14.6-27.5-32.7-30.7-38.2-3.1-5.5-.3-8.5 2.5-11.3 2.6-2.6 5.5-6.8 8.2-10.2 2.7-3.4 3.6-5.5 5.5-9.1 1.8-3.7.9-7-0.4-9.8-1.4-2.8-12.2-29.4-16.7-40.2-4.4-10.7-8.9-9.3-12.2-9.5-3.1-.2-6.8-.2-10.5-.2s-9.8 1.4-14.9 7c-5 5.5-19.1 18.6-19.1 45.4s19.6 52.7 22.3 56.3c2.8 3.7 38.6 59.1 93.5 82.9 13.1 5.7 23.3 9.1 31.3 11.7 13.1 4.2 25.1 3.6 34.6 2.2 10.6-1.5 32.5-13.2 37.1-26 4.6-12.8 4.6-23.7 3.2-26.1-1.4-2.6-5.1-4-10.6-6.8z"/>
+          </svg>
+          Click to join the group
+        </a>
+      </small>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="stats-grid fade-up">
+      <div class="stat-card">
+        <span class="stat-number" data-target="120">0</span>
+        <span class="stat-label">Students Joined</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" data-target="5">0</span>
+        <span class="stat-label">Programs Covered</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" data-target="25">0</span>
+        <span class="stat-label">Resources Available</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" data-target="10">0</span>
+        <span class="stat-label">Quiz Episodes</span>
+      </div>
+    </div>
+
+    <!-- Designed for Curious Minds -->
+    <div class="section-header fade-up">
+      <h2>Designed for curious minds</h2>
+      <p>Beautiful, interactive &amp; seamless across all devices</p>
+    </div>
+    <div class="features-grid fade-up">
+      <div class="feature-tile">
+        <div class="feature-icon"><i class="fas fa-file-alt"></i></div>
+        <h3>Past Papers</h3>
+        <p>Download past papers with answer guides for all courses.</p>
+      </div>
+      <div class="feature-tile">
+        <div class="feature-icon"><i class="fas fa-tasks"></i></div>
+        <h3>Practice Quizzes</h3>
+        <p>Test your knowledge with MCQs and get instant feedback.</p>
+      </div>
+      <div class="feature-tile">
+        <div class="feature-icon"><i class="fas fa-layer-group"></i></div>
+        <h3>Seasons &amp; Episodes</h3>
+        <p>Structured learning journeys with bite-sized episodes.</p>
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="section-header fade-up">
+      <h2>Loved by learners</h2>
+      <p>See what our community says</p>
+    </div>
+    <div class="testimonial-grid fade-up">
+      <div class="testimonial-card">
+        <i class="fas fa-quote-left"></i>
+        <p class="quote">"This platform made it so easy to find past papers and practice quizzes. I felt prepared for my exams!"</p>
+        <strong>— BITC Student</strong>
+      </div>
+      <div class="testimonial-card">
+        <i class="fas fa-quote-left"></i>
+        <p class="quote">"The feedback on quizzes helped me understand where I was going wrong. A game-changer for revision."</p>
+        <strong>— BEEM Student</strong>
+      </div>
+      <div class="testimonial-card">
+        <i class="fas fa-quote-left"></i>
+        <p class="quote">"Finally a platform that respects my attention span and makes studying enjoyable!"</p>
+        <strong>— Nursing Student</strong>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ======================================== -->
+  <!-- FOOTER PARTIAL -->
+  <!-- ======================================== -->
+  <footer class="footer-wrapper" role="contentinfo">
+    <div class="footer-content">
+      <div class="social-links">
+        <a class="social-icon" data-social="whatsapp" href="https://whatsapp.com/channel/0029Vb7UygL1dAvuZvBWhB3y" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a class="social-icon" data-social="telegram" href="https://t.me/clareoniz" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+          <i class="fab fa-telegram"></i>
+        </a>
+        <a class="social-icon" data-social="youtube" href="https://youtube.com/@clareoniz" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a class="social-icon" data-social="tiktok" href="https://tiktok.com/@clareoniz" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+          <i class="fab fa-tiktok"></i>
+        </a>
+        <a class="social-icon" data-social="instagram" href="https://instagram.com/clareoniz" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="social-icon" data-social="github" href="https://github.com/ClareonSage" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="footer-cta">
+        <button class="whatsapp-channel" id="whatsappChannelBtn" data-url="https://whatsapp.com/channel/0029Vb7UygL1dAvuZvBWhB3y" aria-label="Join our WhatsApp channel">
+          <i class="fab fa-whatsapp"></i>
+          <span>Join our WhatsApp channel for fresh revision updates</span>
+          <i class="fas fa-arrow-right"></i>
+        </button>
+        <p class="footer-note">
+          Site is still being constructed — this is a clean revision template.
+        </p>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="copyright">
+        <i class="far fa-copyright"></i> 
+        <span class="copyright-year" data-start-year="2026">2026</span> 
+        — Kyambogo Student Hub
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================== -->
+  <!-- THEME TOGGLE (Fixed position) -->
+  <!-- ======================================== -->
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- ======================================== -->
+  <!-- SCRIPTS -->
+  <!-- ======================================== -->
+  <script type="module" src="/src/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+﻿// ========================================
+// 1. CONTACT PAGE WRAPPER
+// ========================================
+
+.contact-page {
+  min-height: 100vh;
+}
+
+
+// ========================================
+// 2. CONTACT HERO
+// ========================================
+
+.contact-hero {
+  text-align: center;
+  margin-bottom: $spacing-xl;
+  
+  h1 {
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    font-weight: $font-weight-extrabold;
+    margin-bottom: $spacing-sm;
+    
+    .highlight {
+      background: linear-gradient(135deg, $color-accent-blue, $color-accent-green);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: var(--text-secondary, $color-text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    margin-bottom: $spacing-lg;
+    
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+
+// ========================================
+// 3. CONTACT GRID (Form + Info)
+// ========================================
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: $spacing-xl;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-lg;
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    grid-template-columns: 1fr;
+    gap: $spacing-lg;
+  }
+}
+
+
+// ========================================
+// 4. CONTACT FORM
+// ========================================
+
+.contact-form-wrapper {
+  .glass-card {
+    padding: $spacing-lg;
+    
+    @media (max-width: $breakpoint-md) {
+      padding: $spacing-md;
+    }
+  }
+  
+  .form-title {
+    font-size: 1.3rem;
+    font-weight: $font-weight-bold;
+    color: var(--text-primary, $color-text-primary);
+    margin-bottom: $spacing-xs;
+  }
+  
+  .form-description {
+    color: var(--text-secondary, $color-text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: $spacing-lg;
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-xs;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    font-weight: $font-weight-medium;
+    color: var(--text-secondary, $color-text-secondary);
+  }
+  
+  .required {
+    color: #ef4444;
+    margin-left: 2px;
+  }
+  
+  input,
+  textarea,
+  select {
+    padding: 0.7rem 1rem;
+    border-radius: $border-radius-md;
+    border: 1px solid var(--glass-border, $glass-border);
+    background: var(--glass-bg, $glass-bg);
+    color: var(--text-primary, $color-text-primary);
+    font-family: $font-family-base;
+    font-size: 0.95rem;
+    transition: $transition-fast;
+    outline: none;
+    width: 100%;
+    
+    &::placeholder {
+      color: var(--text-dim, $color-text-dim);
+    }
+    
+    &:focus {
+      border-color: $color-accent-blue;
+      box-shadow: 0 0 0 4px rgba($color-accent-blue, 0.2);
+    }
+    
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+  
+  textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236e85b0' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    padding-right: 2.5rem;
+    cursor: pointer;
+  }
+  
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-md;
+    
+    @media (max-width: $breakpoint-sm) {
+      grid-template-columns: 1fr;
+      gap: $spacing-sm;
+    }
+  }
+  
+  .form-actions {
+    display: flex;
+    gap: $spacing-sm;
+    margin-top: $spacing-sm;
+    
+    button {
+      flex: 1;
+      
+      @media (max-width: $breakpoint-sm) {
+        width: 100%;
+      }
+    }
+    
+    @media (max-width: $breakpoint-sm) {
+      flex-direction: column;
+    }
+  }
+}
+
+
+// ========================================
+// 5. CONTACT INFO SIDEBAR
+// ========================================
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+  
+  .info-card {
+    background: var(--glass-bg, $glass-bg);
+    border-radius: $border-radius-lg;
+    padding: $spacing-lg;
+    border: 1px solid var(--glass-border, $glass-border);
+    backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+    -webkit-backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+    box-shadow: var(--glass-shadow, $glass-shadow);
+    transition: $transition-base;
+    text-align: center;
+    
+    &:hover {
+      transform: translateY(-3px);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+    
+    body.light-mode &:hover {
+      background: rgba(255, 255, 255, 0.6);
+      border-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .info-icon {
+      font-size: 2rem;
+      color: $color-accent-blue;
+      margin-bottom: $spacing-sm;
+      display: inline-block;
+    }
+    
+    h4 {
+      font-size: 1rem;
+      font-weight: $font-weight-semibold;
+      color: var(--text-primary, $color-text-primary);
+      margin-bottom: $spacing-xs;
+    }
+    
+    p {
+      color: var(--text-secondary, $color-text-secondary);
+      font-size: 0.9rem;
+      margin: 0;
+      line-height: 1.6;
+    }
+    
+    a {
+      color: $color-accent-blue;
+      transition: $transition-fast;
+      
+      &:hover {
+        color: $color-accent-purple;
+        text-decoration: underline;
+      }
+    }
+    
+    @media (max-width: $breakpoint-md) {
+      padding: $spacing-md;
+    }
+  }
+}
+
+
+// ========================================
+// 6. SOCIAL CONNECT SECTION
+// ========================================
+
+.social-connect {
+  margin-top: $spacing-lg;
+  text-align: center;
+  
+  h4 {
+    font-size: 1rem;
+    font-weight: $font-weight-semibold;
+    color: var(--text-primary, $color-text-primary);
+    margin-bottom: $spacing-sm;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: $spacing-md;
+    flex-wrap: wrap;
+    
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 3rem;
+      height: 3rem;
+      border-radius: $border-radius-full;
+      background: var(--glass-bg, $glass-bg);
+      border: 1px solid var(--glass-border, $glass-border);
+      color: var(--text-dim, $color-text-dim);
+      font-size: 1.3rem;
+      transition: $transition-base;
+      
+      &:hover {
+        transform: translateY(-3px) scale(1.05);
+        border-color: rgba(255, 255, 255, 0.35);
+        background: rgba(255, 255, 255, 0.16);
+      }
+      
+      body.light-mode &:hover {
+        background: rgba(255, 255, 255, 0.6);
+        border-color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+}
+
+
+// ========================================
+// 7. SUCCESS MESSAGE
+// ========================================
+
+.form-success {
+  display: none;
+  text-align: center;
+  padding: $spacing-xl $spacing-md;
+  
+  i {
+    font-size: 3.5rem;
+    color: $color-accent-green;
+    margin-bottom: $spacing-md;
+    display: inline-block;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: $font-weight-bold;
+    color: var(--text-primary, $color-text-primary);
+    margin-bottom: $spacing-sm;
+  }
+  
+  p {
+    color: var(--text-secondary, $color-text-secondary);
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  
+  &.visible {
+    display: block;
+  }
+}
+
+
+// ========================================
+// 8. RESPONSIVE ADJUSTMENTS
+// ========================================
+
+@media (max-width: $breakpoint-md) {
+  .contact-page {
+    padding: $spacing-sm 0;
+  }
+  
+  .contact-info {
+    order: -1; // Move info above form on mobile
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-form-wrapper {
+    .glass-card {
+      padding: $spacing-sm;
+    }
+  }
+  
+  .contact-form {
+    input,
+    textarea,
+    select {
+      font-size: 0.9rem;
+      padding: 0.6rem 0.8rem;
+    }
+  }
+  
+  .info-card {
+    padding: $spacing-sm;
+    
+    .info-icon {
+      font-size: 1.5rem;
+    }
+  }
+}

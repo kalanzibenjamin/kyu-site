@@ -1,0 +1,100 @@
+﻿[
+  {
+    "schoolName": "School of Computing & Information Science",
+    "schoolCode": "SCIS",
+    "icon": "fa-laptop-code",
+    "description": "Computing, information technology, data science, and library science programs.",
+    "status": "active",
+    "courses": [
+      { "name": "BITC", "status": "active" },
+      { "name": "Computer Science", "status": "active" },
+      { "name": "NDS & AI", "status": "active" },
+      { "name": "Library & IS", "status": "active" }
+    ]
+  },
+  {
+    "schoolName": "School of Built Environment",
+    "schoolCode": "BE",
+    "icon": "fa-building",
+    "description": "Engineering, architecture, and land surveying programs.",
+    "status": "active",
+    "courses": [
+      { "name": "Civil Engineering", "status": "active" },
+      { "name": "Architecture", "status": "active" },
+      { "name": "Lands & Survey", "status": "active" }
+    ]
+  },
+  {
+    "schoolName": "School of Special Needs & Rehabilitation",
+    "schoolCode": "SNS",
+    "icon": "fa-hand-holding-heart",
+    "description": "Special needs education, rehabilitation, and sign language programs.",
+    "status": "active",
+    "courses": [
+      { "name": "Special Needs", "status": "active" },
+      { "name": "Sign Language", "status": "active" },
+      { "name": "Community & Disability Studies", "status": "active" }
+    ]
+  },
+  {
+    "schoolName": "School of Management & Entrepreneurship",
+    "schoolCode": "SME",
+    "icon": "fa-chart-line",
+    "description": "Business administration, entrepreneurship, and management programs.",
+    "status": "coming",
+    "courses": [
+      { "name": "Business Admin", "status": "coming" },
+      { "name": "Entrepreneurship", "status": "coming" },
+      { "name": "Procurement", "status": "coming" }
+    ]
+  },
+  {
+    "schoolName": "School of Education",
+    "schoolCode": "SOE",
+    "icon": "fa-chalkboard-teacher",
+    "description": "Teacher education, curriculum studies, and educational technology programs.",
+    "status": "coming",
+    "courses": [
+      { "name": "Education (Arts)", "status": "coming" },
+      { "name": "Education (Science)", "status": "coming" },
+      { "name": "Educational Technology", "status": "coming" }
+    ]
+  },
+  {
+    "schoolName": "Faculty of Science",
+    "schoolCode": "FOS",
+    "icon": "fa-flask",
+    "description": "Mathematics, physics, chemistry, and biological sciences programs.",
+    "status": "planning",
+    "courses": [
+      { "name": "Mathematics", "status": "coming" },
+      { "name": "Physics", "status": "coming" },
+      { "name": "Chemistry", "status": "coming" },
+      { "name": "Biology", "status": "coming" }
+    ]
+  },
+  {
+    "schoolName": "Faculty of Arts & Humanities",
+    "schoolCode": "FAH",
+    "icon": "fa-book-open",
+    "description": "Languages, literature, history, geography, and performing arts programs.",
+    "status": "planning",
+    "courses": [
+      { "name": "Literature", "status": "coming" },
+      { "name": "History", "status": "coming" },
+      { "name": "Geography", "status": "coming" }
+    ]
+  },
+  {
+    "schoolName": "School of Vocational Studies",
+    "schoolCode": "SVS",
+    "icon": "fa-utensils",
+    "description": "Agriculture, nutrition, hospitality, and tourism programs.",
+    "status": "planning",
+    "courses": [
+      { "name": "Agriculture", "status": "coming" },
+      { "name": "Nutrition", "status": "coming" },
+      { "name": "Hospitality", "status": "coming" }
+    ]
+  }
+]

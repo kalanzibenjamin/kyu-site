@@ -1,0 +1,137 @@
+﻿// ========================================
+// 1. COLORS
+// ========================================
+
+// Dark mode (default)
+$color-primary: #071c3a;
+$color-dark: #030615;
+$color-text-primary: #f0f3fa;
+$color-text-secondary: #b9c7db;
+$color-text-dim: #6e85b0;
+$color-accent-blue: #4f9eff;
+$color-accent-purple: #9b4dff;
+$color-accent-green: #2dd4bf;
+$color-white: #ffffff;
+$color-gray-light: #f8f9fa;
+$color-gray: #6c757d;
+
+// Light mode overrides
+$light-bg-primary: linear-gradient(135deg, #f5f7ff 0%, #e8f2ff 45%, #e5f7ff 100%);
+$light-text-primary: #1a1f2e;
+$light-text-secondary: #4a5568;
+$light-text-dim: #718096;
+$light-glass-bg: rgba(255, 255, 255, 0.45);
+$light-glass-border: rgba(255, 255, 255, 0.55);
+$light-glass-shadow: 0 24px 48px rgba(0, 0, 0, 0.12);
+
+
+// ========================================
+// 2. GLASSMORPHISM
+// ========================================
+
+$glass-bg: rgba(255, 255, 255, 0.08);
+$glass-border: rgba(255, 255, 255, 0.18);
+$glass-shadow: 0 34px 68px rgba(0, 0, 0, 0.24);
+$glass-blur: 24px;
+$glass-saturate: 180%;
+$glass-radius: 28px;
+
+
+// ========================================
+// 3. FONTS
+// ========================================
+
+$font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+$font-size-base: 16px;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+
+
+// ========================================
+// 4. SPACING
+// ========================================
+
+$spacing-xs: 0.25rem;   // 4px
+$spacing-sm: 0.5rem;    // 8px
+$spacing-md: 1rem;      // 16px
+$spacing-lg: 2rem;      // 32px
+$spacing-xl: 4rem;      // 64px
+$spacing-xxl: 6rem;     // 96px
+
+
+// ========================================
+// 5. BREAKPOINTS
+// ========================================
+
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+
+// ========================================
+// 6. BORDERS & SHADOWS
+// ========================================
+
+$border-radius-sm: 8px;
+$border-radius-md: 12px;
+$border-radius-lg: 24px;
+$border-radius-xl: 28px;
+$border-radius-full: 999px;
+
+$shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 16px rgba(0, 0, 0, 0.15);
+$shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.2);
+
+
+// ========================================
+// 7. TRANSITIONS
+// ========================================
+
+$transition-fast: 0.15s ease;
+$transition-base: 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+$transition-slow: 0.5s ease;
+
+
+// ========================================
+// 8. CSS CUSTOM PROPERTIES (Root)
+// ========================================
+
+:root {
+  // Dark mode (default)
+  --bg-primary: radial-gradient(circle at 10% 20%, #071c3a, #030615 80%);
+  --text-primary: #{$color-text-primary};
+  --text-secondary: #{$color-text-secondary};
+  --text-dim: #{$color-text-dim};
+  --accent-blue: #{$color-accent-blue};
+  --accent-purple: #{$color-accent-purple};
+  --accent-green: #{$color-accent-green};
+  --glass-bg: #{$glass-bg};
+  --glass-border: #{$glass-border};
+  --glass-shadow: #{$glass-shadow};
+}
+
+// Light mode override
+html.light-mode {
+  --bg-primary: #{$light-bg-primary};
+  --text-primary: #{$light-text-primary};
+  --text-secondary: #{$light-text-secondary};
+  --text-dim: #{$light-text-dim};
+  --glass-bg: #{$light-glass-bg};
+  --glass-border: #{$light-glass-border};
+  --glass-shadow: #{$light-glass-shadow};
+}
+
+body.light-mode {
+  --bg-primary: #{$light-bg-primary};
+  --text-primary: #{$light-text-primary};
+  --text-secondary: #{$light-text-secondary};
+  --text-dim: #{$light-text-dim};
+  --glass-bg: #{$light-glass-bg};
+  --glass-border: #{$light-glass-border};
+  --glass-shadow: #{$light-glass-shadow};
+}

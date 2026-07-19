@@ -1,0 +1,44 @@
+﻿[
+  {
+    "date": "2026-07-20",
+    "title": "🎉 Site Launched!",
+    "description": "Welcome to kyu.clareon.live — the student hub for Kyambogo 2026/2027 admitted students. Join the WhatsApp group to connect with fellow students and stay updated on new resources.",
+    "tag": "new"
+  },
+  {
+    "date": "2026-07-19",
+    "title": "📚 Past Papers Coming Soon",
+    "description": "We're working on uploading past papers for BITC, BEEM, and Nursing programs. The first batch will be available by the end of the month. Stay tuned for updates!",
+    "tag": "update"
+  },
+  {
+    "date": "2026-07-18",
+    "title": "🧪 Quiz Episodes Now Available",
+    "description": "Practice quizzes are now available for select course units. Test your knowledge and get instant feedback on your answers. New episodes added weekly.",
+    "tag": "important"
+  },
+  {
+    "date": "2026-07-17",
+    "title": "📱 Follow Us on WhatsApp",
+    "description": "Join our WhatsApp channel for fresh revision updates and instant notifications when new resources are added. Click the button in the footer to join.",
+    "tag": "update"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "👥 100+ Students Joined",
+    "description": "We've hit 100 students in the Kyambogo 2026/2027 group! Thank you to everyone who has joined and contributed to building this community.",
+    "tag": "update"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "🚀 Contribute Your Resources",
+    "description": "We're now accepting resource submissions from students. Visit the Contribute page to share past papers, notes, or quizzes with fellow students.",
+    "tag": "new"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "📖 BEEM Resources in Development",
+    "description": "We've started adding resources for the Bachelor of Environmental Engineering and Management program. More content coming soon!",
+    "tag": "update"
+  }
+]

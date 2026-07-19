@@ -1,0 +1,325 @@
+﻿// ========================================
+// 1. FOOTER WRAPPER
+// ========================================
+
+.footer-wrapper {
+  margin-top: $spacing-lg;
+  padding: 1.25rem 0 1.5rem;
+  background: var(--glass-bg, $glass-bg);
+  border-top: 1px solid var(--glass-border, $glass-border);
+  backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+  -webkit-backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+  box-shadow: var(--glass-shadow, $glass-shadow);
+  
+  @media (max-width: $breakpoint-md) {
+    padding: 1rem 0 1.15rem;
+    margin-top: 0.9rem;
+  }
+}
+
+
+// ========================================
+// 2. FOOTER CONTENT
+// ========================================
+
+.footer-content {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $spacing-sm;
+  
+  @media (max-width: $breakpoint-md) {
+    padding: 0 1rem;
+    gap: $spacing-xs;
+  }
+}
+
+
+// ========================================
+// 3. SOCIAL LINKS
+// ========================================
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 0.65rem;
+  flex-wrap: wrap;
+  
+  @media (max-width: $breakpoint-md) {
+    gap: 1rem;
+    margin-bottom: 0.85rem;
+  }
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: $border-radius-full;
+  font-size: 1.4rem;
+  color: var(--text-dim, $color-text-dim);
+  transition: $transition-base;
+  cursor: pointer;
+  text-decoration: none;
+  
+  i {
+    color: inherit;
+  }
+  
+  &:hover {
+    transform: scale(1.15);
+    color: var(--text-primary, $color-text-primary);
+  }
+  
+  // Platform-specific colors
+  &[data-social="whatsapp"] {
+    color: #25D366;
+    &:hover { color: #1da851; }
+  }
+  
+  &[data-social="wechat"] {
+    color: #07C160;
+    &:hover { color: #06a84e; }
+  }
+  
+  &[data-social="youtube"] {
+    color: #FF3B30;
+    &:hover { color: #e0352b; }
+  }
+  
+  &[data-social="telegram"] {
+    color: #0088CC;
+    &:hover { color: #006fa8; }
+  }
+  
+  &[data-social="tiktok"] {
+    color: transparent;
+    background: linear-gradient(135deg, #69C9D0 0%, #EE1D52 48%, #010101 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  
+  &[data-social="instagram"] {
+    color: transparent;
+    background: linear-gradient(135deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  
+  &[data-social="twitter"] {
+    color: #1DA1F2;
+    &:hover { color: #0d8bdb; }
+  }
+  
+  &[data-social="github"] {
+    color: var(--text-primary, $color-text-primary);
+    &:hover { color: $color-accent-blue; }
+  }
+}
+
+
+// ========================================
+// 4. FOOTER CTA (WhatsApp Channel)
+// ========================================
+
+.footer-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $spacing-sm;
+  margin-bottom: 0.45rem;
+  padding: 0 0.5rem;
+  width: 100%;
+  max-width: 700px;
+  
+  @media (max-width: $breakpoint-md) {
+    gap: $spacing-xs;
+    margin-bottom: 0.75rem;
+  }
+}
+
+.whatsapp-channel {
+  text-align: center;
+  padding: 0.65rem 1.5rem;
+  background: var(--glass-bg, $glass-bg);
+  border-radius: $border-radius-full;
+  border: 1px solid var(--glass-border, $glass-border);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  box-shadow: var(--glass-shadow, $glass-shadow);
+  transition: $transition-base;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  justify-content: center;
+  font-family: $font-family-base;
+  font-weight: $font-weight-medium;
+  color: var(--text-primary, $color-text-primary);
+  
+  i.fa-whatsapp {
+    color: #25D366;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+  }
+  
+  i.fa-arrow-right {
+    color: var(--text-dim, $color-text-dim);
+    font-size: 0.9rem;
+    flex-shrink: 0;
+  }
+  
+  span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    @media (max-width: 480px) {
+      font-size: 0.85rem;
+    }
+  }
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0.16);
+    transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.35);
+  }
+  
+  body.light-mode &:hover {
+    background: rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: $border-radius-md;
+  }
+}
+
+
+// ========================================
+// 5. FOOTER NOTE
+// ========================================
+
+.footer-note {
+  color: var(--text-dim, $color-text-dim);
+  font-size: 0.86rem;
+  line-height: 1.6;
+  max-width: 640px;
+  text-align: center;
+  margin: 0;
+  padding: 0 $spacing-sm;
+  
+  @media (max-width: $breakpoint-md) {
+    font-size: 0.82rem;
+    padding: 0 $spacing-xs;
+  }
+}
+
+
+// ========================================
+// 6. FOOTER DIVIDER
+// ========================================
+
+.footer-divider {
+  height: 1px;
+  width: 100%;
+  max-width: 800px;
+  background: var(--glass-border, $glass-border);
+  margin: 0.45rem auto;
+  
+  @media (max-width: $breakpoint-md) {
+    margin: 0.3rem auto;
+  }
+}
+
+
+// ========================================
+// 7. COPYRIGHT
+// ========================================
+
+.copyright {
+  text-align: center;
+  color: var(--text-dim, $color-text-dim);
+  font-size: 0.75rem;
+  padding: 0 $spacing-sm;
+  
+  i {
+    margin-right: $spacing-xs;
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    font-size: 0.7rem;
+  }
+}
+
+
+// ========================================
+// 8. FOOTER NAV (Links)
+// ========================================
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: $spacing-lg;
+  flex-wrap: wrap;
+  margin: $spacing-sm 0;
+  
+  a {
+    color: var(--text-secondary, $color-text-secondary);
+    font-size: 0.9rem;
+    transition: $transition-fast;
+    
+    &:hover {
+      color: $color-accent-blue;
+      text-decoration: underline;
+    }
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    gap: $spacing-md;
+    
+    a {
+      font-size: 0.85rem;
+    }
+  }
+}
+
+
+// ========================================
+// 9. FOOTER BADGE / CREDIT
+// ========================================
+
+.footer-credit {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  color: var(--text-dim, $color-text-dim);
+  font-size: 0.8rem;
+  
+  i {
+    font-size: 0.9rem;
+  }
+  
+  a {
+    color: $color-accent-blue;
+    
+    &:hover {
+      color: $color-accent-purple;
+    }
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    font-size: 0.75rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

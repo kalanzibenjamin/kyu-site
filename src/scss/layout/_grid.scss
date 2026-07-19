@@ -1,0 +1,438 @@
+﻿// ========================================
+// 1. CONTAINER
+// ========================================
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem 2rem;
+  position: relative;
+  z-index: 1;
+  
+  @media (min-width: $breakpoint-md) {
+    padding: 1.4rem 2rem 2.3rem;
+  }
+  
+  @media (min-width: $breakpoint-lg) {
+    max-width: 1120px;
+    padding: 1.8rem 2.5rem 2.8rem;
+  }
+  
+  @media (min-width: $breakpoint-xl) {
+    max-width: 1200px;
+    padding: 2.25rem 3rem 3.25rem;
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    padding: 1rem 0.9rem 1.5rem;
+  }
+  
+  @media (max-width: 400px) {
+    padding: 0.75rem 0.6rem 1rem;
+  }
+}
+
+// Container fluid (full width)
+.container-fluid {
+  width: 100%;
+  padding: 1.5rem;
+  position: relative;
+  z-index: 1;
+  
+  @media (max-width: $breakpoint-md) {
+    padding: 1rem 0.9rem;
+  }
+}
+
+
+// ========================================
+// 2. FLEX UTILITIES
+// ========================================
+
+// Display
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+// Direction
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+// Alignment
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+// Gap
+.gap-xs {
+  gap: $spacing-xs;
+}
+
+.gap-sm {
+  gap: $spacing-sm;
+}
+
+.gap-md {
+  gap: $spacing-md;
+}
+
+.gap-lg {
+  gap: $spacing-lg;
+}
+
+.gap-xl {
+  gap: $spacing-xl;
+}
+
+
+// ========================================
+// 3. GRID SYSTEM
+// ========================================
+
+.grid {
+  display: grid;
+}
+
+// Auto-fit grid (responsive columns)
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: $spacing-lg;
+  
+  @media (max-width: $breakpoint-md) {
+    grid-template-columns: 1fr;
+    gap: $spacing-md;
+  }
+}
+
+// Fixed column grids
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $spacing-lg;
+  
+  @media (max-width: $breakpoint-md) {
+    grid-template-columns: 1fr;
+    gap: $spacing-md;
+  }
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $spacing-lg;
+  
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    grid-template-columns: 1fr;
+    gap: $spacing-md;
+  }
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: $spacing-lg;
+  
+  @media (max-width: $breakpoint-lg) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    grid-template-columns: 1fr;
+    gap: $spacing-md;
+  }
+}
+
+// Responsive grid with custom breakpoints
+.grid-responsive {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacing-md;
+  
+  @media (min-width: $breakpoint-sm) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: $spacing-md;
+  }
+  
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: $spacing-lg;
+  }
+  
+  @media (min-width: $breakpoint-xl) {
+    grid-template-columns: repeat(4, 1fr);
+    gap: $spacing-lg;
+  }
+}
+
+
+// ========================================
+// 4. SPACING UTILITIES
+// ========================================
+
+// Margin
+.m-0 { margin: 0; }
+.mt-0 { margin-top: 0; }
+.mb-0 { margin-bottom: 0; }
+.ml-0 { margin-left: 0; }
+.mr-0 { margin-right: 0; }
+
+.m-xs { margin: $spacing-xs; }
+.m-sm { margin: $spacing-sm; }
+.m-md { margin: $spacing-md; }
+.m-lg { margin: $spacing-lg; }
+.m-xl { margin: $spacing-xl; }
+
+.mt-xs { margin-top: $spacing-xs; }
+.mt-sm { margin-top: $spacing-sm; }
+.mt-md { margin-top: $spacing-md; }
+.mt-lg { margin-top: $spacing-lg; }
+.mt-xl { margin-top: $spacing-xl; }
+
+.mb-xs { margin-bottom: $spacing-xs; }
+.mb-sm { margin-bottom: $spacing-sm; }
+.mb-md { margin-bottom: $spacing-md; }
+.mb-lg { margin-bottom: $spacing-lg; }
+.mb-xl { margin-bottom: $spacing-xl; }
+
+.ml-xs { margin-left: $spacing-xs; }
+.ml-sm { margin-left: $spacing-sm; }
+.ml-md { margin-left: $spacing-md; }
+.ml-lg { margin-left: $spacing-lg; }
+.ml-xl { margin-left: $spacing-xl; }
+
+.mr-xs { margin-right: $spacing-xs; }
+.mr-sm { margin-right: $spacing-sm; }
+.mr-md { margin-right: $spacing-md; }
+.mr-lg { margin-right: $spacing-lg; }
+.mr-xl { margin-right: $spacing-xl; }
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mx-xs { margin-left: $spacing-xs; margin-right: $spacing-xs; }
+.mx-sm { margin-left: $spacing-sm; margin-right: $spacing-sm; }
+.mx-md { margin-left: $spacing-md; margin-right: $spacing-md; }
+.mx-lg { margin-left: $spacing-lg; margin-right: $spacing-lg; }
+.mx-xl { margin-left: $spacing-xl; margin-right: $spacing-xl; }
+
+.my-xs { margin-top: $spacing-xs; margin-bottom: $spacing-xs; }
+.my-sm { margin-top: $spacing-sm; margin-bottom: $spacing-sm; }
+.my-md { margin-top: $spacing-md; margin-bottom: $spacing-md; }
+.my-lg { margin-top: $spacing-lg; margin-bottom: $spacing-lg; }
+.my-xl { margin-top: $spacing-xl; margin-bottom: $spacing-xl; }
+
+
+// Padding
+.p-0 { padding: 0; }
+.pt-0 { padding-top: 0; }
+.pb-0 { padding-bottom: 0; }
+.pl-0 { padding-left: 0; }
+.pr-0 { padding-right: 0; }
+
+.p-xs { padding: $spacing-xs; }
+.p-sm { padding: $spacing-sm; }
+.p-md { padding: $spacing-md; }
+.p-lg { padding: $spacing-lg; }
+.p-xl { padding: $spacing-xl; }
+
+.pt-xs { padding-top: $spacing-xs; }
+.pt-sm { padding-top: $spacing-sm; }
+.pt-md { padding-top: $spacing-md; }
+.pt-lg { padding-top: $spacing-lg; }
+.pt-xl { padding-top: $spacing-xl; }
+
+.pb-xs { padding-bottom: $spacing-xs; }
+.pb-sm { padding-bottom: $spacing-sm; }
+.pb-md { padding-bottom: $spacing-md; }
+.pb-lg { padding-bottom: $spacing-lg; }
+.pb-xl { padding-bottom: $spacing-xl; }
+
+.pl-xs { padding-left: $spacing-xs; }
+.pl-sm { padding-left: $spacing-sm; }
+.pl-md { padding-left: $spacing-md; }
+.pl-lg { padding-left: $spacing-lg; }
+.pl-xl { padding-left: $spacing-xl; }
+
+.pr-xs { padding-right: $spacing-xs; }
+.pr-sm { padding-right: $spacing-sm; }
+.pr-md { padding-right: $spacing-md; }
+.pr-lg { padding-right: $spacing-lg; }
+.pr-xl { padding-right: $spacing-xl; }
+
+.px-xs { padding-left: $spacing-xs; padding-right: $spacing-xs; }
+.px-sm { padding-left: $spacing-sm; padding-right: $spacing-sm; }
+.px-md { padding-left: $spacing-md; padding-right: $spacing-md; }
+.px-lg { padding-left: $spacing-lg; padding-right: $spacing-lg; }
+.px-xl { padding-left: $spacing-xl; padding-right: $spacing-xl; }
+
+.py-xs { padding-top: $spacing-xs; padding-bottom: $spacing-xs; }
+.py-sm { padding-top: $spacing-sm; padding-bottom: $spacing-sm; }
+.py-md { padding-top: $spacing-md; padding-bottom: $spacing-md; }
+.py-lg { padding-top: $spacing-lg; padding-bottom: $spacing-lg; }
+.py-xl { padding-top: $spacing-xl; padding-bottom: $spacing-xl; }
+
+
+// ========================================
+// 5. WIDTH & HEIGHT UTILITIES
+// ========================================
+
+.w-full { width: 100%; }
+.w-auto { width: auto; }
+.w-50 { width: 50%; }
+.w-33 { width: 33.333%; }
+.w-25 { width: 25%; }
+
+.h-full { height: 100%; }
+.h-auto { height: auto; }
+
+.max-w-full { max-width: 100%; }
+.max-w-xs { max-width: 320px; }
+.max-w-sm { max-width: 480px; }
+.max-w-md { max-width: 640px; }
+.max-w-lg { max-width: 800px; }
+.max-w-xl { max-width: 1120px; }
+.max-w-2xl { max-width: 1200px; }
+
+.min-h-screen { min-height: 100vh; }
+
+
+// ========================================
+// 6. POSITION UTILITIES
+// ========================================
+
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.sticky { position: sticky; }
+
+.top-0 { top: 0; }
+.right-0 { right: 0; }
+.bottom-0 { bottom: 0; }
+.left-0 { left: 0; }
+
+.z-1 { z-index: 1; }
+.z-10 { z-index: 10; }
+.z-50 { z-index: 50; }
+.z-100 { z-index: 100; }
+.z-1000 { z-index: 1000; }
+
+
+// ========================================
+// 7. TEXT & DISPLAY UTILITIES
+// ========================================
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.block { display: block; }
+.inline-block { display: inline-block; }
+.inline { display: inline; }
+.hidden { display: none; }
+
+.overflow-hidden { overflow: hidden; }
+.overflow-auto { overflow: auto; }
+.overflow-scroll { overflow: scroll; }
+.overflow-x-auto { overflow-x: auto; }
+.overflow-y-auto { overflow-y: auto; }
+
+
+// ========================================
+// 8. RESPONSIVE UTILITIES
+// ========================================
+
+// Hide on mobile
+.hide-mobile {
+  @media (max-width: $breakpoint-md) {
+    display: none !important;
+  }
+}
+
+// Hide on desktop
+.hide-desktop {
+  @media (min-width: ($breakpoint-md + 1)) {
+    display: none !important;
+  }
+}
+
+// Show on mobile
+.show-mobile {
+  display: none !important;
+  
+  @media (max-width: $breakpoint-md) {
+    display: block !important;
+  }
+}
+
+// Show on desktop
+.show-desktop {
+  display: none !important;
+  
+  @media (min-width: ($breakpoint-md + 1)) {
+    display: block !important;
+  }
+}

@@ -1,0 +1,305 @@
+﻿// ========================================
+// 1. HEADER WRAPPER
+// ========================================
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--glass-bg, $glass-bg);
+  border-bottom: 1px solid var(--glass-border, $glass-border);
+  backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+  -webkit-backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+  box-shadow: var(--glass-shadow, $glass-shadow);
+  transition: $transition-base;
+
+  body.menu-open & {
+    overflow: visible;
+  }
+  
+  // Compact mode (scrolled)
+  &.scrolled {
+    padding-top: $spacing-xs;
+    padding-bottom: $spacing-xs;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  body.light-mode & {
+    background: rgba(255, 255, 255, 0.7);
+    border-bottom-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+
+// ========================================
+// 2. HEADER CONTAINER
+// ========================================
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: calc(0.75rem + env(safe-area-inset-top, 0px)) 1.5rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $spacing-md;
+  min-height: 4.25rem;
+  
+  @media (max-width: $breakpoint-md) {
+    padding: calc(0.7rem + env(safe-area-inset-top, 0px)) 0.9rem 0.7rem;
+    min-height: 3.8rem;
+    gap: $spacing-sm;
+  }
+}
+
+
+// ========================================
+// 3. LOGO
+// ========================================
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  text-decoration: none;
+  flex-shrink: 0;
+  min-width: 0;
+  
+  .logo-icon {
+    font-size: 2.8rem;
+    color: $color-accent-blue;
+    
+    img {
+      width: 3.4rem;
+      height: 3.4rem;
+      display: block;
+    }
+  }
+  
+  .logo-text {
+    font-size: 1.55rem;
+    font-weight: $font-weight-extrabold;
+    letter-spacing: -0.02em;
+    background: linear-gradient(135deg, $color-accent-blue, $color-accent-purple, $color-accent-green);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    @media (max-width: 480px) {
+      font-size: 1.25rem;
+      max-width: 10.5rem;
+    }
+  }
+  
+  &:hover {
+    text-decoration: none;
+    
+    .logo-text {
+      background: linear-gradient(135deg, $color-accent-purple, $color-accent-blue, $color-accent-green);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  }
+}
+
+
+// ========================================
+// 4. NAVIGATION
+// ========================================
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  position: relative;
+  
+  ul {
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: $border-radius-full;
+    color: var(--text-secondary, $color-text-secondary);
+    font-size: 0.9rem;
+    font-weight: $font-weight-medium;
+    transition: $transition-fast;
+    text-decoration: none;
+    font-family: $font-family-base;
+    
+    &:hover {
+      color: var(--text-primary, $color-text-primary);
+      background: rgba(255, 255, 255, 0.08);
+    }
+    
+    &.active {
+      color: $color-accent-blue;
+      background: rgba($color-accent-blue, 0.12);
+      
+      body.light-mode & {
+        background: rgba($color-accent-blue, 0.08);
+      }
+    }
+  }
+  
+  // Mobile menu toggle button
+  .nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--text-primary, $color-text-primary);
+    font-size: 1.5rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 0;
+    cursor: pointer;
+    transition: $transition-fast;
+    border-radius: $border-radius-full;
+    
+    &:hover {
+      background: rgba(255, 255, 255, 0.08);
+    }
+    
+    &:focus-visible {
+      outline: 2px solid $color-accent-blue;
+    }
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    .nav-toggle {
+      display: block;
+    }
+    
+    ul {
+      display: none;
+      position: fixed;
+      top: calc(4.25rem + env(safe-area-inset-top, 0px));
+      left: 0.75rem;
+      right: 0.75rem;
+      flex-direction: column;
+      background: var(--glass-bg, $glass-bg);
+      backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+      -webkit-backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+      border: 1px solid var(--glass-border, $glass-border);
+      border-radius: $border-radius-xl;
+      padding: $spacing-sm;
+      gap: 0.25rem;
+      box-shadow: var(--glass-shadow, $glass-shadow);
+      z-index: 1100;
+      max-height: min(70dvh, 26rem);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      
+      body.light-mode & {
+        background: rgba(255, 255, 255, 0.9);
+      }
+      
+      &.is-open {
+        display: flex;
+      }
+      
+      a {
+        padding: 0.8rem 1rem;
+        width: 100%;
+        border-radius: $border-radius-md;
+        text-align: left;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+
+// ========================================
+// 5. HEADER ACTIONS (Theme toggle, search, etc.)
+// ========================================
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  flex-shrink: 0;
+  
+  .header-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: $border-radius-full;
+    border: 1px solid transparent;
+    background: transparent;
+    color: var(--text-secondary, $color-text-secondary);
+    font-size: 1.1rem;
+    transition: $transition-fast;
+    cursor: pointer;
+    
+    &:hover {
+      color: var(--text-primary, $color-text-primary);
+      background: rgba(255, 255, 255, 0.08);
+      transform: translateY(-2px);
+    }
+    
+    &:focus-visible {
+      outline: 2px solid $color-accent-blue;
+    }
+    
+    body.light-mode &:hover {
+      background: rgba(0, 0, 0, 0.05);
+    }
+  }
+  
+  // Search toggle (optional)
+  .search-toggle {
+    display: none;
+    
+    @media (max-width: $breakpoint-md) {
+      display: inline-flex;
+    }
+  }
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+
+// ========================================
+// 6. RESPONSIVE ADJUSTMENTS
+// ========================================
+
+@media (max-width: $breakpoint-md) {
+  .header-container {
+    flex-wrap: wrap;
+  }
+  
+  .logo .logo-text {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-container {
+    padding: 0.4rem 0.6rem;
+  }
+  
+  .logo .logo-text {
+    font-size: 1rem;
+  }
+  
+  .header-actions .header-btn {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.9rem;
+  }
+}

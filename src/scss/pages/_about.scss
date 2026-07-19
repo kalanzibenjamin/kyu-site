@@ -1,0 +1,290 @@
+﻿// ========================================
+// 1. ABOUT PAGE WRAPPER
+// ========================================
+
+.about-page {
+  min-height: 100vh;
+}
+
+
+// ========================================
+// 2. ABOUT HERO
+// ========================================
+
+.about-hero {
+  text-align: center;
+  margin-bottom: $spacing-xl;
+  
+  h1 {
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    font-weight: $font-weight-extrabold;
+    margin-bottom: $spacing-sm;
+    
+    .highlight {
+      background: linear-gradient(135deg, $color-accent-blue, $color-accent-purple);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: var(--text-secondary, $color-text-secondary);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    margin-bottom: $spacing-lg;
+    
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+
+// ========================================
+// 3. ABOUT CONTENT
+// ========================================
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  
+  .about-section {
+    margin-bottom: $spacing-xl;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: $font-weight-bold;
+    color: var(--text-primary, $color-text-primary);
+    margin-bottom: $spacing-md;
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+    
+    i {
+      color: $color-accent-blue;
+      font-size: 1.4rem;
+    }
+  }
+  
+  p {
+    color: var(--text-secondary, $color-text-secondary);
+    line-height: 1.8;
+    margin-bottom: $spacing-md;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: $spacing-md 0;
+    
+    li {
+      padding: $spacing-sm 0;
+      color: var(--text-secondary, $color-text-secondary);
+      display: flex;
+      align-items: flex-start;
+      gap: $spacing-sm;
+      line-height: 1.6;
+      
+      i {
+        color: $color-accent-green;
+        margin-top: 2px;
+        flex-shrink: 0;
+      }
+    }
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    .about-section {
+      margin-bottom: $spacing-lg;
+    }
+    
+    h2 {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+
+// ========================================
+// 4. CREATOR CARD
+// ========================================
+
+.creator-card {
+  background: var(--glass-bg, $glass-bg);
+  border-radius: $glass-radius;
+  padding: $spacing-lg;
+  border: 1px solid var(--glass-border, $glass-border);
+  backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+  -webkit-backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+  box-shadow: var(--glass-shadow, $glass-shadow);
+  display: flex;
+  gap: $spacing-lg;
+  align-items: flex-start;
+  margin: $spacing-xl 0;
+  transition: $transition-base;
+  
+  &:hover {
+    transform: translateY(-3px);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .creator-avatar {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: $border-radius-full;
+    background: linear-gradient(135deg, $color-accent-blue, $color-accent-purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: $color-white;
+    font-weight: $font-weight-bold;
+    box-shadow: 0 8px 24px rgba($color-accent-blue, 0.3);
+    
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: $border-radius-full;
+      object-fit: cover;
+    }
+  }
+  
+  .creator-info {
+    flex: 1;
+    
+    h3 {
+      font-size: 1.3rem;
+      font-weight: $font-weight-bold;
+      color: var(--text-primary, $color-text-primary);
+      margin-bottom: $spacing-xs;
+    }
+    
+    .creator-role {
+      font-size: 0.9rem;
+      color: $color-accent-blue;
+      font-weight: $font-weight-medium;
+      margin-bottom: $spacing-sm;
+    }
+    
+    p {
+      color: var(--text-secondary, $color-text-secondary);
+      line-height: 1.7;
+      font-size: 0.95rem;
+      margin-bottom: 0;
+    }
+    
+    .creator-links {
+      display: flex;
+      gap: $spacing-sm;
+      margin-top: $spacing-sm;
+      
+      a {
+        color: var(--text-dim, $color-text-dim);
+        transition: $transition-fast;
+        font-size: 1.2rem;
+        
+        &:hover {
+          color: $color-accent-blue;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: $spacing-md;
+    gap: $spacing-md;
+    
+    .creator-avatar {
+      width: 64px;
+      height: 64px;
+      font-size: 2rem;
+    }
+    
+    .creator-info {
+      .creator-links {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+// ========================================
+// 5. DISCLAIMER
+// ========================================
+
+.disclaimer-box {
+  background: rgba($color-accent-blue, 0.08);
+  border-left: 4px solid $color-accent-blue;
+  padding: $spacing-md $spacing-lg;
+  border-radius: $border-radius-sm;
+  margin: $spacing-lg 0;
+  
+  p {
+    color: var(--text-secondary, $color-text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 0;
+    line-height: 1.6;
+  }
+  
+  strong {
+    color: var(--text-primary, $color-text-primary);
+  }
+  
+  i {
+    color: $color-accent-blue;
+    margin-right: $spacing-sm;
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    padding: $spacing-md;
+  }
+}
+
+
+// ========================================
+// 6. RESPONSIVE ADJUSTMENTS
+// ========================================
+
+@media (max-width: $breakpoint-md) {
+  .about-page {
+    padding: $spacing-sm 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .creator-card {
+    padding: $spacing-sm;
+    
+    .creator-avatar {
+      width: 56px;
+      height: 56px;
+      font-size: 1.5rem;
+    }
+  }
+  
+  .disclaimer-box {
+    padding: $spacing-sm;
+    font-size: 0.9rem;
+  }
+}

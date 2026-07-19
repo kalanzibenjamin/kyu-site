@@ -1,0 +1,62 @@
+﻿[
+  {
+    "category": "general",
+    "question": "Who built this site?",
+    "answer": "A new student at Kyambogo University built this site to help fellow students access study resources easily. It's a passion project to make learning more accessible for everyone."
+  },
+  {
+    "category": "general",
+    "question": "Is this site affiliated with Kyambogo University?",
+    "answer": "No, this is a student-built resource hub and is not officially affiliated with Kyambogo University. It is created by a student for students."
+  },
+  {
+    "category": "general",
+    "question": "Which courses are covered on this site?",
+    "answer": "We currently cover BITC (Bachelor of Information Technology & Computing), BEEM (Bachelor of Environmental Engineering & Management), and Nursing programs. We're working to add more courses from other schools at Kyambogo University."
+  },
+  {
+    "category": "resources",
+    "question": "What resources are available on this site?",
+    "answer": "We offer past papers with answer guides, practice quizzes with instant feedback, study guides, and course notes. New resources are added regularly."
+  },
+  {
+    "category": "resources",
+    "question": "Are the past papers official?",
+    "answer": "Past papers are sourced from various channels and are shared for educational purposes. We encourage students to verify with their course lecturers for the most accurate information."
+  },
+  {
+    "category": "resources",
+    "question": "How do I take a quiz?",
+    "answer": "Navigate to the course unit page, select the MCQ module, and click on an episode to start the quiz. You'll receive instant feedback on your answers."
+  },
+  {
+    "category": "technical",
+    "question": "Do I need an account to use this site?",
+    "answer": "Currently, you can access all resources without an account. In the future, we may add user accounts to track progress and save quiz results."
+  },
+  {
+    "category": "technical",
+    "question": "How do I search for resources?",
+    "answer": "Use the search bar on the home page or any page with search functionality. You can search by course name, topic, or resource type."
+  },
+  {
+    "category": "technical",
+    "question": "Is the site mobile-friendly?",
+    "answer": "Yes! The site is fully responsive and works on all devices — phones, tablets, and desktops."
+  },
+  {
+    "category": "contribute",
+    "question": "How can I contribute resources?",
+    "answer": "Visit our Contribute page to submit past papers, notes, or quizzes. You'll be credited for your contributions and help fellow students!"
+  },
+  {
+    "category": "contribute",
+    "question": "What types of resources can I contribute?",
+    "answer": "You can contribute past papers, study notes, practice quizzes, cheat sheets, formula lists, and any other helpful study materials."
+  },
+  {
+    "category": "contribute",
+    "question": "Will I be credited for my contributions?",
+    "answer": "Yes! Your name will appear on the resource page as a contributor. You can also share your GitHub or social links if you'd like."
+  }
+]
