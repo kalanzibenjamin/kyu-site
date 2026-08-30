@@ -422,7 +422,7 @@ programs.forEach((program) => {
   });
 });
 
-const publicDataDir = path.join(root, 'public', 'data');
+const publicDataDir = path.join(root, 'src', 'assets', 'data');
 fs.mkdirSync(publicDataDir, { recursive: true });
 
 fs.writeFileSync(path.join(root, 'data/course-units.json'), `${JSON.stringify(catalog, null, 2)}\n`);
