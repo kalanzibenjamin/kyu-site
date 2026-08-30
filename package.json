@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run sync:courses && vite build",
     "preview": "vite preview",
     "sync:courses": "node scripts/generate-course-units.mjs"
   },

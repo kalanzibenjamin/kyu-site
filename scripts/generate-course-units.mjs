@@ -422,6 +422,10 @@ programs.forEach((program) => {
   });
 });
 
+const publicDataDir = path.join(root, 'public', 'data');
+fs.mkdirSync(publicDataDir, { recursive: true });
+
 fs.writeFileSync(path.join(root, 'data/course-units.json'), `${JSON.stringify(catalog, null, 2)}\n`);
 fs.writeFileSync(path.join(root, 'data/search-index.json'), `${JSON.stringify(searchIndex, null, 2)}\n`);
+fs.writeFileSync(path.join(publicDataDir, 'search-index.json'), `${JSON.stringify(searchIndex, null, 2)}\n`);
 console.log(`Generated ${catalog.length} course-unit pages and data/course-units.json`);
