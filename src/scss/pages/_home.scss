@@ -573,3 +573,92 @@
     }
   }
 }
+
+.site-search-results {
+  display: none;
+  max-height: 28rem;
+  margin-top: $spacing-sm;
+  overflow-y: auto;
+  border: 1px solid var(--glass-border, $glass-border);
+  border-radius: $border-radius-lg;
+  background: var(--glass-bg, $glass-bg);
+  box-shadow: var(--glass-shadow, $glass-shadow);
+  backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+  -webkit-backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+
+  &.visible {
+    display: grid;
+  }
+}
+
+.site-search-result {
+  display: grid;
+  gap: 0.15rem;
+  padding: $spacing-md;
+  border-bottom: 1px solid var(--glass-border, $glass-border);
+  color: var(--text-primary, $color-text-primary);
+  transition: $transition-fast;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &:hover,
+  &:focus-visible {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.16);
+    color: $color-accent-blue;
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  strong {
+    font-size: 0.95rem;
+  }
+
+  small,
+  .site-search-result-type {
+    color: var(--text-secondary, $color-text-secondary);
+    font-size: 0.75rem;
+  }
+
+  .site-search-result-type {
+    color: $color-accent-blue;
+    font-weight: $font-weight-semibold;
+    text-transform: uppercase;
+  }
+}
+
+.site-search-empty {
+  margin: 0;
+  padding: $spacing-md;
+  color: var(--text-secondary, $color-text-secondary);
+  text-align: center;
+}
+
+.home-contact-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $spacing-sm;
+  margin: $spacing-xl auto 0;
+  padding: $spacing-lg;
+  border: 1px solid var(--glass-border, $glass-border);
+  border-radius: $glass-radius;
+  background: var(--glass-bg, $glass-bg);
+  box-shadow: var(--glass-shadow, $glass-shadow);
+  backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+  -webkit-backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+  text-align: center;
+
+  h2 {
+    margin: 0;
+    color: var(--text-primary, $color-text-primary);
+    font-size: 1.35rem;
+  }
+
+  p {
+    margin: 0;
+    color: var(--text-secondary, $color-text-secondary);
+  }
+}

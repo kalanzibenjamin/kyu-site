@@ -18,6 +18,10 @@ import { debounce, truncateText } from '../utils/helpers.js';
  * @param {number} options.minChars - Minimum characters to trigger search (default: 2)
  */
 export function initSearch(options = {}) {
+  if (document.querySelector('[data-site-search]')) {
+    return initSiteSearch();
+  }
+
   const config = {
     inputSelector: '#searchInput',
     clearSelector: '#searchClearBtn',
@@ -276,6 +280,75 @@ export function initSearch(options = {}) {
   console.log('🔍 Search initialized');
   
   return api;
+}
+
+function initSiteSearch() {
+  const section = document.querySelector('[data-site-search]');
+  const input = section?.querySelector('#searchInput');
+  const clearButton = section?.querySelector('#searchClearBtn');
+  const results = section?.querySelector('#siteSearchResults');
+  if (!input || !clearButton || !results) return;
+
+  let searchIndex = [];
+  let requestId = 0;
+  const normalize = (value) => value.toLocaleLowerCase().trim();
+
+  const render = (query) => {
+    const terms = normalize(query).split(/\s+/).filter(Boolean);
+    clearButton.classList.toggle('visible', terms.length > 0);
+    if (terms.length === 0) {
+      results.replaceChildren();
+      results.classList.remove('visible');
+      return;
+    }
+
+    const matches = searchIndex.map((item, index) => {
+      const title = normalize(item.title || '');
+      const courseName = normalize(item.courseName || '');
+      const topicName = normalize(item.topicName || '');
+      const episodeName = normalize(item.episodeName || '');
+      const partName = normalize(item.partName || '');
+      const aliases = normalize((item.aliases || []).join(' '));
+      const haystack = normalize(`${item.type} ${item.program} ${aliases} ${courseName} ${topicName} ${episodeName} ${partName}`);
+      if (!terms.every((term) => haystack.includes(term))) return null;
+
+      const titleTerms = terms.filter((term) => title.includes(term)).length;
+      const courseTerms = terms.filter((term) => courseName.includes(term)).length;
+      const phrase = normalize(query);
+      let score = titleTerms * 30 + courseTerms * 24;
+      if (title.includes(phrase)) score += 45;
+      if (courseName.includes(phrase)) score += 40;
+      if (title === phrase || courseName === phrase) score += 80;
+      if (item.type === 'Course' || item.type === 'Programme' || item.type === 'School' || item.type === 'Faculty') score += 35;
+      return { item, score, index };
+    }).filter(Boolean).sort((left, right) => right.score - left.score || left.index - right.index).slice(0, 12).map(({ item }) => item);
+
+    results.innerHTML = matches.length > 0
+      ? matches.map((item) => `<a class="site-search-result" href="${item.url}"><span class="site-search-result-type">${item.type}</span><strong>${item.title}</strong><small>${item.context}</small></a>`).join('')
+      : '<p class="site-search-empty">No matching courses or learning content.</p>';
+    results.classList.add('visible');
+  };
+
+  fetch('/data/search-index.json')
+    .then((response) => response.ok ? response.json() : [])
+    .then((index) => { searchIndex = Array.isArray(index) ? index : []; render(input.value); })
+    .catch(() => { searchIndex = []; });
+
+  input.addEventListener('input', () => render(input.value));
+  input.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      input.value = '';
+      render('');
+      input.blur();
+    }
+  });
+  clearButton.addEventListener('click', () => {
+    input.value = '';
+    render('');
+    input.focus();
+  });
+
+  return { render };
 }
 
 // ========================================

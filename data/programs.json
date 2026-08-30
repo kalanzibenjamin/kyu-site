@@ -1,7 +1,9 @@
-﻿[
+[
   {
     "schoolName": "School of Computing & Information Science",
     "schoolCode": "SCIS",
+    "type": "school",
+    "slug": "scis",
     "icon": "fa-laptop-code",
     "description": "Computing, information technology, data science, and library science programs.",
     "status": "active",
@@ -10,11 +12,168 @@
       { "name": "Computer Science", "status": "active" },
       { "name": "NDS & AI", "status": "active" },
       { "name": "Library & IS", "status": "active" }
+    ],
+    "programmes": [
+      {
+        "name": "Bachelor of Information Systems",
+        "shortName": "BIS",
+        "slug": "bis",
+        "status": "active",
+        "semesters": [
+          {
+            "year": 1,
+            "semester": 1,
+            "courses": [
+              { "name": "Introduction to Computers and Information Systems", "slug": "introduction-to-computers-and-information-systems" },
+              { "name": "Computer Applications", "slug": "computer-applications" },
+              { "name": "Business Statistics", "slug": "business-statistics" },
+              { "name": "Humanities and Communications Skills", "slug": "humanities-and-communications-skills" },
+              { "name": "Discrete Mathematics", "slug": "discrete-mathematics" }
+            ]
+          },
+          {
+            "year": 1,
+            "semester": 2,
+            "courses": [
+              { "name": "Fundamentals of Information Systems", "slug": "fundamentals-of-information-systems" },
+              { "name": "Database Fundamentals", "slug": "database-fundamentals" },
+              { "name": "Web Development", "slug": "web-development" },
+              { "name": "Introduction to Programming", "slug": "introduction-to-programming" },
+              { "name": "Organizational Behaviour", "slug": "organizational-behaviour" }
+            ]
+          },
+          {
+            "year": 2,
+            "semester": 1,
+            "courses": [
+              { "name": "Software Engineering Principles", "slug": "software-engineering-principles" },
+              { "name": "Object-Oriented Programming", "slug": "object-oriented-programming" },
+              { "name": "Information Systems Analysis and Design", "slug": "information-systems-analysis-and-design" },
+              { "name": "Database Systems Design and Development", "slug": "database-systems-design-and-development" },
+              { "name": "Multimedia Systems", "slug": "multimedia-systems" },
+              { "name": "E-Commerce", "slug": "e-commerce" }
+            ]
+          },
+          {
+            "year": 2,
+            "semester": 2,
+            "courses": [
+              { "name": "Network Management Concepts and Security", "slug": "network-management-concepts-and-security" },
+              { "name": "Systems Administration", "slug": "systems-administration" },
+              { "name": "Information Systems Project Management", "slug": "information-systems-project-management" },
+              { "name": "Information Systems Security", "slug": "information-systems-security" },
+              { "name": "Entrepreneurship Skills", "slug": "entrepreneurship-skills" },
+              { "name": "Research Methods", "slug": "research-methods" }
+            ]
+          },
+          {
+            "year": 3,
+            "semester": 1,
+            "courses": [
+              { "name": "Entrepreneurship Skills", "slug": "entrepreneurship-skills" },
+              { "name": "Information Systems Project Management", "slug": "information-systems-project-management" },
+              { "name": "Information Systems Security", "slug": "information-systems-security" },
+              { "name": "Systems Administration", "slug": "systems-administration" }
+            ]
+          },
+          {
+            "year": 3,
+            "semester": 2,
+            "courses": [
+              { "name": "E-Commerce and Web Services", "slug": "e-commerce-and-web-services" },
+              { "name": "Cloud Computing", "slug": "cloud-computing" },
+              { "name": "IT and Society", "slug": "it-and-society" },
+              { "name": "Project/Dissertation", "slug": "project-dissertation" },
+              { "name": "Management Information Systems", "slug": "management-information-systems" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bachelor of Information Technology and Computing",
+        "shortName": "BITC",
+        "slug": "bitc",
+        "status": "active",
+        "semesters": [
+          {
+            "year": 1,
+            "semester": 1,
+            "courses": [
+              { "name": "Humanities and Communications Skills", "slug": "humanities-and-communications-skills" },
+              { "name": "Introduction to Information Technology and Computing", "slug": "introduction-to-information-technology-and-computing" },
+              { "name": "Computer Applications", "slug": "computer-applications" },
+              { "name": "Discrete Mathematical Structures", "slug": "discrete-mathematical-structures" },
+              { "name": "Probability and Statistics", "slug": "probability-and-statistics" },
+              { "name": "Differential, Integral and Vector Calculus", "slug": "differential-integral-and-vector-calculus" }
+            ]
+          },
+          {
+            "year": 1,
+            "semester": 2,
+            "courses": [
+              { "name": "Fundamentals of Programming", "slug": "fundamentals-of-programming" },
+              { "name": "Introduction to Data Communications", "slug": "introduction-to-data-communications" },
+              { "name": "Database Fundamentals", "slug": "database-fundamentals" },
+              { "name": "Web Design and Development", "slug": "web-design-and-development" },
+              { "name": "Operating Systems Concepts", "slug": "operating-systems-concepts" },
+              { "name": "Ethics and Professional Issues in IT", "slug": "ethics-and-professional-issues-in-it" }
+            ]
+          },
+          {
+            "year": 2,
+            "semester": 1,
+            "courses": [
+              { "name": "Network Management Concepts and Security", "slug": "network-management-concepts-and-security" },
+              { "name": "Numerical Analysis and Computation", "slug": "numerical-analysis-and-computation" },
+              { "name": "Structured Programming", "slug": "structured-programming" },
+              { "name": "Information Systems and Design", "slug": "information-systems-and-design" },
+              { "name": "Introduction to Data Communications and Networking", "slug": "introduction-to-data-communications-and-networking" }
+            ]
+          },
+          {
+            "year": 2,
+            "semester": 2,
+            "courses": [
+              { "name": "Object-Oriented Programming", "slug": "object-oriented-programming" },
+              { "name": "Database Systems Design and Development", "slug": "database-systems-design-and-development" },
+              { "name": "System Analysis and Design", "slug": "system-analysis-and-design" },
+              { "name": "Multimedia Systems", "slug": "multimedia-systems" },
+              { "name": "Software Engineering Principles", "slug": "software-engineering-principles" }
+            ]
+          },
+          {
+            "year": 3,
+            "semester": 1,
+            "courses": [
+              { "name": "Intermediate Data Communication and Networking", "slug": "intermediate-data-communication-and-networking" },
+              { "name": "Distributed Computing Systems", "slug": "distributed-computing-systems" },
+              { "name": "Data Structure and Algorithms", "slug": "data-structure-and-algorithms" },
+              { "name": "Introduction to Graph Theory", "slug": "introduction-to-graph-theory" },
+              { "name": "Entrepreneurship Skills", "slug": "entrepreneurship-skills" },
+              { "name": "Computer Graphics", "slug": "computer-graphics" }
+            ]
+          },
+          {
+            "year": 3,
+            "semester": 2,
+            "courses": [
+              { "name": "Advanced Networking", "slug": "advanced-networking" },
+              { "name": "Research Methods", "slug": "research-methods" },
+              { "name": "Project/Dissertation", "slug": "project-dissertation" },
+              { "name": "E-Commerce and Web Services", "slug": "e-commerce-and-web-services" },
+              { "name": "Information Systems Security", "slug": "information-systems-security" },
+              { "name": "Cloud Computing Concepts", "slug": "cloud-computing-concepts" }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
     "schoolName": "School of Built Environment",
     "schoolCode": "BE",
+    "type": "school",
+    "slug": "be",
     "icon": "fa-building",
     "description": "Engineering, architecture, and land surveying programs.",
     "status": "active",
@@ -22,11 +181,18 @@
       { "name": "Civil Engineering", "status": "active" },
       { "name": "Architecture", "status": "active" },
       { "name": "Lands & Survey", "status": "active" }
+    ],
+    "programmes": [
+      { "name": "Civil Engineering", "shortName": "Civil Engineering", "slug": "civil-engineering", "status": "active", "semesters": [] },
+      { "name": "Architecture", "shortName": "Architecture", "slug": "architecture", "status": "active", "semesters": [] },
+      { "name": "Lands & Survey", "shortName": "Lands & Survey", "slug": "lands-and-survey", "status": "active", "semesters": [] }
     ]
   },
   {
     "schoolName": "School of Special Needs & Rehabilitation",
     "schoolCode": "SNS",
+    "type": "school",
+    "slug": "sns",
     "icon": "fa-hand-holding-heart",
     "description": "Special needs education, rehabilitation, and sign language programs.",
     "status": "active",
@@ -34,11 +200,18 @@
       { "name": "Special Needs", "status": "active" },
       { "name": "Sign Language", "status": "active" },
       { "name": "Community & Disability Studies", "status": "active" }
+    ],
+    "programmes": [
+      { "name": "Special Needs", "shortName": "Special Needs", "slug": "special-needs", "status": "active", "semesters": [] },
+      { "name": "Sign Language", "shortName": "Sign Language", "slug": "sign-language", "status": "active", "semesters": [] },
+      { "name": "Community & Disability Studies", "shortName": "Community & Disability Studies", "slug": "community-and-disability-studies", "status": "active", "semesters": [] }
     ]
   },
   {
     "schoolName": "School of Management & Entrepreneurship",
     "schoolCode": "SME",
+    "type": "school",
+    "slug": "sme",
     "icon": "fa-chart-line",
     "description": "Business administration, entrepreneurship, and management programs.",
     "status": "coming",
@@ -46,11 +219,18 @@
       { "name": "Business Admin", "status": "coming" },
       { "name": "Entrepreneurship", "status": "coming" },
       { "name": "Procurement", "status": "coming" }
+    ],
+    "programmes": [
+      { "name": "Business Admin", "shortName": "Business Admin", "slug": "business-admin", "status": "coming", "semesters": [] },
+      { "name": "Entrepreneurship", "shortName": "Entrepreneurship", "slug": "entrepreneurship", "status": "coming", "semesters": [] },
+      { "name": "Procurement", "shortName": "Procurement", "slug": "procurement", "status": "coming", "semesters": [] }
     ]
   },
   {
     "schoolName": "School of Education",
     "schoolCode": "SOE",
+    "type": "school",
+    "slug": "soe",
     "icon": "fa-chalkboard-teacher",
     "description": "Teacher education, curriculum studies, and educational technology programs.",
     "status": "coming",
@@ -58,11 +238,18 @@
       { "name": "Education (Arts)", "status": "coming" },
       { "name": "Education (Science)", "status": "coming" },
       { "name": "Educational Technology", "status": "coming" }
+    ],
+    "programmes": [
+      { "name": "Education (Arts)", "shortName": "Education (Arts)", "slug": "education-arts", "status": "coming", "semesters": [] },
+      { "name": "Education (Science)", "shortName": "Education (Science)", "slug": "education-science", "status": "coming", "semesters": [] },
+      { "name": "Educational Technology", "shortName": "Educational Technology", "slug": "educational-technology", "status": "coming", "semesters": [] }
     ]
   },
   {
     "schoolName": "Faculty of Science",
     "schoolCode": "FOS",
+    "type": "faculty",
+    "slug": "fos",
     "icon": "fa-flask",
     "description": "Mathematics, physics, chemistry, and biological sciences programs.",
     "status": "planning",
@@ -71,11 +258,19 @@
       { "name": "Physics", "status": "coming" },
       { "name": "Chemistry", "status": "coming" },
       { "name": "Biology", "status": "coming" }
+    ],
+    "programmes": [
+      { "name": "Mathematics", "shortName": "Mathematics", "slug": "mathematics", "status": "coming", "semesters": [] },
+      { "name": "Physics", "shortName": "Physics", "slug": "physics", "status": "coming", "semesters": [] },
+      { "name": "Chemistry", "shortName": "Chemistry", "slug": "chemistry", "status": "coming", "semesters": [] },
+      { "name": "Biology", "shortName": "Biology", "slug": "biology", "status": "coming", "semesters": [] }
     ]
   },
   {
     "schoolName": "Faculty of Arts & Humanities",
     "schoolCode": "FAH",
+    "type": "faculty",
+    "slug": "fah",
     "icon": "fa-book-open",
     "description": "Languages, literature, history, geography, and performing arts programs.",
     "status": "planning",
@@ -83,11 +278,18 @@
       { "name": "Literature", "status": "coming" },
       { "name": "History", "status": "coming" },
       { "name": "Geography", "status": "coming" }
+    ],
+    "programmes": [
+      { "name": "Literature", "shortName": "Literature", "slug": "literature", "status": "coming", "semesters": [] },
+      { "name": "History", "shortName": "History", "slug": "history", "status": "coming", "semesters": [] },
+      { "name": "Geography", "shortName": "Geography", "slug": "geography", "status": "coming", "semesters": [] }
     ]
   },
   {
     "schoolName": "School of Vocational Studies",
     "schoolCode": "SVS",
+    "type": "school",
+    "slug": "svs",
     "icon": "fa-utensils",
     "description": "Agriculture, nutrition, hospitality, and tourism programs.",
     "status": "planning",
@@ -95,6 +297,11 @@
       { "name": "Agriculture", "status": "coming" },
       { "name": "Nutrition", "status": "coming" },
       { "name": "Hospitality", "status": "coming" }
+    ],
+    "programmes": [
+      { "name": "Agriculture", "shortName": "Agriculture", "slug": "agriculture", "status": "coming", "semesters": [] },
+      { "name": "Nutrition", "shortName": "Nutrition", "slug": "nutrition", "status": "coming", "semesters": [] },
+      { "name": "Hospitality", "shortName": "Hospitality", "slug": "hospitality", "status": "coming", "semesters": [] }
     ]
   }
 ]

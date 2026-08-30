@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <!-- ======================================== -->
@@ -30,10 +30,10 @@
   <meta name="color-scheme" content="dark light" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" href="/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/kyu-logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo/kyu-logo.png" />
   <link rel="manifest" href="/assets/favicon/site.webmanifest" />
 
   <!-- Fonts -->
@@ -60,7 +60,7 @@
   </style>
   <script>
     (function () {
-      const key = 'kyu-theme';
+      const key = 'clareon-theme';
       const stored = localStorage.getItem(key);
       const theme = stored === 'light' ? 'light' : 'dark';
       const root = document.documentElement;
@@ -113,7 +113,7 @@
     <div class="header-container">
       <a href="/" class="logo" aria-label="Home | kyu.clareon.live">
         <span class="logo-icon">
-          <img src="/assets/images/logo/kyu-logo.png" alt="KYU logo" loading="eager" />
+          <img src="/images/logo/kyu-logo.png" alt="KYU logo" loading="eager" />
         </span>
         <span class="logo-text">kyu.clareon.live</span>
       </a>
@@ -124,10 +124,8 @@
         <ul id="nav-menu" role="menubar">
           <li role="none"><a href="/" role="menuitem">Home</a></li>
             <li role="none"><a href="/pages/programs/" role="menuitem">Programs</a></li>
-            <li role="none"><a href="/pages/resources/" role="menuitem">Resources</a></li>
             <li role="none"><a href="/pages/announcements/" role="menuitem" class="active">Announcements</a></li>
             <li role="none"><a href="/pages/faq/" role="menuitem">FAQ</a></li>
-            <li role="none"><a href="/pages/contribute/" role="menuitem">Contribute</a></li>
             <li role="none"><a href="/pages/about/" role="menuitem">About</a></li>
             <li role="none"><a href="/pages/contact/" role="menuitem">Contact</a></li>
         </ul>
@@ -260,6 +258,7 @@
           Site is still being constructed — this is a clean revision template.
         </p>
       </div>
+      <a class="footer-contact-link" href="/pages/contact/"><i class="fas fa-envelope" aria-hidden="true"></i> Contact</a>
       <div class="footer-divider"></div>
       <div class="copyright">
         <i class="far fa-copyright"></i> 

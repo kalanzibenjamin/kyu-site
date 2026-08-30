@@ -1,4 +1,6 @@
-﻿// ========================================
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap');
+
+// ========================================
 // kyu.clareon.live — Main Stylesheet
 // ========================================
 
@@ -17,7 +19,6 @@
 @import 'pages/announcements';
 @import 'pages/faq';
 @import 'pages/contact';
-@import 'pages/resources';
 @import 'pages/programs';
-@import 'pages/contribute';
+@import 'pages/course-units';
 @import 'utils/responsive';

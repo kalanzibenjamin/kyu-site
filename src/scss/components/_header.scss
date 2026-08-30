@@ -18,9 +18,9 @@ body.light-mode {
 // ========================================
 
 .site-header {
-  position: sticky;
-  top: 0;
+  position: relative;
   z-index: 1000;
+  overflow: visible;
   background: var(--glass-bg, $glass-bg);
   border-bottom: 1px solid var(--glass-border, $glass-border);
   backdrop-filter: blur($glass-blur) saturate($glass-saturate);
@@ -59,7 +59,14 @@ body.light-mode {
   justify-content: space-between;
   gap: $spacing-md;
   min-height: 4.25rem;
+  position: relative;
+  z-index: 1;
   
+  @media (max-width: $breakpoint-lg) {
+    gap: 0.75rem;
+    padding-inline: 1rem;
+  }
+
   @media (max-width: $breakpoint-md) {
     padding: calc(0.7rem + env(safe-area-inset-top, 0px)) 0.9rem 0.7rem;
     min-height: 3.8rem;
@@ -85,14 +92,14 @@ body.light-mode {
     color: $color-accent-blue;
     
     img {
-      width: 3.4rem;
       height: 3.4rem;
+      width: auto;
       display: block;
     }
   }
   
   .logo-text {
-    font-size: 1.55rem;
+    font-size: clamp(1.08rem, 1.3vw, 1.55rem);
     font-weight: $font-weight-extrabold;
     letter-spacing: -0.02em;
     background: linear-gradient(135deg, $color-accent-blue, $color-accent-purple, $color-accent-green);
@@ -102,10 +109,15 @@ body.light-mode {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    
-    @media (max-width: 480px) {
-      font-size: 1.25rem;
+    max-width: 17rem;
+
+    @media (max-width: 640px) {
       max-width: 10.5rem;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 1.1rem;
+      max-width: 9rem;
     }
   }
   
@@ -129,16 +141,22 @@ body.light-mode {
 .main-nav {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: $spacing-sm;
   position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
   
   ul {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     gap: $spacing-sm;
     list-style: none;
     margin: 0;
     padding: 0;
+    flex-wrap: nowrap;
+    min-width: 0;
   }
   
   a {
@@ -151,6 +169,12 @@ body.light-mode {
     transition: $transition-fast;
     text-decoration: none;
     font-family: $font-family-base;
+    white-space: nowrap;
+
+    @media (max-width: $breakpoint-lg) {
+      padding: 0.45rem 0.7rem;
+      font-size: 0.8rem;
+    }
     
     &:hover {
       color: var(--text-primary, $color-text-primary);
@@ -170,53 +194,115 @@ body.light-mode {
   // Mobile menu toggle button
   .nav-toggle {
     display: none;
-    background: none;
-    border: none;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.14);
     color: var(--text-primary, $color-text-primary);
-    font-size: 1.5rem;
-    width: 2.75rem;
-    height: 2.75rem;
-    padding: 0;
+    width: 2.9rem;
+    height: 2.9rem;
+    padding: 0.7rem;
     cursor: pointer;
     transition: $transition-fast;
     border-radius: $border-radius-full;
-    z-index: 1200; // ✅ ADDED: Ensures toggle stays above menu
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.16);
+    z-index: 1200;
     
     &:hover {
-      background: rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.12);
+      transform: translateY(-1px);
     }
     
     &:focus-visible {
       outline: 2px solid $color-accent-blue;
     }
+
+    .nav-toggle-icon {
+      position: relative;
+      display: block;
+      width: 1.2rem;
+      height: 0.9rem;
+
+      span {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        border-radius: 999px;
+        background: currentColor;
+        transition: transform 0.25s ease, opacity 0.2s ease, top 0.25s ease, bottom 0.25s ease;
+        transform-origin: center;
+
+        &:nth-child(1) {
+          top: 0;
+        }
+
+        &:nth-child(2) {
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        &:nth-child(3) {
+          bottom: 0;
+        }
+      }
+    }
+
+    &.is-active {
+      .nav-toggle-icon span {
+        &:nth-child(1) {
+          top: 50%;
+          transform: translateY(-50%) rotate(45deg);
+        }
+
+        &:nth-child(2) {
+          opacity: 0;
+          transform: scaleX(0.2);
+        }
+
+        &:nth-child(3) {
+          bottom: 50%;
+          transform: translateY(50%) rotate(-45deg);
+        }
+      }
+    }
+
+    body.light-mode & {
+      background: rgba(255, 255, 255, 0.75);
+      border-color: rgba(0, 0, 0, 0.08);
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    }
   }
   
-  @media (max-width: $breakpoint-md) {
-    .nav-toggle {
-      display: block;
-    }
-    
+  @media (max-width: $breakpoint-lg) {
     ul {
-      display: none; // ✅ KEPT: Hidden by default
+      gap: 0.25rem;
+      padding-inline: 0.25rem;
+    }
+
+    a {
+      padding: 0.45rem 0.7rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  &.is-collapsed {
+    ul {
+      display: none;
       position: fixed;
       top: calc(4.25rem + env(safe-area-inset-top, 0px));
       left: 0.75rem;
       right: 0.75rem;
       flex-direction: column;
       
-      // ✅ FIXED: Use menu-specific variables with higher opacity
       background: var(--menu-bg, rgba(20, 25, 35, 0.95));
-      
       backdrop-filter: blur(20px) saturate(180%);
       -webkit-backdrop-filter: blur(20px) saturate(180%);
-      
-      // ✅ FIXED: Use menu-specific border
       border: 1px solid var(--menu-border, rgba(255, 255, 255, 0.15));
       border-radius: $border-radius-xl;
       padding: $spacing-sm;
       gap: 0.25rem;
-      
-      // ✅ IMPROVED: Stronger shadow for better depth
       box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
       z-index: 1100;
       max-height: min(70dvh, 26rem);
@@ -239,8 +325,6 @@ body.light-mode {
         border-radius: $border-radius-md;
         text-align: left;
         font-size: 1rem;
-        
-        // ✅ ADDED: Better contrast for dark mode
         color: rgba(255, 255, 255, 0.9);
         
         &:hover {
@@ -253,7 +337,6 @@ body.light-mode {
           color: $color-accent-blue;
         }
         
-        // ✅ ADDED: Light mode link styles
         body.light-mode & {
           color: rgba(0, 0, 0, 0.85);
           
@@ -263,6 +346,10 @@ body.light-mode {
           }
         }
       }
+    }
+
+    .nav-toggle {
+      display: flex;
     }
   }
 }
@@ -326,23 +413,35 @@ body.menu-open {
 // 6. RESPONSIVE ADJUSTMENTS
 // ========================================
 
+@media (max-width: $breakpoint-lg) {
+  .header-container {
+    gap: 0.75rem;
+  }
+
+  .logo .logo-text {
+    max-width: 14rem;
+  }
+}
+
 @media (max-width: $breakpoint-md) {
   .header-container {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   
   .logo .logo-text {
     font-size: 1.1rem;
+    max-width: 10rem;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .header-container {
-    padding: 0.4rem 0.6rem;
+    padding: 0.45rem 0.7rem;
   }
   
   .logo .logo-text {
-    font-size: 1rem;
+    font-size: 0.98rem;
+    max-width: 8.4rem;
   }
   
   .header-actions .header-btn {

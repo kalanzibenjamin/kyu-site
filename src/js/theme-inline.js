@@ -1,5 +1,5 @@
 (function () {
-  const key = 'kyu-theme';
+  const key = 'clareon-theme';
   const dark = 'dark';
   const light = 'light';
   const stored = localStorage.getItem(key);

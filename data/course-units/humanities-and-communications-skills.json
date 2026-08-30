@@ -1,0 +1,354 @@
+{
+	"lastUpdated": "2026-08-30",
+	"topics": [
+		{
+			"title": "Basics of Communication",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Foundations of Communication",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Foundations of Communication",
+							"url": "https://docs.google.com/forms/d/e/1FAIpQLSfHqXo3vYDnAaeXWjUfPPdmN1guIEtjF_7SoLmHu5qWmS5NKw/viewform?usp=publish-editor"
+						}
+					]
+				},
+				{
+					"number": 2,
+					"name": "Perspectives of Communication",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Perspectives of Communication",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 3,
+					"name": "Types and Channels of Communication",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Types and Channels of Communication",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 4,
+					"name": "Settings and Levels of Communication",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Settings and Levels of Communication",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 5,
+					"name": "The Communication Process and Model",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "The Communication Process and Model",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 6,
+					"name": "Noise and Barriers to Communication",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Noise and Barriers to Communication",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 7,
+					"name": "Improving Communication Skills",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Improving Communication Skills",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 8,
+					"name": "The 7 C's and 4 S's of Communication",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "The 7 C's and 4 S's of Communication",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 9,
+					"name": "Cross-Cultural and Intercultural Communication",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Cross-Cultural and Intercultural Communication",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 10,
+					"name": "Foundations of Business Communication",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Foundations of Business Communication",
+							"url": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Listening",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Introduction to Listening",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Introduction to Listening",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 2,
+					"name": "The Listening Process",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "The Listening Process",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 3,
+					"name": "Types of Listening",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Types of Listening",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 4,
+					"name": "Barriers to Effective Listening",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Barriers to Effective Listening",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 5,
+					"name": "Improving Listening Skills and Note-Taking",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Improving Listening Skills and Note-Taking",
+							"url": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Writing Skills",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Basics and Process of Writing",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Basics and Process of Writing",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 2,
+					"name": "Scholarly Essay Writing",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Scholarly Essay Writing",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 3,
+					"name": "Citation, Referencing and Plagiarism",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Citation, Referencing and Plagiarism",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 4,
+					"name": "Functional Writing: Application Letters",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Functional Writing: Application Letters",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 5,
+					"name": "Functional Writing: CVs",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Functional Writing: CVs",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 6,
+					"name": "Functional Writing: Reports",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Functional Writing: Reports",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 7,
+					"name": "Functional Writing: Memos",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Functional Writing: Memos",
+							"url": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Public Speaking and Oral Communication",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Fundamentals of Public Speaking",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Fundamentals of Public Speaking",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 2,
+					"name": "Speech Preparation and Delivery",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Speech Preparation and Delivery",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 3,
+					"name": "Non-Verbal Communication in Speaking",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Non-Verbal Communication in Speaking",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 4,
+					"name": "Meetings and Interviews",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Meetings and Interviews",
+							"url": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Reading and Library Skills",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Reading Fundamentals",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Reading Fundamentals",
+							"url": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

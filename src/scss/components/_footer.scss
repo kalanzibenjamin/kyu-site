@@ -323,3 +323,21 @@
     justify-content: center;
   }
 }
+
+.footer-contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: $spacing-xs;
+  color: $color-accent-blue;
+  font-size: 0.9rem;
+  font-weight: $font-weight-semibold;
+  text-decoration: none;
+  transition: $transition-fast;
+
+  &:hover,
+  &:focus-visible {
+    color: $color-accent-purple;
+    text-decoration: underline;
+    transform: translateY(-1px);
+  }
+}

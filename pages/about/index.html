@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <!-- ======================================== -->
@@ -30,10 +30,10 @@
   <meta name="color-scheme" content="dark light" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" href="/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/kyu-logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo/kyu-logo.png" />
   <link rel="manifest" href="/assets/favicon/site.webmanifest" />
 
   <!-- Fonts -->
@@ -60,7 +60,7 @@
   </style>
   <script>
     (function () {
-      const key = 'kyu-theme';
+      const key = 'clareon-theme';
       const stored = localStorage.getItem(key);
       const theme = stored === 'light' ? 'light' : 'dark';
       const root = document.documentElement;
@@ -113,7 +113,7 @@
     <div class="header-container">
       <a href="/" class="logo" aria-label="Home | kyu.clareon.live">
         <span class="logo-icon">
-          <img src="/assets/images/logo/kyu-logo.png" alt="KYU logo" loading="eager" />
+          <img src="/images/logo/kyu-logo.png" alt="KYU logo" loading="eager" />
         </span>
         <span class="logo-text">kyu.clareon.live</span>
       </a>
@@ -124,10 +124,8 @@
         <ul id="nav-menu" role="menubar">
           <li role="none"><a href="/" role="menuitem">Home</a></li>
             <li role="none"><a href="/pages/programs/" role="menuitem">Programs</a></li>
-            <li role="none"><a href="/pages/resources/" role="menuitem">Resources</a></li>
             <li role="none"><a href="/pages/announcements/" role="menuitem">Announcements</a></li>
             <li role="none"><a href="/pages/faq/" role="menuitem">FAQ</a></li>
-            <li role="none"><a href="/pages/contribute/" role="menuitem">Contribute</a></li>
             <li role="none"><a href="/pages/about/" role="menuitem" class="active">About</a></li>
             <li role="none"><a href="/pages/contact/" role="menuitem">Contact</a></li>
         </ul>
@@ -154,7 +152,7 @@
       <div class="about-section">
         <h2><i class="fas fa-question-circle"></i> What is this site?</h2>
         <p>
-          <strong>kyu.clareon.live</strong> is a free resource hub built by a new student at 
+          <strong>kyu.clareon.live</strong> is a free resource hub built by a student initative under a new developing company called "<a href="https://clareon.live/" target="_blank" rel="noopener noreferrer">Clareon</a>" at 
           Kyambogo University. It's designed to help students access:
         </p>
         <ul>
@@ -180,7 +178,7 @@
             <h3>Student</h3>
             <p class="creator-role">Creater</p>
             <p>
-              A student initative at Kyambogo University. We built this site 
+              A student initative under the company name "<a href="https://clareon.live/" target="_blank" rel="noopener noreferrer">Clareon</a>". We built this site 
               to help fellow students access study resources easily and connect with 
               each other. We are passionate about using technology to solve real problems 
               and make learning more accessible.
@@ -189,7 +187,7 @@
               <a href="https://github.com/kalanzibenjamin/kyu-site.git" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <i class="fab fa-github"></i>
               </a>
-              <a href="/contact/" aria-label="Contact">
+              <a href="/pages/contact/" aria-label="Contact">
                 <i class="fas fa-envelope"></i>
               </a>
             </div>
@@ -201,15 +199,15 @@
       <div class="about-section">
         <h2><i class="fas fa-lightbulb"></i> Why build this?</h2>
         <p>
-          As Kyambogo students, we noticed that accessing past papers and revision 
-          materials will be challenging. Students are often scattered across various 
+          As Kyambogo students(under "<a href="https://clareon.live/" target="_blank" rel="noopener noreferrer">Clareon</a>"), we noticed that accessing past papers and revision 
+          materials is challenging. Students are often scattered across various 
           platforms or links, making it hard to find reliable resources. We want to create a 
           central hub where everyone can easily access the materials they need.
         </p>
         <p>
           Our goal is to make studying easier and more effective for all Kyambogo 
-          students. We starting with a few programs and plan to expand to cover 
-          more courses over time.
+          students under all facilities and schools. We starting with a few programs and plan to expand to cover 
+          more courses over time. We are open to have student represantatives from each course to help us gather and share resources for their respective programs. If you are interested in joining this initative use the <a href="/pages/contact/" target="_blank" rel="noopener noreferrer">Contact Page</a> to reach out to us.
         </p>
       </div>
 
@@ -220,7 +218,7 @@
           <li><i class="fas fa-check-circle"></i> More past papers for all programs</li>
           <li><i class="fas fa-check-circle"></i> Additional mcq episodes with detailed feedback</li>
           <li><i class="fas fa-check-circle"></i> User accounts to track progress</li>
-          <li><i class="fas fa-check-circle"></i> Support for more schools at Kyambogo</li>
+          <li><i class="fas fa-check-circle"></i> Support for more schools and faculties at Kyambogo</li>
           <li><i class="fas fa-check-circle"></i> Mobile app for offline access</li>
         </ul>
         <p>
@@ -278,6 +276,7 @@
           Site is still being constructed — this is a clean revision template.
         </p>
       </div>
+      <a class="footer-contact-link" href="/pages/contact/"><i class="fas fa-envelope" aria-hidden="true"></i> Contact</a>
       <div class="footer-divider"></div>
       <div class="copyright">
         <i class="far fa-copyright"></i> 

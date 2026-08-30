@@ -8,6 +8,40 @@
 
 
 // ========================================
+// 2. PROGRAM BREADCRUMBS
+// ========================================
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: $spacing-xs;
+  margin-bottom: $spacing-lg;
+  color: var(--text-dim, $color-text-dim);
+  font-size: 0.85rem;
+
+  a,
+  .current {
+    color: var(--text-secondary, $color-text-secondary);
+  }
+
+  a {
+    color: $color-accent-blue;
+
+    &:hover {
+      color: $color-accent-purple;
+      text-decoration: underline;
+    }
+  }
+
+  .separator {
+    color: var(--text-dim, $color-text-dim);
+    font-size: 1.1rem;
+  }
+}
+
+
+// ========================================
 // 2. PROGRAMS HERO
 // ========================================
 
@@ -111,6 +145,7 @@
 // ========================================
 
 .school-card {
+  display: block;
   background: var(--glass-bg, $glass-bg);
   border-radius: $glass-radius;
   padding: $spacing-lg;
@@ -368,7 +403,7 @@
 
 @media (max-width: $breakpoint-md) {
   .programs-page {
-   padding: 0;
+    padding: 0;
   }
 }
 
@@ -384,5 +419,183 @@
   .course-tag {
     font-size: 0.75rem;
     padding: 0.2rem 0.7rem;
+  }
+}
+
+
+// ========================================
+// 5. COURSE CURRICULUM
+// ========================================
+
+.curriculum {
+  margin-bottom: $spacing-xl;
+}
+
+.curriculum-intro {
+  margin-bottom: $spacing-lg;
+
+  h2 {
+    margin-bottom: $spacing-xs;
+  }
+
+  p {
+    color: var(--text-secondary, $color-text-secondary);
+  }
+}
+
+.semester-grid {
+  display: grid;
+  gap: $spacing-xl;
+}
+
+.year-group {
+  margin: 0;
+}
+
+.year-header {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  margin-bottom: $spacing-md;
+  padding-left: $spacing-md;
+  border-left: 4px solid $color-accent-blue;
+
+  h3 {
+    margin: 0;
+    font-size: 1.35rem;
+    color: var(--text-primary, $color-text-primary);
+  }
+}
+
+.semester-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: $spacing-lg;
+}
+
+.semester-block {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: var(--glass-bg, $glass-bg);
+  border: 1px solid var(--glass-border, $glass-border);
+  border-radius: $glass-radius;
+  backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+  -webkit-backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+  box-shadow: var(--glass-shadow, $glass-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+
+  
+
+  
+
+  .semester-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: $spacing-sm;
+    margin: 0;
+    padding: $spacing-md $spacing-lg;
+    background: rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid var(--glass-border, $glass-border);
+
+
+    h3 {
+      margin: 0;
+      font-size: 1.1rem;
+      color: var(--text-primary, $color-text-primary);
+    }
+
+    .course-count {
+      flex-shrink: 0;
+      color: $color-accent-blue;
+      font-size: 0.8rem;
+      font-weight: $font-weight-semibold;
+      white-space: nowrap;
+    }
+  }
+
+  .semester-courses {
+    display: grid;
+    gap: 0;
+    padding: $spacing-xs 0;
+
+    i {
+      display: none;
+    }
+
+    li {
+      .course-link {
+        display: flex;
+        align-items: flex-start;
+        gap: $spacing-sm;
+        position: relative;
+        padding: 0.75rem $spacing-lg 0.75rem 2rem;
+        color: var(--text-secondary, $color-text-secondary);
+        font-size: 0.92rem;
+        line-height: 1.45;
+        transition: $transition-fast;
+
+        body.light-mode & {
+          color: $light-text-primary;
+        }
+
+        &::before {
+          content: '';
+          position: absolute;
+          left: $spacing-sm;
+          top: 0.65rem;
+          bottom: 0.65rem;
+          width: 3px;
+          border-radius: $border-radius-full;
+          background: linear-gradient(180deg, $color-accent-blue, $color-accent-purple);
+        }
+
+        
+    &:hover {
+    transform: translateY(-4px);
+    border-color: rgba($color-accent-blue, 0.4);
+    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.18);
+  }
+
+  body.light-mode & {
+    &:hover {
+      border-color: rgba($color-accent-blue, 0.45);
+      box-shadow: 0 18px 36px rgba(40, 64, 100, 0.16);
+    }
+  }
+        &:focus-visible {
+          color: $color-accent-blue;
+        }
+
+        &:focus-visible {
+          outline: 2px solid $color-accent-blue;
+          outline-offset: 4px;
+          border-radius: $border-radius-sm;
+        }
+      }
+
+      &:not(:last-child) .course-link {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .semester-grid,
+  .semester-row {
+    grid-template-columns: 1fr;
+    gap: $spacing-md;
+  }
+
+  .year-header h3 {
+    font-size: 1.15rem;
+  }
+
+  .semester-block {
+    .semester-heading h3 {
+      font-size: 1rem;
+    }
   }
 }

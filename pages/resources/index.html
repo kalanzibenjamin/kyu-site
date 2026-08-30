@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <!-- ======================================== -->
@@ -30,10 +30,10 @@
   <meta name="color-scheme" content="dark light" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" href="/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/kyu-logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo/kyu-logo.png" />
   <link rel="manifest" href="/assets/favicon/site.webmanifest" />
 
   <!-- Fonts -->
@@ -60,7 +60,7 @@
   </style>
   <script>
     (function () {
-      const key = 'kyu-theme';
+      const key = 'clareon-theme';
       const stored = localStorage.getItem(key);
       const theme = stored === 'light' ? 'light' : 'dark';
       const root = document.documentElement;
@@ -113,7 +113,7 @@
     <div class="header-container">
       <a href="/" class="logo" aria-label="Home | kyu.clareon.live">
         <span class="logo-icon">
-          <img src="/assets/images/logo/kyu-logo.png" alt="KYU logo" loading="eager" />
+          <img src="/images/logo/kyu-logo.png" alt="KYU logo" loading="eager" />
         </span>
         <span class="logo-text">kyu.clareon.live</span>
       </a>
@@ -124,10 +124,8 @@
         <ul id="nav-menu" role="menubar">
           <li role="none"><a href="/" role="menuitem">Home</a></li>
             <li role="none"><a href="/pages/programs/" role="menuitem">Programs</a></li>
-            <li role="none"><a href="/pages/resources/" role="menuitem" class="active">Resources</a></li>
             <li role="none"><a href="/pages/announcements/" role="menuitem">Announcements</a></li>
             <li role="none"><a href="/pages/faq/" role="menuitem">FAQ</a></li>
-            <li role="none"><a href="/pages/contribute/" role="menuitem">Contribute</a></li>
             <li role="none"><a href="/pages/about/" role="menuitem">About</a></li>
             <li role="none"><a href="/pages/contact/" role="menuitem">Contact</a></li>
         </ul>
@@ -145,32 +143,6 @@
     <div class="resources-hero fade-up">
       <h1>Study <span class="highlight">Resources</span></h1>
       <p>Free past papers, practice quizzes, and study guides for Kyambogo students.</p>
-    </div>
-
-    <!-- Coming Soon Banner -->
-    <div class="coming-soon-banner fade-up">
-      <div class="banner-icon">
-        <i class="fas fa-rocket"></i>
-      </div>
-      <h2>Resources Coming Soon</h2>
-      <p>
-        We're working hard to bring you a comprehensive collection of study materials. 
-        Here's what you can expect:
-      </p>
-      <div class="badge-group">
-        <span class="badge-large">
-          <i class="fas fa-file-alt"></i> Past Papers
-        </span>
-        <span class="badge-large soon">
-          <i class="fas fa-tasks"></i> Practice Quizzes
-        </span>
-        <span class="badge-large soon">
-          <i class="fas fa-book"></i> Study Guides
-        </span>
-        <span class="badge-large soon">
-          <i class="fas fa-video"></i> Video Solutions
-        </span>
-      </div>
     </div>
 
     <!-- Resource Preview Grid -->
@@ -194,15 +166,15 @@
         <span class="status-badge status-soon">Coming Soon</span>
       </div>
 
-      <!-- BEEM Resources -->
-      <div class="resource-preview-card" data-type="beem">
+      <!-- BIS Resources -->
+      <div class="resource-preview-card" data-type="bis">
         <div class="card-icon">
-          <i class="fas fa-leaf"></i>
+          <i class="fas fa-chart-bar"></i>
         </div>
-        <h3>BEEM</h3>
+        <h3>BIS</h3>
         <p>
-          Past papers, formula sheets, and practice problems for 
-          Bachelor of Environmental Engineering &amp; Management.
+          Past papers, revision notes, and practice exercises for 
+          Bachelor of Information Systems.
         </p>
         <span class="status-badge status-soon">Coming Soon</span>
       </div>
@@ -313,6 +285,7 @@
           Site is still being constructed — this is a clean revision template.
         </p>
       </div>
+      <a class="footer-contact-link" href="/pages/contact/"><i class="fas fa-envelope" aria-hidden="true"></i> Contact</a>
       <div class="footer-divider"></div>
       <div class="copyright">
         <i class="far fa-copyright"></i> 

@@ -301,6 +301,13 @@
     margin-bottom: $spacing-md;
     font-size: 0.95rem;
   }
+
+  a.btn-primary,
+  a.btn-primary:hover,
+  a.btn-primary:focus-visible {
+    color: $color-white;
+    text-decoration: none;
+  }
   
   .btn-group {
     justify-content: center;
@@ -319,7 +326,7 @@
 
 @media (max-width: $breakpoint-md) {
   .faq-page {
-   padding: 0;
+    padding: 0;
   }
 }
 

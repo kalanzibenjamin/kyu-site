@@ -1,0 +1,110 @@
+{
+  "lastUpdated": "2026-08-29",
+  "topics": [
+    {
+      "title": "Sets and Logic",
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Introduction to sets",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Set notation and examples",
+              "url": "https://drive.google.com/"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Set operations",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Practice questions",
+              "url": "https://drive.google.com/"
+            },
+            {
+              "number": 2,
+              "type": "solutions",
+              "name": "Worked solutions",
+              "url": "https://drive.google.com/",
+              "forEpisode": 2,
+              "forPart": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Logic and Proof",
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Propositions and truth tables",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Practice sheet",
+              "url": "https://drive.google.com/"
+            },
+            {
+              "number": 2,
+              "type": "solutions",
+              "name": "Solutions for Episode 1 Part 1",
+              "url": "https://drive.google.com/",
+              "forEpisode": 1,
+              "forPart": 1
+            },
+            {
+              "number": 3,
+              "type": "quiz",
+              "name": "Quick theory check",
+              "url": "https://docs.google.com/forms/"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Methods of proof",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Proof exercises",
+              "url": "https://drive.google.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Combinatorics",
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Counting principles",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Practice numbers",
+              "url": "https://drive.google.com/"
+            },
+            {
+              "number": 2,
+              "type": "solutions",
+              "name": "Answer sheet",
+              "url": "https://drive.google.com/",
+              "forEpisode": 1,
+              "forPart": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

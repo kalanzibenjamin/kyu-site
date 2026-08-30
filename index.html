@@ -35,10 +35,10 @@
   <meta name="color-scheme" content="dark light" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" href="/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/kyu-logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo/kyu-logo.png" />
   <link rel="manifest" href="/assets/favicon/site.webmanifest" />
 
   <!-- Fonts -->
@@ -65,7 +65,7 @@
   </style>
   <script>
     (function () {
-      const key = 'kyu-theme';
+      const key = 'clareon-theme';
       const stored = localStorage.getItem(key);
       const theme = stored === 'light' ? 'light' : 'dark';
       const root = document.documentElement;
@@ -119,7 +119,7 @@
     <div class="header-container">
       <a href="/" class="logo" aria-label="Home | kyu.clareon.live ">
         <span class="logo-icon">
-          <img src="/assets/images/logo/kyu-logo.png" alt="KYU logo" loading="eager" />
+          <img src="/images/logo/kyu-logo.png" alt="KYU logo" loading="eager" />
         </span>
         <span class="logo-text">kyu.clareon.live</span>
       </a>
@@ -130,10 +130,8 @@
         <ul id="nav-menu" role="menubar">
           <li role="none"><a href="/" role="menuitem" class="active">Home</a></li>
           <li role="none"><a href="/pages/programs/" role="menuitem">Programs</a></li>
-          <li role="none"><a href="/pages/resources/" role="menuitem">Resources</a></li>
           <li role="none"><a href="/pages/announcements/" role="menuitem">Announcements</a></li>
           <li role="none"><a href="/pages/faq/" role="menuitem">FAQ</a></li>
-          <li role="none"><a href="/pages/contribute/" role="menuitem">Contribute</a></li>
           <li role="none"><a href="/pages/about/" role="menuitem">About</a></li>
           <li role="none"><a href="/pages/contact/" role="menuitem">Contact</a></li>
         </ul>
@@ -150,24 +148,25 @@
     <!-- Brand Center -->
     <div class="brand-center fade-up">
       <h1 class="brand-title">
-        <img src="/assets/images/logo/kyu-logo.png" alt="kyu.clareon.live logo" class="brand-logo" />
+        <img src="/images/logo/kyu-logo.png" alt="kyu.clareon.live logo" class="brand-logo" />
       </h1>
       <p class="brand-subtitle">Kyambogo 2026/2027 Student Hub</p>
     </div>
 
     <!-- Search Section -->
-    <div class="search-section fade-up">
+    <div class="search-section fade-up" data-site-search>
       <div class="search-wrapper">
         <i class="fas fa-search"></i>
-        <input type="text" id="searchInput" placeholder="Search episodes, seasons, or topics..." aria-label="Search" />
+        <input type="search" id="searchInput" placeholder="Search programs, courses, topics, or episodes..." aria-label="Search the site" autocomplete="off" aria-controls="siteSearchResults" />
         <button id="searchClearBtn" class="search-clear" aria-label="Clear search">
           <i class="fas fa-times-circle"></i>
         </button>
       </div>
+      <div id="siteSearchResults" class="site-search-results" aria-live="polite"></div>
     </div>
 
     <!-- Group Card (UNMEB-style) -->
-    <div class="group-card fade-up" id="groupCard" data-href="https://chat.whatsapp.com/Cyu9g1GVwL04L2c5Epc4me?s=cl&p=a&ilr=4" data-target="_blank" role="link" tabindex="0" aria-label="Join the Kyambogo 2026/2027 WhatsApp group">
+    <div class="group-card fade-up" id="groupCard" data-href="https://chat.whatsapp.com/F3S3JbXMDKN1bYcynIB74B?s=cl&p=a&ilr=4&amv=3" data-target="_blank" role="link" tabindex="0" aria-label="Join the Kyambogo 2026/2027 WhatsApp group">
       <h3><i class="fas fa-users"></i> Kyambogo 2026/2027 Students</h3>
       <p>Join the official admitted students group — connect with your classmates</p>
       <div class="badges">
@@ -250,6 +249,12 @@
       </div>
     </div>
 
+    <div class="home-contact-cta fade-up">
+      <h2>Have a question or resource to share?</h2>
+      <p>Reach out to the Kyambogo Student Hub team.</p>
+      <a class="btn btn-primary no-style" href="/pages/contact/"><i class="fas fa-envelope" aria-hidden="true"></i> Contact us</a>
+    </div>
+
   </main>
 
   <!-- ======================================== -->
@@ -287,6 +292,7 @@
           Site is still being constructed — this is a clean revision template.
         </p>
       </div>
+      <a class="footer-contact-link" href="/pages/contact/"><i class="fas fa-envelope" aria-hidden="true"></i> Contact</a>
       <div class="footer-divider"></div>
       <div class="copyright">
         <i class="far fa-copyright"></i> 

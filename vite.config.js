@@ -1,8 +1,15 @@
 import { defineConfig } from 'vite'
+import { globSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
+const pageEntries = Object.fromEntries(
+  globSync('pages/**/index.html').map((file) => {
+    const entryName = file.replace(/\\/g, '/').replace(/^pages\//, '').replace(/\/index\.html$/, '')
+    return [entryName, resolve(__dirname, file)]
+  })
+)
 
 export default defineConfig({
   root: '.',
@@ -11,13 +18,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        about: resolve(__dirname, 'pages/about/index.html'),
-        announcements: resolve(__dirname, 'pages/announcements/index.html'),
-        faq: resolve(__dirname, 'pages/faq/index.html'),
-        contact: resolve(__dirname, 'pages/contact/index.html'),
-        resources: resolve(__dirname, 'pages/resources/index.html'),
-        programs: resolve(__dirname, 'pages/programs/index.html'),
-        contribute: resolve(__dirname, 'pages/contribute/index.html'),
+        ...pageEntries,
         '404': resolve(__dirname, '404.html')
       }
     },
@@ -39,7 +40,7 @@ export default defineConfig({
       '@partials': resolve(__dirname, 'partials')
     }
   },
-  publicDir: 'src',
+  publicDir: 'src/assets',
   server: {
     open: true,
     port: 3000

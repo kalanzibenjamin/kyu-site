@@ -12,6 +12,15 @@ export function initPrograms() {
   // Check if we're on the programs page
   const programsPage = document.querySelector('.programs-page');
   if (!programsPage) return;
+
+  if (document.body.dataset.page === 'course-unit') {
+    initCourseUnitPage();
+    return;
+  }
+
+  initProgramBreadcrumbs(programsPage);
+  initYearGroups(programsPage);
+  initCourseLinks(programsPage);
   
   console.log('🎓 Programs page initialized');
   
@@ -295,6 +304,143 @@ export function initPrograms() {
       });
     });
   }
+}
+
+function initYearGroups(programsPage) {
+  const curriculum = programsPage.querySelector('.curriculum');
+  const semesterGrid = curriculum?.querySelector('.semester-grid');
+  if (!semesterGrid || semesterGrid.dataset.grouped === 'true') return;
+
+  const semesterBlocks = Array.from(semesterGrid.children).filter((element) => {
+    return element.classList.contains('semester-block');
+  });
+  if (semesterBlocks.length === 0) return;
+
+  const years = new Map();
+  semesterBlocks.forEach((semesterBlock) => {
+    const heading = semesterBlock.querySelector('h3')?.textContent.trim() || '';
+    const yearMatch = heading.match(/Year\s+(\d+)/i);
+    const yearNumber = yearMatch ? yearMatch[1] : '1';
+    if (!years.has(yearNumber)) years.set(yearNumber, []);
+    years.get(yearNumber).push(semesterBlock);
+  });
+
+  semesterGrid.replaceChildren();
+  years.forEach((blocks, yearNumber) => {
+    const yearGroup = document.createElement('section');
+    yearGroup.className = 'year-group';
+    yearGroup.setAttribute('aria-labelledby', `year-${yearNumber}-title`);
+
+    const yearHeader = document.createElement('div');
+    yearHeader.className = 'year-header';
+    yearHeader.innerHTML = `<h3 id="year-${yearNumber}-title"><i class="fas fa-graduation-cap"></i> Year ${yearNumber}</h3>`;
+
+    const semesterRow = document.createElement('div');
+    semesterRow.className = 'semester-row';
+    blocks.forEach((block) => semesterRow.appendChild(block));
+
+    yearGroup.append(yearHeader, semesterRow);
+    semesterGrid.appendChild(yearGroup);
+  });
+
+  semesterGrid.dataset.grouped = 'true';
+}
+
+function initCourseLinks(programsPage) {
+  const courseLists = programsPage.querySelectorAll('.semester-courses');
+  const programCode = document.body.dataset.courseCode || 'program';
+
+  courseLists.forEach((courseList) => {
+    const semester = courseList.closest('.semester-block')?.querySelector('h3')?.textContent.trim() || '';
+
+    courseList.querySelectorAll('li').forEach((courseItem) => {
+      if (courseItem.querySelector('a')) return;
+
+      const courseName = courseItem.textContent.trim();
+      const courseLink = document.createElement('a');
+      const slug = courseName
+        .toLowerCase()
+        .replace(/&/g, 'and')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-|-$/g, '');
+      courseLink.href = `/pages/programs/scis/${programCode.toLowerCase()}/${slug}/`;
+      courseLink.className = 'course-link no-style';
+
+      while (courseItem.firstChild) {
+        courseLink.appendChild(courseItem.firstChild);
+      }
+      courseItem.appendChild(courseLink);
+    });
+  });
+}
+
+function initCourseUnitPage() {
+  const params = new URLSearchParams(window.location.search);
+  const name = params.get('name');
+  const program = params.get('program') || 'Program';
+  const semester = params.get('semester') || '';
+  const title = document.querySelector('[data-course-title]');
+  const breadcrumb = document.querySelector('[data-course-breadcrumb]');
+  const semesterElement = document.querySelector('[data-course-semester]');
+
+  if (!name || !title || !breadcrumb) return;
+
+  title.textContent = name;
+  breadcrumb.textContent = name;
+  if (semesterElement) semesterElement.textContent = semester;
+
+  const programLink = document.querySelector('[data-program-link]');
+  if (programLink) {
+    programLink.textContent = program;
+    programLink.href = `/pages/programs/scis/${program.toLowerCase()}/`;
+  }
+
+  document.title = `${name} | kyu.clareon.live`;
+}
+
+/**
+ * Add a breadcrumb trail to school and faculty detail pages.
+ * @param {HTMLElement} programsPage - The current programmes page
+ */
+function initProgramBreadcrumbs(programsPage) {
+  if (document.body.dataset.page !== 'program-detail') return;
+
+  const main = document.querySelector('#main-content');
+  const hero = main?.querySelector('.programs-hero');
+  const title = hero?.querySelector('h1')?.textContent.trim();
+  if (!main || !hero || !title || main.querySelector('.breadcrumb')) return;
+
+  const breadcrumb = document.createElement('nav');
+  breadcrumb.className = 'breadcrumb fade-up';
+  breadcrumb.setAttribute('aria-label', 'Breadcrumb');
+
+  const homeItem = document.createElement('li');
+  const homeLink = document.createElement('a');
+  homeLink.href = '/';
+  homeLink.textContent = 'Home';
+  homeItem.appendChild(homeLink);
+
+  const programsItem = document.createElement('li');
+  const programsLink = document.createElement('a');
+  programsLink.href = '/pages/programs/';
+  programsLink.textContent = 'Programs';
+  programsItem.appendChild(programsLink);
+
+  const currentItem = document.createElement('li');
+  currentItem.className = 'current';
+  currentItem.setAttribute('aria-current', 'page');
+  currentItem.textContent = title;
+
+  [homeItem.firstChild, programsItem.firstChild, currentItem].forEach((item, index) => {
+    if (index > 0) {
+      const separator = document.createElement('span');
+      separator.className = 'separator';
+      separator.textContent = '\u203a';
+      breadcrumb.appendChild(separator);
+    }
+    breadcrumb.appendChild(item);
+  });
+  main.insertBefore(breadcrumb, hero);
 }
 
 // ========================================

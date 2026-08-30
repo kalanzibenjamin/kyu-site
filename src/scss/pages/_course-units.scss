@@ -1,0 +1,517 @@
+// ========================================
+// COURSE UNIT PAGES
+// ========================================
+
+[data-page='course-unit'] {
+	.course-unit-header {
+		padding: $spacing-lg;
+		margin-bottom: $spacing-lg;
+		background: var(--glass-bg, $glass-bg);
+		border: 1px solid var(--glass-border, $glass-border);
+		border-radius: $glass-radius;
+		box-shadow: var(--glass-shadow, $glass-shadow);
+		backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+		-webkit-backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+	}
+
+	.course-unit-title {
+		display: flex;
+		align-items: center;
+		gap: $spacing-sm;
+		margin-bottom: $spacing-sm;
+		color: var(--text-primary, $color-text-primary);
+		font-size: 1.55rem;
+		font-weight: $font-weight-extrabold;
+		line-height: 1.2;
+
+		i {
+			flex-shrink: 0;
+			color: $color-accent-blue;
+		}
+	}
+
+	.course-unit-meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: $spacing-sm $spacing-md;
+		color: var(--text-secondary, $color-text-secondary);
+		font-size: 0.9rem;
+
+		span {
+			display: inline-flex;
+			align-items: center;
+			gap: $spacing-xs;
+
+			i {
+				font-size: 0.9em;
+			}
+		}
+
+		.meta-program i {
+			color: $color-accent-blue;
+		}
+
+		.meta-semester i {
+			color: #34c759;
+		}
+
+		.meta-topics i {
+			color: $color-accent-purple;
+		}
+
+		.meta-episodes i {
+			color: #ff9f0a;
+		}
+
+		.meta-updated i {
+			color: $color-accent-green;
+		}
+	}
+
+	.course-topics-nav-wrapper {
+		display: grid;
+		width: 100%;
+		max-width: 100%;
+		gap: $spacing-sm;
+		margin-bottom: $spacing-lg;
+		padding: $spacing-sm 0;
+		overflow: visible;
+	}
+
+	.course-topics-nav-row {
+		display: flex;
+		align-items: center;
+		gap: $spacing-sm;
+		width: 100%;
+		max-width: 100%;
+		min-width: 0;
+	}
+
+	.course-topics-nav {
+		display: flex;
+		flex: 1 1 auto;
+		gap: $spacing-sm;
+		width: 100%;
+		max-width: 100%;
+		min-width: 0;
+		padding: $spacing-sm $spacing-md;
+		overflow-x: auto;
+		border: 1px solid var(--glass-border, $glass-border);
+		border-radius: $border-radius-lg;
+		background: var(--glass-bg, $glass-bg);
+		box-shadow: var(--glass-shadow, $glass-shadow);
+		backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+		-webkit-backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+		scrollbar-width: none;
+		scroll-behavior: smooth;
+		overscroll-behavior-x: contain;
+		-webkit-overflow-scrolling: touch;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+
+	.course-topic-nav-link {
+		flex: 0 0 auto;
+		padding: 0.45rem 1rem;
+		border: 1px solid var(--glass-border, $glass-border);
+		border-radius: $border-radius-full;
+		background: rgba(255, 255, 255, 0.1);
+		color: var(--text-primary, $color-text-primary);
+		font-size: 0.8rem;
+		font-weight: $font-weight-semibold;
+		white-space: nowrap;
+		transition: $transition-fast;
+
+		&:hover,
+		&:focus-visible {
+			background: rgba(255, 255, 255, 0.2);
+			color: $color-accent-blue;
+			text-decoration: none;
+			transform: translateY(-1px);
+		}
+	}
+
+	.course-nav-arrow {
+		display: inline-flex;
+		flex: 0 0 auto;
+		align-items: center;
+		justify-content: center;
+		width: 2.75rem;
+		height: 2.75rem;
+		border: 1px solid var(--glass-border, $glass-border);
+		border-radius: $border-radius-full;
+		background: var(--glass-bg, $glass-bg);
+		color: var(--text-primary, $color-text-primary);
+		box-shadow: var(--glass-shadow, $glass-shadow);
+		transition: $transition-fast;
+
+		&:hover:not(:disabled) {
+			background: rgba(255, 255, 255, 0.2);
+			transform: translateY(-1px);
+		}
+
+		&:disabled {
+			cursor: not-allowed;
+			opacity: 0.35;
+		}
+	}
+
+        .course-episode-search {
+			position: sticky;
+			top: 0;
+			z-index: 10;
+            display: flex;
+            align-items: center;
+            gap: $spacing-sm;
+            width: min(100%, 32rem);
+            margin-left: 3.25rem;
+			margin-bottom: $spacing-lg;
+            padding: 0.5rem $spacing-md;
+            border: 1px solid var(--glass-border, $glass-border);
+            border-radius: $border-radius-lg;
+            background: var(--glass-bg, $glass-bg);
+            box-shadow: var(--glass-shadow, $glass-shadow);
+            backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+            -webkit-backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+            transition: all $transition-base;
+
+            &.is-idle {
+                opacity: 0.55;
+            }
+
+            &:hover,
+            &:focus-within {
+                opacity: 1;
+                transform: translateY(-1px);
+            }
+
+            > i {
+                flex-shrink: 0;
+                font-size: 1rem;
+                color: $color-accent-blue;
+                opacity: 0.7;
+                transition: opacity $transition-fast;
+            }
+
+            &:focus-within > i {
+                opacity: 1;
+            }
+
+            input {
+                flex: 1;
+                min-width: 0;
+                padding: 0.35rem 0;
+                border: 0;
+                outline: 0;
+                background: transparent;
+                color: var(--text-primary, $color-text-primary);
+                font: inherit;
+                font-size: 0.9rem;
+
+                &::placeholder {
+                color: var(--text-dim, $color-text-dim);
+                }
+            }
+            }
+
+            .course-episode-search-count {
+            flex: 0 0 auto;
+            padding: 0.15rem 0.5rem;
+            color: var(--text-secondary, $color-text-secondary);
+            font-size: 0.7rem;
+            font-weight: 500;
+            white-space: nowrap;
+            opacity: 0.6;
+            transition: opacity $transition-fast;
+            
+            .course-episode-search:focus-within & {
+                opacity: 1;
+            }
+            }
+
+	.course-topic-section {
+		margin-bottom: $spacing-lg;
+		overflow: hidden;
+		border: 1px solid var(--glass-border, $glass-border);
+		border-radius: $glass-radius;
+		background: var(--glass-bg, $glass-bg);
+		box-shadow: var(--glass-shadow, $glass-shadow);
+		backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+		-webkit-backdrop-filter: blur($glass-blur) saturate($glass-saturate);
+	}
+
+	.course-topic-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: $spacing-md;
+		width: 100%;
+		padding: $spacing-md $spacing-lg;
+		border-bottom: 1px solid var(--glass-border, $glass-border);
+		color: var(--text-primary, $color-text-primary);
+		text-align: left;
+		transition: $transition-fast;
+
+		&:hover,
+		&:focus-visible {
+			background: rgba(255, 255, 255, 0.08);
+		}
+
+		&:focus-visible {
+			outline: 2px solid rgba($color-accent-blue, 0.55);
+			outline-offset: -3px;
+		}
+
+		.course-episode-search-clear {
+			flex: 0 0 auto;
+			padding: 0.2rem;
+			border: 0;
+			background: transparent;
+			color: var(--text-secondary, $color-text-secondary);
+			cursor: pointer;
+			transition: color $transition-fast, transform $transition-fast;
+
+			&:hover,
+			&:focus-visible {
+				color: $color-accent-blue;
+				transform: scale(1.08);
+			}
+		}
+	}
+
+	.course-topic-title {
+		display: flex;
+		flex: 1;
+		gap: $spacing-sm;
+		min-width: 0;
+		overflow: hidden;
+		font-weight: $font-weight-bold;
+
+		.topic-number {
+			flex: 0 0 auto;
+			color: $color-accent-blue;
+		}
+
+		.topic-name {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	}
+
+	.course-topic-content {
+		max-height: 0;
+		overflow: hidden;
+		opacity: 0;
+		visibility: hidden;
+		transition: max-height 0.45s ease, opacity 0.25s ease;
+
+		&.open {
+			max-height: 3000px;
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+
+	.course-episode-row {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: $spacing-md;
+		min-width: 0;
+		padding: 0.85rem $spacing-lg 0.85rem 2.25rem;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+		color: var(--text-primary, $color-text-primary);
+		transition: $transition-fast;
+
+		&::before {
+			position: absolute;
+			top: 0.65rem;
+			bottom: 0.65rem;
+			left: $spacing-md;
+			width: 3px;
+			border-radius: $border-radius-full;
+			background: linear-gradient(180deg, $color-accent-blue, $color-accent-purple);
+			content: '';
+		}
+
+		&:last-child {
+			border-bottom: 0;
+		}
+
+		&:hover,
+		&:focus-visible {
+			background: rgba(255, 255, 255, 0.1);
+			color: $color-accent-blue;
+			text-decoration: none;
+			box-shadow: 0 16px 32px rgba(0, 0, 0, 0.16);
+			transform: translateX(2px);
+		}
+
+		&:focus-visible {
+			outline: 2px solid $color-accent-blue;
+			outline-offset: -2px;
+		}
+	}
+
+	.course-episode-info {
+		display: flex;
+		flex: 1;
+		gap: $spacing-sm;
+		min-width: 0;
+	}
+
+	.course-episode-title {
+		min-width: 0;
+		overflow-wrap: anywhere;
+		font-weight: $font-weight-medium;
+		line-height: 1.45;
+	}
+
+	.course-episode-number {
+		flex: 0 0 auto;
+		align-self: flex-start;
+		padding: 0.25rem 0.7rem;
+		border: 1px solid var(--glass-border, $glass-border);
+		border-radius: $border-radius-full;
+		background: rgba(255, 255, 255, 0.1);
+		color: var(--text-secondary, $color-text-secondary);
+		font-size: 0.75rem;
+		font-weight: $font-weight-semibold;
+	}
+
+	.course-episode-arrow {
+		flex: 0 0 auto;
+		color: $color-accent-blue;
+		transition: transform $transition-fast;
+	}
+
+	.course-episode-row:hover .course-episode-arrow,
+	.course-episode-row:focus-visible .course-episode-arrow {
+		transform: translateX(4px);
+	}
+
+	.course-episode-group {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+
+	.course-episode-heading {
+		display: flex;
+		align-items: baseline;
+		gap: $spacing-sm;
+		padding: $spacing-sm $spacing-lg $spacing-xs 2.25rem;
+		color: var(--text-secondary, $color-text-secondary);
+		font-size: 0.8rem;
+
+		span {
+			flex: 0 0 auto;
+			color: $color-accent-blue;
+			font-weight: $font-weight-semibold;
+		}
+
+		strong {
+			min-width: 0;
+			color: var(--text-primary, $color-text-primary);
+			font-size: 0.85rem;
+			font-weight: $font-weight-semibold;
+		}
+	}
+
+	.course-episode-search-empty {
+		padding: $spacing-lg;
+		border: 1px dashed var(--glass-border, $glass-border);
+		border-radius: $glass-radius;
+		color: var(--text-secondary, $color-text-secondary);
+		text-align: center;
+	}
+}
+
+@media (max-width: $breakpoint-md) {
+	[data-page='course-unit'] {
+		.course-unit-header {
+			padding: $spacing-md;
+		}
+
+		.course-unit-title {
+			font-size: 1.25rem;
+		}
+
+		.course-topics-nav-wrapper {
+			gap: $spacing-xs;
+			max-width: 100%;
+		}
+
+		.course-topics-nav-row {
+			width: 100%;
+			max-width: 100%;
+		}
+
+		.course-topics-nav {
+			width: 100%;
+			max-width: 100%;
+		}
+
+		.course-episode-search {
+			width: 100%;
+			margin-left: 0;
+		}
+
+		.course-nav-arrow {
+			display: none;
+		}
+
+		.course-topic-header {
+			padding: $spacing-md;
+		}
+
+		.course-topic-title .topic-name {
+			white-space: normal;
+		}
+
+		.course-episode-row {
+			align-items: flex-start;
+			padding: 0.8rem $spacing-md 0.8rem 2rem;
+		}
+
+		.course-episode-heading {
+			align-items: flex-start;
+			flex-direction: column;
+			gap: 0;
+			padding: 0.65rem $spacing-md 0.35rem 2rem;
+		}
+
+		.course-episode-number {
+			font-size: 0.7rem;
+		}
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	[data-page='course-unit'] {
+		.course-topics-nav,
+		.course-topic-content,
+		.course-topic-header,
+		.course-episode-row,
+		.course-nav-arrow {
+			transition: none;
+		}
+
+		.course-episode-row:hover,
+		.course-episode-row:focus-visible,
+		.course-nav-arrow:hover:not(:disabled) {
+			transform: none;
+		}
+
+		.course-episode-search:hover,
+		.course-episode-search:focus-within {
+			transform: none;
+		}
+	}
+}

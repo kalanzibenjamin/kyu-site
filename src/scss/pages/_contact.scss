@@ -298,6 +298,22 @@
         border-color: rgba(255, 255, 255, 0.35);
         background: rgba(255, 255, 255, 0.16);
       }
+
+      &[data-social='whatsapp'] {
+        color: #25d366;
+      }
+
+      &[data-social='telegram'] {
+        color: #0088cc;
+      }
+
+      &[data-social='youtube'] {
+        color: #ff3b30;
+      }
+
+      &[data-social='github'] {
+        color: var(--text-primary, $color-text-primary);
+      }
       
       body.light-mode &:hover {
         background: rgba(255, 255, 255, 0.6);
@@ -349,7 +365,7 @@
 
 @media (max-width: $breakpoint-md) {
   .contact-page {
-   padding: 0;
+    padding: 0;
   }
   
   .contact-info {

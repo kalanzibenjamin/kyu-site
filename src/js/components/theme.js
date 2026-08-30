@@ -4,16 +4,23 @@
 
 import { $, on, addClass, removeClass, hasClass, domReady } from '../utils/dom.js';
 
-const THEME_KEY = 'kyu-theme';
+const THEME_KEY = 'clareon-theme';
 const THEME_DARK = 'dark';
 const THEME_LIGHT = 'light';
+const THEME_SYSTEM = 'system';
 
 /**
  * Get the current theme from localStorage
  * @returns {string} 'dark' or 'light'
  */
 export function getTheme() {
-  return localStorage.getItem(THEME_KEY) || THEME_DARK;
+  const storedTheme = localStorage.getItem(THEME_KEY);
+
+  if (storedTheme === THEME_SYSTEM) {
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? THEME_DARK : THEME_LIGHT;
+  }
+
+  return storedTheme || THEME_DARK;
 }
 
 /**
@@ -21,7 +28,11 @@ export function getTheme() {
  * @param {string} theme - 'dark' or 'light'
  */
 export function setTheme(theme) {
-  const validTheme = theme === THEME_LIGHT ? THEME_LIGHT : THEME_DARK;
+  const resolvedTheme = theme === THEME_SYSTEM
+    ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? THEME_DARK : THEME_LIGHT)
+    : theme;
+
+  const validTheme = resolvedTheme === THEME_LIGHT ? THEME_LIGHT : THEME_DARK;
   const root = document.documentElement;
   const body = document.body;
   
@@ -39,7 +50,7 @@ export function setTheme(theme) {
   root.setAttribute('data-theme', validTheme);
   
   // Save to localStorage
-  localStorage.setItem(THEME_KEY, validTheme);
+  localStorage.setItem(THEME_KEY, theme === THEME_SYSTEM ? THEME_SYSTEM : validTheme);
   
   // Update theme toggle button
   updateThemeButton(validTheme);
@@ -72,10 +83,10 @@ export function updateThemeButton(theme) {
   if (!icon) return;
   
   if (theme === THEME_LIGHT) {
-    icon.className = 'fas fa-sun';
+    icon.className = 'fas fa-moon';
     toggle.setAttribute('aria-label', 'Switch to dark mode');
   } else {
-    icon.className = 'fas fa-moon';
+    icon.className = 'fas fa-sun';
     toggle.setAttribute('aria-label', 'Switch to light mode');
   }
 }
@@ -232,6 +243,29 @@ export function listenForSystemThemeChanges() {
   }
 }
 
+
+/**
+ * Initialize keyboard shortcuts for theme controls
+ */
+export function initThemeShortcuts() {
+  on(document, 'keydown', (e) => {
+    if (!e.altKey || e.ctrlKey || e.metaKey) return;
+
+    const key = e.key.toLowerCase();
+    if (key === 's') {
+      e.preventDefault();
+      setTheme(THEME_SYSTEM);
+      return;
+    }
+
+    if (key === 't') {
+      e.preventDefault();
+      toggleTheme();
+      return;
+    }
+  });
+}
+
 /**
  * Initialize theme system
  */
@@ -241,6 +275,9 @@ export function initTheme() {
   
   // Initialize theme toggle
   initThemeToggle();
+  
+  // Initialize keyboard shortcuts
+  initThemeShortcuts();
   
   // Listen for system theme changes
   listenForSystemThemeChanges();

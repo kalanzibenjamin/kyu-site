@@ -129,6 +129,31 @@ export function initContact() {
       }
     }, 300));
   });
+
+  // Prevent ancestor key handlers from blocking typing (e.g., Space key)
+  // Stop propagation of Space key presses from inputs and textareas so
+  // page-level keyboard handlers don't prevent inserting spaces.
+  formFields.forEach(field => {
+    field.addEventListener('keydown', (e) => {
+      if (e.key === ' ' || e.code === 'Space') {
+        e.stopPropagation();
+      }
+
+      if (e.key === 'Enter' && field.tagName !== 'TEXTAREA') {
+        // Submit the form when Enter is pressed inside text inputs.
+        // Textareas should retain newline behavior.
+        e.preventDefault();
+        contactForm.requestSubmit();
+      }
+    });
+
+    // Older browsers may rely on keypress
+    field.addEventListener('keypress', (e) => {
+      if (e.key === ' ' || e.code === 'Space') {
+        e.stopPropagation();
+      }
+    });
+  });
   
   // ========================================
   // 1.3 Form submission
@@ -136,8 +161,74 @@ export function initContact() {
   
   const submitBtn = contactForm.querySelector('button[type="submit"]');
   const originalBtnText = submitBtn?.textContent || 'Send Message';
-  const successEl = $('.form-success');
   const formErrorEl = $('.form-message.error', contactForm) || $('.form-error-general');
+  const WHATSAPP_NUMBER = '256726863281'; // Replace with your WhatsApp number
+
+  function showToast(message, type = 'info') {
+    const toast = document.createElement('div');
+    toast.setAttribute('role', 'status');
+    toast.setAttribute('aria-live', 'polite');
+    toast.style.cssText = `
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(20px);
+      padding: 12px 24px;
+      border-radius: 12px;
+      background: ${type === 'success' ? '#10b981' : '#3b82f6'};
+      color: #fff;
+      font-weight: 500;
+      font-size: 0.9rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.20);
+      z-index: 9999;
+      opacity: 0;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      font-family: 'Inter', sans-serif;
+      max-width: 90%;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    `;
+    toast.innerHTML = `<i class="fab fa-whatsapp" aria-hidden="true" style="font-size: 18px;"></i><span>${message}</span>`;
+    document.body.appendChild(toast);
+
+    requestAnimationFrame(() => {
+      toast.style.opacity = '1';
+      toast.style.transform = 'translateX(-50%) translateY(0)';
+    });
+
+    setTimeout(() => {
+      toast.style.opacity = '0';
+      toast.style.transform = 'translateX(-50%) translateY(20px)';
+      setTimeout(() => {
+        if (toast.parentNode) toast.remove();
+      }, 300);
+    }, 3000);
+  }
+
+  // ========================================
+  // DIRECT CHARACTER MAPPING
+  // ========================================
+
+  const MATH_ITALIC_MAP = {
+    'A': '𝑨', 'B': '𝑩', 'C': '𝑪', 'D': '𝑫', 'E': '𝑬', 'F': '𝑭',
+    'G': '𝑮', 'H': '𝑯', 'I': '𝑰', 'J': '𝑱', 'K': '𝑲', 'L': '𝑳',
+    'M': '𝑴', 'N': '𝑵', 'O': '𝑶', 'P': '𝑷', 'Q': '𝑸', 'R': '𝑹',
+    'S': '𝑺', 'T': '𝑻', 'U': '𝑼', 'V': '𝑽', 'W': '𝑾', 'X': '𝑿',
+    'Y': '𝒀', 'Z': '𝒁',
+    'a': '𝒂', 'b': '𝒃', 'c': '𝒄', 'd': '𝒅', 'e': '𝒆', 'f': '𝒇',
+    'g': '𝒈', 'h': '𝒉', 'i': '𝒊', 'j': '𝒋', 'k': '𝒌', 'l': '𝒍',
+    'm': '𝒎', 'n': '𝒏', 'o': '𝒐', 'p': '𝒑', 'q': '𝒒', 'r': '𝒓',
+    's': '𝒔', 't': '𝒕', 'u': '𝒖', 'v': '𝒗', 'w': '𝒘', 'x': '𝒙',
+    'y': '𝒚', 'z': '𝒛'
+  };
+
+  function toMathItalic(text) {
+    return Array.from(text).map(char => {
+      return MATH_ITALIC_MAP[char] || char;
+    }).join('');
+  }
+
   
   on(contactForm, 'submit', function(e) {
     e.preventDefault();
@@ -145,7 +236,6 @@ export function initContact() {
     // Validate form
     const isValid = validateForm();
     if (!isValid) {
-      // Focus first invalid field
       const firstError = contactForm.querySelector('.is-error');
       if (firstError) {
         firstError.focus();
@@ -153,81 +243,65 @@ export function initContact() {
       return;
     }
     
-    // Show loading state
+    const subjectField = contactForm.querySelector('#subject');
+    const subject = subjectField ? (
+      subjectField.tagName === 'SELECT'
+        ? (subjectField.selectedOptions[0]?.textContent || subjectField.value).trim()
+        : subjectField.value.trim()
+    ) : '';
+    const message = contactForm.querySelector('#message')?.value.trim() || '';
+    
+    const styledSubject = toMathItalic(subject);
+    const styledMessage = toMathItalic(message);
+    let whatsappMessage = `*${styledSubject}*\n\n`;
+    whatsappMessage += `${styledMessage}\n\n`;
+    whatsappMessage += toMathItalic('— From Clareon');
+    
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+    const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
+    
     if (submitBtn) {
       submitBtn.disabled = true;
-      submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+      submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Opening WhatsApp...';
     }
     
-    // Collect form data
-    const formData = new FormData(contactForm);
-    const data = Object.fromEntries(formData.entries());
-    
-    // Determine submit URL
-    const action = contactForm.getAttribute('action') || window.location.href;
-    const method = contactForm.getAttribute('method') || 'POST';
-    
-    // Submit form
-    fetch(action, {
-      method: method,
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json',
-      },
-      body: JSON.stringify(data),
-    })
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+    if (formErrorEl) {
+      formErrorEl.textContent = '';
+      removeClass(formErrorEl, 'visible');
+    }
+
+    // Show toast, wait a short period, then attempt to open WhatsApp.
+    showToast('Opening WhatsApp...', 'success');
+
+    const openDelay = 1500; // ms
+    const openTimer = setTimeout(() => {
+      try {
+        const newWindow = window.open(whatsappUrl, '_blank');
+        if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
+          window.location.href = whatsappUrl;
+        }
+
+        if (window.gtag) {
+          window.gtag('event', 'contact_whatsapp_open', {
+            form_id: contactForm.id || 'contact',
+            form_name: contactForm.dataset.name || 'Contact Form',
+          });
+        }
+      } catch (err) {
+        if (formErrorEl) {
+          formErrorEl.textContent = 'Unable to open WhatsApp. Please try manually.';
+          addClass(formErrorEl, 'visible');
+        }
+        console.error(err);
+      } finally {
+        clearTimeout(openTimer);
+        contactForm.reset();
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalBtnText;
+        }
       }
-      return response.json();
-    })
-    .then(result => {
-      // Success
-      contactForm.style.display = 'none';
-      if (successEl) {
-        addClass(successEl, 'visible');
-        successEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-      
-      // Track conversion
-      if (window.gtag) {
-        window.gtag('event', 'form_submission', {
-          form_name: 'contact_form',
-          form_id: contactForm.id || 'contact',
-        });
-      }
-      
-      // Dispatch event
-      const event = new CustomEvent('contactFormSuccess', {
-        detail: { result }
-      });
-      document.dispatchEvent(event);
-      
-      console.log('✅ Contact form submitted successfully');
-    })
-    .catch(error => {
-      // Error
-      console.error('❌ Contact form submission error:', error);
-      
-      if (formErrorEl) {
-        formErrorEl.textContent = 'Something went wrong. Please try again or email us directly.';
-        addClass(formErrorEl, 'visible');
-      }
-      
-      // Dispatch error event
-      const event = new CustomEvent('contactFormError', {
-        detail: { error }
-      });
-      document.dispatchEvent(event);
-    })
-    .finally(() => {
-      // Reset button
-      if (submitBtn) {
-        submitBtn.disabled = false;
-        submitBtn.textContent = originalBtnText;
-      }
-    });
+    }, openDelay);
   });
   
   // ========================================

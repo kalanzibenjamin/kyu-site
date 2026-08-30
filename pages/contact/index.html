@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <!-- ======================================== -->
@@ -30,10 +30,10 @@
   <meta name="color-scheme" content="dark light" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logo/kyu-logo.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" href="/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logo/kyu-logo.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/kyu-logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo/kyu-logo.png" />
   <link rel="manifest" href="/assets/favicon/site.webmanifest" />
 
   <!-- Fonts -->
@@ -60,7 +60,7 @@
   </style>
   <script>
     (function () {
-      const key = 'kyu-theme';
+      const key = 'clareon-theme';
       const stored = localStorage.getItem(key);
       const theme = stored === 'light' ? 'light' : 'dark';
       const root = document.documentElement;
@@ -113,7 +113,7 @@
     <div class="header-container">
       <a href="/" class="logo" aria-label="Home | kyu.clareon.live">
         <span class="logo-icon">
-          <img src="/assets/images/logo/kyu-logo.png" alt="KYU logo" loading="eager" />
+          <img src="/images/logo/kyu-logo.png" alt="KYU logo" loading="eager" />
         </span>
         <span class="logo-text">kyu.clareon.live</span>
       </a>
@@ -124,10 +124,8 @@
         <ul id="nav-menu" role="menubar">
           <li role="none"><a href="/" role="menuitem">Home</a></li>
             <li role="none"><a href="/pages/programs/" role="menuitem">Programs</a></li>
-            <li role="none"><a href="/pages/resources/" role="menuitem">Resources</a></li>
             <li role="none"><a href="/pages/announcements/" role="menuitem">Announcements</a></li>
             <li role="none"><a href="/pages/faq/" role="menuitem">FAQ</a></li>
-            <li role="none"><a href="/pages/contribute/" role="menuitem">Contribute</a></li>
             <li role="none"><a href="/pages/about/" role="menuitem">About</a></li>
             <li role="none"><a href="/pages/contact/" role="menuitem" class="active">Contact</a></li>
         </ul>
@@ -156,21 +154,7 @@
           <h2 class="form-title">Send us a message</h2>
           <p class="form-description">We'll get back to you as soon as possible.</p>
 
-          <form class="contact-form" action="#" method="POST">
-            <!-- Name -->
-            <div class="form-group">
-              <label for="name">Full Name <span class="required">*</span></label>
-              <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" required data-validate="required" aria-required="true" />
-              <div class="form-error"></div>
-            </div>
-
-            <!-- Email -->
-            <div class="form-group">
-              <label for="email">Email Address <span class="required">*</span></label>
-              <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required data-validate="required email" aria-required="true" />
-              <div class="form-error"></div>
-            </div>
-
+          <form class="contact-form" data-use-custom-submit="true" data-name="Contact Form" action="#" method="POST">
             <!-- Subject -->
             <div class="form-group">
               <label for="subject">Subject <span class="required">*</span></label>
@@ -209,7 +193,7 @@
         <div class="info-card">
           <div class="info-icon"><i class="fas fa-envelope"></i></div>
           <h4>Email</h4>
-          <p><a href="mailto:clareoniz@gmail.com">clareoniz@gmail.com</a></p>
+          <p><a href="mailto:contact@kyu.clareon.live">contact@kyu.clareon.live</a></p>
         </div>
 
         <div class="info-card">
@@ -228,16 +212,16 @@
         <div class="social-connect">
           <h4>Connect with us</h4>
           <div class="social-links">
-            <a href="https://whatsapp.com/channel/0029Vb7UygL1dAvuZvBWhB3y" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <a data-social="whatsapp" href="https://whatsapp.com/channel/0029Vb7UygL1dAvuZvB3y" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
               <i class="fab fa-whatsapp"></i>
             </a>
-            <a href="https://t.me/clareoniz" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+            <a data-social="telegram" href="https://t.me/clareoniz" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
               <i class="fab fa-telegram"></i>
             </a>
-            <a href="https://youtube.com/@clareoniz" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <a data-social="youtube" href="https://youtube.com/@clareoniz" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
               <i class="fab fa-youtube"></i>
             </a>
-            <a href="https://github.com/ClareonSage" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a data-social="github" href="https://github.com/ClareonSage" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <i class="fab fa-github"></i>
             </a>
           </div>
@@ -283,6 +267,7 @@
           Site is still being constructed — this is a clean revision template.
         </p>
       </div>
+      <a class="footer-contact-link" href="/pages/contact/"><i class="fas fa-envelope" aria-hidden="true"></i> Contact</a>
       <div class="footer-divider"></div>
       <div class="copyright">
         <i class="far fa-copyright"></i> 

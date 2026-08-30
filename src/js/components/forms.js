@@ -36,7 +36,7 @@ export function initForms(options = {}) {
     ...options,
   };
   
-  const forms = $$(config.formSelector);
+  const forms = [...$$(config.formSelector)].filter(form => form.dataset.useCustomSubmit !== 'true');
   if (forms.length === 0) return;
   
   // ========================================

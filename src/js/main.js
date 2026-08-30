@@ -28,9 +28,8 @@ import './pages/home.js';
 import './pages/announcements.js';
 import './pages/faq.js';
 import './pages/contact.js';
-import './pages/resources.js';
 import './pages/programs.js';
-import './pages/contribute.js';
+import './pages/course-units.js';
 
 // 4. INITIALIZATION LOG
 // ========================================

@@ -13,15 +13,25 @@ export function initHeader() {
   const navToggle = $('.nav-toggle');
   const navMenu = $('.main-nav ul');
   const navLinks = $$('.main-nav a');
+  const mainNav = $('.main-nav');
   
   if (!header) return;
+
+  const updateNavMode = () => {
+    if (!mainNav || !navMenu || !navToggle) return;
+
+    const shouldUseMobileMenu = window.innerWidth <= 768 || mainNav.scrollWidth > mainNav.clientWidth + 2;
+    toggleClass(mainNav, 'is-collapsed', shouldUseMobileMenu);
+
+    if (!shouldUseMobileMenu && navMenu.classList.contains('is-open')) {
+      setMenuState(false);
+    }
+  };
   
   // ========================================
   // 1. MOBILE MENU TOGGLE
   // ========================================
   
-  // ✅ FIXED: Define setMenuState in the outer scope
-  // so it's accessible to all functions (including resize handler)
   let setMenuState = (isOpen) => {
     if (!navMenu || !navToggle) return;
     
@@ -29,12 +39,8 @@ export function initHeader() {
     toggleClass(navToggle, 'is-active', isOpen);
     document.body.classList.toggle('menu-open', isOpen);
     navToggle.setAttribute('aria-expanded', String(isOpen));
-    navToggle.innerHTML = isOpen ?
-      '<i class="fas fa-times"></i>' :
-      '<i class="fas fa-bars"></i>';
   };
   
-  // Close menu function (now uses setMenuState from outer scope)
   const closeMenu = () => {
     setMenuState(false);
   };
@@ -151,13 +157,15 @@ export function initHeader() {
   // ========================================
   
   const handleResize = debounce(() => {
-    // Close mobile menu on resize to desktop
+    updateNavMode();
+
     if (!isMobile() && navMenu && hasClass(navMenu, 'is-open')) {
-      closeMenu(); // ✅ Now works because closeMenu is in the outer scope
+      closeMenu();
     }
   }, 250);
   
   on(window, 'resize', handleResize);
+  updateNavMode();
   
   // ========================================
   // 6. ACCESSIBILITY: Skip to main content

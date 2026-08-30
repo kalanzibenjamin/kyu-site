@@ -1,0 +1,200 @@
+{
+  "lastUpdated": "8th August, 2026",
+  "topics": [
+    {
+      "title": "Foundations",
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Course overview",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Course overview",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Key terms and definitions",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Key terms and definitions",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Core concepts",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Core concepts",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Guided examples",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Guided examples",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Topic review",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Topic review",
+              "url": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Core Concepts",
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Concept introduction",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Concept introduction",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Structures and principles",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Structures and principles",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Worked examples",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Worked examples",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Common questions",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Common questions",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Topic review",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Topic review",
+              "url": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Applications",
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Practical context",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Practical context",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Methods and techniques",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Methods and techniques",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Applied example",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Applied example",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "name": "Practice questions",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Practice questions",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Topic review",
+          "parts": [
+            {
+              "number": 1,
+              "type": "resource",
+              "name": "Topic review",
+              "url": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
