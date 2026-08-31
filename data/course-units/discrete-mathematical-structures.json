@@ -1,200 +1,412 @@
 {
-  "lastUpdated": "8th August, 2026",
-  "topics": [
-    {
-      "title": "Foundations",
-      "episodes": [
-        {
-          "number": 1,
-          "name": "Course overview",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Course overview",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "name": "Key terms and definitions",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Key terms and definitions",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "name": "Core concepts",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Core concepts",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 4,
-          "name": "Guided examples",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Guided examples",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 5,
-          "name": "Topic review",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Topic review",
-              "url": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Core Concepts",
-      "episodes": [
-        {
-          "number": 1,
-          "name": "Concept introduction",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Concept introduction",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "name": "Structures and principles",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Structures and principles",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "name": "Worked examples",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Worked examples",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 4,
-          "name": "Common questions",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Common questions",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 5,
-          "name": "Topic review",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Topic review",
-              "url": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Applications",
-      "episodes": [
-        {
-          "number": 1,
-          "name": "Practical context",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Practical context",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "name": "Methods and techniques",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Methods and techniques",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "name": "Applied example",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Applied example",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 4,
-          "name": "Practice questions",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Practice questions",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 5,
-          "name": "Topic review",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Topic review",
-              "url": ""
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"lastUpdated": "2026-08-31",
+	"topics": [
+		{
+			"title": "Number Systems",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Decimal, Binary, Octal and Hexadecimal Systems",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 2,
+					"name": "Number System Conversions",
+					"parts": [
+						{
+							"number": 1,
+							"type": "resource",
+							"name": "Practice questions",
+							"url": ""
+						},
+						{
+							"number": 2,
+							"type": "solutions",
+							"name": "Worked solutions",
+							"url": "",
+							"forEpisode": 2,
+							"forPart": 1
+						},
+						{
+							"number": 3,
+							"type": "quiz",
+							"name": "Conversion quiz",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 3,
+					"name": "Applications in Digital Machines",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Logic",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Propositional Logic",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 2,
+					"name": "Logical Equivalence",
+					"parts": [
+						{
+							"number": 1,
+							"type": "resource",
+							"name": "Practice questions",
+							"url": ""
+						},
+						{
+							"number": 2,
+							"type": "solutions",
+							"name": "Worked solutions",
+							"url": "",
+							"forEpisode": 2,
+							"forPart": 1
+						},
+						{
+							"number": 3,
+							"type": "quiz",
+							"name": "Equivalence quiz",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 3,
+					"name": "Predicates and Quantifiers",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 4,
+					"name": "Logical Reasoning",
+					"parts": [
+						{
+							"number": 1,
+							"type": "resource",
+							"name": "Practice questions",
+							"url": ""
+						},
+						{
+							"number": 2,
+							"type": "solutions",
+							"name": "Worked solutions",
+							"url": "",
+							"forEpisode": 4,
+							"forPart": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Boolean Algebra",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Boolean Variables and Operations",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 2,
+					"name": "Boolean Functions",
+					"parts": [
+						{
+							"number": 1,
+							"type": "resource",
+							"name": "Practice questions",
+							"url": ""
+						},
+						{
+							"number": 2,
+							"type": "solutions",
+							"name": "Worked solutions",
+							"url": "",
+							"forEpisode": 2,
+							"forPart": 1
+						}
+					]
+				},
+				{
+					"number": 3,
+					"name": "Laws and Equivalences of Boolean Algebra",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 4,
+					"name": "Applications of Boolean Algebra",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Discrete Structures",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Sets and Set Operations",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 2,
+					"name": "Functions and Their Properties",
+					"parts": [
+						{
+							"number": 1,
+							"type": "resource",
+							"name": "Practice questions",
+							"url": ""
+						},
+						{
+							"number": 2,
+							"type": "solutions",
+							"name": "Worked solutions",
+							"url": "",
+							"forEpisode": 2,
+							"forPart": 1
+						}
+					]
+				},
+				{
+					"number": 3,
+					"name": "Applications of Sets and Functions",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Counting",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Permutations",
+					"parts": [
+						{
+							"number": 1,
+							"type": "resource",
+							"name": "Practice questions",
+							"url": ""
+						},
+						{
+							"number": 2,
+							"type": "solutions",
+							"name": "Worked solutions",
+							"url": "",
+							"forEpisode": 1,
+							"forPart": 1
+						}
+					]
+				},
+				{
+					"number": 2,
+					"name": "Combinations",
+					"parts": [
+						{
+							"number": 1,
+							"type": "resource",
+							"name": "Practice questions",
+							"url": ""
+						},
+						{
+							"number": 2,
+							"type": "solutions",
+							"name": "Worked solutions",
+							"url": "",
+							"forEpisode": 2,
+							"forPart": 1
+						}
+					]
+				},
+				{
+					"number": 3,
+					"name": "Applications of Counting Techniques",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Recursion",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Recurrence Relations",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 2,
+					"name": "Solving Recurrence Relations",
+					"parts": [
+						{
+							"number": 1,
+							"type": "resource",
+							"name": "Practice questions",
+							"url": ""
+						},
+						{
+							"number": 2,
+							"type": "solutions",
+							"name": "Worked solutions",
+							"url": "",
+							"forEpisode": 2,
+							"forPart": 1
+						}
+					]
+				},
+				{
+					"number": 3,
+					"name": "Applications of Recursion in Computer Science",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Tree Data Structures",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Tree Notation and Terminology",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 2,
+					"name": "Types of Trees",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				},
+				{
+					"number": 3,
+					"name": "Tree Traversals",
+					"parts": [
+						{
+							"number": 1,
+							"type": "resource",
+							"name": "Practice questions",
+							"url": ""
+						},
+						{
+							"number": 2,
+							"type": "solutions",
+							"name": "Worked solutions",
+							"url": "",
+							"forEpisode": 3,
+							"forPart": 1
+						}
+					]
+				},
+				{
+					"number": 4,
+					"name": "Applications of Trees in Data Organization",
+					"parts": [
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Concept check",
+							"url": ""
+						}
+					]
+				}
+			]
+		}
+	]
 }
