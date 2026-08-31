@@ -6,52 +6,41 @@
 			"episodes": [
 				{
 					"number": 1,
-					"name": "Decimal, Binary, Octal and Hexadecimal Systems",
+					"name": "Understanding Number Bases",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Number Bases", "url": "" }
 					]
 				},
 				{
 					"number": 2,
-					"name": "Number System Conversions",
+					"name": "Binary Conversions",
 					"parts": [
-						{
-							"number": 1,
-							"type": "resource",
-							"name": "Practice questions",
-							"url": ""
-						},
-						{
-							"number": 2,
-							"type": "solutions",
-							"name": "Worked solutions",
-							"url": "",
-							"forEpisode": 2,
-							"forPart": 1
-						},
-						{
-							"number": 3,
-							"type": "quiz",
-							"name": "Conversion quiz",
-							"url": ""
-						}
+						{ "number": 1, "type": "resource", "name": "Binary Conversion Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Binary Conversion", "url": "", "forEpisode": 2, "forPart": 1 }
 					]
 				},
 				{
 					"number": 3,
+					"name": "Octal and Hexadecimal Conversions",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Octal and Hex Conversion Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Octal and Hex Conversion", "url": "", "forEpisode": 3, "forPart": 1 }
+					]
+				},
+				{
+					"number": 4,
 					"name": "Applications in Digital Machines",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Digital Machines Applications", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Number Systems Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 5, "forPart": 1 }
 					]
 				}
 			]
@@ -61,72 +50,41 @@
 			"episodes": [
 				{
 					"number": 1,
-					"name": "Propositional Logic",
+					"name": "Propositional Logic Basics",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Propositional Logic", "url": "" }
 					]
 				},
 				{
 					"number": 2,
-					"name": "Logical Equivalence",
+					"name": "Logical Equivalence and Laws",
 					"parts": [
-						{
-							"number": 1,
-							"type": "resource",
-							"name": "Practice questions",
-							"url": ""
-						},
-						{
-							"number": 2,
-							"type": "solutions",
-							"name": "Worked solutions",
-							"url": "",
-							"forEpisode": 2,
-							"forPart": 1
-						},
-						{
-							"number": 3,
-							"type": "quiz",
-							"name": "Equivalence quiz",
-							"url": ""
-						}
+						{ "number": 1, "type": "resource", "name": "Logical Equivalence Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Logical Equivalence", "url": "", "forEpisode": 2, "forPart": 1 }
 					]
 				},
 				{
 					"number": 3,
 					"name": "Predicates and Quantifiers",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Predicates and Quantifiers", "url": "" }
 					]
 				},
 				{
 					"number": 4,
-					"name": "Logical Reasoning",
+					"name": "Logical Reasoning and Proofs",
 					"parts": [
-						{
-							"number": 1,
-							"type": "resource",
-							"name": "Practice questions",
-							"url": ""
-						},
-						{
-							"number": 2,
-							"type": "solutions",
-							"name": "Worked solutions",
-							"url": "",
-							"forEpisode": 4,
-							"forPart": 1
-						}
+						{ "number": 1, "type": "resource", "name": "Logical Reasoning Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Logical Reasoning", "url": "", "forEpisode": 4, "forPart": 1 }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Logic Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 5, "forPart": 1 }
 					]
 				}
 			]
@@ -136,58 +94,40 @@
 			"episodes": [
 				{
 					"number": 1,
-					"name": "Boolean Variables and Operations",
+					"name": "Boolean Variables and Basic Operations",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Boolean Operations", "url": "" }
 					]
 				},
 				{
 					"number": 2,
-					"name": "Boolean Functions",
+					"name": "Boolean Expressions and Functions",
 					"parts": [
-						{
-							"number": 1,
-							"type": "resource",
-							"name": "Practice questions",
-							"url": ""
-						},
-						{
-							"number": 2,
-							"type": "solutions",
-							"name": "Worked solutions",
-							"url": "",
-							"forEpisode": 2,
-							"forPart": 1
-						}
+						{ "number": 1, "type": "resource", "name": "Boolean Functions Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Boolean Functions", "url": "", "forEpisode": 2, "forPart": 1 }
 					]
 				},
 				{
 					"number": 3,
 					"name": "Laws and Equivalences of Boolean Algebra",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Boolean Laws", "url": "" }
 					]
 				},
 				{
 					"number": 4,
 					"name": "Applications of Boolean Algebra",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Boolean Applications", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Boolean Algebra Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 5, "forPart": 1 }
 					]
 				}
 			]
@@ -197,46 +137,41 @@
 			"episodes": [
 				{
 					"number": 1,
-					"name": "Sets and Set Operations",
+					"name": "Set Theory Basics",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Set Theory Basics", "url": "" }
 					]
 				},
 				{
 					"number": 2,
-					"name": "Functions and Their Properties",
+					"name": "Set Operations",
 					"parts": [
-						{
-							"number": 1,
-							"type": "resource",
-							"name": "Practice questions",
-							"url": ""
-						},
-						{
-							"number": 2,
-							"type": "solutions",
-							"name": "Worked solutions",
-							"url": "",
-							"forEpisode": 2,
-							"forPart": 1
-						}
+						{ "number": 1, "type": "resource", "name": "Set Operations Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Set Operations", "url": "", "forEpisode": 2, "forPart": 1 }
 					]
 				},
 				{
 					"number": 3,
+					"name": "Functions and Their Properties",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Functions Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Functions", "url": "", "forEpisode": 3, "forPart": 1 }
+					]
+				},
+				{
+					"number": 4,
 					"name": "Applications of Sets and Functions",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Sets and Functions Applications", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Discrete Structures Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 5, "forPart": 1 }
 					]
 				}
 			]
@@ -248,52 +183,32 @@
 					"number": 1,
 					"name": "Permutations",
 					"parts": [
-						{
-							"number": 1,
-							"type": "resource",
-							"name": "Practice questions",
-							"url": ""
-						},
-						{
-							"number": 2,
-							"type": "solutions",
-							"name": "Worked solutions",
-							"url": "",
-							"forEpisode": 1,
-							"forPart": 1
-						}
+						{ "number": 1, "type": "resource", "name": "Permutations Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Permutations", "url": "", "forEpisode": 1, "forPart": 1 }
 					]
 				},
 				{
 					"number": 2,
 					"name": "Combinations",
 					"parts": [
-						{
-							"number": 1,
-							"type": "resource",
-							"name": "Practice questions",
-							"url": ""
-						},
-						{
-							"number": 2,
-							"type": "solutions",
-							"name": "Worked solutions",
-							"url": "",
-							"forEpisode": 2,
-							"forPart": 1
-						}
+						{ "number": 1, "type": "resource", "name": "Combinations Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Combinations", "url": "", "forEpisode": 2, "forPart": 1 }
 					]
 				},
 				{
 					"number": 3,
 					"name": "Applications of Counting Techniques",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Counting Applications", "url": "" }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Counting Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 4, "forPart": 1 }
 					]
 				}
 			]
@@ -303,46 +218,33 @@
 			"episodes": [
 				{
 					"number": 1,
-					"name": "Recurrence Relations",
+					"name": "Introduction to Recurrence Relations",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Recurrence Relations Basics", "url": "" }
 					]
 				},
 				{
 					"number": 2,
 					"name": "Solving Recurrence Relations",
 					"parts": [
-						{
-							"number": 1,
-							"type": "resource",
-							"name": "Practice questions",
-							"url": ""
-						},
-						{
-							"number": 2,
-							"type": "solutions",
-							"name": "Worked solutions",
-							"url": "",
-							"forEpisode": 2,
-							"forPart": 1
-						}
+						{ "number": 1, "type": "resource", "name": "Solving Recurrence Relations Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Solving Recurrence Relations", "url": "", "forEpisode": 2, "forPart": 1 }
 					]
 				},
 				{
 					"number": 3,
 					"name": "Applications of Recursion in Computer Science",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Recursion Applications", "url": "" }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Recursion Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 4, "forPart": 1 }
 					]
 				}
 			]
@@ -354,56 +256,38 @@
 					"number": 1,
 					"name": "Tree Notation and Terminology",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Tree Notation", "url": "" }
 					]
 				},
 				{
 					"number": 2,
 					"name": "Types of Trees",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Types of Trees", "url": "" }
 					]
 				},
 				{
 					"number": 3,
 					"name": "Tree Traversals",
 					"parts": [
-						{
-							"number": 1,
-							"type": "resource",
-							"name": "Practice questions",
-							"url": ""
-						},
-						{
-							"number": 2,
-							"type": "solutions",
-							"name": "Worked solutions",
-							"url": "",
-							"forEpisode": 3,
-							"forPart": 1
-						}
+						{ "number": 1, "type": "resource", "name": "Tree Traversals Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Tree Traversals", "url": "", "forEpisode": 3, "forPart": 1 }
 					]
 				},
 				{
 					"number": 4,
 					"name": "Applications of Trees in Data Organization",
 					"parts": [
-						{
-							"number": 1,
-							"type": "quiz",
-							"name": "Concept check",
-							"url": ""
-						}
+						{ "number": 1, "type": "quiz", "name": "Tree Applications", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Tree Data Structures Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 5, "forPart": 1 }
 					]
 				}
 			]
