@@ -155,7 +155,12 @@
 					"number": 3,
 					"name": "Citation, Referencing and Plagiarism",
 					"parts": [
-						{ "number": 1, "type": "quiz", "name": "Citation, Referencing and Plagiarism", "url": "" }
+						{
+							"number": 1,
+							"type": "quiz",
+							"name": "Citation, Referencing and Plagiarism",
+							"url": "https://forms.gle/64HTDxC1ut4Z7FoH8"
+						}
 					]
 				},
 				{

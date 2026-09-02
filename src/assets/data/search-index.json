@@ -17055,8 +17055,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Foundations",
-    "title": "Foundations",
+    "topicName": "Number Systems",
+    "title": "Number Systems",
     "context": "Discrete Mathematical Structures · BITC",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1"
   },
@@ -17068,10 +17068,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Foundations",
-    "episodeName": "Course overview",
-    "title": "Episode 1 · Course overview",
-    "context": "Discrete Mathematical Structures · Foundations",
+    "topicName": "Number Systems",
+    "episodeName": "Understanding Number Bases",
+    "title": "Episode 1 · Understanding Number Bases",
+    "context": "Discrete Mathematical Structures · Number Systems",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1"
   },
   {
@@ -17082,11 +17082,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Foundations",
-    "episodeName": "Course overview",
-    "partName": "Course overview",
-    "title": "Episode 1 Part 1 · Course overview",
-    "context": "Discrete Mathematical Structures · Foundations · Episode 1",
+    "topicName": "Number Systems",
+    "episodeName": "Understanding Number Bases",
+    "partName": "Number Bases",
+    "title": "Episode 1 Part 1 · Number Bases",
+    "context": "Discrete Mathematical Structures · Number Systems · Episode 1",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-1-part-1"
   },
   {
@@ -17097,10 +17097,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Foundations",
-    "episodeName": "Key terms and definitions",
-    "title": "Episode 2 · Key terms and definitions",
-    "context": "Discrete Mathematical Structures · Foundations",
+    "topicName": "Number Systems",
+    "episodeName": "Binary Conversions",
+    "title": "Episode 2 · Binary Conversions",
+    "context": "Discrete Mathematical Structures · Number Systems",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1"
   },
   {
@@ -17111,14 +17111,29 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Foundations",
-    "episodeName": "Key terms and definitions",
-    "partName": "Key terms and definitions",
-    "title": "Episode 2 Part 1 · Key terms and definitions",
-    "context": "Discrete Mathematical Structures · Foundations · Episode 2",
+    "topicName": "Number Systems",
+    "episodeName": "Binary Conversions",
+    "partName": "Binary Conversion Practice",
+    "title": "Episode 2 Part 1 · Binary Conversion Practice",
+    "context": "Discrete Mathematical Structures · Number Systems · Episode 2",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-2-part-1"
   },
   {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Number Systems",
+    "episodeName": "Binary Conversions",
+    "partName": "Binary Conversion",
+    "title": "Episode 2 Part 2 · Binary Conversion",
+    "context": "Discrete Mathematical Structures · Number Systems · Episode 2",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-2-part-2"
+  },
+  {
     "type": "Episode",
     "program": "BITC",
     "aliases": [
@@ -17126,10 +17141,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Foundations",
-    "episodeName": "Core concepts",
-    "title": "Episode 3 · Core concepts",
-    "context": "Discrete Mathematical Structures · Foundations",
+    "topicName": "Number Systems",
+    "episodeName": "Octal and Hexadecimal Conversions",
+    "title": "Episode 3 · Octal and Hexadecimal Conversions",
+    "context": "Discrete Mathematical Structures · Number Systems",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1"
   },
   {
@@ -17140,14 +17155,29 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Foundations",
-    "episodeName": "Core concepts",
-    "partName": "Core concepts",
-    "title": "Episode 3 Part 1 · Core concepts",
-    "context": "Discrete Mathematical Structures · Foundations · Episode 3",
+    "topicName": "Number Systems",
+    "episodeName": "Octal and Hexadecimal Conversions",
+    "partName": "Octal and Hex Conversion Practice",
+    "title": "Episode 3 Part 1 · Octal and Hex Conversion Practice",
+    "context": "Discrete Mathematical Structures · Number Systems · Episode 3",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-3-part-1"
   },
   {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Number Systems",
+    "episodeName": "Octal and Hexadecimal Conversions",
+    "partName": "Octal and Hex Conversion",
+    "title": "Episode 3 Part 2 · Octal and Hex Conversion",
+    "context": "Discrete Mathematical Structures · Number Systems · Episode 3",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-3-part-2"
+  },
+  {
     "type": "Episode",
     "program": "BITC",
     "aliases": [
@@ -17155,10 +17185,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Foundations",
-    "episodeName": "Guided examples",
-    "title": "Episode 4 · Guided examples",
-    "context": "Discrete Mathematical Structures · Foundations",
+    "topicName": "Number Systems",
+    "episodeName": "Applications in Digital Machines",
+    "title": "Episode 4 · Applications in Digital Machines",
+    "context": "Discrete Mathematical Structures · Number Systems",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1"
   },
   {
@@ -17169,11 +17199,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Foundations",
-    "episodeName": "Guided examples",
-    "partName": "Guided examples",
-    "title": "Episode 4 Part 1 · Guided examples",
-    "context": "Discrete Mathematical Structures · Foundations · Episode 4",
+    "topicName": "Number Systems",
+    "episodeName": "Applications in Digital Machines",
+    "partName": "Digital Machines Applications",
+    "title": "Episode 4 Part 1 · Digital Machines Applications",
+    "context": "Discrete Mathematical Structures · Number Systems · Episode 4",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-4-part-1"
   },
   {
@@ -17184,10 +17214,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Foundations",
-    "episodeName": "Topic review",
-    "title": "Episode 5 · Topic review",
-    "context": "Discrete Mathematical Structures · Foundations",
+    "topicName": "Number Systems",
+    "episodeName": "Number Systems Round-Up",
+    "title": "Episode 5 · Number Systems Round-Up",
+    "context": "Discrete Mathematical Structures · Number Systems",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1"
   },
   {
@@ -17198,12 +17228,42 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Foundations",
-    "episodeName": "Topic review",
-    "partName": "Topic review",
-    "title": "Episode 5 Part 1 · Topic review",
-    "context": "Discrete Mathematical Structures · Foundations · Episode 5",
+    "topicName": "Number Systems",
+    "episodeName": "Number Systems Round-Up",
+    "partName": "Round-Up Practice",
+    "title": "Episode 5 Part 1 · Round-Up Practice",
+    "context": "Discrete Mathematical Structures · Number Systems · Episode 5",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-5-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Number Systems",
+    "episodeName": "Number Systems Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 2 · Round-Up",
+    "context": "Discrete Mathematical Structures · Number Systems · Episode 5",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-5-part-2"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Number Systems",
+    "episodeName": "Number Systems Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 3 · Round-Up",
+    "context": "Discrete Mathematical Structures · Number Systems · Episode 5",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-5-part-3"
   },
   {
     "type": "Topic",
@@ -17213,8 +17273,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Core Concepts",
-    "title": "Core Concepts",
+    "topicName": "Logic",
+    "title": "Logic",
     "context": "Discrete Mathematical Structures · BITC",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2"
   },
@@ -17226,10 +17286,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Core Concepts",
-    "episodeName": "Concept introduction",
-    "title": "Episode 1 · Concept introduction",
-    "context": "Discrete Mathematical Structures · Core Concepts",
+    "topicName": "Logic",
+    "episodeName": "Propositional Logic Basics",
+    "title": "Episode 1 · Propositional Logic Basics",
+    "context": "Discrete Mathematical Structures · Logic",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2"
   },
   {
@@ -17240,11 +17300,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Core Concepts",
-    "episodeName": "Concept introduction",
-    "partName": "Concept introduction",
-    "title": "Episode 1 Part 1 · Concept introduction",
-    "context": "Discrete Mathematical Structures · Core Concepts · Episode 1",
+    "topicName": "Logic",
+    "episodeName": "Propositional Logic Basics",
+    "partName": "Propositional Logic",
+    "title": "Episode 1 Part 1 · Propositional Logic",
+    "context": "Discrete Mathematical Structures · Logic · Episode 1",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-1-part-1"
   },
   {
@@ -17255,10 +17315,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Core Concepts",
-    "episodeName": "Structures and principles",
-    "title": "Episode 2 · Structures and principles",
-    "context": "Discrete Mathematical Structures · Core Concepts",
+    "topicName": "Logic",
+    "episodeName": "Logical Equivalence and Laws",
+    "title": "Episode 2 · Logical Equivalence and Laws",
+    "context": "Discrete Mathematical Structures · Logic",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2"
   },
   {
@@ -17269,12 +17329,27 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Core Concepts",
-    "episodeName": "Structures and principles",
-    "partName": "Structures and principles",
-    "title": "Episode 2 Part 1 · Structures and principles",
-    "context": "Discrete Mathematical Structures · Core Concepts · Episode 2",
+    "topicName": "Logic",
+    "episodeName": "Logical Equivalence and Laws",
+    "partName": "Logical Equivalence Practice",
+    "title": "Episode 2 Part 1 · Logical Equivalence Practice",
+    "context": "Discrete Mathematical Structures · Logic · Episode 2",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-2-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Logic",
+    "episodeName": "Logical Equivalence and Laws",
+    "partName": "Logical Equivalence",
+    "title": "Episode 2 Part 2 · Logical Equivalence",
+    "context": "Discrete Mathematical Structures · Logic · Episode 2",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-2-part-2"
   },
   {
     "type": "Episode",
@@ -17284,10 +17359,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Core Concepts",
-    "episodeName": "Worked examples",
-    "title": "Episode 3 · Worked examples",
-    "context": "Discrete Mathematical Structures · Core Concepts",
+    "topicName": "Logic",
+    "episodeName": "Predicates and Quantifiers",
+    "title": "Episode 3 · Predicates and Quantifiers",
+    "context": "Discrete Mathematical Structures · Logic",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2"
   },
   {
@@ -17298,11 +17373,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Core Concepts",
-    "episodeName": "Worked examples",
-    "partName": "Worked examples",
-    "title": "Episode 3 Part 1 · Worked examples",
-    "context": "Discrete Mathematical Structures · Core Concepts · Episode 3",
+    "topicName": "Logic",
+    "episodeName": "Predicates and Quantifiers",
+    "partName": "Predicates and Quantifiers",
+    "title": "Episode 3 Part 1 · Predicates and Quantifiers",
+    "context": "Discrete Mathematical Structures · Logic · Episode 3",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-3-part-1"
   },
   {
@@ -17313,10 +17388,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Core Concepts",
-    "episodeName": "Common questions",
-    "title": "Episode 4 · Common questions",
-    "context": "Discrete Mathematical Structures · Core Concepts",
+    "topicName": "Logic",
+    "episodeName": "Logical Reasoning and Proofs",
+    "title": "Episode 4 · Logical Reasoning and Proofs",
+    "context": "Discrete Mathematical Structures · Logic",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2"
   },
   {
@@ -17327,12 +17402,27 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Core Concepts",
-    "episodeName": "Common questions",
-    "partName": "Common questions",
-    "title": "Episode 4 Part 1 · Common questions",
-    "context": "Discrete Mathematical Structures · Core Concepts · Episode 4",
+    "topicName": "Logic",
+    "episodeName": "Logical Reasoning and Proofs",
+    "partName": "Logical Reasoning Practice",
+    "title": "Episode 4 Part 1 · Logical Reasoning Practice",
+    "context": "Discrete Mathematical Structures · Logic · Episode 4",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-4-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Logic",
+    "episodeName": "Logical Reasoning and Proofs",
+    "partName": "Logical Reasoning",
+    "title": "Episode 4 Part 2 · Logical Reasoning",
+    "context": "Discrete Mathematical Structures · Logic · Episode 4",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-4-part-2"
   },
   {
     "type": "Episode",
@@ -17342,10 +17432,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Core Concepts",
-    "episodeName": "Topic review",
-    "title": "Episode 5 · Topic review",
-    "context": "Discrete Mathematical Structures · Core Concepts",
+    "topicName": "Logic",
+    "episodeName": "Logic Round-Up",
+    "title": "Episode 5 · Logic Round-Up",
+    "context": "Discrete Mathematical Structures · Logic",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2"
   },
   {
@@ -17356,12 +17446,42 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Core Concepts",
-    "episodeName": "Topic review",
-    "partName": "Topic review",
-    "title": "Episode 5 Part 1 · Topic review",
-    "context": "Discrete Mathematical Structures · Core Concepts · Episode 5",
+    "topicName": "Logic",
+    "episodeName": "Logic Round-Up",
+    "partName": "Round-Up Practice",
+    "title": "Episode 5 Part 1 · Round-Up Practice",
+    "context": "Discrete Mathematical Structures · Logic · Episode 5",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-5-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Logic",
+    "episodeName": "Logic Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 2 · Round-Up",
+    "context": "Discrete Mathematical Structures · Logic · Episode 5",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-5-part-2"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Logic",
+    "episodeName": "Logic Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 3 · Round-Up",
+    "context": "Discrete Mathematical Structures · Logic · Episode 5",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-5-part-3"
   },
   {
     "type": "Topic",
@@ -17371,8 +17491,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Applications",
-    "title": "Applications",
+    "topicName": "Boolean Algebra",
+    "title": "Boolean Algebra",
     "context": "Discrete Mathematical Structures · BITC",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3"
   },
@@ -17384,10 +17504,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Applications",
-    "episodeName": "Practical context",
-    "title": "Episode 1 · Practical context",
-    "context": "Discrete Mathematical Structures · Applications",
+    "topicName": "Boolean Algebra",
+    "episodeName": "Boolean Variables and Basic Operations",
+    "title": "Episode 1 · Boolean Variables and Basic Operations",
+    "context": "Discrete Mathematical Structures · Boolean Algebra",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3"
   },
   {
@@ -17398,11 +17518,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Applications",
-    "episodeName": "Practical context",
-    "partName": "Practical context",
-    "title": "Episode 1 Part 1 · Practical context",
-    "context": "Discrete Mathematical Structures · Applications · Episode 1",
+    "topicName": "Boolean Algebra",
+    "episodeName": "Boolean Variables and Basic Operations",
+    "partName": "Boolean Operations",
+    "title": "Episode 1 Part 1 · Boolean Operations",
+    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 1",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-1-part-1"
   },
   {
@@ -17413,10 +17533,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Applications",
-    "episodeName": "Methods and techniques",
-    "title": "Episode 2 · Methods and techniques",
-    "context": "Discrete Mathematical Structures · Applications",
+    "topicName": "Boolean Algebra",
+    "episodeName": "Boolean Expressions and Functions",
+    "title": "Episode 2 · Boolean Expressions and Functions",
+    "context": "Discrete Mathematical Structures · Boolean Algebra",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3"
   },
   {
@@ -17427,12 +17547,27 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Applications",
-    "episodeName": "Methods and techniques",
-    "partName": "Methods and techniques",
-    "title": "Episode 2 Part 1 · Methods and techniques",
-    "context": "Discrete Mathematical Structures · Applications · Episode 2",
+    "topicName": "Boolean Algebra",
+    "episodeName": "Boolean Expressions and Functions",
+    "partName": "Boolean Functions Practice",
+    "title": "Episode 2 Part 1 · Boolean Functions Practice",
+    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 2",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-2-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Boolean Algebra",
+    "episodeName": "Boolean Expressions and Functions",
+    "partName": "Boolean Functions",
+    "title": "Episode 2 Part 2 · Boolean Functions",
+    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 2",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-2-part-2"
   },
   {
     "type": "Episode",
@@ -17442,10 +17577,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Applications",
-    "episodeName": "Applied example",
-    "title": "Episode 3 · Applied example",
-    "context": "Discrete Mathematical Structures · Applications",
+    "topicName": "Boolean Algebra",
+    "episodeName": "Laws and Equivalences of Boolean Algebra",
+    "title": "Episode 3 · Laws and Equivalences of Boolean Algebra",
+    "context": "Discrete Mathematical Structures · Boolean Algebra",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3"
   },
   {
@@ -17456,11 +17591,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Applications",
-    "episodeName": "Applied example",
-    "partName": "Applied example",
-    "title": "Episode 3 Part 1 · Applied example",
-    "context": "Discrete Mathematical Structures · Applications · Episode 3",
+    "topicName": "Boolean Algebra",
+    "episodeName": "Laws and Equivalences of Boolean Algebra",
+    "partName": "Boolean Laws",
+    "title": "Episode 3 Part 1 · Boolean Laws",
+    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 3",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-3-part-1"
   },
   {
@@ -17471,10 +17606,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Applications",
-    "episodeName": "Practice questions",
-    "title": "Episode 4 · Practice questions",
-    "context": "Discrete Mathematical Structures · Applications",
+    "topicName": "Boolean Algebra",
+    "episodeName": "Applications of Boolean Algebra",
+    "title": "Episode 4 · Applications of Boolean Algebra",
+    "context": "Discrete Mathematical Structures · Boolean Algebra",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3"
   },
   {
@@ -17485,11 +17620,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Applications",
-    "episodeName": "Practice questions",
-    "partName": "Practice questions",
-    "title": "Episode 4 Part 1 · Practice questions",
-    "context": "Discrete Mathematical Structures · Applications · Episode 4",
+    "topicName": "Boolean Algebra",
+    "episodeName": "Applications of Boolean Algebra",
+    "partName": "Boolean Applications",
+    "title": "Episode 4 Part 1 · Boolean Applications",
+    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 4",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-4-part-1"
   },
   {
@@ -17500,10 +17635,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Applications",
-    "episodeName": "Topic review",
-    "title": "Episode 5 · Topic review",
-    "context": "Discrete Mathematical Structures · Applications",
+    "topicName": "Boolean Algebra",
+    "episodeName": "Boolean Algebra Round-Up",
+    "title": "Episode 5 · Boolean Algebra Round-Up",
+    "context": "Discrete Mathematical Structures · Boolean Algebra",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3"
   },
   {
@@ -17514,12 +17649,826 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Applications",
-    "episodeName": "Topic review",
-    "partName": "Topic review",
-    "title": "Episode 5 Part 1 · Topic review",
-    "context": "Discrete Mathematical Structures · Applications · Episode 5",
+    "topicName": "Boolean Algebra",
+    "episodeName": "Boolean Algebra Round-Up",
+    "partName": "Round-Up Practice",
+    "title": "Episode 5 Part 1 · Round-Up Practice",
+    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 5",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-5-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Boolean Algebra",
+    "episodeName": "Boolean Algebra Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 2 · Round-Up",
+    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 5",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-5-part-2"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Boolean Algebra",
+    "episodeName": "Boolean Algebra Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 3 · Round-Up",
+    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 5",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-5-part-3"
+  },
+  {
+    "type": "Topic",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "title": "Discrete Structures",
+    "context": "Discrete Mathematical Structures · BITC",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Set Theory Basics",
+    "title": "Episode 1 · Set Theory Basics",
+    "context": "Discrete Mathematical Structures · Discrete Structures",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Set Theory Basics",
+    "partName": "Set Theory Basics",
+    "title": "Episode 1 Part 1 · Set Theory Basics",
+    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 1",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-1-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Set Operations",
+    "title": "Episode 2 · Set Operations",
+    "context": "Discrete Mathematical Structures · Discrete Structures",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Set Operations",
+    "partName": "Set Operations Practice",
+    "title": "Episode 2 Part 1 · Set Operations Practice",
+    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 2",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-2-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Set Operations",
+    "partName": "Set Operations",
+    "title": "Episode 2 Part 2 · Set Operations",
+    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 2",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-2-part-2"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Functions and Their Properties",
+    "title": "Episode 3 · Functions and Their Properties",
+    "context": "Discrete Mathematical Structures · Discrete Structures",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Functions and Their Properties",
+    "partName": "Functions Practice",
+    "title": "Episode 3 Part 1 · Functions Practice",
+    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 3",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-3-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Functions and Their Properties",
+    "partName": "Functions",
+    "title": "Episode 3 Part 2 · Functions",
+    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 3",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-3-part-2"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Applications of Sets and Functions",
+    "title": "Episode 4 · Applications of Sets and Functions",
+    "context": "Discrete Mathematical Structures · Discrete Structures",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Applications of Sets and Functions",
+    "partName": "Sets and Functions Applications",
+    "title": "Episode 4 Part 1 · Sets and Functions Applications",
+    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 4",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-4-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Discrete Structures Round-Up",
+    "title": "Episode 5 · Discrete Structures Round-Up",
+    "context": "Discrete Mathematical Structures · Discrete Structures",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Discrete Structures Round-Up",
+    "partName": "Round-Up Practice",
+    "title": "Episode 5 Part 1 · Round-Up Practice",
+    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 5",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-5-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Discrete Structures Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 2 · Round-Up",
+    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 5",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-5-part-2"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Discrete Structures",
+    "episodeName": "Discrete Structures Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 3 · Round-Up",
+    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 5",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-5-part-3"
+  },
+  {
+    "type": "Topic",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Counting",
+    "title": "Counting",
+    "context": "Discrete Mathematical Structures · BITC",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Counting",
+    "episodeName": "Permutations",
+    "title": "Episode 1 · Permutations",
+    "context": "Discrete Mathematical Structures · Counting",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Counting",
+    "episodeName": "Permutations",
+    "partName": "Permutations Practice",
+    "title": "Episode 1 Part 1 · Permutations Practice",
+    "context": "Discrete Mathematical Structures · Counting · Episode 1",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-1-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Counting",
+    "episodeName": "Permutations",
+    "partName": "Permutations",
+    "title": "Episode 1 Part 2 · Permutations",
+    "context": "Discrete Mathematical Structures · Counting · Episode 1",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-1-part-2"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Counting",
+    "episodeName": "Combinations",
+    "title": "Episode 2 · Combinations",
+    "context": "Discrete Mathematical Structures · Counting",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Counting",
+    "episodeName": "Combinations",
+    "partName": "Combinations Practice",
+    "title": "Episode 2 Part 1 · Combinations Practice",
+    "context": "Discrete Mathematical Structures · Counting · Episode 2",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-2-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Counting",
+    "episodeName": "Combinations",
+    "partName": "Combinations",
+    "title": "Episode 2 Part 2 · Combinations",
+    "context": "Discrete Mathematical Structures · Counting · Episode 2",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-2-part-2"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Counting",
+    "episodeName": "Applications of Counting Techniques",
+    "title": "Episode 3 · Applications of Counting Techniques",
+    "context": "Discrete Mathematical Structures · Counting",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Counting",
+    "episodeName": "Applications of Counting Techniques",
+    "partName": "Counting Applications",
+    "title": "Episode 3 Part 1 · Counting Applications",
+    "context": "Discrete Mathematical Structures · Counting · Episode 3",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-3-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Counting",
+    "episodeName": "Counting Round-Up",
+    "title": "Episode 4 · Counting Round-Up",
+    "context": "Discrete Mathematical Structures · Counting",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Counting",
+    "episodeName": "Counting Round-Up",
+    "partName": "Round-Up Practice",
+    "title": "Episode 4 Part 1 · Round-Up Practice",
+    "context": "Discrete Mathematical Structures · Counting · Episode 4",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-4-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Counting",
+    "episodeName": "Counting Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 4 Part 2 · Round-Up",
+    "context": "Discrete Mathematical Structures · Counting · Episode 4",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-4-part-2"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Counting",
+    "episodeName": "Counting Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 4 Part 3 · Round-Up",
+    "context": "Discrete Mathematical Structures · Counting · Episode 4",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-4-part-3"
+  },
+  {
+    "type": "Topic",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Recursion",
+    "title": "Recursion",
+    "context": "Discrete Mathematical Structures · BITC",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Recursion",
+    "episodeName": "Introduction to Recurrence Relations",
+    "title": "Episode 1 · Introduction to Recurrence Relations",
+    "context": "Discrete Mathematical Structures · Recursion",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Recursion",
+    "episodeName": "Introduction to Recurrence Relations",
+    "partName": "Recurrence Relations Basics",
+    "title": "Episode 1 Part 1 · Recurrence Relations Basics",
+    "context": "Discrete Mathematical Structures · Recursion · Episode 1",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-1-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Recursion",
+    "episodeName": "Solving Recurrence Relations",
+    "title": "Episode 2 · Solving Recurrence Relations",
+    "context": "Discrete Mathematical Structures · Recursion",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Recursion",
+    "episodeName": "Solving Recurrence Relations",
+    "partName": "Solving Recurrence Relations Practice",
+    "title": "Episode 2 Part 1 · Solving Recurrence Relations Practice",
+    "context": "Discrete Mathematical Structures · Recursion · Episode 2",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-2-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Recursion",
+    "episodeName": "Solving Recurrence Relations",
+    "partName": "Solving Recurrence Relations",
+    "title": "Episode 2 Part 2 · Solving Recurrence Relations",
+    "context": "Discrete Mathematical Structures · Recursion · Episode 2",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-2-part-2"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Recursion",
+    "episodeName": "Applications of Recursion in Computer Science",
+    "title": "Episode 3 · Applications of Recursion in Computer Science",
+    "context": "Discrete Mathematical Structures · Recursion",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Recursion",
+    "episodeName": "Applications of Recursion in Computer Science",
+    "partName": "Recursion Applications",
+    "title": "Episode 3 Part 1 · Recursion Applications",
+    "context": "Discrete Mathematical Structures · Recursion · Episode 3",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-3-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Recursion",
+    "episodeName": "Recursion Round-Up",
+    "title": "Episode 4 · Recursion Round-Up",
+    "context": "Discrete Mathematical Structures · Recursion",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Recursion",
+    "episodeName": "Recursion Round-Up",
+    "partName": "Round-Up Practice",
+    "title": "Episode 4 Part 1 · Round-Up Practice",
+    "context": "Discrete Mathematical Structures · Recursion · Episode 4",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-4-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Recursion",
+    "episodeName": "Recursion Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 4 Part 2 · Round-Up",
+    "context": "Discrete Mathematical Structures · Recursion · Episode 4",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-4-part-2"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Recursion",
+    "episodeName": "Recursion Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 4 Part 3 · Round-Up",
+    "context": "Discrete Mathematical Structures · Recursion · Episode 4",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-4-part-3"
+  },
+  {
+    "type": "Topic",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "title": "Tree Data Structures",
+    "context": "Discrete Mathematical Structures · BITC",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "episodeName": "Tree Notation and Terminology",
+    "title": "Episode 1 · Tree Notation and Terminology",
+    "context": "Discrete Mathematical Structures · Tree Data Structures",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "episodeName": "Tree Notation and Terminology",
+    "partName": "Tree Notation",
+    "title": "Episode 1 Part 1 · Tree Notation",
+    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 1",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-1-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "episodeName": "Types of Trees",
+    "title": "Episode 2 · Types of Trees",
+    "context": "Discrete Mathematical Structures · Tree Data Structures",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "episodeName": "Types of Trees",
+    "partName": "Types of Trees",
+    "title": "Episode 2 Part 1 · Types of Trees",
+    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 2",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-2-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "episodeName": "Tree Traversals",
+    "title": "Episode 3 · Tree Traversals",
+    "context": "Discrete Mathematical Structures · Tree Data Structures",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "episodeName": "Tree Traversals",
+    "partName": "Tree Traversals Practice",
+    "title": "Episode 3 Part 1 · Tree Traversals Practice",
+    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 3",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-3-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "episodeName": "Tree Traversals",
+    "partName": "Tree Traversals",
+    "title": "Episode 3 Part 2 · Tree Traversals",
+    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 3",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-3-part-2"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "episodeName": "Applications of Trees in Data Organization",
+    "title": "Episode 4 · Applications of Trees in Data Organization",
+    "context": "Discrete Mathematical Structures · Tree Data Structures",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "episodeName": "Applications of Trees in Data Organization",
+    "partName": "Tree Applications",
+    "title": "Episode 4 Part 1 · Tree Applications",
+    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 4",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-4-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "episodeName": "Tree Data Structures Round-Up",
+    "title": "Episode 5 · Tree Data Structures Round-Up",
+    "context": "Discrete Mathematical Structures · Tree Data Structures",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "episodeName": "Tree Data Structures Round-Up",
+    "partName": "Round-Up Practice",
+    "title": "Episode 5 Part 1 · Round-Up Practice",
+    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 5",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-5-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "episodeName": "Tree Data Structures Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 2 · Round-Up",
+    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 5",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-5-part-2"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Tree Data Structures",
+    "episodeName": "Tree Data Structures Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 3 · Round-Up",
+    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 5",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-5-part-3"
   },
   {
     "type": "Course",

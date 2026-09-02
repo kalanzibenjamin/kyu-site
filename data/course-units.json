@@ -803,7 +803,7 @@
                 "number": 1,
                 "type": "quiz",
                 "name": "Citation, Referencing and Plagiarism",
-                "url": ""
+                "url": "https://forms.gle/64HTDxC1ut4Z7FoH8"
               }
             ]
           },
@@ -6637,7 +6637,7 @@
                 "number": 1,
                 "type": "quiz",
                 "name": "Citation, Referencing and Plagiarism",
-                "url": ""
+                "url": "https://forms.gle/64HTDxC1ut4Z7FoH8"
               }
             ]
           },
@@ -7163,72 +7163,102 @@
     "slug": "discrete-mathematical-structures",
     "title": "Discrete Mathematical Structures",
     "semester": "Year 1 · Semester I",
-    "lastUpdated": "8th August, 2026",
+    "lastUpdated": "2026-08-31",
     "program": "BITC",
     "programme": "Bachelor of Information Technology and Computing",
     "path": "/pages/programs/scis/bitc/discrete-mathematical-structures/",
     "topics": [
       {
         "id": "discrete-mathematical-structures-topic-1",
-        "title": "Foundations",
+        "title": "Number Systems",
         "episodes": [
           {
             "number": 1,
-            "name": "Course overview",
+            "name": "Understanding Number Bases",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Course overview",
+                "type": "quiz",
+                "name": "Number Bases",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Key terms and definitions",
+            "name": "Binary Conversions",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Key terms and definitions",
+                "name": "Binary Conversion Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Binary Conversion",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 3,
-            "name": "Core concepts",
+            "name": "Octal and Hexadecimal Conversions",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Core concepts",
+                "name": "Octal and Hex Conversion Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Octal and Hex Conversion",
+                "url": "",
+                "forEpisode": 3,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 4,
-            "name": "Guided examples",
+            "name": "Applications in Digital Machines",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Guided examples",
+                "type": "quiz",
+                "name": "Digital Machines Applications",
                 "url": ""
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Number Systems Round-Up",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Topic review",
+                "name": "Round-Up Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
               }
             ]
           }
@@ -7236,65 +7266,95 @@
       },
       {
         "id": "discrete-mathematical-structures-topic-2",
-        "title": "Core Concepts",
+        "title": "Logic",
         "episodes": [
           {
             "number": 1,
-            "name": "Concept introduction",
+            "name": "Propositional Logic Basics",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Concept introduction",
+                "type": "quiz",
+                "name": "Propositional Logic",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Structures and principles",
+            "name": "Logical Equivalence and Laws",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Structures and principles",
+                "name": "Logical Equivalence Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Logical Equivalence",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 3,
-            "name": "Worked examples",
+            "name": "Predicates and Quantifiers",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Worked examples",
+                "type": "quiz",
+                "name": "Predicates and Quantifiers",
                 "url": ""
               }
             ]
           },
           {
             "number": 4,
-            "name": "Common questions",
+            "name": "Logical Reasoning and Proofs",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Common questions",
+                "name": "Logical Reasoning Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Logical Reasoning",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Logic Round-Up",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Topic review",
+                "name": "Round-Up Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
               }
             ]
           }
@@ -7302,65 +7362,431 @@
       },
       {
         "id": "discrete-mathematical-structures-topic-3",
-        "title": "Applications",
+        "title": "Boolean Algebra",
         "episodes": [
           {
             "number": 1,
-            "name": "Practical context",
+            "name": "Boolean Variables and Basic Operations",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Practical context",
+                "type": "quiz",
+                "name": "Boolean Operations",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Methods and techniques",
+            "name": "Boolean Expressions and Functions",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Methods and techniques",
+                "name": "Boolean Functions Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Boolean Functions",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 3,
-            "name": "Applied example",
+            "name": "Laws and Equivalences of Boolean Algebra",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Applied example",
+                "type": "quiz",
+                "name": "Boolean Laws",
                 "url": ""
               }
             ]
           },
           {
             "number": 4,
-            "name": "Practice questions",
+            "name": "Applications of Boolean Algebra",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Practice questions",
+                "type": "quiz",
+                "name": "Boolean Applications",
                 "url": ""
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Boolean Algebra Round-Up",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Topic review",
+                "name": "Round-Up Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "discrete-mathematical-structures-topic-4",
+        "title": "Discrete Structures",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Set Theory Basics",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Set Theory Basics",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Set Operations",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Set Operations Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Set Operations",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Functions and Their Properties",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Functions Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Functions",
+                "url": "",
+                "forEpisode": 3,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Applications of Sets and Functions",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Sets and Functions Applications",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Discrete Structures Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "discrete-mathematical-structures-topic-5",
+        "title": "Counting",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Permutations",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Permutations Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Permutations",
+                "url": "",
+                "forEpisode": 1,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Combinations",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Combinations Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Combinations",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Applications of Counting Techniques",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Counting Applications",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Counting Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "discrete-mathematical-structures-topic-6",
+        "title": "Recursion",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Introduction to Recurrence Relations",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Recurrence Relations Basics",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Solving Recurrence Relations",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Solving Recurrence Relations Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Solving Recurrence Relations",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Applications of Recursion in Computer Science",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Recursion Applications",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Recursion Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "discrete-mathematical-structures-topic-7",
+        "title": "Tree Data Structures",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Tree Notation and Terminology",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Tree Notation",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Types of Trees",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Types of Trees",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Tree Traversals",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Tree Traversals Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Tree Traversals",
+                "url": "",
+                "forEpisode": 3,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Applications of Trees in Data Organization",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Tree Applications",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Tree Data Structures Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
               }
             ]
           }
