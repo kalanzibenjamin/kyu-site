@@ -1,200 +1,360 @@
 {
-  "lastUpdated": "2026-08-29",
-  "topics": [
-    {
-      "title": "Foundations",
-      "episodes": [
-        {
-          "number": 1,
-          "name": "Course overview",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Course overview",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "name": "Key terms and definitions",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Key terms and definitions",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "name": "Core concepts",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Core concepts",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 4,
-          "name": "Guided examples",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Guided examples",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 5,
-          "name": "Topic review",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Topic review",
-              "url": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Core Concepts",
-      "episodes": [
-        {
-          "number": 1,
-          "name": "Concept introduction",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Concept introduction",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "name": "Structures and principles",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Structures and principles",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "name": "Worked examples",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Worked examples",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 4,
-          "name": "Common questions",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Common questions",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 5,
-          "name": "Topic review",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Topic review",
-              "url": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Applications",
-      "episodes": [
-        {
-          "number": 1,
-          "name": "Practical context",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Practical context",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "name": "Methods and techniques",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Methods and techniques",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "name": "Applied example",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Applied example",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 4,
-          "name": "Practice questions",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Practice questions",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 5,
-          "name": "Topic review",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Topic review",
-              "url": ""
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"lastUpdated": "2026-09-03",
+	"topics": [
+		{
+			"title": "Functions",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Definition, Properties, Domain and Range of Elementary Functions",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Definition, Properties, Domain and Range of Elementary Functions", "url": "" }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Algebraic and Transcendental Functions",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Algebraic and Transcendental Functions", "url": "" }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Exponential, Logarithmic and Hyperbolic Functions",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Exponential, Logarithmic and Hyperbolic Functions", "url": "" }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Parametric Equations",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Parametric Equations Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Parametric Equations", "url": "", "forEpisode": 4, "forPart": 1 }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Functions Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 5, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Limits, Continuity and Convergence",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Limits of a Function of a Real Variable",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Limits Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Limits", "url": "", "forEpisode": 1, "forPart": 1 }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Continuity",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Continuity", "url": "" }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Indeterminate Forms and L'Hopital's Rule",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Indeterminate Forms Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Indeterminate Forms", "url": "", "forEpisode": 3, "forPart": 1 }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Sequences and Convergence",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Sequences and Convergence", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Convergence Tests",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Convergence Tests Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Convergence Tests", "url": "", "forEpisode": 5, "forPart": 1 }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Limit Theorems of Sequences",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Limit Theorems of Sequences", "url": "" }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Power Series and Convergence",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Power Series Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Power Series", "url": "", "forEpisode": 7, "forPart": 1 }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Maclaurin's and Taylor Series",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Maclaurin's and Taylor Series Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Maclaurin's and Taylor Series", "url": "", "forEpisode": 8, "forPart": 1 }
+					]
+				},
+				{
+					"number": 9,
+					"name": "Fourier Series and Periodic Functions",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Fourier Series Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Fourier Series", "url": "", "forEpisode": 9, "forPart": 1 }
+					]
+				},
+				{
+					"number": 10,
+					"name": "Limits, Continuity and Convergence Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 10, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Differential Calculus",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "The Derivative: Definitions and Rules of Differentiation",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Derivative Rules Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Derivative Rules", "url": "", "forEpisode": 1, "forPart": 1 }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Differentiation of Exponential, Logarithmic and Hyperbolic Functions",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Differentiation Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Differentiation", "url": "", "forEpisode": 2, "forPart": 1 }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Maxima, Minima and Identification of Extrema",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Extrema Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Extrema", "url": "", "forEpisode": 3, "forPart": 1 }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Partial and Total Differentiation",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Partial and Total Differentiation Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Partial and Total Differentiation", "url": "", "forEpisode": 4, "forPart": 1 }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Chain Rule and Change of Variables",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Chain Rule Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Chain Rule", "url": "", "forEpisode": 5, "forPart": 1 }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Implicit Functions and Derivatives of Inverse Circular Functions",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Implicit Functions Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Implicit Functions", "url": "", "forEpisode": 6, "forPart": 1 }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Higher Order Partial Derivatives and Curve Sketching",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Higher Order Derivatives and Curve Sketching Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Higher Order Derivatives and Curve Sketching", "url": "", "forEpisode": 7, "forPart": 1 }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Rolle's Theorem, Mean Value Theorem and Cauchy's Mean Value Theorem",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Rolle's Theorem, Mean Value Theorem and Cauchy's Mean Value Theorem", "url": "" }
+					]
+				},
+				{
+					"number": 9,
+					"name": "Differential Calculus Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 9, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Integral Calculus",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus", "url": "" }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Techniques of Integration",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Techniques of Integration Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Techniques of Integration", "url": "", "forEpisode": 2, "forPart": 1 }
+					]
+				},
+				{
+					"number": 3,
+					"name": "The Definite Integral and Area Under a Curve",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Definite Integral Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Definite Integral", "url": "", "forEpisode": 3, "forPart": 1 }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Applications of the Definite Integral",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Applications Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Applications", "url": "", "forEpisode": 4, "forPart": 1 }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Improper Integrals",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Improper Integrals Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Improper Integrals", "url": "", "forEpisode": 5, "forPart": 1 }
+					]
+				},
+				{
+					"number": 6,
+					"name": "The Definite Integral as a Function of Its Upper Limit",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Definite Integral as a Function Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Definite Integral as a Function", "url": "", "forEpisode": 6, "forPart": 1 }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Double Integrals and Their Applications",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Double Integrals Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Double Integrals", "url": "", "forEpisode": 7, "forPart": 1 }
+					]
+				},
+				{
+					"number": 8,
+					"name": "The Riemann Integral: Definition and Characteristics",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "The Riemann Integral: Definition and Characteristics", "url": "" }
+					]
+				},
+				{
+					"number": 9,
+					"name": "Integral Calculus Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 9, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Vector Calculus",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Vectors: Definitions and Basic Operations",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Vectors Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Vectors", "url": "", "forEpisode": 1, "forPart": 1 }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Dot and Cross Products",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Dot and Cross Products Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Dot and Cross Products", "url": "", "forEpisode": 2, "forPart": 1 }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Position and Distance Vectors",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Position and Distance Vectors Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Position and Distance Vectors", "url": "", "forEpisode": 3, "forPart": 1 }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Scalar and Vector Fields",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Scalar and Vector Fields", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Directional Derivatives and Vector Functions",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Directional Derivatives Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Directional Derivatives", "url": "", "forEpisode": 5, "forPart": 1 }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Gradient, Divergence, Curl and Laplacian",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Gradient, Divergence, Curl and Laplacian Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Gradient, Divergence, Curl and Laplacian", "url": "", "forEpisode": 6, "forPart": 1 }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Physical Interpretation of Divergence and Curl",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Physical Interpretation of Divergence and Curl", "url": "" }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Green's Theorem and Line Integrals Independent of Path",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Green's Theorem and Line Integrals Practice", "url": "" },
+						{ "number": 2, "type": "solutions", "name": "Green's Theorem and Line Integrals", "url": "", "forEpisode": 8, "forPart": 1 }
+					]
+				},
+				{
+					"number": 9,
+					"name": "Vector Calculus Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 9, "forPart": 1 }
+					]
+				}
+			]
+		}
+	]
 }
