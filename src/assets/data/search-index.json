@@ -2473,6 +2473,65 @@
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-4-episode-4-part-1"
   },
   {
+    "type": "Episode",
+    "program": "BIS",
+    "aliases": [
+      "BIS",
+      "Bachelor of Information Systems"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Public Speaking and Oral Communication",
+    "episodeName": "Public Speaking Round-Up",
+    "title": "Episode 5 · Public Speaking Round-Up",
+    "context": "Humanities and Communications Skills · Public Speaking and Oral Communication",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BIS",
+    "aliases": [
+      "BIS",
+      "Bachelor of Information Systems"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Public Speaking and Oral Communication",
+    "episodeName": "Public Speaking Round-Up",
+    "partName": "Round-Up Practice",
+    "title": "Episode 5 Part 1 · Round-Up Practice",
+    "context": "Humanities and Communications Skills · Public Speaking and Oral Communication · Episode 5",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-4-episode-5-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BIS",
+    "aliases": [
+      "BIS",
+      "Bachelor of Information Systems"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Public Speaking and Oral Communication",
+    "episodeName": "Public Speaking Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 2 · Round-Up",
+    "context": "Humanities and Communications Skills · Public Speaking and Oral Communication · Episode 5",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-4-episode-5-part-2"
+  },
+  {
+    "type": "Part",
+    "program": "BIS",
+    "aliases": [
+      "BIS",
+      "Bachelor of Information Systems"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Public Speaking and Oral Communication",
+    "episodeName": "Public Speaking Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 3 · Round-Up",
+    "context": "Humanities and Communications Skills · Public Speaking and Oral Communication · Episode 5",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-4-episode-5-part-3"
+  },
+  {
     "type": "Topic",
     "program": "BIS",
     "aliases": [
@@ -2513,6 +2572,65 @@
     "title": "Episode 1 Part 1 · Reading Fundamentals",
     "context": "Humanities and Communications Skills · Reading and Library Skills · Episode 1",
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-5-episode-1-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BIS",
+    "aliases": [
+      "BIS",
+      "Bachelor of Information Systems"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Reading and Library Skills",
+    "episodeName": "Reading and Library Skills Round-Up",
+    "title": "Episode 2 · Reading and Library Skills Round-Up",
+    "context": "Humanities and Communications Skills · Reading and Library Skills",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BIS",
+    "aliases": [
+      "BIS",
+      "Bachelor of Information Systems"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Reading and Library Skills",
+    "episodeName": "Reading and Library Skills Round-Up",
+    "partName": "Round-Up Practice",
+    "title": "Episode 2 Part 1 · Round-Up Practice",
+    "context": "Humanities and Communications Skills · Reading and Library Skills · Episode 2",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-5-episode-2-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BIS",
+    "aliases": [
+      "BIS",
+      "Bachelor of Information Systems"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Reading and Library Skills",
+    "episodeName": "Reading and Library Skills Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 2 Part 2 · Round-Up",
+    "context": "Humanities and Communications Skills · Reading and Library Skills · Episode 2",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-5-episode-2-part-2"
+  },
+  {
+    "type": "Part",
+    "program": "BIS",
+    "aliases": [
+      "BIS",
+      "Bachelor of Information Systems"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Reading and Library Skills",
+    "episodeName": "Reading and Library Skills Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 2 Part 3 · Round-Up",
+    "context": "Humanities and Communications Skills · Reading and Library Skills · Episode 2",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-5-episode-2-part-3"
   },
   {
     "type": "Course",
@@ -16022,6 +16140,65 @@
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-4-episode-4-part-1"
   },
   {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Public Speaking and Oral Communication",
+    "episodeName": "Public Speaking Round-Up",
+    "title": "Episode 5 · Public Speaking Round-Up",
+    "context": "Humanities and Communications Skills · Public Speaking and Oral Communication",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Public Speaking and Oral Communication",
+    "episodeName": "Public Speaking Round-Up",
+    "partName": "Round-Up Practice",
+    "title": "Episode 5 Part 1 · Round-Up Practice",
+    "context": "Humanities and Communications Skills · Public Speaking and Oral Communication · Episode 5",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-4-episode-5-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Public Speaking and Oral Communication",
+    "episodeName": "Public Speaking Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 2 · Round-Up",
+    "context": "Humanities and Communications Skills · Public Speaking and Oral Communication · Episode 5",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-4-episode-5-part-2"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Public Speaking and Oral Communication",
+    "episodeName": "Public Speaking Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 3 · Round-Up",
+    "context": "Humanities and Communications Skills · Public Speaking and Oral Communication · Episode 5",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-4-episode-5-part-3"
+  },
+  {
     "type": "Topic",
     "program": "BITC",
     "aliases": [
@@ -16064,6 +16241,65 @@
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-5-episode-1-part-1"
   },
   {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Reading and Library Skills",
+    "episodeName": "Reading and Library Skills Round-Up",
+    "title": "Episode 2 · Reading and Library Skills Round-Up",
+    "context": "Humanities and Communications Skills · Reading and Library Skills",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Reading and Library Skills",
+    "episodeName": "Reading and Library Skills Round-Up",
+    "partName": "Round-Up Practice",
+    "title": "Episode 2 Part 1 · Round-Up Practice",
+    "context": "Humanities and Communications Skills · Reading and Library Skills · Episode 2",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-5-episode-2-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Reading and Library Skills",
+    "episodeName": "Reading and Library Skills Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 2 Part 2 · Round-Up",
+    "context": "Humanities and Communications Skills · Reading and Library Skills · Episode 2",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-5-episode-2-part-2"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Reading and Library Skills",
+    "episodeName": "Reading and Library Skills Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 2 Part 3 · Round-Up",
+    "context": "Humanities and Communications Skills · Reading and Library Skills · Episode 2",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-5-episode-2-part-3"
+  },
+  {
     "type": "Course",
     "program": "BITC",
     "aliases": [
@@ -16083,8 +16319,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Foundations",
-    "title": "Foundations",
+    "topicName": "Foundations of Information Technology and Computing",
+    "title": "Foundations of Information Technology and Computing",
     "context": "Introduction to Information Technology and Computing · BITC",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-1"
   },
@@ -16096,10 +16332,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Foundations",
-    "episodeName": "Course overview",
-    "title": "Episode 1 · Course overview",
-    "context": "Introduction to Information Technology and Computing · Foundations",
+    "topicName": "Foundations of Information Technology and Computing",
+    "episodeName": "Meaning and Scope of Information Technology and Computing",
+    "title": "Episode 1 · Meaning and Scope of Information Technology and Computing",
+    "context": "Introduction to Information Technology and Computing · Foundations of Information Technology and Computing",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-1"
   },
   {
@@ -16110,11 +16346,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Foundations",
-    "episodeName": "Course overview",
-    "partName": "Course overview",
-    "title": "Episode 1 Part 1 · Course overview",
-    "context": "Introduction to Information Technology and Computing · Foundations · Episode 1",
+    "topicName": "Foundations of Information Technology and Computing",
+    "episodeName": "Meaning and Scope of Information Technology and Computing",
+    "partName": "Meaning and Scope of Information Technology and Computing",
+    "title": "Episode 1 Part 1 · Meaning and Scope of Information Technology and Computing",
+    "context": "Introduction to Information Technology and Computing · Foundations of Information Technology and Computing · Episode 1",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-1-episode-1-part-1"
   },
   {
@@ -16125,10 +16361,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Foundations",
-    "episodeName": "Key terms and definitions",
-    "title": "Episode 2 · Key terms and definitions",
-    "context": "Introduction to Information Technology and Computing · Foundations",
+    "topicName": "Foundations of Information Technology and Computing",
+    "episodeName": "Evolution of Computing",
+    "title": "Episode 2 · Evolution of Computing",
+    "context": "Introduction to Information Technology and Computing · Foundations of Information Technology and Computing",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-1"
   },
   {
@@ -16139,11 +16375,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Foundations",
-    "episodeName": "Key terms and definitions",
-    "partName": "Key terms and definitions",
-    "title": "Episode 2 Part 1 · Key terms and definitions",
-    "context": "Introduction to Information Technology and Computing · Foundations · Episode 2",
+    "topicName": "Foundations of Information Technology and Computing",
+    "episodeName": "Evolution of Computing",
+    "partName": "Evolution of Computing",
+    "title": "Episode 2 Part 1 · Evolution of Computing",
+    "context": "Introduction to Information Technology and Computing · Foundations of Information Technology and Computing · Episode 2",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-1-episode-2-part-1"
   },
   {
@@ -16154,10 +16390,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Foundations",
-    "episodeName": "Core concepts",
-    "title": "Episode 3 · Core concepts",
-    "context": "Introduction to Information Technology and Computing · Foundations",
+    "topicName": "Foundations of Information Technology and Computing",
+    "episodeName": "Characteristics and Categories of Computing Systems",
+    "title": "Episode 3 · Characteristics and Categories of Computing Systems",
+    "context": "Introduction to Information Technology and Computing · Foundations of Information Technology and Computing",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-1"
   },
   {
@@ -16168,11 +16404,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Foundations",
-    "episodeName": "Core concepts",
-    "partName": "Core concepts",
-    "title": "Episode 3 Part 1 · Core concepts",
-    "context": "Introduction to Information Technology and Computing · Foundations · Episode 3",
+    "topicName": "Foundations of Information Technology and Computing",
+    "episodeName": "Characteristics and Categories of Computing Systems",
+    "partName": "Characteristics and Categories of Computing Systems",
+    "title": "Episode 3 Part 1 · Characteristics and Categories of Computing Systems",
+    "context": "Introduction to Information Technology and Computing · Foundations of Information Technology and Computing · Episode 3",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-1-episode-3-part-1"
   },
   {
@@ -16183,10 +16419,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Foundations",
-    "episodeName": "Guided examples",
-    "title": "Episode 4 · Guided examples",
-    "context": "Introduction to Information Technology and Computing · Foundations",
+    "topicName": "Foundations of Information Technology and Computing",
+    "episodeName": "Major Computing Disciplines",
+    "title": "Episode 4 · Major Computing Disciplines",
+    "context": "Introduction to Information Technology and Computing · Foundations of Information Technology and Computing",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-1"
   },
   {
@@ -16197,11 +16433,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Foundations",
-    "episodeName": "Guided examples",
-    "partName": "Guided examples",
-    "title": "Episode 4 Part 1 · Guided examples",
-    "context": "Introduction to Information Technology and Computing · Foundations · Episode 4",
+    "topicName": "Foundations of Information Technology and Computing",
+    "episodeName": "Major Computing Disciplines",
+    "partName": "Major Computing Disciplines",
+    "title": "Episode 4 Part 1 · Major Computing Disciplines",
+    "context": "Introduction to Information Technology and Computing · Foundations of Information Technology and Computing · Episode 4",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-1-episode-4-part-1"
   },
   {
@@ -16212,10 +16448,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Foundations",
-    "episodeName": "Topic review",
-    "title": "Episode 5 · Topic review",
-    "context": "Introduction to Information Technology and Computing · Foundations",
+    "topicName": "Foundations of Information Technology and Computing",
+    "episodeName": "Applications of Computing in Organizations and Society",
+    "title": "Episode 5 · Applications of Computing in Organizations and Society",
+    "context": "Introduction to Information Technology and Computing · Foundations of Information Technology and Computing",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-1"
   },
   {
@@ -16226,11 +16462,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Foundations",
-    "episodeName": "Topic review",
-    "partName": "Topic review",
-    "title": "Episode 5 Part 1 · Topic review",
-    "context": "Introduction to Information Technology and Computing · Foundations · Episode 5",
+    "topicName": "Foundations of Information Technology and Computing",
+    "episodeName": "Applications of Computing in Organizations and Society",
+    "partName": "Applications of Computing in Organizations and Society",
+    "title": "Episode 5 Part 1 · Applications of Computing in Organizations and Society",
+    "context": "Introduction to Information Technology and Computing · Foundations of Information Technology and Computing · Episode 5",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-1-episode-5-part-1"
   },
   {
@@ -16241,8 +16477,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Core Concepts",
-    "title": "Core Concepts",
+    "topicName": "Computer Systems, Hardware and Software",
+    "title": "Computer Systems, Hardware and Software",
     "context": "Introduction to Information Technology and Computing · BITC",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-2"
   },
@@ -16254,10 +16490,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Core Concepts",
-    "episodeName": "Concept introduction",
-    "title": "Episode 1 · Concept introduction",
-    "context": "Introduction to Information Technology and Computing · Core Concepts",
+    "topicName": "Computer Systems, Hardware and Software",
+    "episodeName": "Functional Organization of a Computer System",
+    "title": "Episode 1 · Functional Organization of a Computer System",
+    "context": "Introduction to Information Technology and Computing · Computer Systems, Hardware and Software",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-2"
   },
   {
@@ -16268,11 +16504,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Core Concepts",
-    "episodeName": "Concept introduction",
-    "partName": "Concept introduction",
-    "title": "Episode 1 Part 1 · Concept introduction",
-    "context": "Introduction to Information Technology and Computing · Core Concepts · Episode 1",
+    "topicName": "Computer Systems, Hardware and Software",
+    "episodeName": "Functional Organization of a Computer System",
+    "partName": "Functional Organization of a Computer System",
+    "title": "Episode 1 Part 1 · Functional Organization of a Computer System",
+    "context": "Introduction to Information Technology and Computing · Computer Systems, Hardware and Software · Episode 1",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-2-episode-1-part-1"
   },
   {
@@ -16283,10 +16519,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Core Concepts",
-    "episodeName": "Structures and principles",
-    "title": "Episode 2 · Structures and principles",
-    "context": "Introduction to Information Technology and Computing · Core Concepts",
+    "topicName": "Computer Systems, Hardware and Software",
+    "episodeName": "Processors, Memory and Storage",
+    "title": "Episode 2 · Processors, Memory and Storage",
+    "context": "Introduction to Information Technology and Computing · Computer Systems, Hardware and Software",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-2"
   },
   {
@@ -16297,11 +16533,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Core Concepts",
-    "episodeName": "Structures and principles",
-    "partName": "Structures and principles",
-    "title": "Episode 2 Part 1 · Structures and principles",
-    "context": "Introduction to Information Technology and Computing · Core Concepts · Episode 2",
+    "topicName": "Computer Systems, Hardware and Software",
+    "episodeName": "Processors, Memory and Storage",
+    "partName": "Processors, Memory and Storage",
+    "title": "Episode 2 Part 1 · Processors, Memory and Storage",
+    "context": "Introduction to Information Technology and Computing · Computer Systems, Hardware and Software · Episode 2",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-2-episode-2-part-1"
   },
   {
@@ -16312,10 +16548,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Core Concepts",
-    "episodeName": "Worked examples",
-    "title": "Episode 3 · Worked examples",
-    "context": "Introduction to Information Technology and Computing · Core Concepts",
+    "topicName": "Computer Systems, Hardware and Software",
+    "episodeName": "Input/Output and Peripheral Devices",
+    "title": "Episode 3 · Input/Output and Peripheral Devices",
+    "context": "Introduction to Information Technology and Computing · Computer Systems, Hardware and Software",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-2"
   },
   {
@@ -16326,11 +16562,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Core Concepts",
-    "episodeName": "Worked examples",
-    "partName": "Worked examples",
-    "title": "Episode 3 Part 1 · Worked examples",
-    "context": "Introduction to Information Technology and Computing · Core Concepts · Episode 3",
+    "topicName": "Computer Systems, Hardware and Software",
+    "episodeName": "Input/Output and Peripheral Devices",
+    "partName": "Input/Output and Peripheral Devices",
+    "title": "Episode 3 Part 1 · Input/Output and Peripheral Devices",
+    "context": "Introduction to Information Technology and Computing · Computer Systems, Hardware and Software · Episode 3",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-2-episode-3-part-1"
   },
   {
@@ -16341,10 +16577,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Core Concepts",
-    "episodeName": "Common questions",
-    "title": "Episode 4 · Common questions",
-    "context": "Introduction to Information Technology and Computing · Core Concepts",
+    "topicName": "Computer Systems, Hardware and Software",
+    "episodeName": "System and Application Software",
+    "title": "Episode 4 · System and Application Software",
+    "context": "Introduction to Information Technology and Computing · Computer Systems, Hardware and Software",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-2"
   },
   {
@@ -16355,11 +16591,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Core Concepts",
-    "episodeName": "Common questions",
-    "partName": "Common questions",
-    "title": "Episode 4 Part 1 · Common questions",
-    "context": "Introduction to Information Technology and Computing · Core Concepts · Episode 4",
+    "topicName": "Computer Systems, Hardware and Software",
+    "episodeName": "System and Application Software",
+    "partName": "System and Application Software",
+    "title": "Episode 4 Part 1 · System and Application Software",
+    "context": "Introduction to Information Technology and Computing · Computer Systems, Hardware and Software · Episode 4",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-2-episode-4-part-1"
   },
   {
@@ -16370,10 +16606,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Core Concepts",
-    "episodeName": "Topic review",
-    "title": "Episode 5 · Topic review",
-    "context": "Introduction to Information Technology and Computing · Core Concepts",
+    "topicName": "Computer Systems, Hardware and Software",
+    "episodeName": "Operating System Functions and Concepts",
+    "title": "Episode 5 · Operating System Functions and Concepts",
+    "context": "Introduction to Information Technology and Computing · Computer Systems, Hardware and Software",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-2"
   },
   {
@@ -16384,11 +16620,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Core Concepts",
-    "episodeName": "Topic review",
-    "partName": "Topic review",
-    "title": "Episode 5 Part 1 · Topic review",
-    "context": "Introduction to Information Technology and Computing · Core Concepts · Episode 5",
+    "topicName": "Computer Systems, Hardware and Software",
+    "episodeName": "Operating System Functions and Concepts",
+    "partName": "Operating System Functions and Concepts",
+    "title": "Episode 5 Part 1 · Operating System Functions and Concepts",
+    "context": "Introduction to Information Technology and Computing · Computer Systems, Hardware and Software · Episode 5",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-2-episode-5-part-1"
   },
   {
@@ -16399,8 +16635,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Applications",
-    "title": "Applications",
+    "topicName": "Data, Information and Computational Thinking",
+    "title": "Data, Information and Computational Thinking",
     "context": "Introduction to Information Technology and Computing · BITC",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-3"
   },
@@ -16412,10 +16648,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Applications",
-    "episodeName": "Practical context",
-    "title": "Episode 1 · Practical context",
-    "context": "Introduction to Information Technology and Computing · Applications",
+    "topicName": "Data, Information and Computational Thinking",
+    "episodeName": "Data and Information",
+    "title": "Episode 1 · Data and Information",
+    "context": "Introduction to Information Technology and Computing · Data, Information and Computational Thinking",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-3"
   },
   {
@@ -16426,11 +16662,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Applications",
-    "episodeName": "Practical context",
-    "partName": "Practical context",
-    "title": "Episode 1 Part 1 · Practical context",
-    "context": "Introduction to Information Technology and Computing · Applications · Episode 1",
+    "topicName": "Data, Information and Computational Thinking",
+    "episodeName": "Data and Information",
+    "partName": "Data and Information",
+    "title": "Episode 1 Part 1 · Data and Information",
+    "context": "Introduction to Information Technology and Computing · Data, Information and Computational Thinking · Episode 1",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-3-episode-1-part-1"
   },
   {
@@ -16441,10 +16677,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Applications",
-    "episodeName": "Methods and techniques",
-    "title": "Episode 2 · Methods and techniques",
-    "context": "Introduction to Information Technology and Computing · Applications",
+    "topicName": "Data, Information and Computational Thinking",
+    "episodeName": "Basic Data Representation and Binary Concepts",
+    "title": "Episode 2 · Basic Data Representation and Binary Concepts",
+    "context": "Introduction to Information Technology and Computing · Data, Information and Computational Thinking",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-3"
   },
   {
@@ -16455,11 +16691,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Applications",
-    "episodeName": "Methods and techniques",
-    "partName": "Methods and techniques",
-    "title": "Episode 2 Part 1 · Methods and techniques",
-    "context": "Introduction to Information Technology and Computing · Applications · Episode 2",
+    "topicName": "Data, Information and Computational Thinking",
+    "episodeName": "Basic Data Representation and Binary Concepts",
+    "partName": "Basic Data Representation and Binary Concepts",
+    "title": "Episode 2 Part 1 · Basic Data Representation and Binary Concepts",
+    "context": "Introduction to Information Technology and Computing · Data, Information and Computational Thinking · Episode 2",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-3-episode-2-part-1"
   },
   {
@@ -16470,10 +16706,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Applications",
-    "episodeName": "Applied example",
-    "title": "Episode 3 · Applied example",
-    "context": "Introduction to Information Technology and Computing · Applications",
+    "topicName": "Data, Information and Computational Thinking",
+    "episodeName": "Information Processing",
+    "title": "Episode 3 · Information Processing",
+    "context": "Introduction to Information Technology and Computing · Data, Information and Computational Thinking",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-3"
   },
   {
@@ -16484,11 +16720,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Applications",
-    "episodeName": "Applied example",
-    "partName": "Applied example",
-    "title": "Episode 3 Part 1 · Applied example",
-    "context": "Introduction to Information Technology and Computing · Applications · Episode 3",
+    "topicName": "Data, Information and Computational Thinking",
+    "episodeName": "Information Processing",
+    "partName": "Information Processing",
+    "title": "Episode 3 Part 1 · Information Processing",
+    "context": "Introduction to Information Technology and Computing · Data, Information and Computational Thinking · Episode 3",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-3-episode-3-part-1"
   },
   {
@@ -16499,10 +16735,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Applications",
-    "episodeName": "Practice questions",
-    "title": "Episode 4 · Practice questions",
-    "context": "Introduction to Information Technology and Computing · Applications",
+    "topicName": "Data, Information and Computational Thinking",
+    "episodeName": "Files and Introductory Database Concepts",
+    "title": "Episode 4 · Files and Introductory Database Concepts",
+    "context": "Introduction to Information Technology and Computing · Data, Information and Computational Thinking",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-3"
   },
   {
@@ -16513,11 +16749,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Applications",
-    "episodeName": "Practice questions",
-    "partName": "Practice questions",
-    "title": "Episode 4 Part 1 · Practice questions",
-    "context": "Introduction to Information Technology and Computing · Applications · Episode 4",
+    "topicName": "Data, Information and Computational Thinking",
+    "episodeName": "Files and Introductory Database Concepts",
+    "partName": "Files and Introductory Database Concepts",
+    "title": "Episode 4 Part 1 · Files and Introductory Database Concepts",
+    "context": "Introduction to Information Technology and Computing · Data, Information and Computational Thinking · Episode 4",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-3-episode-4-part-1"
   },
   {
@@ -16528,10 +16764,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Applications",
-    "episodeName": "Topic review",
-    "title": "Episode 5 · Topic review",
-    "context": "Introduction to Information Technology and Computing · Applications",
+    "topicName": "Data, Information and Computational Thinking",
+    "episodeName": "Problem Solving in Computing",
+    "title": "Episode 5 · Problem Solving in Computing",
+    "context": "Introduction to Information Technology and Computing · Data, Information and Computational Thinking",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-3"
   },
   {
@@ -16542,12 +16778,486 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Introduction to Information Technology and Computing",
-    "topicName": "Applications",
-    "episodeName": "Topic review",
-    "partName": "Topic review",
-    "title": "Episode 5 Part 1 · Topic review",
-    "context": "Introduction to Information Technology and Computing · Applications · Episode 5",
+    "topicName": "Data, Information and Computational Thinking",
+    "episodeName": "Problem Solving in Computing",
+    "partName": "Problem Solving in Computing",
+    "title": "Episode 5 Part 1 · Problem Solving in Computing",
+    "context": "Introduction to Information Technology and Computing · Data, Information and Computational Thinking · Episode 5",
     "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-3-episode-5-part-1"
+  },
+  {
+    "type": "Topic",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Networks, Internet and Modern Computing Environments",
+    "title": "Networks, Internet and Modern Computing Environments",
+    "context": "Introduction to Information Technology and Computing · BITC",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-4"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Networks, Internet and Modern Computing Environments",
+    "episodeName": "Basic Networking Concepts and Components",
+    "title": "Episode 1 · Basic Networking Concepts and Components",
+    "context": "Introduction to Information Technology and Computing · Networks, Internet and Modern Computing Environments",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Networks, Internet and Modern Computing Environments",
+    "episodeName": "Basic Networking Concepts and Components",
+    "partName": "Basic Networking Concepts and Components",
+    "title": "Episode 1 Part 1 · Basic Networking Concepts and Components",
+    "context": "Introduction to Information Technology and Computing · Networks, Internet and Modern Computing Environments · Episode 1",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-4-episode-1-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Networks, Internet and Modern Computing Environments",
+    "episodeName": "Wired and Wireless Communication",
+    "title": "Episode 2 · Wired and Wireless Communication",
+    "context": "Introduction to Information Technology and Computing · Networks, Internet and Modern Computing Environments",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Networks, Internet and Modern Computing Environments",
+    "episodeName": "Wired and Wireless Communication",
+    "partName": "Wired and Wireless Communication",
+    "title": "Episode 2 Part 1 · Wired and Wireless Communication",
+    "context": "Introduction to Information Technology and Computing · Networks, Internet and Modern Computing Environments · Episode 2",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-4-episode-2-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Networks, Internet and Modern Computing Environments",
+    "episodeName": "Internet Concepts and Services",
+    "title": "Episode 3 · Internet Concepts and Services",
+    "context": "Introduction to Information Technology and Computing · Networks, Internet and Modern Computing Environments",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Networks, Internet and Modern Computing Environments",
+    "episodeName": "Internet Concepts and Services",
+    "partName": "Internet Concepts and Services",
+    "title": "Episode 3 Part 1 · Internet Concepts and Services",
+    "context": "Introduction to Information Technology and Computing · Networks, Internet and Modern Computing Environments · Episode 3",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-4-episode-3-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Networks, Internet and Modern Computing Environments",
+    "episodeName": "World Wide Web Concepts",
+    "title": "Episode 4 · World Wide Web Concepts",
+    "context": "Introduction to Information Technology and Computing · Networks, Internet and Modern Computing Environments",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Networks, Internet and Modern Computing Environments",
+    "episodeName": "World Wide Web Concepts",
+    "partName": "World Wide Web Concepts",
+    "title": "Episode 4 Part 1 · World Wide Web Concepts",
+    "context": "Introduction to Information Technology and Computing · Networks, Internet and Modern Computing Environments · Episode 4",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-4-episode-4-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Networks, Internet and Modern Computing Environments",
+    "episodeName": "Client-Server Concepts",
+    "title": "Episode 5 · Client-Server Concepts",
+    "context": "Introduction to Information Technology and Computing · Networks, Internet and Modern Computing Environments",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Networks, Internet and Modern Computing Environments",
+    "episodeName": "Client-Server Concepts",
+    "partName": "Client-Server Concepts",
+    "title": "Episode 5 Part 1 · Client-Server Concepts",
+    "context": "Introduction to Information Technology and Computing · Networks, Internet and Modern Computing Environments · Episode 5",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-4-episode-5-part-1"
+  },
+  {
+    "type": "Topic",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Cybersecurity, Ethics and Responsible Computing",
+    "title": "Cybersecurity, Ethics and Responsible Computing",
+    "context": "Introduction to Information Technology and Computing · BITC",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-5"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Cybersecurity, Ethics and Responsible Computing",
+    "episodeName": "Cybersecurity Fundamentals",
+    "title": "Episode 1 · Cybersecurity Fundamentals",
+    "context": "Introduction to Information Technology and Computing · Cybersecurity, Ethics and Responsible Computing",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Cybersecurity, Ethics and Responsible Computing",
+    "episodeName": "Cybersecurity Fundamentals",
+    "partName": "Cybersecurity Fundamentals",
+    "title": "Episode 1 Part 1 · Cybersecurity Fundamentals",
+    "context": "Introduction to Information Technology and Computing · Cybersecurity, Ethics and Responsible Computing · Episode 1",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-5-episode-1-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Cybersecurity, Ethics and Responsible Computing",
+    "episodeName": "Common Threats and Vulnerabilities",
+    "title": "Episode 2 · Common Threats and Vulnerabilities",
+    "context": "Introduction to Information Technology and Computing · Cybersecurity, Ethics and Responsible Computing",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Cybersecurity, Ethics and Responsible Computing",
+    "episodeName": "Common Threats and Vulnerabilities",
+    "partName": "Common Threats and Vulnerabilities",
+    "title": "Episode 2 Part 1 · Common Threats and Vulnerabilities",
+    "context": "Introduction to Information Technology and Computing · Cybersecurity, Ethics and Responsible Computing · Episode 2",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-5-episode-2-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Cybersecurity, Ethics and Responsible Computing",
+    "episodeName": "Malware and Social Engineering",
+    "title": "Episode 3 · Malware and Social Engineering",
+    "context": "Introduction to Information Technology and Computing · Cybersecurity, Ethics and Responsible Computing",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Cybersecurity, Ethics and Responsible Computing",
+    "episodeName": "Malware and Social Engineering",
+    "partName": "Malware and Social Engineering",
+    "title": "Episode 3 Part 1 · Malware and Social Engineering",
+    "context": "Introduction to Information Technology and Computing · Cybersecurity, Ethics and Responsible Computing · Episode 3",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-5-episode-3-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Cybersecurity, Ethics and Responsible Computing",
+    "episodeName": "Authentication, Access Control and Protective Practices",
+    "title": "Episode 4 · Authentication, Access Control and Protective Practices",
+    "context": "Introduction to Information Technology and Computing · Cybersecurity, Ethics and Responsible Computing",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Cybersecurity, Ethics and Responsible Computing",
+    "episodeName": "Authentication, Access Control and Protective Practices",
+    "partName": "Authentication, Access Control and Protective Practices",
+    "title": "Episode 4 Part 1 · Authentication, Access Control and Protective Practices",
+    "context": "Introduction to Information Technology and Computing · Cybersecurity, Ethics and Responsible Computing · Episode 4",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-5-episode-4-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Cybersecurity, Ethics and Responsible Computing",
+    "episodeName": "Privacy and Data Protection",
+    "title": "Episode 5 · Privacy and Data Protection",
+    "context": "Introduction to Information Technology and Computing · Cybersecurity, Ethics and Responsible Computing",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Cybersecurity, Ethics and Responsible Computing",
+    "episodeName": "Privacy and Data Protection",
+    "partName": "Privacy and Data Protection",
+    "title": "Episode 5 Part 1 · Privacy and Data Protection",
+    "context": "Introduction to Information Technology and Computing · Cybersecurity, Ethics and Responsible Computing · Episode 5",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-5-episode-5-part-1"
+  },
+  {
+    "type": "Topic",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Emerging Technologies and the Computing Profession",
+    "title": "Emerging Technologies and the Computing Profession",
+    "context": "Introduction to Information Technology and Computing · BITC",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-6"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Emerging Technologies and the Computing Profession",
+    "episodeName": "Artificial Intelligence and Machine Learning",
+    "title": "Episode 1 · Artificial Intelligence and Machine Learning",
+    "context": "Introduction to Information Technology and Computing · Emerging Technologies and the Computing Profession",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-6"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Emerging Technologies and the Computing Profession",
+    "episodeName": "Artificial Intelligence and Machine Learning",
+    "partName": "Artificial Intelligence and Machine Learning",
+    "title": "Episode 1 Part 1 · Artificial Intelligence and Machine Learning",
+    "context": "Introduction to Information Technology and Computing · Emerging Technologies and the Computing Profession · Episode 1",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-6-episode-1-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Emerging Technologies and the Computing Profession",
+    "episodeName": "Data Science",
+    "title": "Episode 2 · Data Science",
+    "context": "Introduction to Information Technology and Computing · Emerging Technologies and the Computing Profession",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-6"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Emerging Technologies and the Computing Profession",
+    "episodeName": "Data Science",
+    "partName": "Data Science",
+    "title": "Episode 2 Part 1 · Data Science",
+    "context": "Introduction to Information Technology and Computing · Emerging Technologies and the Computing Profession · Episode 2",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-6-episode-2-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Emerging Technologies and the Computing Profession",
+    "episodeName": "Cloud Computing, IoT and Other Emerging Technologies",
+    "title": "Episode 3 · Cloud Computing, IoT and Other Emerging Technologies",
+    "context": "Introduction to Information Technology and Computing · Emerging Technologies and the Computing Profession",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-6"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Emerging Technologies and the Computing Profession",
+    "episodeName": "Cloud Computing, IoT and Other Emerging Technologies",
+    "partName": "Cloud Computing, IoT and Other Emerging Technologies",
+    "title": "Episode 3 Part 1 · Cloud Computing, IoT and Other Emerging Technologies",
+    "context": "Introduction to Information Technology and Computing · Emerging Technologies and the Computing Profession · Episode 3",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-6-episode-3-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Emerging Technologies and the Computing Profession",
+    "episodeName": "Opportunities, Limitations and Responsible Adoption",
+    "title": "Episode 4 · Opportunities, Limitations and Responsible Adoption",
+    "context": "Introduction to Information Technology and Computing · Emerging Technologies and the Computing Profession",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-6"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Emerging Technologies and the Computing Profession",
+    "episodeName": "Opportunities, Limitations and Responsible Adoption",
+    "partName": "Opportunities, Limitations and Responsible Adoption",
+    "title": "Episode 4 Part 1 · Opportunities, Limitations and Responsible Adoption",
+    "context": "Introduction to Information Technology and Computing · Emerging Technologies and the Computing Profession · Episode 4",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-6-episode-4-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Emerging Technologies and the Computing Profession",
+    "episodeName": "Contemporary Developments in Computing",
+    "title": "Episode 5 · Contemporary Developments in Computing",
+    "context": "Introduction to Information Technology and Computing · Emerging Technologies and the Computing Profession",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-6"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Introduction to Information Technology and Computing",
+    "topicName": "Emerging Technologies and the Computing Profession",
+    "episodeName": "Contemporary Developments in Computing",
+    "partName": "Contemporary Developments in Computing",
+    "title": "Episode 5 Part 1 · Contemporary Developments in Computing",
+    "context": "Introduction to Information Technology and Computing · Emerging Technologies and the Computing Profession · Episode 5",
+    "url": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/#topic-introduction-to-information-technology-and-computing-topic-6-episode-5-part-1"
   },
   {
     "type": "Course",
@@ -17055,8 +17765,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "title": "Number Systems",
+    "topicName": "Functions",
+    "title": "Functions",
     "context": "Discrete Mathematical Structures · BITC",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1"
   },
@@ -17068,10 +17778,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Understanding Number Bases",
-    "title": "Episode 1 · Understanding Number Bases",
-    "context": "Discrete Mathematical Structures · Number Systems",
+    "topicName": "Functions",
+    "episodeName": "Definition, Properties, Domain and Range of Elementary Functions",
+    "title": "Episode 1 · Definition, Properties, Domain and Range of Elementary Functions",
+    "context": "Discrete Mathematical Structures · Functions",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1"
   },
   {
@@ -17082,11 +17792,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Understanding Number Bases",
-    "partName": "Number Bases",
-    "title": "Episode 1 Part 1 · Number Bases",
-    "context": "Discrete Mathematical Structures · Number Systems · Episode 1",
+    "topicName": "Functions",
+    "episodeName": "Definition, Properties, Domain and Range of Elementary Functions",
+    "partName": "Definition, Properties, Domain and Range of Elementary Functions",
+    "title": "Episode 1 Part 1 · Definition, Properties, Domain and Range of Elementary Functions",
+    "context": "Discrete Mathematical Structures · Functions · Episode 1",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-1-part-1"
   },
   {
@@ -17097,10 +17807,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Binary Conversions",
-    "title": "Episode 2 · Binary Conversions",
-    "context": "Discrete Mathematical Structures · Number Systems",
+    "topicName": "Functions",
+    "episodeName": "Algebraic and Transcendental Functions",
+    "title": "Episode 2 · Algebraic and Transcendental Functions",
+    "context": "Discrete Mathematical Structures · Functions",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1"
   },
   {
@@ -17111,29 +17821,14 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Binary Conversions",
-    "partName": "Binary Conversion Practice",
-    "title": "Episode 2 Part 1 · Binary Conversion Practice",
-    "context": "Discrete Mathematical Structures · Number Systems · Episode 2",
+    "topicName": "Functions",
+    "episodeName": "Algebraic and Transcendental Functions",
+    "partName": "Algebraic and Transcendental Functions",
+    "title": "Episode 2 Part 1 · Algebraic and Transcendental Functions",
+    "context": "Discrete Mathematical Structures · Functions · Episode 2",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-2-part-1"
   },
   {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Binary Conversions",
-    "partName": "Binary Conversion",
-    "title": "Episode 2 Part 2 · Binary Conversion",
-    "context": "Discrete Mathematical Structures · Number Systems · Episode 2",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-2-part-2"
-  },
-  {
     "type": "Episode",
     "program": "BITC",
     "aliases": [
@@ -17141,10 +17836,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Octal and Hexadecimal Conversions",
-    "title": "Episode 3 · Octal and Hexadecimal Conversions",
-    "context": "Discrete Mathematical Structures · Number Systems",
+    "topicName": "Functions",
+    "episodeName": "Exponential, Logarithmic and Hyperbolic Functions",
+    "title": "Episode 3 · Exponential, Logarithmic and Hyperbolic Functions",
+    "context": "Discrete Mathematical Structures · Functions",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1"
   },
   {
@@ -17155,29 +17850,14 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Octal and Hexadecimal Conversions",
-    "partName": "Octal and Hex Conversion Practice",
-    "title": "Episode 3 Part 1 · Octal and Hex Conversion Practice",
-    "context": "Discrete Mathematical Structures · Number Systems · Episode 3",
+    "topicName": "Functions",
+    "episodeName": "Exponential, Logarithmic and Hyperbolic Functions",
+    "partName": "Exponential, Logarithmic and Hyperbolic Functions",
+    "title": "Episode 3 Part 1 · Exponential, Logarithmic and Hyperbolic Functions",
+    "context": "Discrete Mathematical Structures · Functions · Episode 3",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-3-part-1"
   },
   {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Octal and Hexadecimal Conversions",
-    "partName": "Octal and Hex Conversion",
-    "title": "Episode 3 Part 2 · Octal and Hex Conversion",
-    "context": "Discrete Mathematical Structures · Number Systems · Episode 3",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-3-part-2"
-  },
-  {
     "type": "Episode",
     "program": "BITC",
     "aliases": [
@@ -17185,10 +17865,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Applications in Digital Machines",
-    "title": "Episode 4 · Applications in Digital Machines",
-    "context": "Discrete Mathematical Structures · Number Systems",
+    "topicName": "Functions",
+    "episodeName": "Parametric Equations",
+    "title": "Episode 4 · Parametric Equations",
+    "context": "Discrete Mathematical Structures · Functions",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1"
   },
   {
@@ -17199,14 +17879,29 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Applications in Digital Machines",
-    "partName": "Digital Machines Applications",
-    "title": "Episode 4 Part 1 · Digital Machines Applications",
-    "context": "Discrete Mathematical Structures · Number Systems · Episode 4",
+    "topicName": "Functions",
+    "episodeName": "Parametric Equations",
+    "partName": "Parametric Equations Practice",
+    "title": "Episode 4 Part 1 · Parametric Equations Practice",
+    "context": "Discrete Mathematical Structures · Functions · Episode 4",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-4-part-1"
   },
   {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Functions",
+    "episodeName": "Parametric Equations",
+    "partName": "Parametric Equations",
+    "title": "Episode 4 Part 2 · Parametric Equations",
+    "context": "Discrete Mathematical Structures · Functions · Episode 4",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-4-part-2"
+  },
+  {
     "type": "Episode",
     "program": "BITC",
     "aliases": [
@@ -17214,10 +17909,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Number Systems Round-Up",
-    "title": "Episode 5 · Number Systems Round-Up",
-    "context": "Discrete Mathematical Structures · Number Systems",
+    "topicName": "Functions",
+    "episodeName": "Functions Round-Up",
+    "title": "Episode 5 · Functions Round-Up",
+    "context": "Discrete Mathematical Structures · Functions",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1"
   },
   {
@@ -17228,11 +17923,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Number Systems Round-Up",
+    "topicName": "Functions",
+    "episodeName": "Functions Round-Up",
     "partName": "Round-Up Practice",
     "title": "Episode 5 Part 1 · Round-Up Practice",
-    "context": "Discrete Mathematical Structures · Number Systems · Episode 5",
+    "context": "Discrete Mathematical Structures · Functions · Episode 5",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-5-part-1"
   },
   {
@@ -17243,11 +17938,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Number Systems Round-Up",
+    "topicName": "Functions",
+    "episodeName": "Functions Round-Up",
     "partName": "Round-Up",
     "title": "Episode 5 Part 2 · Round-Up",
-    "context": "Discrete Mathematical Structures · Number Systems · Episode 5",
+    "context": "Discrete Mathematical Structures · Functions · Episode 5",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-5-part-2"
   },
   {
@@ -17258,11 +17953,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Number Systems",
-    "episodeName": "Number Systems Round-Up",
+    "topicName": "Functions",
+    "episodeName": "Functions Round-Up",
     "partName": "Round-Up",
     "title": "Episode 5 Part 3 · Round-Up",
-    "context": "Discrete Mathematical Structures · Number Systems · Episode 5",
+    "context": "Discrete Mathematical Structures · Functions · Episode 5",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-1-episode-5-part-3"
   },
   {
@@ -17273,8 +17968,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "title": "Logic",
+    "topicName": "Limits, Continuity and Convergence",
+    "title": "Limits, Continuity and Convergence",
     "context": "Discrete Mathematical Structures · BITC",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2"
   },
@@ -17286,10 +17981,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Propositional Logic Basics",
-    "title": "Episode 1 · Propositional Logic Basics",
-    "context": "Discrete Mathematical Structures · Logic",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Limits of a Function of a Real Variable",
+    "title": "Episode 1 · Limits of a Function of a Real Variable",
+    "context": "Discrete Mathematical Structures · Limits, Continuity and Convergence",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2"
   },
   {
@@ -17300,12 +17995,27 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Propositional Logic Basics",
-    "partName": "Propositional Logic",
-    "title": "Episode 1 Part 1 · Propositional Logic",
-    "context": "Discrete Mathematical Structures · Logic · Episode 1",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Limits of a Function of a Real Variable",
+    "partName": "Limits Practice",
+    "title": "Episode 1 Part 1 · Limits Practice",
+    "context": "Discrete Mathematical Structures · Limits, Continuity and Convergence · Episode 1",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-1-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Limits of a Function of a Real Variable",
+    "partName": "Limits",
+    "title": "Episode 1 Part 2 · Limits",
+    "context": "Discrete Mathematical Structures · Limits, Continuity and Convergence · Episode 1",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-1-part-2"
   },
   {
     "type": "Episode",
@@ -17315,10 +18025,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Logical Equivalence and Laws",
-    "title": "Episode 2 · Logical Equivalence and Laws",
-    "context": "Discrete Mathematical Structures · Logic",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Calculating Limits Using Limit Laws",
+    "title": "Episode 2 · Calculating Limits Using Limit Laws",
+    "context": "Discrete Mathematical Structures · Limits, Continuity and Convergence",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2"
   },
   {
@@ -17329,11 +18039,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Logical Equivalence and Laws",
-    "partName": "Logical Equivalence Practice",
-    "title": "Episode 2 Part 1 · Logical Equivalence Practice",
-    "context": "Discrete Mathematical Structures · Logic · Episode 2",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Calculating Limits Using Limit Laws",
+    "partName": "Limit Laws Practice",
+    "title": "Episode 2 Part 1 · Limit Laws Practice",
+    "context": "Discrete Mathematical Structures · Limits, Continuity and Convergence · Episode 2",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-2-part-1"
   },
   {
@@ -17344,11 +18054,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Logical Equivalence and Laws",
-    "partName": "Logical Equivalence",
-    "title": "Episode 2 Part 2 · Logical Equivalence",
-    "context": "Discrete Mathematical Structures · Logic · Episode 2",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Calculating Limits Using Limit Laws",
+    "partName": "Limit Laws",
+    "title": "Episode 2 Part 2 · Limit Laws",
+    "context": "Discrete Mathematical Structures · Limits, Continuity and Convergence · Episode 2",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-2-part-2"
   },
   {
@@ -17359,10 +18069,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Predicates and Quantifiers",
-    "title": "Episode 3 · Predicates and Quantifiers",
-    "context": "Discrete Mathematical Structures · Logic",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Continuity",
+    "title": "Episode 3 · Continuity",
+    "context": "Discrete Mathematical Structures · Limits, Continuity and Convergence",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2"
   },
   {
@@ -17373,11 +18083,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Predicates and Quantifiers",
-    "partName": "Predicates and Quantifiers",
-    "title": "Episode 3 Part 1 · Predicates and Quantifiers",
-    "context": "Discrete Mathematical Structures · Logic · Episode 3",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Continuity",
+    "partName": "Continuity",
+    "title": "Episode 3 Part 1 · Continuity",
+    "context": "Discrete Mathematical Structures · Limits, Continuity and Convergence · Episode 3",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-3-part-1"
   },
   {
@@ -17388,10 +18098,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Logical Reasoning and Proofs",
-    "title": "Episode 4 · Logical Reasoning and Proofs",
-    "context": "Discrete Mathematical Structures · Logic",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Indeterminate Forms and L'Hopital's Rule",
+    "title": "Episode 4 · Indeterminate Forms and L'Hopital's Rule",
+    "context": "Discrete Mathematical Structures · Limits, Continuity and Convergence",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2"
   },
   {
@@ -17402,11 +18112,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Logical Reasoning and Proofs",
-    "partName": "Logical Reasoning Practice",
-    "title": "Episode 4 Part 1 · Logical Reasoning Practice",
-    "context": "Discrete Mathematical Structures · Logic · Episode 4",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Indeterminate Forms and L'Hopital's Rule",
+    "partName": "Indeterminate Forms Practice",
+    "title": "Episode 4 Part 1 · Indeterminate Forms Practice",
+    "context": "Discrete Mathematical Structures · Limits, Continuity and Convergence · Episode 4",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-4-part-1"
   },
   {
@@ -17417,11 +18127,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Logical Reasoning and Proofs",
-    "partName": "Logical Reasoning",
-    "title": "Episode 4 Part 2 · Logical Reasoning",
-    "context": "Discrete Mathematical Structures · Logic · Episode 4",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Indeterminate Forms and L'Hopital's Rule",
+    "partName": "Indeterminate Forms",
+    "title": "Episode 4 Part 2 · Indeterminate Forms",
+    "context": "Discrete Mathematical Structures · Limits, Continuity and Convergence · Episode 4",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-4-part-2"
   },
   {
@@ -17432,10 +18142,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Logic Round-Up",
-    "title": "Episode 5 · Logic Round-Up",
-    "context": "Discrete Mathematical Structures · Logic",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Sequences and Convergence",
+    "title": "Episode 5 · Sequences and Convergence",
+    "context": "Discrete Mathematical Structures · Limits, Continuity and Convergence",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2"
   },
   {
@@ -17446,42 +18156,12 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Logic Round-Up",
-    "partName": "Round-Up Practice",
-    "title": "Episode 5 Part 1 · Round-Up Practice",
-    "context": "Discrete Mathematical Structures · Logic · Episode 5",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Sequences and Convergence",
+    "partName": "Sequences and Convergence",
+    "title": "Episode 5 Part 1 · Sequences and Convergence",
+    "context": "Discrete Mathematical Structures · Limits, Continuity and Convergence · Episode 5",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-5-part-1"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Logic Round-Up",
-    "partName": "Round-Up",
-    "title": "Episode 5 Part 2 · Round-Up",
-    "context": "Discrete Mathematical Structures · Logic · Episode 5",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-5-part-2"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Logic",
-    "episodeName": "Logic Round-Up",
-    "partName": "Round-Up",
-    "title": "Episode 5 Part 3 · Round-Up",
-    "context": "Discrete Mathematical Structures · Logic · Episode 5",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-2-episode-5-part-3"
   },
   {
     "type": "Topic",
@@ -17491,8 +18171,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "title": "Boolean Algebra",
+    "topicName": "Differential Calculus",
+    "title": "Differential Calculus",
     "context": "Discrete Mathematical Structures · BITC",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3"
   },
@@ -17504,10 +18184,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "episodeName": "Boolean Variables and Basic Operations",
-    "title": "Episode 1 · Boolean Variables and Basic Operations",
-    "context": "Discrete Mathematical Structures · Boolean Algebra",
+    "topicName": "Differential Calculus",
+    "episodeName": "The Derivative: Definitions and Rules of Differentiation",
+    "title": "Episode 1 · The Derivative: Definitions and Rules of Differentiation",
+    "context": "Discrete Mathematical Structures · Differential Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3"
   },
   {
@@ -17518,12 +18198,27 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "episodeName": "Boolean Variables and Basic Operations",
-    "partName": "Boolean Operations",
-    "title": "Episode 1 Part 1 · Boolean Operations",
-    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 1",
+    "topicName": "Differential Calculus",
+    "episodeName": "The Derivative: Definitions and Rules of Differentiation",
+    "partName": "Derivative Rules Practice",
+    "title": "Episode 1 Part 1 · Derivative Rules Practice",
+    "context": "Discrete Mathematical Structures · Differential Calculus · Episode 1",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-1-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Differential Calculus",
+    "episodeName": "The Derivative: Definitions and Rules of Differentiation",
+    "partName": "Derivative Rules",
+    "title": "Episode 1 Part 2 · Derivative Rules",
+    "context": "Discrete Mathematical Structures · Differential Calculus · Episode 1",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-1-part-2"
   },
   {
     "type": "Episode",
@@ -17533,10 +18228,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "episodeName": "Boolean Expressions and Functions",
-    "title": "Episode 2 · Boolean Expressions and Functions",
-    "context": "Discrete Mathematical Structures · Boolean Algebra",
+    "topicName": "Differential Calculus",
+    "episodeName": "Differentiation of Exponential, Logarithmic and Hyperbolic Functions",
+    "title": "Episode 2 · Differentiation of Exponential, Logarithmic and Hyperbolic Functions",
+    "context": "Discrete Mathematical Structures · Differential Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3"
   },
   {
@@ -17547,11 +18242,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "episodeName": "Boolean Expressions and Functions",
-    "partName": "Boolean Functions Practice",
-    "title": "Episode 2 Part 1 · Boolean Functions Practice",
-    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 2",
+    "topicName": "Differential Calculus",
+    "episodeName": "Differentiation of Exponential, Logarithmic and Hyperbolic Functions",
+    "partName": "Differentiation Practice",
+    "title": "Episode 2 Part 1 · Differentiation Practice",
+    "context": "Discrete Mathematical Structures · Differential Calculus · Episode 2",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-2-part-1"
   },
   {
@@ -17562,11 +18257,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "episodeName": "Boolean Expressions and Functions",
-    "partName": "Boolean Functions",
-    "title": "Episode 2 Part 2 · Boolean Functions",
-    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 2",
+    "topicName": "Differential Calculus",
+    "episodeName": "Differentiation of Exponential, Logarithmic and Hyperbolic Functions",
+    "partName": "Differentiation",
+    "title": "Episode 2 Part 2 · Differentiation",
+    "context": "Discrete Mathematical Structures · Differential Calculus · Episode 2",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-2-part-2"
   },
   {
@@ -17577,10 +18272,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "episodeName": "Laws and Equivalences of Boolean Algebra",
-    "title": "Episode 3 · Laws and Equivalences of Boolean Algebra",
-    "context": "Discrete Mathematical Structures · Boolean Algebra",
+    "topicName": "Differential Calculus",
+    "episodeName": "Maxima, Minima and Identification of Extrema",
+    "title": "Episode 3 · Maxima, Minima and Identification of Extrema",
+    "context": "Discrete Mathematical Structures · Differential Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3"
   },
   {
@@ -17591,14 +18286,29 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "episodeName": "Laws and Equivalences of Boolean Algebra",
-    "partName": "Boolean Laws",
-    "title": "Episode 3 Part 1 · Boolean Laws",
-    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 3",
+    "topicName": "Differential Calculus",
+    "episodeName": "Maxima, Minima and Identification of Extrema",
+    "partName": "Extrema Practice",
+    "title": "Episode 3 Part 1 · Extrema Practice",
+    "context": "Discrete Mathematical Structures · Differential Calculus · Episode 3",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-3-part-1"
   },
   {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Differential Calculus",
+    "episodeName": "Maxima, Minima and Identification of Extrema",
+    "partName": "Extrema",
+    "title": "Episode 3 Part 2 · Extrema",
+    "context": "Discrete Mathematical Structures · Differential Calculus · Episode 3",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-3-part-2"
+  },
+  {
     "type": "Episode",
     "program": "BITC",
     "aliases": [
@@ -17606,10 +18316,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "episodeName": "Applications of Boolean Algebra",
-    "title": "Episode 4 · Applications of Boolean Algebra",
-    "context": "Discrete Mathematical Structures · Boolean Algebra",
+    "topicName": "Differential Calculus",
+    "episodeName": "Partial and Total Differentiation",
+    "title": "Episode 4 · Partial and Total Differentiation",
+    "context": "Discrete Mathematical Structures · Differential Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3"
   },
   {
@@ -17620,14 +18330,29 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "episodeName": "Applications of Boolean Algebra",
-    "partName": "Boolean Applications",
-    "title": "Episode 4 Part 1 · Boolean Applications",
-    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 4",
+    "topicName": "Differential Calculus",
+    "episodeName": "Partial and Total Differentiation",
+    "partName": "Partial and Total Differentiation Practice",
+    "title": "Episode 4 Part 1 · Partial and Total Differentiation Practice",
+    "context": "Discrete Mathematical Structures · Differential Calculus · Episode 4",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-4-part-1"
   },
   {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Differential Calculus",
+    "episodeName": "Partial and Total Differentiation",
+    "partName": "Partial and Total Differentiation",
+    "title": "Episode 4 Part 2 · Partial and Total Differentiation",
+    "context": "Discrete Mathematical Structures · Differential Calculus · Episode 4",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-4-part-2"
+  },
+  {
     "type": "Episode",
     "program": "BITC",
     "aliases": [
@@ -17635,10 +18360,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "episodeName": "Boolean Algebra Round-Up",
-    "title": "Episode 5 · Boolean Algebra Round-Up",
-    "context": "Discrete Mathematical Structures · Boolean Algebra",
+    "topicName": "Differential Calculus",
+    "episodeName": "Chain Rule and Change of Variables",
+    "title": "Episode 5 · Chain Rule and Change of Variables",
+    "context": "Discrete Mathematical Structures · Differential Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3"
   },
   {
@@ -17649,11 +18374,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "episodeName": "Boolean Algebra Round-Up",
-    "partName": "Round-Up Practice",
-    "title": "Episode 5 Part 1 · Round-Up Practice",
-    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 5",
+    "topicName": "Differential Calculus",
+    "episodeName": "Chain Rule and Change of Variables",
+    "partName": "Chain Rule Practice",
+    "title": "Episode 5 Part 1 · Chain Rule Practice",
+    "context": "Discrete Mathematical Structures · Differential Calculus · Episode 5",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-5-part-1"
   },
   {
@@ -17664,27 +18389,12 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "episodeName": "Boolean Algebra Round-Up",
-    "partName": "Round-Up",
-    "title": "Episode 5 Part 2 · Round-Up",
-    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 5",
+    "topicName": "Differential Calculus",
+    "episodeName": "Chain Rule and Change of Variables",
+    "partName": "Chain Rule",
+    "title": "Episode 5 Part 2 · Chain Rule",
+    "context": "Discrete Mathematical Structures · Differential Calculus · Episode 5",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-5-part-2"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Boolean Algebra",
-    "episodeName": "Boolean Algebra Round-Up",
-    "partName": "Round-Up",
-    "title": "Episode 5 Part 3 · Round-Up",
-    "context": "Discrete Mathematical Structures · Boolean Algebra · Episode 5",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-3-episode-5-part-3"
   },
   {
     "type": "Topic",
@@ -17694,8 +18404,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "title": "Discrete Structures",
+    "topicName": "Integral Calculus",
+    "title": "Integral Calculus",
     "context": "Discrete Mathematical Structures · BITC",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4"
   },
@@ -17707,10 +18417,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Set Theory Basics",
-    "title": "Episode 1 · Set Theory Basics",
-    "context": "Discrete Mathematical Structures · Discrete Structures",
+    "topicName": "Integral Calculus",
+    "episodeName": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+    "title": "Episode 1 · The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+    "context": "Discrete Mathematical Structures · Integral Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4"
   },
   {
@@ -17721,11 +18431,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Set Theory Basics",
-    "partName": "Set Theory Basics",
-    "title": "Episode 1 Part 1 · Set Theory Basics",
-    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 1",
+    "topicName": "Integral Calculus",
+    "episodeName": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+    "partName": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+    "title": "Episode 1 Part 1 · The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+    "context": "Discrete Mathematical Structures · Integral Calculus · Episode 1",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-1-part-1"
   },
   {
@@ -17736,10 +18446,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Set Operations",
-    "title": "Episode 2 · Set Operations",
-    "context": "Discrete Mathematical Structures · Discrete Structures",
+    "topicName": "Integral Calculus",
+    "episodeName": "Techniques of Integration",
+    "title": "Episode 2 · Techniques of Integration",
+    "context": "Discrete Mathematical Structures · Integral Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4"
   },
   {
@@ -17750,11 +18460,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Set Operations",
-    "partName": "Set Operations Practice",
-    "title": "Episode 2 Part 1 · Set Operations Practice",
-    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 2",
+    "topicName": "Integral Calculus",
+    "episodeName": "Techniques of Integration",
+    "partName": "Techniques of Integration Practice",
+    "title": "Episode 2 Part 1 · Techniques of Integration Practice",
+    "context": "Discrete Mathematical Structures · Integral Calculus · Episode 2",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-2-part-1"
   },
   {
@@ -17765,11 +18475,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Set Operations",
-    "partName": "Set Operations",
-    "title": "Episode 2 Part 2 · Set Operations",
-    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 2",
+    "topicName": "Integral Calculus",
+    "episodeName": "Techniques of Integration",
+    "partName": "Techniques of Integration",
+    "title": "Episode 2 Part 2 · Techniques of Integration",
+    "context": "Discrete Mathematical Structures · Integral Calculus · Episode 2",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-2-part-2"
   },
   {
@@ -17780,10 +18490,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Functions and Their Properties",
-    "title": "Episode 3 · Functions and Their Properties",
-    "context": "Discrete Mathematical Structures · Discrete Structures",
+    "topicName": "Integral Calculus",
+    "episodeName": "The Definite Integral and Area Under a Curve",
+    "title": "Episode 3 · The Definite Integral and Area Under a Curve",
+    "context": "Discrete Mathematical Structures · Integral Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4"
   },
   {
@@ -17794,11 +18504,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Functions and Their Properties",
-    "partName": "Functions Practice",
-    "title": "Episode 3 Part 1 · Functions Practice",
-    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 3",
+    "topicName": "Integral Calculus",
+    "episodeName": "The Definite Integral and Area Under a Curve",
+    "partName": "Definite Integral Practice",
+    "title": "Episode 3 Part 1 · Definite Integral Practice",
+    "context": "Discrete Mathematical Structures · Integral Calculus · Episode 3",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-3-part-1"
   },
   {
@@ -17809,11 +18519,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Functions and Their Properties",
-    "partName": "Functions",
-    "title": "Episode 3 Part 2 · Functions",
-    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 3",
+    "topicName": "Integral Calculus",
+    "episodeName": "The Definite Integral and Area Under a Curve",
+    "partName": "Definite Integral",
+    "title": "Episode 3 Part 2 · Definite Integral",
+    "context": "Discrete Mathematical Structures · Integral Calculus · Episode 3",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-3-part-2"
   },
   {
@@ -17824,10 +18534,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Applications of Sets and Functions",
-    "title": "Episode 4 · Applications of Sets and Functions",
-    "context": "Discrete Mathematical Structures · Discrete Structures",
+    "topicName": "Integral Calculus",
+    "episodeName": "Applications of the Definite Integral",
+    "title": "Episode 4 · Applications of the Definite Integral",
+    "context": "Discrete Mathematical Structures · Integral Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4"
   },
   {
@@ -17838,12 +18548,27 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Applications of Sets and Functions",
-    "partName": "Sets and Functions Applications",
-    "title": "Episode 4 Part 1 · Sets and Functions Applications",
-    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 4",
+    "topicName": "Integral Calculus",
+    "episodeName": "Applications of the Definite Integral",
+    "partName": "Applications Practice",
+    "title": "Episode 4 Part 1 · Applications Practice",
+    "context": "Discrete Mathematical Structures · Integral Calculus · Episode 4",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-4-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Integral Calculus",
+    "episodeName": "Applications of the Definite Integral",
+    "partName": "Applications",
+    "title": "Episode 4 Part 2 · Applications",
+    "context": "Discrete Mathematical Structures · Integral Calculus · Episode 4",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-4-part-2"
   },
   {
     "type": "Episode",
@@ -17853,10 +18578,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Discrete Structures Round-Up",
-    "title": "Episode 5 · Discrete Structures Round-Up",
-    "context": "Discrete Mathematical Structures · Discrete Structures",
+    "topicName": "Integral Calculus",
+    "episodeName": "Improper Integrals",
+    "title": "Episode 5 · Improper Integrals",
+    "context": "Discrete Mathematical Structures · Integral Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4"
   },
   {
@@ -17867,11 +18592,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Discrete Structures Round-Up",
-    "partName": "Round-Up Practice",
-    "title": "Episode 5 Part 1 · Round-Up Practice",
-    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 5",
+    "topicName": "Integral Calculus",
+    "episodeName": "Improper Integrals",
+    "partName": "Improper Integrals Practice",
+    "title": "Episode 5 Part 1 · Improper Integrals Practice",
+    "context": "Discrete Mathematical Structures · Integral Calculus · Episode 5",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-5-part-1"
   },
   {
@@ -17882,27 +18607,12 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Discrete Structures Round-Up",
-    "partName": "Round-Up",
-    "title": "Episode 5 Part 2 · Round-Up",
-    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 5",
+    "topicName": "Integral Calculus",
+    "episodeName": "Improper Integrals",
+    "partName": "Improper Integrals",
+    "title": "Episode 5 Part 2 · Improper Integrals",
+    "context": "Discrete Mathematical Structures · Integral Calculus · Episode 5",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-5-part-2"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Discrete Structures",
-    "episodeName": "Discrete Structures Round-Up",
-    "partName": "Round-Up",
-    "title": "Episode 5 Part 3 · Round-Up",
-    "context": "Discrete Mathematical Structures · Discrete Structures · Episode 5",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-4-episode-5-part-3"
   },
   {
     "type": "Topic",
@@ -17912,8 +18622,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Counting",
-    "title": "Counting",
+    "topicName": "Vector Calculus",
+    "title": "Vector Calculus",
     "context": "Discrete Mathematical Structures · BITC",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5"
   },
@@ -17925,10 +18635,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Counting",
-    "episodeName": "Permutations",
-    "title": "Episode 1 · Permutations",
-    "context": "Discrete Mathematical Structures · Counting",
+    "topicName": "Vector Calculus",
+    "episodeName": "Three-Dimensional Coordinate Systems",
+    "title": "Episode 1 · Three-Dimensional Coordinate Systems",
+    "context": "Discrete Mathematical Structures · Vector Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5"
   },
   {
@@ -17939,27 +18649,12 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Counting",
-    "episodeName": "Permutations",
-    "partName": "Permutations Practice",
-    "title": "Episode 1 Part 1 · Permutations Practice",
-    "context": "Discrete Mathematical Structures · Counting · Episode 1",
+    "topicName": "Vector Calculus",
+    "episodeName": "Three-Dimensional Coordinate Systems",
+    "partName": "Three-Dimensional Coordinate Systems",
+    "title": "Episode 1 Part 1 · Three-Dimensional Coordinate Systems",
+    "context": "Discrete Mathematical Structures · Vector Calculus · Episode 1",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-1-part-1"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Counting",
-    "episodeName": "Permutations",
-    "partName": "Permutations",
-    "title": "Episode 1 Part 2 · Permutations",
-    "context": "Discrete Mathematical Structures · Counting · Episode 1",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-1-part-2"
   },
   {
     "type": "Episode",
@@ -17969,10 +18664,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Counting",
-    "episodeName": "Combinations",
-    "title": "Episode 2 · Combinations",
-    "context": "Discrete Mathematical Structures · Counting",
+    "topicName": "Vector Calculus",
+    "episodeName": "Vectors: Definitions and Basic Operations",
+    "title": "Episode 2 · Vectors: Definitions and Basic Operations",
+    "context": "Discrete Mathematical Structures · Vector Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5"
   },
   {
@@ -17983,11 +18678,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Counting",
-    "episodeName": "Combinations",
-    "partName": "Combinations Practice",
-    "title": "Episode 2 Part 1 · Combinations Practice",
-    "context": "Discrete Mathematical Structures · Counting · Episode 2",
+    "topicName": "Vector Calculus",
+    "episodeName": "Vectors: Definitions and Basic Operations",
+    "partName": "Vectors Practice",
+    "title": "Episode 2 Part 1 · Vectors Practice",
+    "context": "Discrete Mathematical Structures · Vector Calculus · Episode 2",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-2-part-1"
   },
   {
@@ -17998,11 +18693,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Counting",
-    "episodeName": "Combinations",
-    "partName": "Combinations",
-    "title": "Episode 2 Part 2 · Combinations",
-    "context": "Discrete Mathematical Structures · Counting · Episode 2",
+    "topicName": "Vector Calculus",
+    "episodeName": "Vectors: Definitions and Basic Operations",
+    "partName": "Vectors",
+    "title": "Episode 2 Part 2 · Vectors",
+    "context": "Discrete Mathematical Structures · Vector Calculus · Episode 2",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-2-part-2"
   },
   {
@@ -18013,10 +18708,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Counting",
-    "episodeName": "Applications of Counting Techniques",
-    "title": "Episode 3 · Applications of Counting Techniques",
-    "context": "Discrete Mathematical Structures · Counting",
+    "topicName": "Vector Calculus",
+    "episodeName": "Dot and Cross Products",
+    "title": "Episode 3 · Dot and Cross Products",
+    "context": "Discrete Mathematical Structures · Vector Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5"
   },
   {
@@ -18027,12 +18722,27 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Counting",
-    "episodeName": "Applications of Counting Techniques",
-    "partName": "Counting Applications",
-    "title": "Episode 3 Part 1 · Counting Applications",
-    "context": "Discrete Mathematical Structures · Counting · Episode 3",
+    "topicName": "Vector Calculus",
+    "episodeName": "Dot and Cross Products",
+    "partName": "Dot and Cross Products Practice",
+    "title": "Episode 3 Part 1 · Dot and Cross Products Practice",
+    "context": "Discrete Mathematical Structures · Vector Calculus · Episode 3",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-3-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Discrete Mathematical Structures",
+    "topicName": "Vector Calculus",
+    "episodeName": "Dot and Cross Products",
+    "partName": "Dot and Cross Products",
+    "title": "Episode 3 Part 2 · Dot and Cross Products",
+    "context": "Discrete Mathematical Structures · Vector Calculus · Episode 3",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-3-part-2"
   },
   {
     "type": "Episode",
@@ -18042,10 +18752,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Counting",
-    "episodeName": "Counting Round-Up",
-    "title": "Episode 4 · Counting Round-Up",
-    "context": "Discrete Mathematical Structures · Counting",
+    "topicName": "Vector Calculus",
+    "episodeName": "Position and Distance Vectors",
+    "title": "Episode 4 · Position and Distance Vectors",
+    "context": "Discrete Mathematical Structures · Vector Calculus",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5"
   },
   {
@@ -18056,11 +18766,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Counting",
-    "episodeName": "Counting Round-Up",
-    "partName": "Round-Up Practice",
-    "title": "Episode 4 Part 1 · Round-Up Practice",
-    "context": "Discrete Mathematical Structures · Counting · Episode 4",
+    "topicName": "Vector Calculus",
+    "episodeName": "Position and Distance Vectors",
+    "partName": "Position and Distance Vectors Practice",
+    "title": "Episode 4 Part 1 · Position and Distance Vectors Practice",
+    "context": "Discrete Mathematical Structures · Vector Calculus · Episode 4",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-4-part-1"
   },
   {
@@ -18071,42 +18781,14 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Counting",
-    "episodeName": "Counting Round-Up",
-    "partName": "Round-Up",
-    "title": "Episode 4 Part 2 · Round-Up",
-    "context": "Discrete Mathematical Structures · Counting · Episode 4",
+    "topicName": "Vector Calculus",
+    "episodeName": "Position and Distance Vectors",
+    "partName": "Position and Distance Vectors",
+    "title": "Episode 4 Part 2 · Position and Distance Vectors",
+    "context": "Discrete Mathematical Structures · Vector Calculus · Episode 4",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-4-part-2"
   },
   {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Counting",
-    "episodeName": "Counting Round-Up",
-    "partName": "Round-Up",
-    "title": "Episode 4 Part 3 · Round-Up",
-    "context": "Discrete Mathematical Structures · Counting · Episode 4",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-4-part-3"
-  },
-  {
-    "type": "Topic",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Recursion",
-    "title": "Recursion",
-    "context": "Discrete Mathematical Structures · BITC",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6"
-  },
-  {
     "type": "Episode",
     "program": "BITC",
     "aliases": [
@@ -18114,11 +18796,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Recursion",
-    "episodeName": "Introduction to Recurrence Relations",
-    "title": "Episode 1 · Introduction to Recurrence Relations",
-    "context": "Discrete Mathematical Structures · Recursion",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6"
+    "topicName": "Vector Calculus",
+    "episodeName": "Scalar and Vector Fields",
+    "title": "Episode 5 · Scalar and Vector Fields",
+    "context": "Discrete Mathematical Structures · Vector Calculus",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5"
   },
   {
     "type": "Part",
@@ -18128,347 +18810,12 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Discrete Mathematical Structures",
-    "topicName": "Recursion",
-    "episodeName": "Introduction to Recurrence Relations",
-    "partName": "Recurrence Relations Basics",
-    "title": "Episode 1 Part 1 · Recurrence Relations Basics",
-    "context": "Discrete Mathematical Structures · Recursion · Episode 1",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-1-part-1"
-  },
-  {
-    "type": "Episode",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Recursion",
-    "episodeName": "Solving Recurrence Relations",
-    "title": "Episode 2 · Solving Recurrence Relations",
-    "context": "Discrete Mathematical Structures · Recursion",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Recursion",
-    "episodeName": "Solving Recurrence Relations",
-    "partName": "Solving Recurrence Relations Practice",
-    "title": "Episode 2 Part 1 · Solving Recurrence Relations Practice",
-    "context": "Discrete Mathematical Structures · Recursion · Episode 2",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-2-part-1"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Recursion",
-    "episodeName": "Solving Recurrence Relations",
-    "partName": "Solving Recurrence Relations",
-    "title": "Episode 2 Part 2 · Solving Recurrence Relations",
-    "context": "Discrete Mathematical Structures · Recursion · Episode 2",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-2-part-2"
-  },
-  {
-    "type": "Episode",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Recursion",
-    "episodeName": "Applications of Recursion in Computer Science",
-    "title": "Episode 3 · Applications of Recursion in Computer Science",
-    "context": "Discrete Mathematical Structures · Recursion",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Recursion",
-    "episodeName": "Applications of Recursion in Computer Science",
-    "partName": "Recursion Applications",
-    "title": "Episode 3 Part 1 · Recursion Applications",
-    "context": "Discrete Mathematical Structures · Recursion · Episode 3",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-3-part-1"
-  },
-  {
-    "type": "Episode",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Recursion",
-    "episodeName": "Recursion Round-Up",
-    "title": "Episode 4 · Recursion Round-Up",
-    "context": "Discrete Mathematical Structures · Recursion",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Recursion",
-    "episodeName": "Recursion Round-Up",
-    "partName": "Round-Up Practice",
-    "title": "Episode 4 Part 1 · Round-Up Practice",
-    "context": "Discrete Mathematical Structures · Recursion · Episode 4",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-4-part-1"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Recursion",
-    "episodeName": "Recursion Round-Up",
-    "partName": "Round-Up",
-    "title": "Episode 4 Part 2 · Round-Up",
-    "context": "Discrete Mathematical Structures · Recursion · Episode 4",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-4-part-2"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Recursion",
-    "episodeName": "Recursion Round-Up",
-    "partName": "Round-Up",
-    "title": "Episode 4 Part 3 · Round-Up",
-    "context": "Discrete Mathematical Structures · Recursion · Episode 4",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-6-episode-4-part-3"
-  },
-  {
-    "type": "Topic",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "title": "Tree Data Structures",
-    "context": "Discrete Mathematical Structures · BITC",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7"
-  },
-  {
-    "type": "Episode",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "episodeName": "Tree Notation and Terminology",
-    "title": "Episode 1 · Tree Notation and Terminology",
-    "context": "Discrete Mathematical Structures · Tree Data Structures",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "episodeName": "Tree Notation and Terminology",
-    "partName": "Tree Notation",
-    "title": "Episode 1 Part 1 · Tree Notation",
-    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 1",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-1-part-1"
-  },
-  {
-    "type": "Episode",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "episodeName": "Types of Trees",
-    "title": "Episode 2 · Types of Trees",
-    "context": "Discrete Mathematical Structures · Tree Data Structures",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "episodeName": "Types of Trees",
-    "partName": "Types of Trees",
-    "title": "Episode 2 Part 1 · Types of Trees",
-    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 2",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-2-part-1"
-  },
-  {
-    "type": "Episode",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "episodeName": "Tree Traversals",
-    "title": "Episode 3 · Tree Traversals",
-    "context": "Discrete Mathematical Structures · Tree Data Structures",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "episodeName": "Tree Traversals",
-    "partName": "Tree Traversals Practice",
-    "title": "Episode 3 Part 1 · Tree Traversals Practice",
-    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 3",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-3-part-1"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "episodeName": "Tree Traversals",
-    "partName": "Tree Traversals",
-    "title": "Episode 3 Part 2 · Tree Traversals",
-    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 3",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-3-part-2"
-  },
-  {
-    "type": "Episode",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "episodeName": "Applications of Trees in Data Organization",
-    "title": "Episode 4 · Applications of Trees in Data Organization",
-    "context": "Discrete Mathematical Structures · Tree Data Structures",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "episodeName": "Applications of Trees in Data Organization",
-    "partName": "Tree Applications",
-    "title": "Episode 4 Part 1 · Tree Applications",
-    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 4",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-4-part-1"
-  },
-  {
-    "type": "Episode",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "episodeName": "Tree Data Structures Round-Up",
-    "title": "Episode 5 · Tree Data Structures Round-Up",
-    "context": "Discrete Mathematical Structures · Tree Data Structures",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "episodeName": "Tree Data Structures Round-Up",
-    "partName": "Round-Up Practice",
-    "title": "Episode 5 Part 1 · Round-Up Practice",
-    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 5",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-5-part-1"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "episodeName": "Tree Data Structures Round-Up",
-    "partName": "Round-Up",
-    "title": "Episode 5 Part 2 · Round-Up",
-    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 5",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-5-part-2"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Discrete Mathematical Structures",
-    "topicName": "Tree Data Structures",
-    "episodeName": "Tree Data Structures Round-Up",
-    "partName": "Round-Up",
-    "title": "Episode 5 Part 3 · Round-Up",
-    "context": "Discrete Mathematical Structures · Tree Data Structures · Episode 5",
-    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-7-episode-5-part-3"
+    "topicName": "Vector Calculus",
+    "episodeName": "Scalar and Vector Fields",
+    "partName": "Scalar and Vector Fields",
+    "title": "Episode 5 Part 1 · Scalar and Vector Fields",
+    "context": "Discrete Mathematical Structures · Vector Calculus · Episode 5",
+    "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-5-episode-5-part-1"
   },
   {
     "type": "Course",
@@ -18976,8 +19323,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Foundations",
-    "title": "Foundations",
+    "topicName": "Functions",
+    "title": "Functions",
     "context": "Differential, Integral and Vector Calculus · BITC",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1"
   },
@@ -18989,10 +19336,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Foundations",
-    "episodeName": "Course overview",
-    "title": "Episode 1 · Course overview",
-    "context": "Differential, Integral and Vector Calculus · Foundations",
+    "topicName": "Functions",
+    "episodeName": "Definition, Properties, Domain and Range of Elementary Functions",
+    "title": "Episode 1 · Definition, Properties, Domain and Range of Elementary Functions",
+    "context": "Differential, Integral and Vector Calculus · Functions",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1"
   },
   {
@@ -19003,11 +19350,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Foundations",
-    "episodeName": "Course overview",
-    "partName": "Course overview",
-    "title": "Episode 1 Part 1 · Course overview",
-    "context": "Differential, Integral and Vector Calculus · Foundations · Episode 1",
+    "topicName": "Functions",
+    "episodeName": "Definition, Properties, Domain and Range of Elementary Functions",
+    "partName": "Definition, Properties, Domain and Range of Elementary Functions",
+    "title": "Episode 1 Part 1 · Definition, Properties, Domain and Range of Elementary Functions",
+    "context": "Differential, Integral and Vector Calculus · Functions · Episode 1",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1-episode-1-part-1"
   },
   {
@@ -19018,10 +19365,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Foundations",
-    "episodeName": "Key terms and definitions",
-    "title": "Episode 2 · Key terms and definitions",
-    "context": "Differential, Integral and Vector Calculus · Foundations",
+    "topicName": "Functions",
+    "episodeName": "Algebraic and Transcendental Functions",
+    "title": "Episode 2 · Algebraic and Transcendental Functions",
+    "context": "Differential, Integral and Vector Calculus · Functions",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1"
   },
   {
@@ -19032,11 +19379,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Foundations",
-    "episodeName": "Key terms and definitions",
-    "partName": "Key terms and definitions",
-    "title": "Episode 2 Part 1 · Key terms and definitions",
-    "context": "Differential, Integral and Vector Calculus · Foundations · Episode 2",
+    "topicName": "Functions",
+    "episodeName": "Algebraic and Transcendental Functions",
+    "partName": "Algebraic and Transcendental Functions",
+    "title": "Episode 2 Part 1 · Algebraic and Transcendental Functions",
+    "context": "Differential, Integral and Vector Calculus · Functions · Episode 2",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1-episode-2-part-1"
   },
   {
@@ -19047,10 +19394,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Foundations",
-    "episodeName": "Core concepts",
-    "title": "Episode 3 · Core concepts",
-    "context": "Differential, Integral and Vector Calculus · Foundations",
+    "topicName": "Functions",
+    "episodeName": "Exponential, Logarithmic and Hyperbolic Functions",
+    "title": "Episode 3 · Exponential, Logarithmic and Hyperbolic Functions",
+    "context": "Differential, Integral and Vector Calculus · Functions",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1"
   },
   {
@@ -19061,11 +19408,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Foundations",
-    "episodeName": "Core concepts",
-    "partName": "Core concepts",
-    "title": "Episode 3 Part 1 · Core concepts",
-    "context": "Differential, Integral and Vector Calculus · Foundations · Episode 3",
+    "topicName": "Functions",
+    "episodeName": "Exponential, Logarithmic and Hyperbolic Functions",
+    "partName": "Exponential, Logarithmic and Hyperbolic Functions",
+    "title": "Episode 3 Part 1 · Exponential, Logarithmic and Hyperbolic Functions",
+    "context": "Differential, Integral and Vector Calculus · Functions · Episode 3",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1-episode-3-part-1"
   },
   {
@@ -19076,10 +19423,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Foundations",
-    "episodeName": "Guided examples",
-    "title": "Episode 4 · Guided examples",
-    "context": "Differential, Integral and Vector Calculus · Foundations",
+    "topicName": "Functions",
+    "episodeName": "Parametric Equations",
+    "title": "Episode 4 · Parametric Equations",
+    "context": "Differential, Integral and Vector Calculus · Functions",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1"
   },
   {
@@ -19090,12 +19437,27 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Foundations",
-    "episodeName": "Guided examples",
-    "partName": "Guided examples",
-    "title": "Episode 4 Part 1 · Guided examples",
-    "context": "Differential, Integral and Vector Calculus · Foundations · Episode 4",
+    "topicName": "Functions",
+    "episodeName": "Parametric Equations",
+    "partName": "Parametric Equations Practice",
+    "title": "Episode 4 Part 1 · Parametric Equations Practice",
+    "context": "Differential, Integral and Vector Calculus · Functions · Episode 4",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1-episode-4-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Functions",
+    "episodeName": "Parametric Equations",
+    "partName": "Parametric Equations",
+    "title": "Episode 4 Part 2 · Parametric Equations",
+    "context": "Differential, Integral and Vector Calculus · Functions · Episode 4",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1-episode-4-part-2"
   },
   {
     "type": "Episode",
@@ -19105,10 +19467,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Foundations",
-    "episodeName": "Topic review",
-    "title": "Episode 5 · Topic review",
-    "context": "Differential, Integral and Vector Calculus · Foundations",
+    "topicName": "Functions",
+    "episodeName": "Functions Round-Up",
+    "title": "Episode 5 · Functions Round-Up",
+    "context": "Differential, Integral and Vector Calculus · Functions",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1"
   },
   {
@@ -19119,12 +19481,42 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Foundations",
-    "episodeName": "Topic review",
-    "partName": "Topic review",
-    "title": "Episode 5 Part 1 · Topic review",
-    "context": "Differential, Integral and Vector Calculus · Foundations · Episode 5",
+    "topicName": "Functions",
+    "episodeName": "Functions Round-Up",
+    "partName": "Round-Up Practice",
+    "title": "Episode 5 Part 1 · Round-Up Practice",
+    "context": "Differential, Integral and Vector Calculus · Functions · Episode 5",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1-episode-5-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Functions",
+    "episodeName": "Functions Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 2 · Round-Up",
+    "context": "Differential, Integral and Vector Calculus · Functions · Episode 5",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1-episode-5-part-2"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Functions",
+    "episodeName": "Functions Round-Up",
+    "partName": "Round-Up",
+    "title": "Episode 5 Part 3 · Round-Up",
+    "context": "Differential, Integral and Vector Calculus · Functions · Episode 5",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-1-episode-5-part-3"
   },
   {
     "type": "Topic",
@@ -19134,8 +19526,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Core Concepts",
-    "title": "Core Concepts",
+    "topicName": "Limits, Continuity and Convergence",
+    "title": "Limits, Continuity and Convergence",
     "context": "Differential, Integral and Vector Calculus · BITC",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2"
   },
@@ -19147,10 +19539,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Core Concepts",
-    "episodeName": "Concept introduction",
-    "title": "Episode 1 · Concept introduction",
-    "context": "Differential, Integral and Vector Calculus · Core Concepts",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Limits of a Function of a Real Variable",
+    "title": "Episode 1 · Limits of a Function of a Real Variable",
+    "context": "Differential, Integral and Vector Calculus · Limits, Continuity and Convergence",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2"
   },
   {
@@ -19161,12 +19553,27 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Core Concepts",
-    "episodeName": "Concept introduction",
-    "partName": "Concept introduction",
-    "title": "Episode 1 Part 1 · Concept introduction",
-    "context": "Differential, Integral and Vector Calculus · Core Concepts · Episode 1",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Limits of a Function of a Real Variable",
+    "partName": "Limits Practice",
+    "title": "Episode 1 Part 1 · Limits Practice",
+    "context": "Differential, Integral and Vector Calculus · Limits, Continuity and Convergence · Episode 1",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2-episode-1-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Limits of a Function of a Real Variable",
+    "partName": "Limits",
+    "title": "Episode 1 Part 2 · Limits",
+    "context": "Differential, Integral and Vector Calculus · Limits, Continuity and Convergence · Episode 1",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2-episode-1-part-2"
   },
   {
     "type": "Episode",
@@ -19176,10 +19583,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Core Concepts",
-    "episodeName": "Structures and principles",
-    "title": "Episode 2 · Structures and principles",
-    "context": "Differential, Integral and Vector Calculus · Core Concepts",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Continuity",
+    "title": "Episode 2 · Continuity",
+    "context": "Differential, Integral and Vector Calculus · Limits, Continuity and Convergence",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2"
   },
   {
@@ -19190,11 +19597,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Core Concepts",
-    "episodeName": "Structures and principles",
-    "partName": "Structures and principles",
-    "title": "Episode 2 Part 1 · Structures and principles",
-    "context": "Differential, Integral and Vector Calculus · Core Concepts · Episode 2",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Continuity",
+    "partName": "Continuity",
+    "title": "Episode 2 Part 1 · Continuity",
+    "context": "Differential, Integral and Vector Calculus · Limits, Continuity and Convergence · Episode 2",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2-episode-2-part-1"
   },
   {
@@ -19205,10 +19612,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Core Concepts",
-    "episodeName": "Worked examples",
-    "title": "Episode 3 · Worked examples",
-    "context": "Differential, Integral and Vector Calculus · Core Concepts",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Indeterminate Forms and L'Hopital's Rule",
+    "title": "Episode 3 · Indeterminate Forms and L'Hopital's Rule",
+    "context": "Differential, Integral and Vector Calculus · Limits, Continuity and Convergence",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2"
   },
   {
@@ -19219,12 +19626,27 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Core Concepts",
-    "episodeName": "Worked examples",
-    "partName": "Worked examples",
-    "title": "Episode 3 Part 1 · Worked examples",
-    "context": "Differential, Integral and Vector Calculus · Core Concepts · Episode 3",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Indeterminate Forms and L'Hopital's Rule",
+    "partName": "Indeterminate Forms Practice",
+    "title": "Episode 3 Part 1 · Indeterminate Forms Practice",
+    "context": "Differential, Integral and Vector Calculus · Limits, Continuity and Convergence · Episode 3",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2-episode-3-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Indeterminate Forms and L'Hopital's Rule",
+    "partName": "Indeterminate Forms",
+    "title": "Episode 3 Part 2 · Indeterminate Forms",
+    "context": "Differential, Integral and Vector Calculus · Limits, Continuity and Convergence · Episode 3",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2-episode-3-part-2"
   },
   {
     "type": "Episode",
@@ -19234,10 +19656,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Core Concepts",
-    "episodeName": "Common questions",
-    "title": "Episode 4 · Common questions",
-    "context": "Differential, Integral and Vector Calculus · Core Concepts",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Sequences and Convergence",
+    "title": "Episode 4 · Sequences and Convergence",
+    "context": "Differential, Integral and Vector Calculus · Limits, Continuity and Convergence",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2"
   },
   {
@@ -19248,11 +19670,11 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Core Concepts",
-    "episodeName": "Common questions",
-    "partName": "Common questions",
-    "title": "Episode 4 Part 1 · Common questions",
-    "context": "Differential, Integral and Vector Calculus · Core Concepts · Episode 4",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Sequences and Convergence",
+    "partName": "Sequences and Convergence",
+    "title": "Episode 4 Part 1 · Sequences and Convergence",
+    "context": "Differential, Integral and Vector Calculus · Limits, Continuity and Convergence · Episode 4",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2-episode-4-part-1"
   },
   {
@@ -19263,10 +19685,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Core Concepts",
-    "episodeName": "Topic review",
-    "title": "Episode 5 · Topic review",
-    "context": "Differential, Integral and Vector Calculus · Core Concepts",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Convergence Tests",
+    "title": "Episode 5 · Convergence Tests",
+    "context": "Differential, Integral and Vector Calculus · Limits, Continuity and Convergence",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2"
   },
   {
@@ -19277,12 +19699,27 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Core Concepts",
-    "episodeName": "Topic review",
-    "partName": "Topic review",
-    "title": "Episode 5 Part 1 · Topic review",
-    "context": "Differential, Integral and Vector Calculus · Core Concepts · Episode 5",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Convergence Tests",
+    "partName": "Convergence Tests Practice",
+    "title": "Episode 5 Part 1 · Convergence Tests Practice",
+    "context": "Differential, Integral and Vector Calculus · Limits, Continuity and Convergence · Episode 5",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2-episode-5-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Limits, Continuity and Convergence",
+    "episodeName": "Convergence Tests",
+    "partName": "Convergence Tests",
+    "title": "Episode 5 Part 2 · Convergence Tests",
+    "context": "Differential, Integral and Vector Calculus · Limits, Continuity and Convergence · Episode 5",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-2-episode-5-part-2"
   },
   {
     "type": "Topic",
@@ -19292,8 +19729,8 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Applications",
-    "title": "Applications",
+    "topicName": "Differential Calculus",
+    "title": "Differential Calculus",
     "context": "Differential, Integral and Vector Calculus · BITC",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3"
   },
@@ -19305,10 +19742,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Applications",
-    "episodeName": "Practical context",
-    "title": "Episode 1 · Practical context",
-    "context": "Differential, Integral and Vector Calculus · Applications",
+    "topicName": "Differential Calculus",
+    "episodeName": "The Derivative: Definitions and Rules of Differentiation",
+    "title": "Episode 1 · The Derivative: Definitions and Rules of Differentiation",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3"
   },
   {
@@ -19319,14 +19756,29 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Applications",
-    "episodeName": "Practical context",
-    "partName": "Practical context",
-    "title": "Episode 1 Part 1 · Practical context",
-    "context": "Differential, Integral and Vector Calculus · Applications · Episode 1",
+    "topicName": "Differential Calculus",
+    "episodeName": "The Derivative: Definitions and Rules of Differentiation",
+    "partName": "Derivative Rules Practice",
+    "title": "Episode 1 Part 1 · Derivative Rules Practice",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus · Episode 1",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3-episode-1-part-1"
   },
   {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Differential Calculus",
+    "episodeName": "The Derivative: Definitions and Rules of Differentiation",
+    "partName": "Derivative Rules",
+    "title": "Episode 1 Part 2 · Derivative Rules",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus · Episode 1",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3-episode-1-part-2"
+  },
+  {
     "type": "Episode",
     "program": "BITC",
     "aliases": [
@@ -19334,10 +19786,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Applications",
-    "episodeName": "Methods and techniques",
-    "title": "Episode 2 · Methods and techniques",
-    "context": "Differential, Integral and Vector Calculus · Applications",
+    "topicName": "Differential Calculus",
+    "episodeName": "Differentiation of Exponential, Logarithmic and Hyperbolic Functions",
+    "title": "Episode 2 · Differentiation of Exponential, Logarithmic and Hyperbolic Functions",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3"
   },
   {
@@ -19348,14 +19800,29 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Applications",
-    "episodeName": "Methods and techniques",
-    "partName": "Methods and techniques",
-    "title": "Episode 2 Part 1 · Methods and techniques",
-    "context": "Differential, Integral and Vector Calculus · Applications · Episode 2",
+    "topicName": "Differential Calculus",
+    "episodeName": "Differentiation of Exponential, Logarithmic and Hyperbolic Functions",
+    "partName": "Differentiation Practice",
+    "title": "Episode 2 Part 1 · Differentiation Practice",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus · Episode 2",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3-episode-2-part-1"
   },
   {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Differential Calculus",
+    "episodeName": "Differentiation of Exponential, Logarithmic and Hyperbolic Functions",
+    "partName": "Differentiation",
+    "title": "Episode 2 Part 2 · Differentiation",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus · Episode 2",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3-episode-2-part-2"
+  },
+  {
     "type": "Episode",
     "program": "BITC",
     "aliases": [
@@ -19363,10 +19830,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Applications",
-    "episodeName": "Applied example",
-    "title": "Episode 3 · Applied example",
-    "context": "Differential, Integral and Vector Calculus · Applications",
+    "topicName": "Differential Calculus",
+    "episodeName": "Maxima, Minima and Identification of Extrema",
+    "title": "Episode 3 · Maxima, Minima and Identification of Extrema",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3"
   },
   {
@@ -19377,14 +19844,29 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Applications",
-    "episodeName": "Applied example",
-    "partName": "Applied example",
-    "title": "Episode 3 Part 1 · Applied example",
-    "context": "Differential, Integral and Vector Calculus · Applications · Episode 3",
+    "topicName": "Differential Calculus",
+    "episodeName": "Maxima, Minima and Identification of Extrema",
+    "partName": "Extrema Practice",
+    "title": "Episode 3 Part 1 · Extrema Practice",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus · Episode 3",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3-episode-3-part-1"
   },
   {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Differential Calculus",
+    "episodeName": "Maxima, Minima and Identification of Extrema",
+    "partName": "Extrema",
+    "title": "Episode 3 Part 2 · Extrema",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus · Episode 3",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3-episode-3-part-2"
+  },
+  {
     "type": "Episode",
     "program": "BITC",
     "aliases": [
@@ -19392,10 +19874,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Applications",
-    "episodeName": "Practice questions",
-    "title": "Episode 4 · Practice questions",
-    "context": "Differential, Integral and Vector Calculus · Applications",
+    "topicName": "Differential Calculus",
+    "episodeName": "Partial and Total Differentiation",
+    "title": "Episode 4 · Partial and Total Differentiation",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3"
   },
   {
@@ -19406,14 +19888,29 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Applications",
-    "episodeName": "Practice questions",
-    "partName": "Practice questions",
-    "title": "Episode 4 Part 1 · Practice questions",
-    "context": "Differential, Integral and Vector Calculus · Applications · Episode 4",
+    "topicName": "Differential Calculus",
+    "episodeName": "Partial and Total Differentiation",
+    "partName": "Partial and Total Differentiation Practice",
+    "title": "Episode 4 Part 1 · Partial and Total Differentiation Practice",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus · Episode 4",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3-episode-4-part-1"
   },
   {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Differential Calculus",
+    "episodeName": "Partial and Total Differentiation",
+    "partName": "Partial and Total Differentiation",
+    "title": "Episode 4 Part 2 · Partial and Total Differentiation",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus · Episode 4",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3-episode-4-part-2"
+  },
+  {
     "type": "Episode",
     "program": "BITC",
     "aliases": [
@@ -19421,10 +19918,10 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Applications",
-    "episodeName": "Topic review",
-    "title": "Episode 5 · Topic review",
-    "context": "Differential, Integral and Vector Calculus · Applications",
+    "topicName": "Differential Calculus",
+    "episodeName": "Chain Rule and Change of Variables",
+    "title": "Episode 5 · Chain Rule and Change of Variables",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3"
   },
   {
@@ -19435,12 +19932,463 @@
       "Bachelor of Information Technology and Computing"
     ],
     "courseName": "Differential, Integral and Vector Calculus",
-    "topicName": "Applications",
-    "episodeName": "Topic review",
-    "partName": "Topic review",
-    "title": "Episode 5 Part 1 · Topic review",
-    "context": "Differential, Integral and Vector Calculus · Applications · Episode 5",
+    "topicName": "Differential Calculus",
+    "episodeName": "Chain Rule and Change of Variables",
+    "partName": "Chain Rule Practice",
+    "title": "Episode 5 Part 1 · Chain Rule Practice",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus · Episode 5",
     "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3-episode-5-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Differential Calculus",
+    "episodeName": "Chain Rule and Change of Variables",
+    "partName": "Chain Rule",
+    "title": "Episode 5 Part 2 · Chain Rule",
+    "context": "Differential, Integral and Vector Calculus · Differential Calculus · Episode 5",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-3-episode-5-part-2"
+  },
+  {
+    "type": "Topic",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "title": "Integral Calculus",
+    "context": "Differential, Integral and Vector Calculus · BITC",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+    "title": "Episode 1 · The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+    "partName": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+    "title": "Episode 1 Part 1 · The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus · Episode 1",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4-episode-1-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "Techniques of Integration",
+    "title": "Episode 2 · Techniques of Integration",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "Techniques of Integration",
+    "partName": "Techniques of Integration Practice",
+    "title": "Episode 2 Part 1 · Techniques of Integration Practice",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus · Episode 2",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4-episode-2-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "Techniques of Integration",
+    "partName": "Techniques of Integration",
+    "title": "Episode 2 Part 2 · Techniques of Integration",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus · Episode 2",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4-episode-2-part-2"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "The Definite Integral and Area Under a Curve",
+    "title": "Episode 3 · The Definite Integral and Area Under a Curve",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "The Definite Integral and Area Under a Curve",
+    "partName": "Definite Integral Practice",
+    "title": "Episode 3 Part 1 · Definite Integral Practice",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus · Episode 3",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4-episode-3-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "The Definite Integral and Area Under a Curve",
+    "partName": "Definite Integral",
+    "title": "Episode 3 Part 2 · Definite Integral",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus · Episode 3",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4-episode-3-part-2"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "Applications of the Definite Integral",
+    "title": "Episode 4 · Applications of the Definite Integral",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "Applications of the Definite Integral",
+    "partName": "Applications Practice",
+    "title": "Episode 4 Part 1 · Applications Practice",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus · Episode 4",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4-episode-4-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "Applications of the Definite Integral",
+    "partName": "Applications",
+    "title": "Episode 4 Part 2 · Applications",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus · Episode 4",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4-episode-4-part-2"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "Improper Integrals",
+    "title": "Episode 5 · Improper Integrals",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "Improper Integrals",
+    "partName": "Improper Integrals Practice",
+    "title": "Episode 5 Part 1 · Improper Integrals Practice",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus · Episode 5",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4-episode-5-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Integral Calculus",
+    "episodeName": "Improper Integrals",
+    "partName": "Improper Integrals",
+    "title": "Episode 5 Part 2 · Improper Integrals",
+    "context": "Differential, Integral and Vector Calculus · Integral Calculus · Episode 5",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-4-episode-5-part-2"
+  },
+  {
+    "type": "Topic",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "title": "Vector Calculus",
+    "context": "Differential, Integral and Vector Calculus · BITC",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Vectors: Definitions and Basic Operations",
+    "title": "Episode 1 · Vectors: Definitions and Basic Operations",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Vectors: Definitions and Basic Operations",
+    "partName": "Vectors Practice",
+    "title": "Episode 1 Part 1 · Vectors Practice",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus · Episode 1",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5-episode-1-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Vectors: Definitions and Basic Operations",
+    "partName": "Vectors",
+    "title": "Episode 1 Part 2 · Vectors",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus · Episode 1",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5-episode-1-part-2"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Dot and Cross Products",
+    "title": "Episode 2 · Dot and Cross Products",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Dot and Cross Products",
+    "partName": "Dot and Cross Products Practice",
+    "title": "Episode 2 Part 1 · Dot and Cross Products Practice",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus · Episode 2",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5-episode-2-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Dot and Cross Products",
+    "partName": "Dot and Cross Products",
+    "title": "Episode 2 Part 2 · Dot and Cross Products",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus · Episode 2",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5-episode-2-part-2"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Position and Distance Vectors",
+    "title": "Episode 3 · Position and Distance Vectors",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Position and Distance Vectors",
+    "partName": "Position and Distance Vectors Practice",
+    "title": "Episode 3 Part 1 · Position and Distance Vectors Practice",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus · Episode 3",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5-episode-3-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Position and Distance Vectors",
+    "partName": "Position and Distance Vectors",
+    "title": "Episode 3 Part 2 · Position and Distance Vectors",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus · Episode 3",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5-episode-3-part-2"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Scalar and Vector Fields",
+    "title": "Episode 4 · Scalar and Vector Fields",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Scalar and Vector Fields",
+    "partName": "Scalar and Vector Fields",
+    "title": "Episode 4 Part 1 · Scalar and Vector Fields",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus · Episode 4",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5-episode-4-part-1"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Directional Derivatives and Vector Functions",
+    "title": "Episode 5 · Directional Derivatives and Vector Functions",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Directional Derivatives and Vector Functions",
+    "partName": "Directional Derivatives Practice",
+    "title": "Episode 5 Part 1 · Directional Derivatives Practice",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus · Episode 5",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5-episode-5-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Differential, Integral and Vector Calculus",
+    "topicName": "Vector Calculus",
+    "episodeName": "Directional Derivatives and Vector Functions",
+    "partName": "Directional Derivatives",
+    "title": "Episode 5 Part 2 · Directional Derivatives",
+    "context": "Differential, Integral and Vector Calculus · Vector Calculus · Episode 5",
+    "url": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/#topic-differential-integral-and-vector-calculus-topic-5-episode-5-part-2"
   },
   {
     "type": "Course",

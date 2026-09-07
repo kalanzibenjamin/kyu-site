@@ -630,7 +630,7 @@
     "slug": "humanities-and-communications-skills",
     "title": "Humanities and Communications Skills",
     "semester": "Year 1 · Semester I",
-    "lastUpdated": "2026-08-30",
+    "lastUpdated": "2026-08-31",
     "program": "BIS",
     "programme": "Bachelor of Information Systems",
     "path": "/pages/programs/scis/bis/humanities-and-communications-skills/",
@@ -647,7 +647,7 @@
                 "number": 1,
                 "type": "quiz",
                 "name": "Foundations of Communication",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLSfHqXo3vYDnAaeXWjUfPPdmN1guIEtjF_7SoLmHu5qWmS5NKw/viewform?usp=publish-editor"
+                "url": ""
               }
             ]
           },
@@ -884,6 +884,32 @@
                 "url": ""
               }
             ]
+          },
+          {
+            "number": 5,
+            "name": "Public Speaking Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -900,6 +926,32 @@
                 "type": "quiz",
                 "name": "Reading Fundamentals",
                 "url": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Reading and Library Skills Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
               }
             ]
           }
@@ -6464,7 +6516,7 @@
     "slug": "humanities-and-communications-skills",
     "title": "Humanities and Communications Skills",
     "semester": "Year 1 · Semester I",
-    "lastUpdated": "2026-08-30",
+    "lastUpdated": "2026-08-31",
     "program": "BITC",
     "programme": "Bachelor of Information Technology and Computing",
     "path": "/pages/programs/scis/bitc/humanities-and-communications-skills/",
@@ -6481,7 +6533,7 @@
                 "number": 1,
                 "type": "quiz",
                 "name": "Foundations of Communication",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLSfHqXo3vYDnAaeXWjUfPPdmN1guIEtjF_7SoLmHu5qWmS5NKw/viewform?usp=publish-editor"
+                "url": ""
               }
             ]
           },
@@ -6718,6 +6770,32 @@
                 "url": ""
               }
             ]
+          },
+          {
+            "number": 5,
+            "name": "Public Speaking Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -6736,6 +6814,32 @@
                 "url": ""
               }
             ]
+          },
+          {
+            "number": 2,
+            "name": "Reading and Library Skills Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
+              }
+            ]
           }
         ]
       }
@@ -6745,71 +6849,71 @@
     "slug": "introduction-to-information-technology-and-computing",
     "title": "Introduction to Information Technology and Computing",
     "semester": "Year 1 · Semester I",
-    "lastUpdated": "2026-08-29",
+    "lastUpdated": "2026-09-07",
     "program": "BITC",
     "programme": "Bachelor of Information Technology and Computing",
     "path": "/pages/programs/scis/bitc/introduction-to-information-technology-and-computing/",
     "topics": [
       {
         "id": "introduction-to-information-technology-and-computing-topic-1",
-        "title": "Foundations",
+        "title": "Foundations of Information Technology and Computing",
         "episodes": [
           {
             "number": 1,
-            "name": "Course overview",
+            "name": "Meaning and Scope of Information Technology and Computing",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Course overview",
+                "type": "quiz",
+                "name": "Meaning and Scope of Information Technology and Computing",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Key terms and definitions",
+            "name": "Evolution of Computing",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Key terms and definitions",
+                "type": "quiz",
+                "name": "Evolution of Computing",
                 "url": ""
               }
             ]
           },
           {
             "number": 3,
-            "name": "Core concepts",
+            "name": "Characteristics and Categories of Computing Systems",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Core concepts",
+                "type": "quiz",
+                "name": "Characteristics and Categories of Computing Systems",
                 "url": ""
               }
             ]
           },
           {
             "number": 4,
-            "name": "Guided examples",
+            "name": "Major Computing Disciplines",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Guided examples",
+                "type": "quiz",
+                "name": "Major Computing Disciplines",
                 "url": ""
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Applications of Computing in Organizations and Society",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Topic review",
+                "type": "quiz",
+                "name": "Applications of Computing in Organizations and Society",
                 "url": ""
               }
             ]
@@ -6818,64 +6922,64 @@
       },
       {
         "id": "introduction-to-information-technology-and-computing-topic-2",
-        "title": "Core Concepts",
+        "title": "Computer Systems, Hardware and Software",
         "episodes": [
           {
             "number": 1,
-            "name": "Concept introduction",
+            "name": "Functional Organization of a Computer System",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Concept introduction",
+                "type": "quiz",
+                "name": "Functional Organization of a Computer System",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Structures and principles",
+            "name": "Processors, Memory and Storage",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Structures and principles",
+                "type": "quiz",
+                "name": "Processors, Memory and Storage",
                 "url": ""
               }
             ]
           },
           {
             "number": 3,
-            "name": "Worked examples",
+            "name": "Input/Output and Peripheral Devices",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Worked examples",
+                "type": "quiz",
+                "name": "Input/Output and Peripheral Devices",
                 "url": ""
               }
             ]
           },
           {
             "number": 4,
-            "name": "Common questions",
+            "name": "System and Application Software",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Common questions",
+                "type": "quiz",
+                "name": "System and Application Software",
                 "url": ""
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Operating System Functions and Concepts",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Topic review",
+                "type": "quiz",
+                "name": "Operating System Functions and Concepts",
                 "url": ""
               }
             ]
@@ -6884,64 +6988,262 @@
       },
       {
         "id": "introduction-to-information-technology-and-computing-topic-3",
-        "title": "Applications",
+        "title": "Data, Information and Computational Thinking",
         "episodes": [
           {
             "number": 1,
-            "name": "Practical context",
+            "name": "Data and Information",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Practical context",
+                "type": "quiz",
+                "name": "Data and Information",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Methods and techniques",
+            "name": "Basic Data Representation and Binary Concepts",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Methods and techniques",
+                "type": "quiz",
+                "name": "Basic Data Representation and Binary Concepts",
                 "url": ""
               }
             ]
           },
           {
             "number": 3,
-            "name": "Applied example",
+            "name": "Information Processing",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Applied example",
+                "type": "quiz",
+                "name": "Information Processing",
                 "url": ""
               }
             ]
           },
           {
             "number": 4,
-            "name": "Practice questions",
+            "name": "Files and Introductory Database Concepts",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Practice questions",
+                "type": "quiz",
+                "name": "Files and Introductory Database Concepts",
                 "url": ""
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Problem Solving in Computing",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Topic review",
+                "type": "quiz",
+                "name": "Problem Solving in Computing",
+                "url": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "introduction-to-information-technology-and-computing-topic-4",
+        "title": "Networks, Internet and Modern Computing Environments",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Basic Networking Concepts and Components",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Basic Networking Concepts and Components",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Wired and Wireless Communication",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Wired and Wireless Communication",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Internet Concepts and Services",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Internet Concepts and Services",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "World Wide Web Concepts",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "World Wide Web Concepts",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Client-Server Concepts",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Client-Server Concepts",
+                "url": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "introduction-to-information-technology-and-computing-topic-5",
+        "title": "Cybersecurity, Ethics and Responsible Computing",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Cybersecurity Fundamentals",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Cybersecurity Fundamentals",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Common Threats and Vulnerabilities",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Common Threats and Vulnerabilities",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Malware and Social Engineering",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Malware and Social Engineering",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Authentication, Access Control and Protective Practices",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Authentication, Access Control and Protective Practices",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Privacy and Data Protection",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Privacy and Data Protection",
+                "url": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "introduction-to-information-technology-and-computing-topic-6",
+        "title": "Emerging Technologies and the Computing Profession",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Artificial Intelligence and Machine Learning",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Artificial Intelligence and Machine Learning",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Data Science",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Data Science",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Cloud Computing, IoT and Other Emerging Technologies",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Cloud Computing, IoT and Other Emerging Technologies",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Opportunities, Limitations and Responsible Adoption",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Opportunities, Limitations and Responsible Adoption",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Contemporary Developments in Computing",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Contemporary Developments in Computing",
                 "url": ""
               }
             ]
@@ -7163,82 +7465,74 @@
     "slug": "discrete-mathematical-structures",
     "title": "Discrete Mathematical Structures",
     "semester": "Year 1 · Semester I",
-    "lastUpdated": "2026-08-31",
+    "lastUpdated": "2026-09-05",
     "program": "BITC",
     "programme": "Bachelor of Information Technology and Computing",
     "path": "/pages/programs/scis/bitc/discrete-mathematical-structures/",
     "topics": [
       {
         "id": "discrete-mathematical-structures-topic-1",
-        "title": "Number Systems",
+        "title": "Functions",
         "episodes": [
           {
             "number": 1,
-            "name": "Understanding Number Bases",
+            "name": "Definition, Properties, Domain and Range of Elementary Functions",
             "parts": [
               {
                 "number": 1,
                 "type": "quiz",
-                "name": "Number Bases",
+                "name": "Definition, Properties, Domain and Range of Elementary Functions",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Binary Conversions",
+            "name": "Algebraic and Transcendental Functions",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Binary Conversion Practice",
+                "type": "quiz",
+                "name": "Algebraic and Transcendental Functions",
                 "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Binary Conversion",
-                "url": "",
-                "forEpisode": 2,
-                "forPart": 1
               }
             ]
           },
           {
             "number": 3,
-            "name": "Octal and Hexadecimal Conversions",
+            "name": "Exponential, Logarithmic and Hyperbolic Functions",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Octal and Hex Conversion Practice",
+                "type": "quiz",
+                "name": "Exponential, Logarithmic and Hyperbolic Functions",
                 "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Octal and Hex Conversion",
-                "url": "",
-                "forEpisode": 3,
-                "forPart": 1
               }
             ]
           },
           {
             "number": 4,
-            "name": "Applications in Digital Machines",
+            "name": "Parametric Equations",
             "parts": [
               {
                 "number": 1,
-                "type": "quiz",
-                "name": "Digital Machines Applications",
+                "type": "resource",
+                "name": "Parametric Equations Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Parametric Equations",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 5,
-            "name": "Number Systems Round-Up",
+            "name": "Functions Round-Up",
             "parts": [
               {
                 "number": 1,
@@ -7266,34 +7560,42 @@
       },
       {
         "id": "discrete-mathematical-structures-topic-2",
-        "title": "Logic",
+        "title": "Limits, Continuity and Convergence",
         "episodes": [
           {
             "number": 1,
-            "name": "Propositional Logic Basics",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Propositional Logic",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 2,
-            "name": "Logical Equivalence and Laws",
+            "name": "Limits of a Function of a Real Variable",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Logical Equivalence Practice",
+                "name": "Limits Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Logical Equivalence",
+                "name": "Limits",
+                "url": "",
+                "forEpisode": 1,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Calculating Limits Using Limit Laws",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Limit Laws Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Limit Laws",
                 "url": "",
                 "forEpisode": 2,
                 "forPart": 1
@@ -7302,30 +7604,30 @@
           },
           {
             "number": 3,
-            "name": "Predicates and Quantifiers",
+            "name": "Continuity",
             "parts": [
               {
                 "number": 1,
                 "type": "quiz",
-                "name": "Predicates and Quantifiers",
+                "name": "Continuity",
                 "url": ""
               }
             ]
           },
           {
             "number": 4,
-            "name": "Logical Reasoning and Proofs",
+            "name": "Indeterminate Forms and L'Hopital's Rule",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Logical Reasoning Practice",
+                "name": "Indeterminate Forms Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Logical Reasoning",
+                "name": "Indeterminate Forms",
                 "url": "",
                 "forEpisode": 4,
                 "forPart": 1
@@ -7334,27 +7636,13 @@
           },
           {
             "number": 5,
-            "name": "Logic Round-Up",
+            "name": "Sequences and Convergence",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Round-Up Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
                 "type": "quiz",
-                "name": "Round-Up",
+                "name": "Sequences and Convergence",
                 "url": ""
-              },
-              {
-                "number": 3,
-                "type": "solutions",
-                "name": "Round-Up",
-                "url": "",
-                "forEpisode": 5,
-                "forPart": 1
               }
             ]
           }
@@ -7362,34 +7650,42 @@
       },
       {
         "id": "discrete-mathematical-structures-topic-3",
-        "title": "Boolean Algebra",
+        "title": "Differential Calculus",
         "episodes": [
           {
             "number": 1,
-            "name": "Boolean Variables and Basic Operations",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Boolean Operations",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 2,
-            "name": "Boolean Expressions and Functions",
+            "name": "The Derivative: Definitions and Rules of Differentiation",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Boolean Functions Practice",
+                "name": "Derivative Rules Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Boolean Functions",
+                "name": "Derivative Rules",
+                "url": "",
+                "forEpisode": 1,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Differentiation of Exponential, Logarithmic and Hyperbolic Functions",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Differentiation Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Differentiation",
                 "url": "",
                 "forEpisode": 2,
                 "forPart": 1
@@ -7398,48 +7694,58 @@
           },
           {
             "number": 3,
-            "name": "Laws and Equivalences of Boolean Algebra",
+            "name": "Maxima, Minima and Identification of Extrema",
             "parts": [
               {
                 "number": 1,
-                "type": "quiz",
-                "name": "Boolean Laws",
+                "type": "resource",
+                "name": "Extrema Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Extrema",
+                "url": "",
+                "forEpisode": 3,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 4,
-            "name": "Applications of Boolean Algebra",
+            "name": "Partial and Total Differentiation",
             "parts": [
               {
                 "number": 1,
-                "type": "quiz",
-                "name": "Boolean Applications",
+                "type": "resource",
+                "name": "Partial and Total Differentiation Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Partial and Total Differentiation",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 5,
-            "name": "Boolean Algebra Round-Up",
+            "name": "Chain Rule and Change of Variables",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Round-Up Practice",
+                "name": "Chain Rule Practice",
                 "url": ""
               },
               {
                 "number": 2,
-                "type": "quiz",
-                "name": "Round-Up",
-                "url": ""
-              },
-              {
-                "number": 3,
                 "type": "solutions",
-                "name": "Round-Up",
+                "name": "Chain Rule",
                 "url": "",
                 "forEpisode": 5,
                 "forPart": 1
@@ -7450,34 +7756,34 @@
       },
       {
         "id": "discrete-mathematical-structures-topic-4",
-        "title": "Discrete Structures",
+        "title": "Integral Calculus",
         "episodes": [
           {
             "number": 1,
-            "name": "Set Theory Basics",
+            "name": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
             "parts": [
               {
                 "number": 1,
                 "type": "quiz",
-                "name": "Set Theory Basics",
+                "name": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Set Operations",
+            "name": "Techniques of Integration",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Set Operations Practice",
+                "name": "Techniques of Integration Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Set Operations",
+                "name": "Techniques of Integration",
                 "url": "",
                 "forEpisode": 2,
                 "forPart": 1
@@ -7486,18 +7792,18 @@
           },
           {
             "number": 3,
-            "name": "Functions and Their Properties",
+            "name": "The Definite Integral and Area Under a Curve",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Functions Practice",
+                "name": "Definite Integral Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Functions",
+                "name": "Definite Integral",
                 "url": "",
                 "forEpisode": 3,
                 "forPart": 1
@@ -7506,36 +7812,38 @@
           },
           {
             "number": 4,
-            "name": "Applications of Sets and Functions",
+            "name": "Applications of the Definite Integral",
             "parts": [
               {
                 "number": 1,
-                "type": "quiz",
-                "name": "Sets and Functions Applications",
+                "type": "resource",
+                "name": "Applications Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Applications",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 5,
-            "name": "Discrete Structures Round-Up",
+            "name": "Improper Integrals",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Round-Up Practice",
+                "name": "Improper Integrals Practice",
                 "url": ""
               },
               {
                 "number": 2,
-                "type": "quiz",
-                "name": "Round-Up",
-                "url": ""
-              },
-              {
-                "number": 3,
                 "type": "solutions",
-                "name": "Round-Up",
+                "name": "Improper Integrals",
                 "url": "",
                 "forEpisode": 5,
                 "forPart": 1
@@ -7546,42 +7854,34 @@
       },
       {
         "id": "discrete-mathematical-structures-topic-5",
-        "title": "Counting",
+        "title": "Vector Calculus",
         "episodes": [
           {
             "number": 1,
-            "name": "Permutations",
+            "name": "Three-Dimensional Coordinate Systems",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Permutations Practice",
+                "type": "quiz",
+                "name": "Three-Dimensional Coordinate Systems",
                 "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Permutations",
-                "url": "",
-                "forEpisode": 1,
-                "forPart": 1
               }
             ]
           },
           {
             "number": 2,
-            "name": "Combinations",
+            "name": "Vectors: Definitions and Basic Operations",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Combinations Practice",
+                "name": "Vectors Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Combinations",
+                "name": "Vectors",
                 "url": "",
                 "forEpisode": 2,
                 "forPart": 1
@@ -7590,162 +7890,18 @@
           },
           {
             "number": 3,
-            "name": "Applications of Counting Techniques",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Counting Applications",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 4,
-            "name": "Counting Round-Up",
+            "name": "Dot and Cross Products",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Round-Up Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "quiz",
-                "name": "Round-Up",
-                "url": ""
-              },
-              {
-                "number": 3,
-                "type": "solutions",
-                "name": "Round-Up",
-                "url": "",
-                "forEpisode": 4,
-                "forPart": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "discrete-mathematical-structures-topic-6",
-        "title": "Recursion",
-        "episodes": [
-          {
-            "number": 1,
-            "name": "Introduction to Recurrence Relations",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Recurrence Relations Basics",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 2,
-            "name": "Solving Recurrence Relations",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Solving Recurrence Relations Practice",
+                "name": "Dot and Cross Products Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Solving Recurrence Relations",
-                "url": "",
-                "forEpisode": 2,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 3,
-            "name": "Applications of Recursion in Computer Science",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Recursion Applications",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 4,
-            "name": "Recursion Round-Up",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Round-Up Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "quiz",
-                "name": "Round-Up",
-                "url": ""
-              },
-              {
-                "number": 3,
-                "type": "solutions",
-                "name": "Round-Up",
-                "url": "",
-                "forEpisode": 4,
-                "forPart": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "discrete-mathematical-structures-topic-7",
-        "title": "Tree Data Structures",
-        "episodes": [
-          {
-            "number": 1,
-            "name": "Tree Notation and Terminology",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Tree Notation",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 2,
-            "name": "Types of Trees",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Types of Trees",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 3,
-            "name": "Tree Traversals",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Tree Traversals Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Tree Traversals",
+                "name": "Dot and Cross Products",
                 "url": "",
                 "forEpisode": 3,
                 "forPart": 1
@@ -7754,39 +7910,33 @@
           },
           {
             "number": 4,
-            "name": "Applications of Trees in Data Organization",
+            "name": "Position and Distance Vectors",
             "parts": [
               {
                 "number": 1,
-                "type": "quiz",
-                "name": "Tree Applications",
+                "type": "resource",
+                "name": "Position and Distance Vectors Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Position and Distance Vectors",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 5,
-            "name": "Tree Data Structures Round-Up",
+            "name": "Scalar and Vector Fields",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Round-Up Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
                 "type": "quiz",
-                "name": "Round-Up",
+                "name": "Scalar and Vector Fields",
                 "url": ""
-              },
-              {
-                "number": 3,
-                "type": "solutions",
-                "name": "Round-Up",
-                "url": "",
-                "forEpisode": 5,
-                "forPart": 1
               }
             ]
           }
@@ -8007,72 +8157,94 @@
     "slug": "differential-integral-and-vector-calculus",
     "title": "Differential, Integral and Vector Calculus",
     "semester": "Year 1 · Semester I",
-    "lastUpdated": "2026-08-29",
+    "lastUpdated": "2026-09-03",
     "program": "BITC",
     "programme": "Bachelor of Information Technology and Computing",
     "path": "/pages/programs/scis/bitc/differential-integral-and-vector-calculus/",
     "topics": [
       {
         "id": "differential-integral-and-vector-calculus-topic-1",
-        "title": "Foundations",
+        "title": "Functions",
         "episodes": [
           {
             "number": 1,
-            "name": "Course overview",
+            "name": "Definition, Properties, Domain and Range of Elementary Functions",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Course overview",
+                "type": "quiz",
+                "name": "Definition, Properties, Domain and Range of Elementary Functions",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Key terms and definitions",
+            "name": "Algebraic and Transcendental Functions",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Key terms and definitions",
+                "type": "quiz",
+                "name": "Algebraic and Transcendental Functions",
                 "url": ""
               }
             ]
           },
           {
             "number": 3,
-            "name": "Core concepts",
+            "name": "Exponential, Logarithmic and Hyperbolic Functions",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Core concepts",
+                "type": "quiz",
+                "name": "Exponential, Logarithmic and Hyperbolic Functions",
                 "url": ""
               }
             ]
           },
           {
             "number": 4,
-            "name": "Guided examples",
+            "name": "Parametric Equations",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Guided examples",
+                "name": "Parametric Equations Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Parametric Equations",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Functions Round-Up",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Topic review",
+                "name": "Round-Up Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
               }
             ]
           }
@@ -8080,65 +8252,89 @@
       },
       {
         "id": "differential-integral-and-vector-calculus-topic-2",
-        "title": "Core Concepts",
+        "title": "Limits, Continuity and Convergence",
         "episodes": [
           {
             "number": 1,
-            "name": "Concept introduction",
+            "name": "Limits of a Function of a Real Variable",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Concept introduction",
+                "name": "Limits Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Limits",
+                "url": "",
+                "forEpisode": 1,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 2,
-            "name": "Structures and principles",
+            "name": "Continuity",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Structures and principles",
+                "type": "quiz",
+                "name": "Continuity",
                 "url": ""
               }
             ]
           },
           {
             "number": 3,
-            "name": "Worked examples",
+            "name": "Indeterminate Forms and L'Hopital's Rule",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Worked examples",
+                "name": "Indeterminate Forms Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Indeterminate Forms",
+                "url": "",
+                "forEpisode": 3,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 4,
-            "name": "Common questions",
+            "name": "Sequences and Convergence",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Common questions",
+                "type": "quiz",
+                "name": "Sequences and Convergence",
                 "url": ""
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Convergence Tests",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Topic review",
+                "name": "Convergence Tests Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Convergence Tests",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
               }
             ]
           }
@@ -8146,65 +8342,301 @@
       },
       {
         "id": "differential-integral-and-vector-calculus-topic-3",
-        "title": "Applications",
+        "title": "Differential Calculus",
         "episodes": [
           {
             "number": 1,
-            "name": "Practical context",
+            "name": "The Derivative: Definitions and Rules of Differentiation",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Practical context",
+                "name": "Derivative Rules Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Derivative Rules",
+                "url": "",
+                "forEpisode": 1,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Differentiation of Exponential, Logarithmic and Hyperbolic Functions",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Differentiation Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Differentiation",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Maxima, Minima and Identification of Extrema",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Extrema Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Extrema",
+                "url": "",
+                "forEpisode": 3,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Partial and Total Differentiation",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Partial and Total Differentiation Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Partial and Total Differentiation",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Chain Rule and Change of Variables",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Chain Rule Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Chain Rule",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "differential-integral-and-vector-calculus-topic-4",
+        "title": "Integral Calculus",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Methods and techniques",
+            "name": "Techniques of Integration",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Methods and techniques",
+                "name": "Techniques of Integration Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Techniques of Integration",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 3,
-            "name": "Applied example",
+            "name": "The Definite Integral and Area Under a Curve",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Applied example",
+                "name": "Definite Integral Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Definite Integral",
+                "url": "",
+                "forEpisode": 3,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 4,
-            "name": "Practice questions",
+            "name": "Applications of the Definite Integral",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Practice questions",
+                "name": "Applications Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Applications",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Improper Integrals",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Improper Integrals Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Improper Integrals",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "differential-integral-and-vector-calculus-topic-5",
+        "title": "Vector Calculus",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Vectors: Definitions and Basic Operations",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Vectors Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Vectors",
+                "url": "",
+                "forEpisode": 1,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Dot and Cross Products",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Dot and Cross Products Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Dot and Cross Products",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Position and Distance Vectors",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Position and Distance Vectors Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Position and Distance Vectors",
+                "url": "",
+                "forEpisode": 3,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Scalar and Vector Fields",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Scalar and Vector Fields",
                 "url": ""
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Directional Derivatives and Vector Functions",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Topic review",
+                "name": "Directional Derivatives Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Directional Derivatives",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
               }
             ]
           }

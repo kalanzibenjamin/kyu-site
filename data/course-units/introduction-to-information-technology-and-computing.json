@@ -1,200 +1,397 @@
 {
-  "lastUpdated": "2026-08-29",
-  "topics": [
-    {
-      "title": "Foundations",
-      "episodes": [
-        {
-          "number": 1,
-          "name": "Course overview",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Course overview",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "name": "Key terms and definitions",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Key terms and definitions",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "name": "Core concepts",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Core concepts",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 4,
-          "name": "Guided examples",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Guided examples",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 5,
-          "name": "Topic review",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Topic review",
-              "url": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Core Concepts",
-      "episodes": [
-        {
-          "number": 1,
-          "name": "Concept introduction",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Concept introduction",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "name": "Structures and principles",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Structures and principles",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "name": "Worked examples",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Worked examples",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 4,
-          "name": "Common questions",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Common questions",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 5,
-          "name": "Topic review",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Topic review",
-              "url": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Applications",
-      "episodes": [
-        {
-          "number": 1,
-          "name": "Practical context",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Practical context",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "name": "Methods and techniques",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Methods and techniques",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "name": "Applied example",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Applied example",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 4,
-          "name": "Practice questions",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Practice questions",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 5,
-          "name": "Topic review",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Topic review",
-              "url": ""
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"lastUpdated": "2026-09-07",
+	"topics": [
+		{
+			"title": "Foundations of Information Technology and Computing",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Meaning and Scope of Information Technology and Computing",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Meaning and Scope of Information Technology and Computing", "url": "" }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Evolution of Computing",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Evolution of Computing", "url": "" }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Characteristics and Categories of Computing Systems",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Characteristics and Categories of Computing Systems", "url": "" }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Major Computing Disciplines",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Major Computing Disciplines", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Applications of Computing in Organizations and Society",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Applications of Computing in Organizations and Society", "url": "" }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Computing Professions and Career Pathways",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Computing Professions and Career Pathways", "url": "" }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Foundations of Information Technology and Computing Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 7, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Computer Systems, Hardware and Software",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Functional Organization of a Computer System",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Functional Organization of a Computer System", "url": "" }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Processors, Memory and Storage",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Processors, Memory and Storage", "url": "" }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Input/Output and Peripheral Devices",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Input/Output and Peripheral Devices", "url": "" }
+					]
+				},
+				{
+					"number": 4,
+					"name": "System and Application Software",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "System and Application Software", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Operating System Functions and Concepts",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Operating System Functions and Concepts", "url": "" }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Overview of Windows and Linux Environments",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Overview of Windows and Linux Environments", "url": "" }
+					]
+				},
+				{
+					"number": 7,
+					"name": "File and Storage Concepts",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "File and Storage Concepts", "url": "" }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Programming Languages and Development Tools",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Programming Languages and Development Tools", "url": "" }
+					]
+				},
+				{
+					"number": 9,
+					"name": "Computer Systems, Hardware and Software Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 9, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Data, Information and Computational Thinking",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Data and Information",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Data and Information", "url": "" }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Basic Data Representation and Binary Concepts",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Basic Data Representation and Binary Concepts", "url": "" }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Information Processing",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Information Processing", "url": "" }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Files and Introductory Database Concepts",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Files and Introductory Database Concepts", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Problem Solving in Computing",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Problem Solving in Computing", "url": "" }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Decomposition, Pattern Recognition and Abstraction",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Decomposition, Pattern Recognition and Abstraction", "url": "" }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Algorithms and Introductory Algorithmic Reasoning",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Algorithms and Introductory Algorithmic Reasoning", "url": "" }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Data, Information and Computational Thinking Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 8, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Networks, Internet and Modern Computing Environments",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Basic Networking Concepts and Components",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Basic Networking Concepts and Components", "url": "" }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Wired and Wireless Communication",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Wired and Wireless Communication", "url": "" }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Internet Concepts and Services",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Internet Concepts and Services", "url": "" }
+					]
+				},
+				{
+					"number": 4,
+					"name": "World Wide Web Concepts",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "World Wide Web Concepts", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Client-Server Concepts",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Client-Server Concepts", "url": "" }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Mobile Computing",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Mobile Computing", "url": "" }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Introductory Cloud Computing and Virtualization",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Introductory Cloud Computing and Virtualization", "url": "" }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Introductory Internet of Things, Embedded and Distributed Computing",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Introductory Internet of Things, Embedded and Distributed Computing", "url": "" }
+					]
+				},
+				{
+					"number": 9,
+					"name": "Networks, Internet and Modern Computing Environments Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 9, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Cybersecurity, Ethics and Responsible Computing",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Cybersecurity Fundamentals",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Cybersecurity Fundamentals", "url": "" }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Common Threats and Vulnerabilities",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Common Threats and Vulnerabilities", "url": "" }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Malware and Social Engineering",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Malware and Social Engineering", "url": "" }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Authentication, Access Control and Protective Practices",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Authentication, Access Control and Protective Practices", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Privacy and Data Protection",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Privacy and Data Protection", "url": "" }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Intellectual Property",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Intellectual Property", "url": "" }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Cybercrime",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Cybercrime", "url": "" }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Professional Ethics and Responsible Computing",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Professional Ethics and Responsible Computing", "url": "" }
+					]
+				},
+				{
+					"number": 9,
+					"name": "Social and Environmental Implications of Digital Technologies",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Social and Environmental Implications of Digital Technologies", "url": "" }
+					]
+				},
+				{
+					"number": 10,
+					"name": "Cybersecurity, Ethics and Responsible Computing Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 10, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Emerging Technologies and the Computing Profession",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Artificial Intelligence and Machine Learning",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Artificial Intelligence and Machine Learning", "url": "" }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Data Science",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Data Science", "url": "" }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Cloud Computing, IoT and Other Emerging Technologies",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Cloud Computing, IoT and Other Emerging Technologies", "url": "" }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Opportunities, Limitations and Responsible Adoption",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Opportunities, Limitations and Responsible Adoption", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Contemporary Developments in Computing",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Contemporary Developments in Computing", "url": "" }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Professional Practice, Continuous Learning and Employability",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Professional Practice, Continuous Learning and Employability", "url": "" }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Emerging Technologies and the Computing Profession Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 7, "forPart": 1 }
+					]
+				}
+			]
+		}
+	]
 }
