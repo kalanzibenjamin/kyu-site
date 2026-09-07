@@ -411,18 +411,30 @@
 
 .announcement-share {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: $spacing-md;
+  flex-direction: column;
+  gap: $spacing-lg;
   margin-top: $spacing-xl;
   padding-top: $spacing-lg;
   border-top: 1px solid var(--glass-border, $glass-border);
+}
+
+.announcement-share-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $spacing-md;
+
+  &.announcement-share-quick {
+    padding-bottom: $spacing-md;
+    border-bottom: 1px solid var(--glass-border, $glass-border);
+  }
 }
 
 .announcement-share-label {
   color: var(--text-secondary, $color-text-secondary);
   font-size: 0.9rem;
   font-weight: $font-weight-semibold;
+  white-space: nowrap;
 }
 
 .announcement-share-actions {
@@ -441,23 +453,146 @@
   padding: 0.5rem 0.8rem;
   border: 1px solid var(--glass-border, $glass-border);
   border-radius: $border-radius-sm;
-  background: var(--glass-bg, $glass-bg);
+  background: transparent;
   color: var(--text-primary, $color-text-primary);
   cursor: pointer;
   font: inherit;
   font-size: 0.8rem;
+  font-weight: $font-weight-medium;
   transition: $transition-fast;
+
+  i {
+    font-size: 1.1em;
+  }
+
+  &:hover,
+  &:focus-visible {
+    transform: translateY(-1px);
+  }
+
+  &:focus-visible {
+    outline: 2px solid;
+    outline-offset: 2px;
+  }
+}
+
+// Quick share buttons (Share, Copy link)
+.share-btn-quick {
+  border-color: var(--glass-border, $glass-border);
+  color: var(--text-secondary, $color-text-secondary);
 
   &:hover,
   &:focus-visible {
     border-color: $color-accent-blue;
     color: $color-accent-blue;
-    transform: translateY(-1px);
+    background: rgba($color-accent-blue, 0.08);
   }
 
   &:focus-visible {
-    outline: 2px solid $color-accent-blue;
-    outline-offset: 2px;
+    outline-color: $color-accent-blue;
+  }
+}
+
+// Social share buttons (WhatsApp, Telegram, Facebook, X, Email)
+.share-btn-social {
+  border-color: rgba($color-accent-green, 0.3);
+  color: $color-accent-green;
+  background: rgba($color-accent-green, 0.05);
+
+  &:hover,
+  &:focus-visible {
+    border-color: $color-accent-green;
+    background: rgba($color-accent-green, 0.15);
+  }
+
+  &:focus-visible {
+    outline-color: $color-accent-green;
+  }
+
+  // Platform-specific accent colors (optional - using site palette)
+  &[data-platform="whatsapp"] {
+    // WhatsApp green
+    border-color: rgba(#25d366, 0.3);
+    color: #25d366;
+    background: rgba(#25d366, 0.05);
+
+    &:hover,
+    &:focus-visible {
+      border-color: #25d366;
+      background: rgba(#25d366, 0.15);
+    }
+
+    &:focus-visible {
+      outline-color: #25d366;
+    }
+  }
+
+  &[data-platform="telegram"] {
+    // Telegram blue
+    border-color: rgba(#0088cc, 0.3);
+    color: #0088cc;
+    background: rgba(#0088cc, 0.05);
+
+    &:hover,
+    &:focus-visible {
+      border-color: #0088cc;
+      background: rgba(#0088cc, 0.15);
+    }
+
+    &:focus-visible {
+      outline-color: #0088cc;
+    }
+  }
+
+  &[data-platform="facebook"] {
+    // Facebook blue
+    border-color: rgba(#1877f2, 0.3);
+    color: #1877f2;
+    background: rgba(#1877f2, 0.05);
+
+    &:hover,
+    &:focus-visible {
+      border-color: #1877f2;
+      background: rgba(#1877f2, 0.15);
+    }
+
+    &:focus-visible {
+      outline-color: #1877f2;
+    }
+  }
+
+  &[data-platform="twitter"] {
+    // X (Twitter) black
+    border-color: rgba(0, 0, 0, 0.3);
+    color: var(--text-primary, $color-text-primary);
+    background: rgba(0, 0, 0, 0.05);
+
+    &:hover,
+    &:focus-visible {
+      border-color: var(--text-primary, $color-text-primary);
+      background: rgba(0, 0, 0, 0.12);
+    }
+
+    &:focus-visible {
+      outline-color: var(--text-primary, $color-text-primary);
+    }
+  }
+
+  &[data-platform="email"] {
+    // Email - use accent blue
+    border-color: rgba($color-accent-blue, 0.3);
+    color: $color-accent-blue;
+    background: rgba($color-accent-blue, 0.05);
+
+    &:hover,
+    &:focus-visible {
+      border-color: $color-accent-blue;
+      background: rgba($color-accent-blue, 0.15);
+    }
+
+    &:focus-visible {
+      outline-color: $color-accent-blue;
+    }
   }
 }
 
@@ -659,6 +794,22 @@
   .announcement-share {
     align-items: flex-start;
     flex-direction: column;
+    gap: $spacing-md;
+  }
+
+  .announcement-share-group {
+    width: 100%;
+    flex-direction: column;
+    gap: $spacing-sm;
+
+    &.announcement-share-quick {
+      padding-bottom: $spacing-md;
+      border-bottom: 1px solid var(--glass-border, $glass-border);
+    }
+  }
+
+  .announcement-share-label {
+    width: 100%;
   }
 
   .announcement-share-actions {
@@ -667,7 +818,17 @@
   }
 
   .announcement-share .share-btn {
-    flex: 1 1 calc(50% - #{$spacing-sm});
+    flex: 1 1 calc(50% - #{calc($spacing-sm / 2)});
+    font-size: 0.75rem;
+    padding: 0.5rem 0.6rem;
+
+    span {
+      display: none;
+    }
+
+    i {
+      font-size: 1.2em;
+    }
   }
 
   .announcement-detail {
