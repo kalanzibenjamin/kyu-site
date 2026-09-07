@@ -465,6 +465,10 @@
     font-size: 1.1em;
   }
 
+  span {
+    display: none;
+  }
+
   &:hover,
   &:focus-visible {
     transform: translateY(-1px);
@@ -821,10 +825,6 @@
     flex: 1 1 calc(50% - #{calc($spacing-sm / 2)});
     font-size: 0.75rem;
     padding: 0.5rem 0.6rem;
-
-    span {
-      display: none;
-    }
 
     i {
       font-size: 1.2em;
