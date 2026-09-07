@@ -27,15 +27,6 @@ export function initAnnouncements() {
   
   const dataUrl = container.dataset.jsonUrl || '/data/announcements.json';
   
-  // Check if there are static announcements already in the container
-  const staticItems = container.querySelectorAll('.announcement-item');
-  if (staticItems.length > 0) {
-    // Static content exists, no need to fetch
-    container.dataset.loaded = 'true';
-    initAnnouncementInteractions(container);
-    return;
-  }
-  
   // Fetch announcements from JSON
   fetch(dataUrl)
     .then(response => {
@@ -56,7 +47,12 @@ export function initAnnouncements() {
     })
     .catch(error => {
       console.error('Failed to load announcements:', error);
-      showEmptyState(container);
+      if (container.querySelector('.announcement-item')) {
+        container.dataset.loaded = 'true';
+        initAnnouncementInteractions(container);
+      } else {
+        showEmptyState(container);
+      }
     });
   
   // ========================================
@@ -80,13 +76,23 @@ export function initAnnouncements() {
   }
   
   function createAnnouncementElement(item, index) {
-    const div = document.createElement('div');
-    div.className = 'announcement-item fade-up';
-    div.style.animationDelay = `${index * 50}ms`;
-    
     const date = formatDate(item.date);
     const description = item.description || item.content || '';
     const tag = item.tag || item.category || 'update';
+    const detailUrl = item.slug ? `/pages/announcements/${encodeURIComponent(item.slug)}/` : '';
+    const image = item.image || '/images/og-image.png';
+    const imageWidth = Number(item.imageWidth) || 1200;
+    const imageHeight = Number(item.imageHeight) || 630;
+    const div = document.createElement(detailUrl ? 'a' : 'div');
+    div.className = 'announcement-item fade-up no-style';
+    div.style.animationDelay = `${index * 50}ms`;
+    if (detailUrl) div.href = detailUrl;
+    const escapeHtml = (value) => String(value)
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#39;');
     
     // Determine tag class
     let tagClass = 'tag-update';
@@ -95,12 +101,20 @@ export function initAnnouncements() {
     else if (tag === 'update' || tag === 'announcement') tagClass = 'tag-update';
     
     div.innerHTML = `
-      <div class="announcement-header">
-        <h3 class="announcement-title">${item.title}</h3>
-        <span class="announcement-date"><i class="fas fa-calendar-alt"></i> ${date}</span>
+      <div class="announcement-card-image" style="aspect-ratio: ${imageWidth} / ${imageHeight}">
+        <img src="${escapeHtml(image)}" alt="" loading="lazy" width="${imageWidth}" height="${imageHeight}">
       </div>
-      <p class="announcement-description">${description}</p>
-      ${tag ? `<span class="announcement-tag ${tagClass}">${tag}</span>` : ''}
+      <div class="announcement-card-content">
+      <div class="announcement-header">
+        <h3 class="announcement-title">${escapeHtml(item.title)}</h3>
+        <span class="announcement-date"><i class="fas fa-calendar-alt"></i> ${escapeHtml(date)}</span>
+      </div>
+      <p class="announcement-description">${escapeHtml(description)}</p>
+      <div class="announcement-footer">
+        ${tag ? `<span class="announcement-tag ${tagClass}">${escapeHtml(tag)}</span>` : ''}
+        ${detailUrl ? '<span class="announcement-read">Read announcement <i class="fas fa-arrow-right" aria-hidden="true"></i></span>' : ''}
+      </div>
+      </div>
     `;
     
     return div;

@@ -6,9 +6,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run sync:courses && vite build",
+    "build": "npm run sync:courses && npm run sync:announcements && vite build",
     "preview": "vite preview",
-    "sync:courses": "node scripts/generate-course-units.mjs"
+    "sync:courses": "node scripts/generate-course-units.mjs",
+    "sync:announcements": "node scripts/generate-announcements.mjs"
   },
   "devDependencies": {
     "sass": "^1.77.8",

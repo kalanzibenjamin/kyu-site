@@ -141,12 +141,13 @@
 
     <!-- Announcements Hero -->
     <div class="announcements-hero fade-up">
+      <span class="announcements-kicker"><i class="fas fa-sparkles" aria-hidden="true"></i> Campus bulletin</span>
       <h1><span class="highlight">Announcements</span></h1>
-      <p>Stay up to date with the latest news and updates.</p>
+      <p>Useful updates, new resources, and important notices for the Kyambogo student community.</p>
     </div>
 
     <!-- Search Section -->
-    <div class="search-section fade-up">
+    <div class="announcements-search search-section fade-up">
       <div class="search-wrapper">
         <i class="fas fa-search"></i>
         <input type="text" id="searchInput" placeholder="Search announcements..." aria-label="Search announcements" />
@@ -157,57 +158,11 @@
     </div>
 
     <!-- Announcements List -->
-    <div class="announcements-list fade-up" data-json-url="/data/announcements.json">
-
-      <!-- Static fallback announcements (will be replaced by JS if JSON loads) -->
-      <div class="announcement-item">
-        <div class="announcement-header">
-          <h3 class="announcement-title">🎉 Site Launched!</h3>
-          <span class="announcement-date"><i class="fas fa-calendar-alt"></i> July 2026</span>
-        </div>
-        <p class="announcement-description">
-          Welcome to kyu.clareon.live — the student hub for Kyambogo 2026/2027 admitted students. 
-          Join the WhatsApp group to connect with fellow students.
-        </p>
-        <span class="announcement-tag tag-new">New</span>
+    <div class="announcements-list fade-up" data-json-url="/data/announcements.json" aria-live="polite">
+      <div class="no-announcements announcements-loading">
+        <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+        <p>Loading announcements...</p>
       </div>
-
-      <div class="announcement-item">
-        <div class="announcement-header">
-          <h3 class="announcement-title">📚 Past Papers Coming Soon</h3>
-          <span class="announcement-date"><i class="fas fa-calendar-alt"></i> July 2026</span>
-        </div>
-        <p class="announcement-description">
-          We're working on uploading past papers for BITC, BEEM, and Nursing programs. 
-          Stay tuned for updates!
-        </p>
-        <span class="announcement-tag tag-update">Update</span>
-      </div>
-
-      <div class="announcement-item">
-        <div class="announcement-header">
-          <h3 class="announcement-title">🧪 Quiz Episodes Available</h3>
-          <span class="announcement-date"><i class="fas fa-calendar-alt"></i> July 2026</span>
-        </div>
-        <p class="announcement-description">
-          Practice quizzes are now available for select course units. Test your knowledge 
-          and get instant feedback on your answers.
-        </p>
-        <span class="announcement-tag tag-important">Important</span>
-      </div>
-
-      <div class="announcement-item">
-        <div class="announcement-header">
-          <h3 class="announcement-title">📱 Follow Us on WhatsApp</h3>
-          <span class="announcement-date"><i class="fas fa-calendar-alt"></i> July 2026</span>
-        </div>
-        <p class="announcement-description">
-          Join our WhatsApp channel for fresh revision updates and instant notifications 
-          when new resources are added.
-        </p>
-        <span class="announcement-tag tag-update">Update</span>
-      </div>
-
     </div>
 
     <!-- Subscribe Section -->

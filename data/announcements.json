@@ -1,44 +1,80 @@
-﻿[
+[
   {
+    "slug": "site-launched",
     "date": "2026-07-20",
     "title": "🎉 Site Launched!",
+    "image": "/images/announcements/site-launched.jpg",
+    "imageAlt": "Clareon student hub launch announcement for Kyambogo 2026/2027 students",
+    "imageWidth": 1734,
+    "imageHeight": 907,
     "description": "Welcome to kyu.clareon.live — the student hub for Kyambogo 2026/2027 admitted students. Join the WhatsApp group to connect with fellow students and stay updated on new resources.",
+    "content": "Welcome to kyu.clareon.live, a student hub for Kyambogo University students joining the 2026/2027 academic year. We are bringing together study resources, course updates, announcements, and community links in one place. Join the WhatsApp group to connect with fellow students and stay updated as new resources are added.",
     "tag": "new"
   },
   {
+    "slug": "past-papers-coming-soon",
     "date": "2026-07-19",
     "title": "📚 Past Papers Coming Soon",
+    "image": "/images/og-image.png",
     "description": "We're working on uploading past papers for BITC, BEEM, and Nursing programs. The first batch will be available by the end of the month. Stay tuned for updates!",
-    "tag": "update"
+    "content": "We are preparing the first collection of past papers for BITC, BEEM, and Nursing programmes. The initial batch is planned for the end of the month, followed by more papers as they are reviewed and organized.",
+    "tag": "update",
+    "imageWidth": 671,
+    "imageHeight": 527
   },
   {
+    "slug": "quiz-episodes-now-available",
     "date": "2026-07-18",
     "title": "🧪 Quiz Episodes Now Available",
+    "image": "/images/og-image.png",
     "description": "Practice quizzes are now available for select course units. Test your knowledge and get instant feedback on your answers. New episodes added weekly.",
-    "tag": "important"
+    "content": "Practice quizzes are now available for selected course units. Use them to test your knowledge, identify topics that need more revision, and get instant feedback on your answers. New episodes will be added weekly.",
+    "tag": "important",
+    "imageWidth": 671,
+    "imageHeight": 527
   },
   {
+    "slug": "follow-us-on-whatsapp",
     "date": "2026-07-17",
     "title": "📱 Follow Us on WhatsApp",
+    "image": "/images/og-image.png",
     "description": "Join our WhatsApp channel for fresh revision updates and instant notifications when new resources are added. Click the button in the footer to join.",
-    "tag": "update"
+    "content": "Join our WhatsApp channel for fresh revision updates and instant notifications when new resources are added. The channel is the quickest way to hear about new course materials, quizzes, and important student hub updates.",
+    "tag": "update",
+    "imageWidth": 671,
+    "imageHeight": 527
   },
   {
+    "slug": "100-students-joined",
     "date": "2026-07-16",
     "title": "👥 100+ Students Joined",
+    "image": "/images/og-image.png",
     "description": "We've hit 100 students in the Kyambogo 2026/2027 group! Thank you to everyone who has joined and contributed to building this community.",
-    "tag": "update"
+    "content": "More than 100 students have joined the Kyambogo 2026/2027 group. Thank you to everyone who has joined, shared resources, and helped build a useful student community.",
+    "tag": "update",
+    "imageWidth": 671,
+    "imageHeight": 527
   },
   {
+    "slug": "contribute-your-resources",
     "date": "2026-07-15",
     "title": "🚀 Contribute Your Resources",
+    "image": "/images/og-image.png",
     "description": "We're now accepting resource submissions from students. Visit the Contribute page to share past papers, notes, or quizzes with fellow students.",
-    "tag": "new"
+    "content": "Students can now submit useful study resources to the community. Visit the Contribute page to share past papers, notes, quizzes, or other materials that can help fellow students prepare.",
+    "tag": "new",
+    "imageWidth": 671,
+    "imageHeight": 527
   },
   {
+    "slug": "beem-resources-in-development",
     "date": "2026-07-14",
     "title": "📖 BEEM Resources in Development",
+    "image": "/images/og-image.png",
     "description": "We've started adding resources for the Bachelor of Environmental Engineering and Management program. More content coming soon!",
-    "tag": "update"
+    "content": "We have started adding resources for the Bachelor of Environmental Engineering and Management programme. More course materials and programme coverage will be added as they are prepared.",
+    "tag": "update",
+    "imageWidth": 671,
+    "imageHeight": 527
   }
 ]
