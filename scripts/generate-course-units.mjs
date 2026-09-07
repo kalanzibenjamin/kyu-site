@@ -70,7 +70,7 @@ const getTopics = (course) => {
   let needsMigration = !content.lastUpdated;
   const topics = Array.isArray(content.topics) ? content.topics.map((topic) => ({
     ...topic,
-    episodes: Array.isArray(topic.episodes) ? topic.episodes.slice(0, 5).map((episode, index) => {
+    episodes: Array.isArray(topic.episodes) ? topic.episodes.map((episode, index) => {
       if (!episode.name && episode.title) needsMigration = true;
       if (!Array.isArray(episode.parts)) needsMigration = true;
       const parts = Array.isArray(episode.parts)
@@ -170,7 +170,7 @@ const validateCatalogue = () => {
         throw new Error(`Invalid topic ${topicIndex + 1} in ${path.relative(root, contentPath)}`);
       }
 
-      const visibleEpisodes = topic.episodes.slice(0, 5);
+      const visibleEpisodes = topic.episodes;
       if (visibleEpisodes.length === 0) {
         throw new Error(`Topic ${topicIndex + 1} has no visible episodes in ${path.relative(root, contentPath)}`);
       }
@@ -240,7 +240,7 @@ const extractCurriculum = (program) => {
 
 const renderTopics = (course) => getTopics(course).map((topic, topicIndex) => {
   const topicId = `${course.slug}-topic-${topicIndex + 1}`;
-  const episodes = topic.episodes.slice(0, 5).map((episode, episodeIndex) => {
+  const episodes = topic.episodes.map((episode, episodeIndex) => {
     const number = episode.number || episodeIndex + 1;
     const showParts = episode.parts.length > 1;
     const parts = episode.parts.map((part, partIndex) => {
@@ -353,7 +353,7 @@ programs.forEach((program) => {
         topics: getTopics(course).map((topic, topicIndex) => ({
         id: `${course.slug}-topic-${topicIndex + 1}`,
         title: topic.title,
-        episodes: topic.episodes.slice(0, 5).map((episode, episodeIndex) => ({
+        episodes: topic.episodes.map((episode, episodeIndex) => ({
           number: episode.number || episodeIndex + 1,
           name: episode.name,
           parts: episode.parts.map((part, partIndex) => ({

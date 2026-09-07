@@ -698,6 +698,92 @@
                 "url": ""
               }
             ]
+          },
+          {
+            "number": 6,
+            "name": "Noise and Barriers to Communication",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Noise and Barriers to Communication",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Improving Communication Skills",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Improving Communication Skills",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "The 7 C's and 4 S's of Communication",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "The 7 C's and 4 S's of Communication",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Cross-Cultural and Intercultural Communication",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Cross-Cultural and Intercultural Communication",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "Foundations of Business Communication",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Foundations of Business Communication",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "name": "Basics of Communication Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 11,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -764,6 +850,32 @@
                 "url": ""
               }
             ]
+          },
+          {
+            "number": 6,
+            "name": "Listening Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -828,6 +940,56 @@
                 "type": "quiz",
                 "name": "Functional Writing: CVs",
                 "url": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Functional Writing: Reports",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Functional Writing: Reports",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Functional Writing: Memos",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Functional Writing: Memos",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Writing Skills Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 8,
+                "forPart": 1
               }
             ]
           }
@@ -6584,6 +6746,92 @@
                 "url": ""
               }
             ]
+          },
+          {
+            "number": 6,
+            "name": "Noise and Barriers to Communication",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Noise and Barriers to Communication",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Improving Communication Skills",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Improving Communication Skills",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "The 7 C's and 4 S's of Communication",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "The 7 C's and 4 S's of Communication",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Cross-Cultural and Intercultural Communication",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Cross-Cultural and Intercultural Communication",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "Foundations of Business Communication",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Foundations of Business Communication",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "name": "Basics of Communication Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 11,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -6650,6 +6898,32 @@
                 "url": ""
               }
             ]
+          },
+          {
+            "number": 6,
+            "name": "Listening Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -6714,6 +6988,56 @@
                 "type": "quiz",
                 "name": "Functional Writing: CVs",
                 "url": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Functional Writing: Reports",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Functional Writing: Reports",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Functional Writing: Memos",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Functional Writing: Memos",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Writing Skills Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 8,
+                "forPart": 1
               }
             ]
           }
@@ -6917,6 +7241,44 @@
                 "url": ""
               }
             ]
+          },
+          {
+            "number": 6,
+            "name": "Computing Professions and Career Pathways",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Computing Professions and Career Pathways",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Foundations of Information Technology and Computing Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -6981,6 +7343,68 @@
                 "type": "quiz",
                 "name": "Operating System Functions and Concepts",
                 "url": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Overview of Windows and Linux Environments",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Overview of Windows and Linux Environments",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "File and Storage Concepts",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "File and Storage Concepts",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Programming Languages and Development Tools",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Programming Languages and Development Tools",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Computer Systems, Hardware and Software Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 9,
+                "forPart": 1
               }
             ]
           }
@@ -7049,6 +7473,56 @@
                 "url": ""
               }
             ]
+          },
+          {
+            "number": 6,
+            "name": "Decomposition, Pattern Recognition and Abstraction",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Decomposition, Pattern Recognition and Abstraction",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Algorithms and Introductory Algorithmic Reasoning",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Algorithms and Introductory Algorithmic Reasoning",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Data, Information and Computational Thinking Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 8,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -7113,6 +7587,68 @@
                 "type": "quiz",
                 "name": "Client-Server Concepts",
                 "url": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Mobile Computing",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Mobile Computing",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Introductory Cloud Computing and Virtualization",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Introductory Cloud Computing and Virtualization",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Introductory Internet of Things, Embedded and Distributed Computing",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Introductory Internet of Things, Embedded and Distributed Computing",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Networks, Internet and Modern Computing Environments Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 9,
+                "forPart": 1
               }
             ]
           }
@@ -7181,6 +7717,80 @@
                 "url": ""
               }
             ]
+          },
+          {
+            "number": 6,
+            "name": "Intellectual Property",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Intellectual Property",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Cybercrime",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Cybercrime",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Professional Ethics and Responsible Computing",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Professional Ethics and Responsible Computing",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Social and Environmental Implications of Digital Technologies",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Social and Environmental Implications of Digital Technologies",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "Cybersecurity, Ethics and Responsible Computing Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 10,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -7245,6 +7855,44 @@
                 "type": "quiz",
                 "name": "Contemporary Developments in Computing",
                 "url": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Professional Practice, Continuous Learning and Employability",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Professional Practice, Continuous Learning and Employability",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Emerging Technologies and the Computing Profession Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
               }
             ]
           }
@@ -7645,6 +8293,136 @@
                 "url": ""
               }
             ]
+          },
+          {
+            "number": 6,
+            "name": "Convergence Tests",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Convergence Tests Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Convergence Tests",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Limit Theorems of Sequences",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Limit Theorems of Sequences",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Series: Definitions and Partial Sums",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Series: Definitions and Partial Sums",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Power Series and Convergence",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Power Series Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Power Series",
+                "url": "",
+                "forEpisode": 9,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "Maclaurin's and Taylor Series",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Maclaurin's and Taylor Series Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Maclaurin's and Taylor Series",
+                "url": "",
+                "forEpisode": 10,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "name": "Fourier Series and Periodic Functions",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Fourier Series Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Fourier Series",
+                "url": "",
+                "forEpisode": 11,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 12,
+            "name": "Limits, Continuity and Convergence Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 12,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -7751,6 +8529,104 @@
                 "forPart": 1
               }
             ]
+          },
+          {
+            "number": 6,
+            "name": "Implicit Functions and Derivatives of Inverse Circular Functions",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Implicit Functions Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Implicit Functions",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Higher Order Partial Derivatives",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Higher Order Partial Derivatives Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Higher Order Partial Derivatives",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Curve Sketching",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Curve Sketching Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Curve Sketching",
+                "url": "",
+                "forEpisode": 8,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Rolle's Theorem, Mean Value Theorem and Cauchy's Mean Value Theorem",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Rolle's Theorem, Mean Value Theorem and Cauchy's Mean Value Theorem",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "Differential Calculus Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 10,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -7849,6 +8725,84 @@
                 "forPart": 1
               }
             ]
+          },
+          {
+            "number": 6,
+            "name": "The Definite Integral as a Function of Its Upper Limit",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Definite Integral as a Function Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Definite Integral as a Function",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Double Integrals and Their Applications",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Double Integrals Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Double Integrals",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "The Riemann Integral: Definition and Characteristics",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "The Riemann Integral: Definition and Characteristics",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Integral Calculus Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 9,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -7937,6 +8891,124 @@
                 "type": "quiz",
                 "name": "Scalar and Vector Fields",
                 "url": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Directional Derivatives and Vector Functions",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Directional Derivatives Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Directional Derivatives",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Gradient, Divergence, Curl and Laplacian",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Gradient, Divergence, Curl and Laplacian Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Gradient, Divergence, Curl and Laplacian",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Physical Interpretation of Divergence and Curl",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Physical Interpretation of Divergence and Curl",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Green's Theorem",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Green's Theorem Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Green's Theorem",
+                "url": "",
+                "forEpisode": 9,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "The Fundamental Theorem for Line Integrals",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Line Integrals Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Line Integrals",
+                "url": "",
+                "forEpisode": 10,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "name": "Vector Calculus Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 11,
+                "forPart": 1
               }
             ]
           }
@@ -8337,6 +9409,104 @@
                 "forPart": 1
               }
             ]
+          },
+          {
+            "number": 6,
+            "name": "Limit Theorems of Sequences",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Limit Theorems of Sequences",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Power Series and Convergence",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Power Series Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Power Series",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Maclaurin's and Taylor Series",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Maclaurin's and Taylor Series Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Maclaurin's and Taylor Series",
+                "url": "",
+                "forEpisode": 8,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Fourier Series and Periodic Functions",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Fourier Series Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Fourier Series",
+                "url": "",
+                "forEpisode": 9,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "Limits, Continuity and Convergence Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 10,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -8443,6 +9613,84 @@
                 "forPart": 1
               }
             ]
+          },
+          {
+            "number": 6,
+            "name": "Implicit Functions and Derivatives of Inverse Circular Functions",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Implicit Functions Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Implicit Functions",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Higher Order Partial Derivatives and Curve Sketching",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Higher Order Derivatives and Curve Sketching Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Higher Order Derivatives and Curve Sketching",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Rolle's Theorem, Mean Value Theorem and Cauchy's Mean Value Theorem",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Rolle's Theorem, Mean Value Theorem and Cauchy's Mean Value Theorem",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Differential Calculus Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 9,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -8541,6 +9789,84 @@
                 "forPart": 1
               }
             ]
+          },
+          {
+            "number": 6,
+            "name": "The Definite Integral as a Function of Its Upper Limit",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Definite Integral as a Function Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Definite Integral as a Function",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Double Integrals and Their Applications",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Double Integrals Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Double Integrals",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "The Riemann Integral: Definition and Characteristics",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "The Riemann Integral: Definition and Characteristics",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Integral Calculus Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 9,
+                "forPart": 1
+              }
+            ]
           }
         ]
       },
@@ -8636,6 +9962,84 @@
                 "name": "Directional Derivatives",
                 "url": "",
                 "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Gradient, Divergence, Curl and Laplacian",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Gradient, Divergence, Curl and Laplacian Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Gradient, Divergence, Curl and Laplacian",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Physical Interpretation of Divergence and Curl",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Physical Interpretation of Divergence and Curl",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Green's Theorem and Line Integrals Independent of Path",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Green's Theorem and Line Integrals Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Green's Theorem and Line Integrals",
+                "url": "",
+                "forEpisode": 8,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Vector Calculus Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 9,
                 "forPart": 1
               }
             ]
