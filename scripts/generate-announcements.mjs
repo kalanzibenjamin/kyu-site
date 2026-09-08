@@ -25,6 +25,8 @@ const formatDate = (value) => new Intl.DateTimeFormat('en', {
   dateStyle: 'long'
 }).format(new Date(`${value}T00:00:00`));
 
+const isSafeLink = (url) => url.startsWith('/') || /^https:\/\//i.test(url);
+
 const renderAnnouncementBody = (announcement) => {
   if (!Array.isArray(announcement.body)) {
     return `<p>${escapeHtml(announcement.content || announcement.description)}</p>`;
@@ -35,6 +37,13 @@ const renderAnnouncementBody = (announcement) => {
     if (block.type === 'heading') return `<h2>${text}</h2>`;
     if (block.type === 'list' && Array.isArray(block.items)) {
       return `<ul>${block.items.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`;
+    }
+    if (block.type === 'links' && Array.isArray(block.items)) {
+      const links = block.items
+        .filter((item) => item && item.label && item.url && isSafeLink(item.url))
+        .map((item) => `<li><a href="${escapeHtml(item.url)}">${escapeHtml(item.label)}</a></li>`)
+        .join('');
+      return links ? `<ul class="announcement-links">${links}</ul>` : '';
     }
     if (block.type === 'quote') {
       return `<blockquote><p>${text}</p>${block.cite ? `<cite>${escapeHtml(block.cite)}</cite>` : ''}</blockquote>`;
@@ -238,11 +247,11 @@ const pageShell = (announcement) => {
       <figure class="announcement-detail-image">
         <img src="${escapeHtml(image)}" alt="${escapeHtml(announcement.imageAlt || announcement.title)}" fetchpriority="high" width="${imageWidth}" height="${imageHeight}">
       </figure>
-      <article class="announcement-detail-content" aria-labelledby="announcement-content-title">
+      <section class="announcement-detail-content" aria-labelledby="announcement-content-title">
         <p class="announcement-detail-lede">${escapeHtml(announcement.description)}</p>
         <h2 id="announcement-content-title"><i class="fas fa-newspaper" aria-hidden="true"></i> The update</h2>
         ${bodyMarkup}
-      </article>
+      </section>
       <div class="announcement-share" aria-label="Share this announcement">
         <div class="announcement-share-group announcement-share-quick">
           <span class="announcement-share-label">Quick share</span>
