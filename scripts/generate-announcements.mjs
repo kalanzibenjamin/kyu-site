@@ -155,7 +155,9 @@ const pageShell = (announcement) => {
   const author = announcement.author || siteName;
   const category = announcement.category || announcement.tag || 'Announcement';
   const { image, imageType, imageWidth, imageHeight } = getImageMetadata(announcement);
-  const imageUrl = `${siteUrl}${image}`;
+  const imageAlt = announcement.imageAlt || announcement.title;
+  const imageVersion = announcement.updatedAt || announcement.date;
+  const imageUrl = `${siteUrl}${image}?v=${encodeURIComponent(imageVersion)}`;
   const structuredData = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
@@ -205,6 +207,8 @@ const pageShell = (announcement) => {
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="kyu.clareon.live" />
   <meta property="og:image" content="${imageUrl}" />
+  <meta property="og:image:secure_url" content="${imageUrl}" />
+  <meta property="og:image:alt" content="${escapeHtml(imageAlt)}" />
   <meta property="og:image:type" content="${imageType}" />
   <meta property="og:image:width" content="${imageWidth}" />
   <meta property="og:image:height" content="${imageHeight}" />
@@ -212,6 +216,7 @@ const pageShell = (announcement) => {
   <meta name="twitter:title" content="${escapeHtml(title)}" />
   <meta name="twitter:description" content="${escapeHtml(description)}" />
   <meta name="twitter:image" content="${imageUrl}" />
+  <meta name="twitter:image:alt" content="${escapeHtml(imageAlt)}" />
   <script type="application/ld+json">${structuredData}</script>
   <script type="application/ld+json">${breadcrumbData}</script>
   <link rel="icon" type="image/png" href="/images/logo/kyu-logo.png" />
@@ -291,6 +296,28 @@ const writePage = (announcement) => {
   fs.writeFileSync(filePath, pageShell(announcement));
 };
 
+const removeStalePages = (announcements) => {
+  const currentSlugs = new Set(announcements.map((announcement) => announcement.slug));
+  let removedCount = 0;
+
+  fs.readdirSync(outputDirectory, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory() && !currentSlugs.has(entry.name))
+    .forEach((entry) => {
+      const directory = path.join(outputDirectory, entry.name);
+      const filePath = path.join(directory, 'index.html');
+
+      if (!fs.existsSync(filePath) || !fs.readFileSync(filePath, 'utf8').startsWith(generatedMarker)) {
+        return;
+      }
+
+      fs.unlinkSync(filePath);
+      if (fs.readdirSync(directory).length === 0) fs.rmdirSync(directory);
+      removedCount += 1;
+    });
+
+  return removedCount;
+};
+
 const writeSitemap = (announcements) => {
   const staticUrls = [
     ['/', '1.0', 'weekly'],
@@ -319,6 +346,7 @@ const writeSitemap = (announcements) => {
 };
 
 const announcements = readAnnouncements();
+const removedCount = removeStalePages(announcements);
 announcements.forEach(writePage);
 writeSitemap(announcements);
-console.log(`Generated ${announcements.length} announcement pages`);
+console.log(`Generated ${announcements.length} announcement pages${removedCount ? ` and removed ${removedCount} stale page${removedCount === 1 ? '' : 's'}` : ''}`);
