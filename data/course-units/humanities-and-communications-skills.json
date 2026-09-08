@@ -209,28 +209,28 @@
 					"number": 1,
 					"name": "Fundamentals of Public Speaking",
 					"parts": [
-						{ "number": 1, "type": "quiz", "name": "Fundamentals of Public Speaking", "url": "" }
+						{ "number": 1, "type": "quiz", "name": "Fundamentals of Public Speaking", "url": "https://docs.google.com/forms/d/e/1FAIpQLSekWfHNAzbmptHYDpMaABtA8Ph13iZKEXY_hsLO6quFlBPdUg/viewform?usp=publish-editor" }
 					]
 				},
 				{
 					"number": 2,
 					"name": "Speech Preparation and Delivery",
 					"parts": [
-						{ "number": 1, "type": "quiz", "name": "Speech Preparation and Delivery", "url": "" }
+						{ "number": 1, "type": "quiz", "name": "Speech Preparation and Delivery", "url": "https://docs.google.com/forms/d/e/1FAIpQLSePKu7hkglENGEsB6df2w82iewzXBkTU2WaY__37HxsHyDy4w/viewform?usp=publish-editor" }
 					]
 				},
 				{
 					"number": 3,
 					"name": "Non-Verbal Communication in Speaking",
 					"parts": [
-						{ "number": 1, "type": "quiz", "name": "Non-Verbal Communication in Speaking", "url": "" }
+						{ "number": 1, "type": "quiz", "name": "Non-Verbal Communication in Speaking", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfNHGsbbBbz1Y2op8bmjrpJhZVmpKD9Z0QOzcw5gr2XLsBbCA/viewform?usp=publish-editor" }
 					]
 				},
 				{
 					"number": 4,
 					"name": "Meetings and Interviews",
 					"parts": [
-						{ "number": 1, "type": "quiz", "name": "Meetings and Interviews", "url": "" }
+						{ "number": 1, "type": "quiz", "name": "Meetings and Interviews", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfEIji_J80P53S4fEjZTOP3LMQNAoGE1DUySO3HjM3NLETWPA/viewform?usp=publish-editor" }
 					]
 				},
 				{
@@ -238,7 +238,7 @@
 					"name": "Public Speaking Round-Up",
 					"parts": [
 						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
-						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "https://docs.google.com/forms/d/e/1FAIpQLSezYRjCzcS_0ezkZwy5Bu26NEygJgCwfDMY0ONDoOuAZQqJAQ/viewform?usp=publish-editor" },
 						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 5, "forPart": 1 }
 					]
 				}
