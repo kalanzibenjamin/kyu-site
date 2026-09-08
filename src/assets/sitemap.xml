@@ -406,6 +406,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://kyu.clareon.live/pages/announcements/public-speaking-practice-episodes/</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://kyu.clareon.live/pages/announcements/site-launched/</loc>
     <priority>0.7</priority>
   </url>
