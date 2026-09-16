@@ -245,7 +245,7 @@
 			]
 		},
 		{
-			"title": "Reading and Library Skills",
+			"title": "Reading Skills",
 			"episodes": [
 				{
 				"number": 1,
@@ -284,7 +284,7 @@
 				},
 				{
 				"number": 6,
-				"name": "Reading and Library Skills Round-Up",
+				"name": "Reading Skills Round-Up",
 				"parts": [
 					{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
 					{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
