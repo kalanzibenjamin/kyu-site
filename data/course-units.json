@@ -1081,18 +1081,66 @@
         "episodes": [
           {
             "number": 1,
-            "name": "Reading Fundamentals",
+            "name": "Foundations of Reading",
             "parts": [
               {
                 "number": 1,
                 "type": "quiz",
-                "name": "Reading Fundamentals",
+                "name": "Foundations of Reading",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
+            "name": "Types and Purposes of Reading",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Types and Purposes of Reading",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Reading for Study: The SQ3R Method",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Reading for Study: The SQ3R Method",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Reading Habits and Note-Making",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Reading Habits and Note-Making",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Examination Preparation and Reading",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Examination Preparation and Reading",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
             "name": "Reading and Library Skills Round-Up",
             "parts": [
               {
@@ -1112,7 +1160,7 @@
                 "type": "solutions",
                 "name": "Round-Up",
                 "url": "",
-                "forEpisode": 2,
+                "forEpisode": 6,
                 "forPart": 1
               }
             ]
@@ -7129,18 +7177,66 @@
         "episodes": [
           {
             "number": 1,
-            "name": "Reading Fundamentals",
+            "name": "Foundations of Reading",
             "parts": [
               {
                 "number": 1,
                 "type": "quiz",
-                "name": "Reading Fundamentals",
+                "name": "Foundations of Reading",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
+            "name": "Types and Purposes of Reading",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Types and Purposes of Reading",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Reading for Study: The SQ3R Method",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Reading for Study: The SQ3R Method",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Reading Habits and Note-Making",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Reading Habits and Note-Making",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Examination Preparation and Reading",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Examination Preparation and Reading",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
             "name": "Reading and Library Skills Round-Up",
             "parts": [
               {
@@ -7160,7 +7256,7 @@
                 "type": "solutions",
                 "name": "Round-Up",
                 "url": "",
-                "forEpisode": 2,
+                "forEpisode": 6,
                 "forPart": 1
               }
             ]
