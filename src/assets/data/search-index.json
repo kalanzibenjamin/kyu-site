@@ -1891,8 +1891,8 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Foundations of Communication",
-    "title": "Episode 1 · Foundations of Communication",
+    "episodeName": "Foundations and Perspectives of Communication",
+    "title": "Episode 1 · Foundations and Perspectives of Communication",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -1905,9 +1905,9 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Foundations of Communication",
-    "partName": "Foundations of Communication",
-    "title": "Episode 1 Part 1 · Foundations of Communication",
+    "episodeName": "Foundations and Perspectives of Communication",
+    "partName": "Foundations and Perspectives of Communication",
+    "title": "Episode 1 Part 1 · Foundations and Perspectives of Communication",
     "context": "Humanities and Communications Skills · Basics of Communication · Episode 1",
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-1-part-1"
   },
@@ -1920,8 +1920,8 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Perspectives of Communication",
-    "title": "Episode 2 · Perspectives of Communication",
+    "episodeName": "Types, Channels, Settings, and Levels",
+    "title": "Episode 2 · Types, Channels, Settings, and Levels",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -1934,9 +1934,9 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Perspectives of Communication",
-    "partName": "Perspectives of Communication",
-    "title": "Episode 2 Part 1 · Perspectives of Communication",
+    "episodeName": "Types, Channels, Settings, and Levels",
+    "partName": "Types, Channels, Settings, and Levels",
+    "title": "Episode 2 Part 1 · Types, Channels, Settings, and Levels",
     "context": "Humanities and Communications Skills · Basics of Communication · Episode 2",
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-2-part-1"
   },
@@ -1949,8 +1949,8 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Types and Channels of Communication",
-    "title": "Episode 3 · Types and Channels of Communication",
+    "episodeName": "Process, Noise, and Barriers",
+    "title": "Episode 3 · Process, Noise, and Barriers",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -1963,9 +1963,9 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Types and Channels of Communication",
-    "partName": "Types and Channels of Communication",
-    "title": "Episode 3 Part 1 · Types and Channels of Communication",
+    "episodeName": "Process, Noise, and Barriers",
+    "partName": "Process, Noise, and Barriers",
+    "title": "Episode 3 Part 1 · Process, Noise, and Barriers",
     "context": "Humanities and Communications Skills · Basics of Communication · Episode 3",
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-3-part-1"
   },
@@ -1978,95 +1978,8 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Settings and Levels of Communication",
-    "title": "Episode 4 · Settings and Levels of Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication",
-    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
-  },
-  {
-    "type": "Part",
-    "program": "BIS",
-    "aliases": [
-      "BIS",
-      "Bachelor of Information Systems"
-    ],
-    "courseName": "Humanities and Communications Skills",
-    "topicName": "Basics of Communication",
-    "episodeName": "Settings and Levels of Communication",
-    "partName": "Settings and Levels of Communication",
-    "title": "Episode 4 Part 1 · Settings and Levels of Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 4",
-    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-4-part-1"
-  },
-  {
-    "type": "Episode",
-    "program": "BIS",
-    "aliases": [
-      "BIS",
-      "Bachelor of Information Systems"
-    ],
-    "courseName": "Humanities and Communications Skills",
-    "topicName": "Basics of Communication",
-    "episodeName": "The Communication Process and Model",
-    "title": "Episode 5 · The Communication Process and Model",
-    "context": "Humanities and Communications Skills · Basics of Communication",
-    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
-  },
-  {
-    "type": "Part",
-    "program": "BIS",
-    "aliases": [
-      "BIS",
-      "Bachelor of Information Systems"
-    ],
-    "courseName": "Humanities and Communications Skills",
-    "topicName": "Basics of Communication",
-    "episodeName": "The Communication Process and Model",
-    "partName": "The Communication Process and Model",
-    "title": "Episode 5 Part 1 · The Communication Process and Model",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 5",
-    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-5-part-1"
-  },
-  {
-    "type": "Episode",
-    "program": "BIS",
-    "aliases": [
-      "BIS",
-      "Bachelor of Information Systems"
-    ],
-    "courseName": "Humanities and Communications Skills",
-    "topicName": "Basics of Communication",
-    "episodeName": "Noise and Barriers to Communication",
-    "title": "Episode 6 · Noise and Barriers to Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication",
-    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
-  },
-  {
-    "type": "Part",
-    "program": "BIS",
-    "aliases": [
-      "BIS",
-      "Bachelor of Information Systems"
-    ],
-    "courseName": "Humanities and Communications Skills",
-    "topicName": "Basics of Communication",
-    "episodeName": "Noise and Barriers to Communication",
-    "partName": "Noise and Barriers to Communication",
-    "title": "Episode 6 Part 1 · Noise and Barriers to Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 6",
-    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-6-part-1"
-  },
-  {
-    "type": "Episode",
-    "program": "BIS",
-    "aliases": [
-      "BIS",
-      "Bachelor of Information Systems"
-    ],
-    "courseName": "Humanities and Communications Skills",
-    "topicName": "Basics of Communication",
     "episodeName": "Improving Communication Skills",
-    "title": "Episode 7 · Improving Communication Skills",
+    "title": "Episode 4 · Improving Communication Skills",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -2081,9 +1994,9 @@
     "topicName": "Basics of Communication",
     "episodeName": "Improving Communication Skills",
     "partName": "Improving Communication Skills",
-    "title": "Episode 7 Part 1 · Improving Communication Skills",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 7",
-    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-7-part-1"
+    "title": "Episode 4 Part 1 · Improving Communication Skills",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 4",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-4-part-1"
   },
   {
     "type": "Episode",
@@ -2095,7 +2008,7 @@
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
     "episodeName": "The 7 C's and 4 S's of Communication",
-    "title": "Episode 8 · The 7 C's and 4 S's of Communication",
+    "title": "Episode 5 · The 7 C's and 4 S's of Communication",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -2110,9 +2023,9 @@
     "topicName": "Basics of Communication",
     "episodeName": "The 7 C's and 4 S's of Communication",
     "partName": "The 7 C's and 4 S's of Communication",
-    "title": "Episode 8 Part 1 · The 7 C's and 4 S's of Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 8",
-    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-8-part-1"
+    "title": "Episode 5 Part 1 · The 7 C's and 4 S's of Communication",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 5",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-5-part-1"
   },
   {
     "type": "Episode",
@@ -2123,8 +2036,8 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Cross-Cultural and Intercultural Communication",
-    "title": "Episode 9 · Cross-Cultural and Intercultural Communication",
+    "episodeName": "Cross-Cultural Communication",
+    "title": "Episode 6 · Cross-Cultural Communication",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -2137,11 +2050,11 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Cross-Cultural and Intercultural Communication",
-    "partName": "Cross-Cultural and Intercultural Communication",
-    "title": "Episode 9 Part 1 · Cross-Cultural and Intercultural Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 9",
-    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-9-part-1"
+    "episodeName": "Cross-Cultural Communication",
+    "partName": "Cross-Cultural Communication",
+    "title": "Episode 6 Part 1 · Cross-Cultural Communication",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 6",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-6-part-1"
   },
   {
     "type": "Episode",
@@ -2152,8 +2065,8 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Foundations of Business Communication",
-    "title": "Episode 10 · Foundations of Business Communication",
+    "episodeName": "Business Communication",
+    "title": "Episode 7 · Business Communication",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -2166,11 +2079,11 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Foundations of Business Communication",
-    "partName": "Foundations of Business Communication",
-    "title": "Episode 10 Part 1 · Foundations of Business Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 10",
-    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-10-part-1"
+    "episodeName": "Business Communication",
+    "partName": "Business Communication",
+    "title": "Episode 7 Part 1 · Business Communication",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 7",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-7-part-1"
   },
   {
     "type": "Episode",
@@ -2182,7 +2095,7 @@
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
     "episodeName": "Basics of Communication Round-Up",
-    "title": "Episode 11 · Basics of Communication Round-Up",
+    "title": "Episode 8 · Basics of Communication Round-Up",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -2197,9 +2110,9 @@
     "topicName": "Basics of Communication",
     "episodeName": "Basics of Communication Round-Up",
     "partName": "Round-Up Practice",
-    "title": "Episode 11 Part 1 · Round-Up Practice",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 11",
-    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-11-part-1"
+    "title": "Episode 8 Part 1 · Round-Up Practice",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 8",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-8-part-1"
   },
   {
     "type": "Part",
@@ -2212,9 +2125,9 @@
     "topicName": "Basics of Communication",
     "episodeName": "Basics of Communication Round-Up",
     "partName": "Round-Up",
-    "title": "Episode 11 Part 2 · Round-Up",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 11",
-    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-11-part-2"
+    "title": "Episode 8 Part 2 · Round-Up",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 8",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-8-part-2"
   },
   {
     "type": "Part",
@@ -2227,9 +2140,9 @@
     "topicName": "Basics of Communication",
     "episodeName": "Basics of Communication Round-Up",
     "partName": "Round-Up",
-    "title": "Episode 11 Part 3 · Round-Up",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 11",
-    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-11-part-3"
+    "title": "Episode 8 Part 3 · Round-Up",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 8",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-8-part-3"
   },
   {
     "type": "Topic",
@@ -16054,8 +15967,8 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Foundations of Communication",
-    "title": "Episode 1 · Foundations of Communication",
+    "episodeName": "Foundations and Perspectives of Communication",
+    "title": "Episode 1 · Foundations and Perspectives of Communication",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -16068,9 +15981,9 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Foundations of Communication",
-    "partName": "Foundations of Communication",
-    "title": "Episode 1 Part 1 · Foundations of Communication",
+    "episodeName": "Foundations and Perspectives of Communication",
+    "partName": "Foundations and Perspectives of Communication",
+    "title": "Episode 1 Part 1 · Foundations and Perspectives of Communication",
     "context": "Humanities and Communications Skills · Basics of Communication · Episode 1",
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-1-part-1"
   },
@@ -16083,8 +15996,8 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Perspectives of Communication",
-    "title": "Episode 2 · Perspectives of Communication",
+    "episodeName": "Types, Channels, Settings, and Levels",
+    "title": "Episode 2 · Types, Channels, Settings, and Levels",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -16097,9 +16010,9 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Perspectives of Communication",
-    "partName": "Perspectives of Communication",
-    "title": "Episode 2 Part 1 · Perspectives of Communication",
+    "episodeName": "Types, Channels, Settings, and Levels",
+    "partName": "Types, Channels, Settings, and Levels",
+    "title": "Episode 2 Part 1 · Types, Channels, Settings, and Levels",
     "context": "Humanities and Communications Skills · Basics of Communication · Episode 2",
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-2-part-1"
   },
@@ -16112,8 +16025,8 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Types and Channels of Communication",
-    "title": "Episode 3 · Types and Channels of Communication",
+    "episodeName": "Process, Noise, and Barriers",
+    "title": "Episode 3 · Process, Noise, and Barriers",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -16126,9 +16039,9 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Types and Channels of Communication",
-    "partName": "Types and Channels of Communication",
-    "title": "Episode 3 Part 1 · Types and Channels of Communication",
+    "episodeName": "Process, Noise, and Barriers",
+    "partName": "Process, Noise, and Barriers",
+    "title": "Episode 3 Part 1 · Process, Noise, and Barriers",
     "context": "Humanities and Communications Skills · Basics of Communication · Episode 3",
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-3-part-1"
   },
@@ -16141,95 +16054,8 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Settings and Levels of Communication",
-    "title": "Episode 4 · Settings and Levels of Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication",
-    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Humanities and Communications Skills",
-    "topicName": "Basics of Communication",
-    "episodeName": "Settings and Levels of Communication",
-    "partName": "Settings and Levels of Communication",
-    "title": "Episode 4 Part 1 · Settings and Levels of Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 4",
-    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-4-part-1"
-  },
-  {
-    "type": "Episode",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Humanities and Communications Skills",
-    "topicName": "Basics of Communication",
-    "episodeName": "The Communication Process and Model",
-    "title": "Episode 5 · The Communication Process and Model",
-    "context": "Humanities and Communications Skills · Basics of Communication",
-    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Humanities and Communications Skills",
-    "topicName": "Basics of Communication",
-    "episodeName": "The Communication Process and Model",
-    "partName": "The Communication Process and Model",
-    "title": "Episode 5 Part 1 · The Communication Process and Model",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 5",
-    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-5-part-1"
-  },
-  {
-    "type": "Episode",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Humanities and Communications Skills",
-    "topicName": "Basics of Communication",
-    "episodeName": "Noise and Barriers to Communication",
-    "title": "Episode 6 · Noise and Barriers to Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication",
-    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
-  },
-  {
-    "type": "Part",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Humanities and Communications Skills",
-    "topicName": "Basics of Communication",
-    "episodeName": "Noise and Barriers to Communication",
-    "partName": "Noise and Barriers to Communication",
-    "title": "Episode 6 Part 1 · Noise and Barriers to Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 6",
-    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-6-part-1"
-  },
-  {
-    "type": "Episode",
-    "program": "BITC",
-    "aliases": [
-      "BITC",
-      "Bachelor of Information Technology and Computing"
-    ],
-    "courseName": "Humanities and Communications Skills",
-    "topicName": "Basics of Communication",
     "episodeName": "Improving Communication Skills",
-    "title": "Episode 7 · Improving Communication Skills",
+    "title": "Episode 4 · Improving Communication Skills",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -16244,9 +16070,9 @@
     "topicName": "Basics of Communication",
     "episodeName": "Improving Communication Skills",
     "partName": "Improving Communication Skills",
-    "title": "Episode 7 Part 1 · Improving Communication Skills",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 7",
-    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-7-part-1"
+    "title": "Episode 4 Part 1 · Improving Communication Skills",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 4",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-4-part-1"
   },
   {
     "type": "Episode",
@@ -16258,7 +16084,7 @@
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
     "episodeName": "The 7 C's and 4 S's of Communication",
-    "title": "Episode 8 · The 7 C's and 4 S's of Communication",
+    "title": "Episode 5 · The 7 C's and 4 S's of Communication",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -16273,9 +16099,9 @@
     "topicName": "Basics of Communication",
     "episodeName": "The 7 C's and 4 S's of Communication",
     "partName": "The 7 C's and 4 S's of Communication",
-    "title": "Episode 8 Part 1 · The 7 C's and 4 S's of Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 8",
-    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-8-part-1"
+    "title": "Episode 5 Part 1 · The 7 C's and 4 S's of Communication",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 5",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-5-part-1"
   },
   {
     "type": "Episode",
@@ -16286,8 +16112,8 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Cross-Cultural and Intercultural Communication",
-    "title": "Episode 9 · Cross-Cultural and Intercultural Communication",
+    "episodeName": "Cross-Cultural Communication",
+    "title": "Episode 6 · Cross-Cultural Communication",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -16300,11 +16126,11 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Cross-Cultural and Intercultural Communication",
-    "partName": "Cross-Cultural and Intercultural Communication",
-    "title": "Episode 9 Part 1 · Cross-Cultural and Intercultural Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 9",
-    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-9-part-1"
+    "episodeName": "Cross-Cultural Communication",
+    "partName": "Cross-Cultural Communication",
+    "title": "Episode 6 Part 1 · Cross-Cultural Communication",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 6",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-6-part-1"
   },
   {
     "type": "Episode",
@@ -16315,8 +16141,8 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Foundations of Business Communication",
-    "title": "Episode 10 · Foundations of Business Communication",
+    "episodeName": "Business Communication",
+    "title": "Episode 7 · Business Communication",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -16329,11 +16155,11 @@
     ],
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
-    "episodeName": "Foundations of Business Communication",
-    "partName": "Foundations of Business Communication",
-    "title": "Episode 10 Part 1 · Foundations of Business Communication",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 10",
-    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-10-part-1"
+    "episodeName": "Business Communication",
+    "partName": "Business Communication",
+    "title": "Episode 7 Part 1 · Business Communication",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 7",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-7-part-1"
   },
   {
     "type": "Episode",
@@ -16345,7 +16171,7 @@
     "courseName": "Humanities and Communications Skills",
     "topicName": "Basics of Communication",
     "episodeName": "Basics of Communication Round-Up",
-    "title": "Episode 11 · Basics of Communication Round-Up",
+    "title": "Episode 8 · Basics of Communication Round-Up",
     "context": "Humanities and Communications Skills · Basics of Communication",
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1"
   },
@@ -16360,9 +16186,9 @@
     "topicName": "Basics of Communication",
     "episodeName": "Basics of Communication Round-Up",
     "partName": "Round-Up Practice",
-    "title": "Episode 11 Part 1 · Round-Up Practice",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 11",
-    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-11-part-1"
+    "title": "Episode 8 Part 1 · Round-Up Practice",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 8",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-8-part-1"
   },
   {
     "type": "Part",
@@ -16375,9 +16201,9 @@
     "topicName": "Basics of Communication",
     "episodeName": "Basics of Communication Round-Up",
     "partName": "Round-Up",
-    "title": "Episode 11 Part 2 · Round-Up",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 11",
-    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-11-part-2"
+    "title": "Episode 8 Part 2 · Round-Up",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 8",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-8-part-2"
   },
   {
     "type": "Part",
@@ -16390,9 +16216,9 @@
     "topicName": "Basics of Communication",
     "episodeName": "Basics of Communication Round-Up",
     "partName": "Round-Up",
-    "title": "Episode 11 Part 3 · Round-Up",
-    "context": "Humanities and Communications Skills · Basics of Communication · Episode 11",
-    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-11-part-3"
+    "title": "Episode 8 Part 3 · Round-Up",
+    "context": "Humanities and Communications Skills · Basics of Communication · Episode 8",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-1-episode-8-part-3"
   },
   {
     "type": "Topic",
