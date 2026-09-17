@@ -8137,74 +8137,82 @@
     "slug": "discrete-mathematical-structures",
     "title": "Discrete Mathematical Structures",
     "semester": "Year 1 · Semester I",
-    "lastUpdated": "2026-09-05",
+    "lastUpdated": "2026-09-17",
     "program": "BITC",
     "programme": "Bachelor of Information Technology and Computing",
     "path": "/pages/programs/scis/bitc/discrete-mathematical-structures/",
     "topics": [
       {
         "id": "discrete-mathematical-structures-topic-1",
-        "title": "Functions",
+        "title": "Number Systems",
         "episodes": [
           {
             "number": 1,
-            "name": "Definition, Properties, Domain and Range of Elementary Functions",
+            "name": "Understanding Number Bases",
             "parts": [
               {
                 "number": 1,
                 "type": "quiz",
-                "name": "Definition, Properties, Domain and Range of Elementary Functions",
+                "name": "Number Bases",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Algebraic and Transcendental Functions",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Algebraic and Transcendental Functions",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 3,
-            "name": "Exponential, Logarithmic and Hyperbolic Functions",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Exponential, Logarithmic and Hyperbolic Functions",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 4,
-            "name": "Parametric Equations",
+            "name": "Binary Conversions",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Parametric Equations Practice",
+                "name": "Binary Conversion Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Parametric Equations",
+                "name": "Binary Conversion",
                 "url": "",
-                "forEpisode": 4,
+                "forEpisode": 2,
                 "forPart": 1
               }
             ]
           },
           {
+            "number": 3,
+            "name": "Octal and Hexadecimal Conversions",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Octal and Hex Conversion Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Octal and Hex Conversion",
+                "url": "",
+                "forEpisode": 3,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Applications in Digital Machines",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Digital Machines Applications",
+                "url": ""
+              }
+            ]
+          },
+          {
             "number": 5,
-            "name": "Functions Round-Up",
+            "name": "Number Systems Round-Up",
             "parts": [
               {
                 "number": 1,
@@ -8232,42 +8240,34 @@
       },
       {
         "id": "discrete-mathematical-structures-topic-2",
-        "title": "Limits, Continuity and Convergence",
+        "title": "Logic",
         "episodes": [
           {
             "number": 1,
-            "name": "Limits of a Function of a Real Variable",
+            "name": "Propositional Logic Basics",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Limits Practice",
+                "type": "quiz",
+                "name": "Propositional Logic",
                 "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Limits",
-                "url": "",
-                "forEpisode": 1,
-                "forPart": 1
               }
             ]
           },
           {
             "number": 2,
-            "name": "Calculating Limits Using Limit Laws",
+            "name": "Logical Equivalence and Laws",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Limit Laws Practice",
+                "name": "Logical Equivalence Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Limit Laws",
+                "name": "Logical Equivalence",
                 "url": "",
                 "forEpisode": 2,
                 "forPart": 1
@@ -8276,30 +8276,30 @@
           },
           {
             "number": 3,
-            "name": "Continuity",
+            "name": "Predicates and Quantifiers",
             "parts": [
               {
                 "number": 1,
                 "type": "quiz",
-                "name": "Continuity",
+                "name": "Predicates and Quantifiers",
                 "url": ""
               }
             ]
           },
           {
             "number": 4,
-            "name": "Indeterminate Forms and L'Hopital's Rule",
+            "name": "Logical Reasoning and Proofs",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Indeterminate Forms Practice",
+                "name": "Logical Reasoning Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Indeterminate Forms",
+                "name": "Logical Reasoning",
                 "url": "",
                 "forEpisode": 4,
                 "forPart": 1
@@ -8308,123 +8308,7 @@
           },
           {
             "number": 5,
-            "name": "Sequences and Convergence",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Sequences and Convergence",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 6,
-            "name": "Convergence Tests",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Convergence Tests Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Convergence Tests",
-                "url": "",
-                "forEpisode": 6,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 7,
-            "name": "Limit Theorems of Sequences",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Limit Theorems of Sequences",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 8,
-            "name": "Series: Definitions and Partial Sums",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Series: Definitions and Partial Sums",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 9,
-            "name": "Power Series and Convergence",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Power Series Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Power Series",
-                "url": "",
-                "forEpisode": 9,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 10,
-            "name": "Maclaurin's and Taylor Series",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Maclaurin's and Taylor Series Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Maclaurin's and Taylor Series",
-                "url": "",
-                "forEpisode": 10,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 11,
-            "name": "Fourier Series and Periodic Functions",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Fourier Series Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Fourier Series",
-                "url": "",
-                "forEpisode": 11,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 12,
-            "name": "Limits, Continuity and Convergence Round-Up",
+            "name": "Logic Round-Up",
             "parts": [
               {
                 "number": 1,
@@ -8443,7 +8327,7 @@
                 "type": "solutions",
                 "name": "Round-Up",
                 "url": "",
-                "forEpisode": 12,
+                "forEpisode": 5,
                 "forPart": 1
               }
             ]
@@ -8452,42 +8336,34 @@
       },
       {
         "id": "discrete-mathematical-structures-topic-3",
-        "title": "Differential Calculus",
+        "title": "Boolean Algebra",
         "episodes": [
           {
             "number": 1,
-            "name": "The Derivative: Definitions and Rules of Differentiation",
+            "name": "Boolean Variables and Basic Operations",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Derivative Rules Practice",
+                "type": "quiz",
+                "name": "Boolean Operations",
                 "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Derivative Rules",
-                "url": "",
-                "forEpisode": 1,
-                "forPart": 1
               }
             ]
           },
           {
             "number": 2,
-            "name": "Differentiation of Exponential, Logarithmic and Hyperbolic Functions",
+            "name": "Boolean Expressions and Functions",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Differentiation Practice",
+                "name": "Boolean Functions Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Differentiation",
+                "name": "Boolean Functions",
                 "url": "",
                 "forEpisode": 2,
                 "forPart": 1
@@ -8496,139 +8372,31 @@
           },
           {
             "number": 3,
-            "name": "Maxima, Minima and Identification of Extrema",
+            "name": "Laws and Equivalences of Boolean Algebra",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Extrema Practice",
+                "type": "quiz",
+                "name": "Boolean Laws",
                 "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Extrema",
-                "url": "",
-                "forEpisode": 3,
-                "forPart": 1
               }
             ]
           },
           {
             "number": 4,
-            "name": "Partial and Total Differentiation",
+            "name": "Applications of Boolean Algebra",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Partial and Total Differentiation Practice",
+                "type": "quiz",
+                "name": "Boolean Applications",
                 "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Partial and Total Differentiation",
-                "url": "",
-                "forEpisode": 4,
-                "forPart": 1
               }
             ]
           },
           {
             "number": 5,
-            "name": "Chain Rule and Change of Variables",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Chain Rule Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Chain Rule",
-                "url": "",
-                "forEpisode": 5,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 6,
-            "name": "Implicit Functions and Derivatives of Inverse Circular Functions",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Implicit Functions Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Implicit Functions",
-                "url": "",
-                "forEpisode": 6,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 7,
-            "name": "Higher Order Partial Derivatives",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Higher Order Partial Derivatives Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Higher Order Partial Derivatives",
-                "url": "",
-                "forEpisode": 7,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 8,
-            "name": "Curve Sketching",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Curve Sketching Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Curve Sketching",
-                "url": "",
-                "forEpisode": 8,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 9,
-            "name": "Rolle's Theorem, Mean Value Theorem and Cauchy's Mean Value Theorem",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Rolle's Theorem, Mean Value Theorem and Cauchy's Mean Value Theorem",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 10,
-            "name": "Differential Calculus Round-Up",
+            "name": "Boolean Algebra Round-Up",
             "parts": [
               {
                 "number": 1,
@@ -8647,7 +8415,7 @@
                 "type": "solutions",
                 "name": "Round-Up",
                 "url": "",
-                "forEpisode": 10,
+                "forEpisode": 5,
                 "forPart": 1
               }
             ]
@@ -8656,34 +8424,34 @@
       },
       {
         "id": "discrete-mathematical-structures-topic-4",
-        "title": "Integral Calculus",
+        "title": "Discrete Structures",
         "episodes": [
           {
             "number": 1,
-            "name": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+            "name": "Set Theory Basics",
             "parts": [
               {
                 "number": 1,
                 "type": "quiz",
-                "name": "The Integral: Definition, Properties and the Fundamental Theorem of Calculus",
+                "name": "Set Theory Basics",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Techniques of Integration",
+            "name": "Set Operations",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Techniques of Integration Practice",
+                "name": "Set Operations Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Techniques of Integration",
+                "name": "Set Operations",
                 "url": "",
                 "forEpisode": 2,
                 "forPart": 1
@@ -8692,18 +8460,18 @@
           },
           {
             "number": 3,
-            "name": "The Definite Integral and Area Under a Curve",
+            "name": "Functions and Their Properties",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Definite Integral Practice",
+                "name": "Functions Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Definite Integral",
+                "name": "Functions",
                 "url": "",
                 "forEpisode": 3,
                 "forPart": 1
@@ -8712,99 +8480,19 @@
           },
           {
             "number": 4,
-            "name": "Applications of the Definite Integral",
+            "name": "Applications of Sets and Functions",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Applications Practice",
+                "type": "quiz",
+                "name": "Sets and Functions Applications",
                 "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Applications",
-                "url": "",
-                "forEpisode": 4,
-                "forPart": 1
               }
             ]
           },
           {
             "number": 5,
-            "name": "Improper Integrals",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Improper Integrals Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Improper Integrals",
-                "url": "",
-                "forEpisode": 5,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 6,
-            "name": "The Definite Integral as a Function of Its Upper Limit",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Definite Integral as a Function Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Definite Integral as a Function",
-                "url": "",
-                "forEpisode": 6,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 7,
-            "name": "Double Integrals and Their Applications",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Double Integrals Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Double Integrals",
-                "url": "",
-                "forEpisode": 7,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 8,
-            "name": "The Riemann Integral: Definition and Characteristics",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "The Riemann Integral: Definition and Characteristics",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 9,
-            "name": "Integral Calculus Round-Up",
+            "name": "Discrete Structures Round-Up",
             "parts": [
               {
                 "number": 1,
@@ -8823,7 +8511,7 @@
                 "type": "solutions",
                 "name": "Round-Up",
                 "url": "",
-                "forEpisode": 9,
+                "forEpisode": 5,
                 "forPart": 1
               }
             ]
@@ -8832,34 +8520,42 @@
       },
       {
         "id": "discrete-mathematical-structures-topic-5",
-        "title": "Vector Calculus",
+        "title": "Counting",
         "episodes": [
           {
             "number": 1,
-            "name": "Three-Dimensional Coordinate Systems",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Three-Dimensional Coordinate Systems",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 2,
-            "name": "Vectors: Definitions and Basic Operations",
+            "name": "Permutations",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Vectors Practice",
+                "name": "Permutations Practice",
                 "url": ""
               },
               {
                 "number": 2,
                 "type": "solutions",
-                "name": "Vectors",
+                "name": "Permutations",
+                "url": "",
+                "forEpisode": 1,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Combinations",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Combinations Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Combinations",
                 "url": "",
                 "forEpisode": 2,
                 "forPart": 1
@@ -8868,151 +8564,19 @@
           },
           {
             "number": 3,
-            "name": "Dot and Cross Products",
+            "name": "Applications of Counting Techniques",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Dot and Cross Products Practice",
+                "type": "quiz",
+                "name": "Counting Applications",
                 "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Dot and Cross Products",
-                "url": "",
-                "forEpisode": 3,
-                "forPart": 1
               }
             ]
           },
           {
             "number": 4,
-            "name": "Position and Distance Vectors",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Position and Distance Vectors Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Position and Distance Vectors",
-                "url": "",
-                "forEpisode": 4,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 5,
-            "name": "Scalar and Vector Fields",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Scalar and Vector Fields",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 6,
-            "name": "Directional Derivatives and Vector Functions",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Directional Derivatives Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Directional Derivatives",
-                "url": "",
-                "forEpisode": 6,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 7,
-            "name": "Gradient, Divergence, Curl and Laplacian",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Gradient, Divergence, Curl and Laplacian Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Gradient, Divergence, Curl and Laplacian",
-                "url": "",
-                "forEpisode": 7,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 8,
-            "name": "Physical Interpretation of Divergence and Curl",
-            "parts": [
-              {
-                "number": 1,
-                "type": "quiz",
-                "name": "Physical Interpretation of Divergence and Curl",
-                "url": ""
-              }
-            ]
-          },
-          {
-            "number": 9,
-            "name": "Green's Theorem",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Green's Theorem Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Green's Theorem",
-                "url": "",
-                "forEpisode": 9,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 10,
-            "name": "The Fundamental Theorem for Line Integrals",
-            "parts": [
-              {
-                "number": 1,
-                "type": "resource",
-                "name": "Line Integrals Practice",
-                "url": ""
-              },
-              {
-                "number": 2,
-                "type": "solutions",
-                "name": "Line Integrals",
-                "url": "",
-                "forEpisode": 10,
-                "forPart": 1
-              }
-            ]
-          },
-          {
-            "number": 11,
-            "name": "Vector Calculus Round-Up",
+            "name": "Counting Round-Up",
             "parts": [
               {
                 "number": 1,
@@ -9031,7 +8595,197 @@
                 "type": "solutions",
                 "name": "Round-Up",
                 "url": "",
-                "forEpisode": 11,
+                "forEpisode": 4,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "discrete-mathematical-structures-topic-6",
+        "title": "Recursion",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Introduction to Recurrence Relations",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Recurrence Relations Basics",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Solving Recurrence Relations",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Solving Recurrence Relations Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Solving Recurrence Relations",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Applications of Recursion in Computer Science",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Recursion Applications",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Recursion Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "discrete-mathematical-structures-topic-7",
+        "title": "Tree Data Structures",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Tree Notation and Terminology",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Tree Notation",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Types of Trees",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Types of Trees",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Tree Traversals",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Tree Traversals Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Tree Traversals",
+                "url": "",
+                "forEpisode": 3,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Applications of Trees in Data Organization",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Tree Applications",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Tree Data Structures Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "discrete-mathematical-structures-topic-8",
+        "title": "Past Papers",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Past Paper 2018-2025",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Past Paper Questions",
+                "url": "https://drive.google.com/file/d/1pp3-AD23qr7jremcrmmHcTRyRok_wV_p/view?usp=drive_link"
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Past Paper Solutions",
+                "url": "",
+                "forEpisode": 1,
                 "forPart": 1
               }
             ]
