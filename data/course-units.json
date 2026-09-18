@@ -1130,6 +1130,32 @@
             ]
           }
         ]
+      },
+      {
+        "id": "humanities-and-communications-skills-topic-6",
+        "title": "Past Papers",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Past Papers 2018-2025",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Past Papers Questions",
+                "url": "https://drive.google.com/file/d/1gqnyLHkEW3boFVeDBLc6qJbzBRg2L6i2/view?usp=sharing"
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Past Paper Solutions",
+                "url": "",
+                "forEpisode": 1,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -7190,6 +7216,32 @@
             ]
           }
         ]
+      },
+      {
+        "id": "humanities-and-communications-skills-topic-6",
+        "title": "Past Papers",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Past Papers 2018-2025",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Past Papers Questions",
+                "url": "https://drive.google.com/file/d/1gqnyLHkEW3boFVeDBLc6qJbzBRg2L6i2/view?usp=sharing"
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Past Paper Solutions",
+                "url": "",
+                "forEpisode": 1,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -8772,7 +8824,7 @@
         "episodes": [
           {
             "number": 1,
-            "name": "Past Paper 2018-2025",
+            "name": "Past Papers 2018-2025",
             "parts": [
               {
                 "number": 1,

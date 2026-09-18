@@ -3042,6 +3042,63 @@
     "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-5-episode-6-part-3"
   },
   {
+    "type": "Topic",
+    "program": "BIS",
+    "aliases": [
+      "BIS",
+      "Bachelor of Information Systems"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Past Papers",
+    "title": "Past Papers",
+    "context": "Humanities and Communications Skills · BIS",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-6"
+  },
+  {
+    "type": "Episode",
+    "program": "BIS",
+    "aliases": [
+      "BIS",
+      "Bachelor of Information Systems"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Past Papers",
+    "episodeName": "Past Papers 2018-2025",
+    "title": "Episode 1 · Past Papers 2018-2025",
+    "context": "Humanities and Communications Skills · Past Papers",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-6"
+  },
+  {
+    "type": "Part",
+    "program": "BIS",
+    "aliases": [
+      "BIS",
+      "Bachelor of Information Systems"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Past Papers",
+    "episodeName": "Past Papers 2018-2025",
+    "partName": "Past Papers Questions",
+    "title": "Episode 1 Part 1 · Past Papers Questions",
+    "context": "Humanities and Communications Skills · Past Papers · Episode 1",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-6-episode-1-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BIS",
+    "aliases": [
+      "BIS",
+      "Bachelor of Information Systems"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Past Papers",
+    "episodeName": "Past Papers 2018-2025",
+    "partName": "Past Paper Solutions",
+    "title": "Episode 1 Part 2 · Past Paper Solutions",
+    "context": "Humanities and Communications Skills · Past Papers · Episode 1",
+    "url": "/pages/programs/scis/bis/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-6-episode-1-part-2"
+  },
+  {
     "type": "Course",
     "program": "BIS",
     "aliases": [
@@ -17118,6 +17175,63 @@
     "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-5-episode-6-part-3"
   },
   {
+    "type": "Topic",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Past Papers",
+    "title": "Past Papers",
+    "context": "Humanities and Communications Skills · BITC",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-6"
+  },
+  {
+    "type": "Episode",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Past Papers",
+    "episodeName": "Past Papers 2018-2025",
+    "title": "Episode 1 · Past Papers 2018-2025",
+    "context": "Humanities and Communications Skills · Past Papers",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-6"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Past Papers",
+    "episodeName": "Past Papers 2018-2025",
+    "partName": "Past Papers Questions",
+    "title": "Episode 1 Part 1 · Past Papers Questions",
+    "context": "Humanities and Communications Skills · Past Papers · Episode 1",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-6-episode-1-part-1"
+  },
+  {
+    "type": "Part",
+    "program": "BITC",
+    "aliases": [
+      "BITC",
+      "Bachelor of Information Technology and Computing"
+    ],
+    "courseName": "Humanities and Communications Skills",
+    "topicName": "Past Papers",
+    "episodeName": "Past Papers 2018-2025",
+    "partName": "Past Paper Solutions",
+    "title": "Episode 1 Part 2 · Past Paper Solutions",
+    "context": "Humanities and Communications Skills · Past Papers · Episode 1",
+    "url": "/pages/programs/scis/bitc/humanities-and-communications-skills/#topic-humanities-and-communications-skills-topic-6-episode-1-part-2"
+  },
+  {
     "type": "Course",
     "program": "BITC",
     "aliases": [
@@ -20780,8 +20894,8 @@
     ],
     "courseName": "Discrete Mathematical Structures",
     "topicName": "Past Papers",
-    "episodeName": "Past Paper 2018-2025",
-    "title": "Episode 1 · Past Paper 2018-2025",
+    "episodeName": "Past Papers 2018-2025",
+    "title": "Episode 1 · Past Papers 2018-2025",
     "context": "Discrete Mathematical Structures · Past Papers",
     "url": "/pages/programs/scis/bitc/discrete-mathematical-structures/#topic-discrete-mathematical-structures-topic-8"
   },
@@ -20794,7 +20908,7 @@
     ],
     "courseName": "Discrete Mathematical Structures",
     "topicName": "Past Papers",
-    "episodeName": "Past Paper 2018-2025",
+    "episodeName": "Past Papers 2018-2025",
     "partName": "Past Paper Questions",
     "title": "Episode 1 Part 1 · Past Paper Questions",
     "context": "Discrete Mathematical Structures · Past Papers · Episode 1",
@@ -20809,7 +20923,7 @@
     ],
     "courseName": "Discrete Mathematical Structures",
     "topicName": "Past Papers",
-    "episodeName": "Past Paper 2018-2025",
+    "episodeName": "Past Papers 2018-2025",
     "partName": "Past Paper Solutions",
     "title": "Episode 1 Part 2 · Past Paper Solutions",
     "context": "Discrete Mathematical Structures · Past Papers · Episode 1",
