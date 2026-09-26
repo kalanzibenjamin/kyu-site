@@ -1,200 +1,791 @@
 {
-  "lastUpdated": "2026-08-29",
-  "topics": [
-    {
-      "title": "Foundations",
+	"lastUpdated": "2026-09-26",
+	"topics": [
+		{
+			"title": "Introduction to Statistics",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Meaning and Scope of Statistics",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Meaning and Scope of Statistics", "url": "" }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Formal Definition of Statistics",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Collection, Organization, Analysis and Interpretation of Data", "url": "" }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Applications of Statistics",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Applications in Accounting, Finance, Marketing, Production and Economics", "url": "" }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Types of Statistics",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Descriptive vs. Inferential Statistics", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Population and Sample",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Population vs. Sample Concepts", "url": "" }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Types of Variables",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Qualitative vs. Quantitative Variables", "url": "" }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Types of Quantitative Data",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Nominal, Ordinal, Interval and Ratio Data", "url": "" }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Types of Data and Data Collection Methods",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Primary vs. Secondary Data", "url": "" }
+					]
+				},
+				{
+					"number": 9,
+					"name": "Sampling Methods",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Statistical and Non-Statistical Sampling Methods", "url": "" }
+					]
+				},
+				{
+					"number": 10,
+					"name": "Introduction to Statistics Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 10, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Data Classification, Sources and Collection",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Data, Data Sets, Elements, Variables and Variates",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Data, Data Sets, Elements, Variables and Variates", "url": "" }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Qualitative vs. Quantitative Data",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Qualitative vs. Quantitative Data", "url": "" }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Discrete vs. Continuous Data",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Discrete vs. Continuous Data", "url": "" }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Cross-Sectional vs. Time Series Data",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Cross-Sectional vs. Time Series Data", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Secondary and Primary Data Sources",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Secondary and Primary Data Sources", "url": "" }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Experimental vs. Observational Studies",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Experimental vs. Observational Studies", "url": "" }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Interview and Questionnaire Methods",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Interview and Questionnaire Methods", "url": "" }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Questionnaire Design Principles",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Questionnaire Design Principles", "url": "" }
+					]
+				},
+				{
+					"number": 9,
+					"name": "Data Classification, Sources and Collection Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 9, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Data Organization and Representation",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Frequency Distributions for Qualitative Data",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Qualitative Frequency Distribution Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Frequency Distributions for Qualitative Data", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Qualitative Frequency Distribution Solutions", "url": "", "forEpisode": 1, "forPart": 1 }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Frequency Distributions for Quantitative Discrete (Ungrouped) Data",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Ungrouped Frequency Distribution Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Ungrouped Frequency Distributions", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Ungrouped Frequency Distribution Solutions", "url": "", "forEpisode": 2, "forPart": 1 }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Frequency Distributions for Quantitative Continuous (Grouped) Data",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Grouped Frequency Distribution Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Grouped Frequency Distributions", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Grouped Frequency Distribution Solutions", "url": "", "forEpisode": 3, "forPart": 1 }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Steps in Constructing Frequency Distributions",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Class Width and Construction Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Steps in Constructing Frequency Distributions", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Construction Steps Solutions", "url": "", "forEpisode": 4, "forPart": 1 }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Class Limits, Boundaries and Width",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Class Limits and Boundaries Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Class Limits, Boundaries and Width", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Class Limits and Boundaries Solutions", "url": "", "forEpisode": 5, "forPart": 1 }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Shape of Distributions: Symmetry, Skewness and Kurtosis",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Symmetry, Skewness and Kurtosis", "url": "" }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Data Organization and Representation Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 7, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Cumulative Frequency and Graphical Presentation",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Cumulative Frequency Distributions",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Cumulative Frequency Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Cumulative Frequency Distributions", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Cumulative Frequency Solutions", "url": "", "forEpisode": 1, "forPart": 1 }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Cumulative Relative Frequency Distributions",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Cumulative Relative Frequency Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Cumulative Relative Frequency Distributions", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Cumulative Relative Frequency Solutions", "url": "", "forEpisode": 2, "forPart": 1 }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Cumulative Percent Frequency Distributions",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Cumulative Percent Frequency Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Cumulative Percent Frequency Distributions", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Cumulative Percent Frequency Solutions", "url": "", "forEpisode": 3, "forPart": 1 }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Histogram (Ungrouped and Grouped Data)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Histogram Drawing Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Histogram Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Histogram Solutions", "url": "", "forEpisode": 4, "forPart": 1 }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Frequency Polygon",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Frequency Polygon Drawing Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Frequency Polygon Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Frequency Polygon Solutions", "url": "", "forEpisode": 5, "forPart": 1 }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Cumulative Frequency Curve (Ogive)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Ogive Drawing Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Ogive Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Ogive Solutions", "url": "", "forEpisode": 6, "forPart": 1 }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Cumulative Frequency and Graphical Presentation Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 7, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Measures of Central Tendency",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Mean (Ungrouped Data)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Ungrouped Mean Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Mean Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Ungrouped Mean Solutions", "url": "", "forEpisode": 1, "forPart": 1 }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Mean (Grouped Data)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Grouped Mean Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Grouped Mean Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Grouped Mean Solutions", "url": "", "forEpisode": 2, "forPart": 1 }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Mean (Coding/Assumed Mean Method)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Coding Method Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Coding Method Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Coding Method Solutions", "url": "", "forEpisode": 3, "forPart": 1 }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Mean Absolute Deviation (M.A.D)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Mean Absolute Deviation Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "M.A.D Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "M.A.D Solutions", "url": "", "forEpisode": 4, "forPart": 1 }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Geometric Mean (G.M) and Harmonic Mean (H.M)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "G.M and H.M Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "G.M and H.M Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "G.M and H.M Solutions", "url": "", "forEpisode": 5, "forPart": 1 }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Median (Ungrouped Data)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Ungrouped Median Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Median Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Ungrouped Median Solutions", "url": "", "forEpisode": 6, "forPart": 1 }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Median (Grouped Data)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Grouped Median Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Grouped Median Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Grouped Median Solutions", "url": "", "forEpisode": 7, "forPart": 1 }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Mode (Ungrouped and Grouped Data)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Mode Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Mode Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Mode Solutions", "url": "", "forEpisode": 8, "forPart": 1 }
+					]
+				},
+				{
+					"number": 9,
+					"name": "Comparison of Mean, Median and Mode",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Comparison of Mean, Median and Mode", "url": "" }
+					]
+				},
+				{
+					"number": 10,
+					"name": "Measures of Central Tendency Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 10, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Percentiles and Quartiles",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Percentiles (Ungrouped Data)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Ungrouped Percentile Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Percentile Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Ungrouped Percentile Solutions", "url": "", "forEpisode": 1, "forPart": 1 }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Percentiles (Grouped Data)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Grouped Percentile Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Grouped Percentile Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Grouped Percentile Solutions", "url": "", "forEpisode": 2, "forPart": 1 }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Quartiles (Ungrouped Data)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Ungrouped Quartile Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Quartile Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Ungrouped Quartile Solutions", "url": "", "forEpisode": 3, "forPart": 1 }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Quartiles (Grouped Data)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Grouped Quartile Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Grouped Quartile Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Grouped Quartile Solutions", "url": "", "forEpisode": 4, "forPart": 1 }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Semi-Interquartile Range",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Semi-Interquartile Range Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Semi-Interquartile Range Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Semi-Interquartile Range Solutions", "url": "", "forEpisode": 5, "forPart": 1 }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Applications of Percentiles and Quartiles",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Applications and Interpretation", "url": "" }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Percentiles and Quartiles Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 7, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Measures of Dispersion",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Range",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Range Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Range Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Range Solutions", "url": "", "forEpisode": 1, "forPart": 1 }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Interquartile Range",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Interquartile Range Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Interquartile Range Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Interquartile Range Solutions", "url": "", "forEpisode": 2, "forPart": 1 }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Variance (Ungrouped Data)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Ungrouped Variance Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Variance Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Ungrouped Variance Solutions", "url": "", "forEpisode": 3, "forPart": 1 }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Variance (Grouped Data)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Grouped Variance Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Grouped Variance Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Grouped Variance Solutions", "url": "", "forEpisode": 4, "forPart": 1 }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Variance (Coding Method)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Coding Method Variance Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Coding Method Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Coding Method Variance Solutions", "url": "", "forEpisode": 5, "forPart": 1 }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Standard Deviation",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Standard Deviation Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Standard Deviation Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Standard Deviation Solutions", "url": "", "forEpisode": 6, "forPart": 1 }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Population vs. Sample Variance and Standard Deviation",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Population vs. Sample Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Population vs. Sample Measures", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Population vs. Sample Solutions", "url": "", "forEpisode": 7, "forPart": 1 }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Measures of Dispersion Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 8, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Regression and Correlation",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Regression Analysis and Linear Regression",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Regression Analysis Concepts", "url": "" }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Dependent and Independent Variables",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Dependent and Independent Variables", "url": "" }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Scatter Diagrams",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Scatter Diagram Plotting Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Scatter Diagram Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Scatter Diagram Solutions", "url": "", "forEpisode": 3, "forPart": 1 }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Assumptions of Linear Regression",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Assumptions of Linear Regression", "url": "" }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Least Squares Method",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Least Squares Method Concepts", "url": "" }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Calculating Regression Coefficients a and b",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Regression Coefficients Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Regression Coefficients Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Regression Coefficients Solutions", "url": "", "forEpisode": 6, "forPart": 1 }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Regression Line Equation (Y = a + bX)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Regression Line Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Regression Line Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Regression Line Solutions", "url": "", "forEpisode": 7, "forPart": 1 }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Correlation: Types and Coefficient (r)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Correlation Coefficient Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Correlation Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Correlation Coefficient Solutions", "url": "", "forEpisode": 8, "forPart": 1 }
+					]
+				},
+				{
+					"number": 9,
+					"name": "Coefficient of Determination (r²)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Coefficient of Determination Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Coefficient of Determination Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Coefficient of Determination Solutions", "url": "", "forEpisode": 9, "forPart": 1 }
+					]
+				},
+				{
+					"number": 10,
+					"name": "Regression and Correlation Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 10, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Foundations of Probability",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Basic Definitions: Experiment, Outcome, Sample Space, Event",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Basic Probability Definitions", "url": "" }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Set Theory: Union, Intersection, Complement",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Set Theory for Probability", "url": "" }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Mutually Exclusive and Exhaustive Events",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Mutually Exclusive and Exhaustive Events", "url": "" }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Counting Techniques: Permutations and Combinations",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Permutations and Combinations Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Counting Techniques Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Permutations and Combinations Solutions", "url": "", "forEpisode": 4, "forPart": 1 }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Approaches to Probability",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Classical, Relative Frequency and Subjective Approaches", "url": "" }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Axioms of Probability",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Axioms of Probability", "url": "" }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Addition Rule and Complement Rule",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Addition and Complement Rule Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Addition and Complement Rule Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Addition and Complement Rule Solutions", "url": "", "forEpisode": 7, "forPart": 1 }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Conditional Probability and Multiplication Rule",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Conditional Probability Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Conditional Probability Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Conditional Probability Solutions", "url": "", "forEpisode": 8, "forPart": 1 }
+					]
+				},
+				{
+					"number": 9,
+					"name": "Independence of Events and Law of Total Probability",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Independence and Total Probability Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Independence and Total Probability Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Independence and Total Probability Solutions", "url": "", "forEpisode": 9, "forPart": 1 }
+					]
+				},
+				{
+					"number": 10,
+					"name": "Bayes' Theorem",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Bayes' Theorem Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Bayes' Theorem Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Bayes' Theorem Solutions", "url": "", "forEpisode": 10, "forPart": 1 }
+					]
+				},
+				{
+					"number": 11,
+					"name": "Foundations of Probability Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 11, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+			"title": "Probability Distributions",
+			"episodes": [
+				{
+					"number": 1,
+					"name": "Random Variables: Discrete and Continuous",
+					"parts": [
+						{ "number": 1, "type": "quiz", "name": "Random Variables Concepts", "url": "" }
+					]
+				},
+				{
+					"number": 2,
+					"name": "Probability Mass Function (PMF) and Cumulative Distribution Function (CDF)",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "PMF and CDF Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "PMF and CDF Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "PMF and CDF Solutions", "url": "", "forEpisode": 2, "forPart": 1 }
+					]
+				},
+				{
+					"number": 3,
+					"name": "Expected Value and Variance of a Random Variable",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Expected Value and Variance Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Expected Value and Variance Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Expected Value and Variance Solutions", "url": "", "forEpisode": 3, "forPart": 1 }
+					]
+				},
+				{
+					"number": 4,
+					"name": "Binomial Distribution",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Binomial Distribution Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Binomial Distribution Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Binomial Distribution Solutions", "url": "", "forEpisode": 4, "forPart": 1 }
+					]
+				},
+				{
+					"number": 5,
+					"name": "Poisson Distribution",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Poisson Distribution Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Poisson Distribution Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Poisson Distribution Solutions", "url": "", "forEpisode": 5, "forPart": 1 }
+					]
+				},
+				{
+					"number": 6,
+					"name": "Normal Distribution",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Normal Distribution Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Normal Distribution Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Normal Distribution Solutions", "url": "", "forEpisode": 6, "forPart": 1 }
+					]
+				},
+				{
+					"number": 7,
+					"name": "Standard Normal Distribution and Z-Scores",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Z-Score Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Standard Normal Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Z-Score Solutions", "url": "", "forEpisode": 7, "forPart": 1 }
+					]
+				},
+				{
+					"number": 8,
+					"name": "Probability Distributions Round-Up",
+					"parts": [
+						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 8, "forPart": 1 }
+					]
+				}
+			]
+		},
+		{
+      "title": "Past Papers",
       "episodes": [
         {
           "number": 1,
-          "name": "Course overview",
+          "name": "Past Papers 2018-2025",
           "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Course overview",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "name": "Key terms and definitions",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Key terms and definitions",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "name": "Core concepts",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Core concepts",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 4,
-          "name": "Guided examples",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Guided examples",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 5,
-          "name": "Topic review",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Topic review",
-              "url": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Core Concepts",
-      "episodes": [
-        {
-          "number": 1,
-          "name": "Concept introduction",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Concept introduction",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "name": "Structures and principles",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Structures and principles",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "name": "Worked examples",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Worked examples",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 4,
-          "name": "Common questions",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Common questions",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 5,
-          "name": "Topic review",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Topic review",
-              "url": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Applications",
-      "episodes": [
-        {
-          "number": 1,
-          "name": "Practical context",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Practical context",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 2,
-          "name": "Methods and techniques",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Methods and techniques",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 3,
-          "name": "Applied example",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Applied example",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 4,
-          "name": "Practice questions",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Practice questions",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "number": 5,
-          "name": "Topic review",
-          "parts": [
-            {
-              "number": 1,
-              "type": "resource",
-              "name": "Topic review",
-              "url": ""
-            }
+            { "number": 1, "type": "resource", "name": "Past Papers Questions", "url": "" },
+            { "number": 2, "type": "solutions", "name": "Past Paper Solutions", "url": "", "forEpisode": 1, "forPart": 1 }
           ]
         }
       ]
     }
-  ]
+	]
 }

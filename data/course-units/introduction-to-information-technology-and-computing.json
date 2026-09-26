@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-09-07",
+	"lastUpdated": "2026-09-26",
 	"topics": [
 		{
 			"title": "Foundations of Information Technology and Computing",
@@ -71,7 +71,9 @@
 					"number": 2,
 					"name": "Processors, Memory and Storage",
 					"parts": [
-						{ "number": 1, "type": "quiz", "name": "Processors, Memory and Storage", "url": "" }
+						{ "number": 1, "type": "resource", "name": "Memory and Storage Calculations Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Processors, Memory and Storage", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Memory and Storage Calculations Solutions", "url": "", "forEpisode": 2, "forPart": 1 }
 					]
 				},
 				{
@@ -106,7 +108,9 @@
 					"number": 7,
 					"name": "File and Storage Concepts",
 					"parts": [
-						{ "number": 1, "type": "quiz", "name": "File and Storage Concepts", "url": "" }
+						{ "number": 1, "type": "resource", "name": "File Size Calculations Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "File and Storage Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "File Size Calculations Solutions", "url": "", "forEpisode": 7, "forPart": 1 }
 					]
 				},
 				{
@@ -141,7 +145,9 @@
 					"number": 2,
 					"name": "Basic Data Representation and Binary Concepts",
 					"parts": [
-						{ "number": 1, "type": "quiz", "name": "Basic Data Representation and Binary Concepts", "url": "" }
+						{ "number": 1, "type": "resource", "name": "Binary and Number System Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Basic Data Representation and Binary Concepts", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Binary and Number System Solutions", "url": "", "forEpisode": 2, "forPart": 1 }
 					]
 				},
 				{
@@ -176,7 +182,9 @@
 					"number": 7,
 					"name": "Algorithms and Introductory Algorithmic Reasoning",
 					"parts": [
-						{ "number": 1, "type": "quiz", "name": "Algorithms and Introductory Algorithmic Reasoning", "url": "" }
+						{ "number": 1, "type": "resource", "name": "Algorithm Tracing Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Algorithms and Introductory Algorithmic Reasoning", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Algorithm Tracing Solutions", "url": "", "forEpisode": 7, "forPart": 1 }
 					]
 				},
 				{
@@ -204,7 +212,9 @@
 					"number": 2,
 					"name": "Wired and Wireless Communication",
 					"parts": [
-						{ "number": 1, "type": "quiz", "name": "Wired and Wireless Communication", "url": "" }
+						{ "number": 1, "type": "resource", "name": "Bandwidth and Signal Calculations Practice", "url": "" },
+						{ "number": 2, "type": "quiz", "name": "Wired and Wireless Communication", "url": "" },
+						{ "number": 3, "type": "solutions", "name": "Bandwidth and Signal Calculations Solutions", "url": "", "forEpisode": 2, "forPart": 1 }
 					]
 				},
 				{
@@ -392,6 +402,19 @@
 					]
 				}
 			]
-		}
+		},
+		{
+      "title": "Past Papers",
+      "episodes": [
+        {
+          "number": 1,
+          "name": "Past Papers 2018-2025",
+          "parts": [
+            { "number": 1, "type": "resource", "name": "Past Papers Questions", "url": "" },
+            { "number": 2, "type": "solutions", "name": "Past Paper Solutions", "url": "", "forEpisode": 1, "forPart": 1 }
+          ]
+        }
+      ]
+    }
 	]
 }
