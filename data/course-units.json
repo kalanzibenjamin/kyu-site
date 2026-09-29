@@ -212,72 +212,152 @@
     "slug": "computer-applications",
     "title": "Computer Applications",
     "semester": "Year 1 · Semester I",
-    "lastUpdated": "2026-08-29",
+    "lastUpdated": "2026-09-26",
     "program": "BIS",
     "programme": "Bachelor of Information Systems",
     "path": "/pages/programs/scis/bis/computer-applications/",
     "topics": [
       {
         "id": "computer-applications-topic-1",
-        "title": "Foundations",
+        "title": "Word Processing",
         "episodes": [
           {
             "number": 1,
-            "name": "Course overview",
+            "name": "Introduction to Word Processing",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Course overview",
+                "type": "quiz",
+                "name": "Introduction to Word Processing",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Key terms and definitions",
+            "name": "Creating, Saving and Opening Documents",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Key terms and definitions",
+                "name": "Creating and Saving Documents Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Creating, Saving and Opening Documents",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Creating and Saving Documents Solutions",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 3,
-            "name": "Core concepts",
+            "name": "Text Formatting (Fonts, Paragraphs, Styles)",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Core concepts",
+                "type": "quiz",
+                "name": "Text Formatting (Fonts, Paragraphs, Styles)",
                 "url": ""
               }
             ]
           },
           {
             "number": 4,
-            "name": "Guided examples",
+            "name": "Page Setup, Headers, Footers and Page Numbers",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Guided examples",
+                "type": "quiz",
+                "name": "Page Setup, Headers, Footers and Page Numbers",
                 "url": ""
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Tables, Images and Shapes in Word",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Topic review",
+                "name": "Tables, Images and Shapes Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Tables, Images and Shapes in Word",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Tables, Images and Shapes Solutions",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Mail Merge, Reviewing and Printing",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Mail Merge and Printing Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Mail Merge, Reviewing and Printing",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Mail Merge and Printing Solutions",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Word Processing Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
               }
             ]
           }
@@ -285,65 +365,235 @@
       },
       {
         "id": "computer-applications-topic-2",
-        "title": "Core Concepts",
+        "title": "Presentations",
         "episodes": [
           {
             "number": 1,
-            "name": "Concept introduction",
+            "name": "Principles of Effective Presentations",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Concept introduction",
+                "type": "quiz",
+                "name": "Principles of Effective Presentations",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Structures and principles",
+            "name": "Audience Analysis and Presentation Planning",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Structures and principles",
+                "type": "quiz",
+                "name": "Audience Analysis and Presentation Planning",
                 "url": ""
               }
             ]
           },
           {
             "number": 3,
-            "name": "Worked examples",
+            "name": "Creating and Formatting Slides",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Worked examples",
+                "name": "Creating and Formatting Slides Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Creating and Formatting Slides",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Creating and Formatting Slides Solutions",
+                "url": "",
+                "forEpisode": 3,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 4,
-            "name": "Common questions",
+            "name": "Themes, Templates and Slide Masters",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Common questions",
+                "name": "Themes, Templates and Slide Masters Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Themes, Templates and Slide Masters",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Themes, Templates and Slide Masters Solutions",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Text, Images, Charts, Tables and SmartArt",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Topic review",
+                "name": "Text, Images, Charts, Tables and SmartArt Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Text, Images, Charts, Tables and SmartArt",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Text, Images, Charts, Tables and SmartArt Solutions",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Multimedia Integration (Audio/Video)",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Multimedia Integration Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Multimedia Integration (Audio/Video)",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Multimedia Integration Solutions",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Animations and Transitions",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Animations and Transitions Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Animations and Transitions",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Animations and Transitions Solutions",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Visual Design Principles",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Visual Design Principles",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Presentation Delivery Techniques",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Presentation Delivery Techniques",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "Sharing Presentations Digitally",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Sharing Presentations Digitally Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Sharing Presentations Digitally",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Sharing Presentations Digitally Solutions",
+                "url": "",
+                "forEpisode": 10,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "name": "Presentations Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 11,
+                "forPart": 1
               }
             ]
           }
@@ -351,65 +601,719 @@
       },
       {
         "id": "computer-applications-topic-3",
-        "title": "Applications",
+        "title": "Spreadsheets",
         "episodes": [
           {
             "number": 1,
-            "name": "Practical context",
+            "name": "Workbook and Worksheet Management",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Practical context",
+                "type": "quiz",
+                "name": "Workbook and Worksheet Management",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Methods and techniques",
+            "name": "Data Entry and Formatting",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Methods and techniques",
+                "type": "quiz",
+                "name": "Data Entry and Formatting",
                 "url": ""
               }
             ]
           },
           {
             "number": 3,
-            "name": "Applied example",
+            "name": "Data Validation and Error Checking",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Applied example",
+                "type": "quiz",
+                "name": "Data Validation and Error Checking",
                 "url": ""
               }
             ]
           },
           {
             "number": 4,
-            "name": "Practice questions",
+            "name": "Basic and Advanced Formulas",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Practice questions",
+                "name": "Formulas Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Basic and Advanced Formulas",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Formulas Solutions",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Functions (Logical, Statistical, Financial, Lookup)",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Topic review",
+                "name": "Functions Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Functions (Logical, Statistical, Financial, Lookup)",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Functions Solutions",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Sorting and Filtering Data",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Sorting and Filtering Data",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Conditional Formatting",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Conditional Formatting",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Charts and Graphical Presentation of Data",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Charts Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Charts and Graphical Presentation of Data",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Charts Solutions",
+                "url": "",
+                "forEpisode": 8,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Pivot Tables and Summaries",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Pivot Tables Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Pivot Tables and Summaries",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Pivot Tables Solutions",
+                "url": "",
+                "forEpisode": 9,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "What-If Analysis and Decision Support",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "What-If Analysis Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "What-If Analysis and Decision Support",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "What-If Analysis Solutions",
+                "url": "",
+                "forEpisode": 10,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "name": "Spreadsheet Applications in Business Decision-Making",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Business Applications Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Spreadsheet Applications in Business Decision-Making",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Business Applications Solutions",
+                "url": "",
+                "forEpisode": 11,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 12,
+            "name": "Spreadsheets Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 12,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "computer-applications-topic-4",
+        "title": "Databases",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Design and Manage Simple Database Solutions",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Design and Manage Simple Database Solutions",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Introduction to Databases and Database Applications",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Introduction to Databases and Database Applications",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Database Terminology (Tables, Records, Fields)",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Database Terminology (Tables, Records, Fields)",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Creating and Managing Tables",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Creating and Managing Tables Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Creating and Managing Tables",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Creating and Managing Tables Solutions",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Data Types and Validation Rules",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Data Types and Validation Rules",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Creating Forms for Data Entry",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Creating Forms Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Creating Forms for Data Entry",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Creating Forms Solutions",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Creating Queries for Information Retrieval",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Creating Queries Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Creating Queries for Information Retrieval",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Creating Queries Solutions",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Generating Reports",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Generating Reports Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Generating Reports",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Generating Reports Solutions",
+                "url": "",
+                "forEpisode": 8,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Basic Relationships Between Tables",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Table Relationships Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Basic Relationships Between Tables",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Table Relationships Solutions",
+                "url": "",
+                "forEpisode": 9,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "Data Integrity and Security Principles",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Data Integrity and Security Principles",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "name": "Developing a Simple Database Application",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Developing a Database Application Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Developing a Simple Database Application",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Developing a Database Application Solutions",
+                "url": "",
+                "forEpisode": 11,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 12,
+            "name": "Databases Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 12,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "computer-applications-topic-5",
+        "title": "Internet and Electronic Communication",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Utilize Internet and Electronic Communication Tools Professionally",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Utilize Internet and Electronic Communication Tools Professionally",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Internet Concepts and Services",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Internet Concepts and Services",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Effective Web Searching and Information Evaluation",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Effective Web Searching and Information Evaluation",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Email Creation and Professional Email Practices",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Professional Email Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Email Creation and Professional Email Practices",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Professional Email Solutions",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Online Collaboration Tools",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Online Collaboration Tools",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Cloud Storage and File Sharing",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Cloud Storage and File Sharing",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Digital Identity and Citizenship",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Digital Identity and Citizenship",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Basic Cybersecurity Practices",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Basic Cybersecurity Practices",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Safe and Ethical Use of Online Resources",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Safe and Ethical Use of Online Resources",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "Integrating Computer Applications for Workplace Tasks",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Integrating Applications Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Integrating Computer Applications for Workplace Tasks",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Integrating Applications Solutions",
+                "url": "",
+                "forEpisode": 10,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "name": "Internet and Electronic Communication Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 11,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "computer-applications-topic-6",
+        "title": "Past Papers",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Past Papers 2018-2025",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Past Paper Questions",
+                "url": "https://drive.google.com/file/d/1pp3-AD23qr7jremcrmmHcTRyRok_wV_p/view?usp=drive_link"
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Past Paper Solutions",
+                "url": "",
+                "forEpisode": 1,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "computer-applications-topic-7",
+        "title": "General Resource",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Study Resource",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Past Paper Questions",
+                "url": "https://drive.google.com/drive/folders/1plEkbFo3BaQUdEN-C6KujxniowfVdsH5?usp=sharing"
               }
             ]
           }
@@ -8076,72 +8980,152 @@
     "slug": "computer-applications",
     "title": "Computer Applications",
     "semester": "Year 1 · Semester I",
-    "lastUpdated": "2026-08-29",
+    "lastUpdated": "2026-09-26",
     "program": "BITC",
     "programme": "Bachelor of Information Technology and Computing",
     "path": "/pages/programs/scis/bitc/computer-applications/",
     "topics": [
       {
         "id": "computer-applications-topic-1",
-        "title": "Foundations",
+        "title": "Word Processing",
         "episodes": [
           {
             "number": 1,
-            "name": "Course overview",
+            "name": "Introduction to Word Processing",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Course overview",
+                "type": "quiz",
+                "name": "Introduction to Word Processing",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Key terms and definitions",
+            "name": "Creating, Saving and Opening Documents",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Key terms and definitions",
+                "name": "Creating and Saving Documents Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Creating, Saving and Opening Documents",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Creating and Saving Documents Solutions",
+                "url": "",
+                "forEpisode": 2,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 3,
-            "name": "Core concepts",
+            "name": "Text Formatting (Fonts, Paragraphs, Styles)",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Core concepts",
+                "type": "quiz",
+                "name": "Text Formatting (Fonts, Paragraphs, Styles)",
                 "url": ""
               }
             ]
           },
           {
             "number": 4,
-            "name": "Guided examples",
+            "name": "Page Setup, Headers, Footers and Page Numbers",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Guided examples",
+                "type": "quiz",
+                "name": "Page Setup, Headers, Footers and Page Numbers",
                 "url": ""
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Tables, Images and Shapes in Word",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Topic review",
+                "name": "Tables, Images and Shapes Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Tables, Images and Shapes in Word",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Tables, Images and Shapes Solutions",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Mail Merge, Reviewing and Printing",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Mail Merge and Printing Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Mail Merge, Reviewing and Printing",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Mail Merge and Printing Solutions",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Word Processing Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
               }
             ]
           }
@@ -8149,65 +9133,235 @@
       },
       {
         "id": "computer-applications-topic-2",
-        "title": "Core Concepts",
+        "title": "Presentations",
         "episodes": [
           {
             "number": 1,
-            "name": "Concept introduction",
+            "name": "Principles of Effective Presentations",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Concept introduction",
+                "type": "quiz",
+                "name": "Principles of Effective Presentations",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Structures and principles",
+            "name": "Audience Analysis and Presentation Planning",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Structures and principles",
+                "type": "quiz",
+                "name": "Audience Analysis and Presentation Planning",
                 "url": ""
               }
             ]
           },
           {
             "number": 3,
-            "name": "Worked examples",
+            "name": "Creating and Formatting Slides",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Worked examples",
+                "name": "Creating and Formatting Slides Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Creating and Formatting Slides",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Creating and Formatting Slides Solutions",
+                "url": "",
+                "forEpisode": 3,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 4,
-            "name": "Common questions",
+            "name": "Themes, Templates and Slide Masters",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Common questions",
+                "name": "Themes, Templates and Slide Masters Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Themes, Templates and Slide Masters",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Themes, Templates and Slide Masters Solutions",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Text, Images, Charts, Tables and SmartArt",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Topic review",
+                "name": "Text, Images, Charts, Tables and SmartArt Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Text, Images, Charts, Tables and SmartArt",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Text, Images, Charts, Tables and SmartArt Solutions",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Multimedia Integration (Audio/Video)",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Multimedia Integration Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Multimedia Integration (Audio/Video)",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Multimedia Integration Solutions",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Animations and Transitions",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Animations and Transitions Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Animations and Transitions",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Animations and Transitions Solutions",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Visual Design Principles",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Visual Design Principles",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Presentation Delivery Techniques",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Presentation Delivery Techniques",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "Sharing Presentations Digitally",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Sharing Presentations Digitally Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Sharing Presentations Digitally",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Sharing Presentations Digitally Solutions",
+                "url": "",
+                "forEpisode": 10,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "name": "Presentations Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 11,
+                "forPart": 1
               }
             ]
           }
@@ -8215,65 +9369,719 @@
       },
       {
         "id": "computer-applications-topic-3",
-        "title": "Applications",
+        "title": "Spreadsheets",
         "episodes": [
           {
             "number": 1,
-            "name": "Practical context",
+            "name": "Workbook and Worksheet Management",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Practical context",
+                "type": "quiz",
+                "name": "Workbook and Worksheet Management",
                 "url": ""
               }
             ]
           },
           {
             "number": 2,
-            "name": "Methods and techniques",
+            "name": "Data Entry and Formatting",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Methods and techniques",
+                "type": "quiz",
+                "name": "Data Entry and Formatting",
                 "url": ""
               }
             ]
           },
           {
             "number": 3,
-            "name": "Applied example",
+            "name": "Data Validation and Error Checking",
             "parts": [
               {
                 "number": 1,
-                "type": "resource",
-                "name": "Applied example",
+                "type": "quiz",
+                "name": "Data Validation and Error Checking",
                 "url": ""
               }
             ]
           },
           {
             "number": 4,
-            "name": "Practice questions",
+            "name": "Basic and Advanced Formulas",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Practice questions",
+                "name": "Formulas Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Basic and Advanced Formulas",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Formulas Solutions",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
               }
             ]
           },
           {
             "number": 5,
-            "name": "Topic review",
+            "name": "Functions (Logical, Statistical, Financial, Lookup)",
             "parts": [
               {
                 "number": 1,
                 "type": "resource",
-                "name": "Topic review",
+                "name": "Functions Practice",
                 "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Functions (Logical, Statistical, Financial, Lookup)",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Functions Solutions",
+                "url": "",
+                "forEpisode": 5,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Sorting and Filtering Data",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Sorting and Filtering Data",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Conditional Formatting",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Conditional Formatting",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Charts and Graphical Presentation of Data",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Charts Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Charts and Graphical Presentation of Data",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Charts Solutions",
+                "url": "",
+                "forEpisode": 8,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Pivot Tables and Summaries",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Pivot Tables Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Pivot Tables and Summaries",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Pivot Tables Solutions",
+                "url": "",
+                "forEpisode": 9,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "What-If Analysis and Decision Support",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "What-If Analysis Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "What-If Analysis and Decision Support",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "What-If Analysis Solutions",
+                "url": "",
+                "forEpisode": 10,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "name": "Spreadsheet Applications in Business Decision-Making",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Business Applications Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Spreadsheet Applications in Business Decision-Making",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Business Applications Solutions",
+                "url": "",
+                "forEpisode": 11,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 12,
+            "name": "Spreadsheets Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 12,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "computer-applications-topic-4",
+        "title": "Databases",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Design and Manage Simple Database Solutions",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Design and Manage Simple Database Solutions",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Introduction to Databases and Database Applications",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Introduction to Databases and Database Applications",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Database Terminology (Tables, Records, Fields)",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Database Terminology (Tables, Records, Fields)",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Creating and Managing Tables",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Creating and Managing Tables Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Creating and Managing Tables",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Creating and Managing Tables Solutions",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Data Types and Validation Rules",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Data Types and Validation Rules",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Creating Forms for Data Entry",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Creating Forms Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Creating Forms for Data Entry",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Creating Forms Solutions",
+                "url": "",
+                "forEpisode": 6,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Creating Queries for Information Retrieval",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Creating Queries Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Creating Queries for Information Retrieval",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Creating Queries Solutions",
+                "url": "",
+                "forEpisode": 7,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Generating Reports",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Generating Reports Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Generating Reports",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Generating Reports Solutions",
+                "url": "",
+                "forEpisode": 8,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Basic Relationships Between Tables",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Table Relationships Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Basic Relationships Between Tables",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Table Relationships Solutions",
+                "url": "",
+                "forEpisode": 9,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "Data Integrity and Security Principles",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Data Integrity and Security Principles",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "name": "Developing a Simple Database Application",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Developing a Database Application Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Developing a Simple Database Application",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Developing a Database Application Solutions",
+                "url": "",
+                "forEpisode": 11,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 12,
+            "name": "Databases Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 12,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "computer-applications-topic-5",
+        "title": "Internet and Electronic Communication",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Utilize Internet and Electronic Communication Tools Professionally",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Utilize Internet and Electronic Communication Tools Professionally",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "name": "Internet Concepts and Services",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Internet Concepts and Services",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "name": "Effective Web Searching and Information Evaluation",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Effective Web Searching and Information Evaluation",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "name": "Email Creation and Professional Email Practices",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Professional Email Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Email Creation and Professional Email Practices",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Professional Email Solutions",
+                "url": "",
+                "forEpisode": 4,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "name": "Online Collaboration Tools",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Online Collaboration Tools",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "name": "Cloud Storage and File Sharing",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Cloud Storage and File Sharing",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "name": "Digital Identity and Citizenship",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Digital Identity and Citizenship",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "name": "Basic Cybersecurity Practices",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Basic Cybersecurity Practices",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "name": "Safe and Ethical Use of Online Resources",
+            "parts": [
+              {
+                "number": 1,
+                "type": "quiz",
+                "name": "Safe and Ethical Use of Online Resources",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "name": "Integrating Computer Applications for Workplace Tasks",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Integrating Applications Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Integrating Computer Applications for Workplace Tasks",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Integrating Applications Solutions",
+                "url": "",
+                "forEpisode": 10,
+                "forPart": 1
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "name": "Internet and Electronic Communication Round-Up",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Round-Up Practice",
+                "url": ""
+              },
+              {
+                "number": 2,
+                "type": "quiz",
+                "name": "Round-Up",
+                "url": ""
+              },
+              {
+                "number": 3,
+                "type": "solutions",
+                "name": "Round-Up",
+                "url": "",
+                "forEpisode": 11,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "computer-applications-topic-6",
+        "title": "Past Papers",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Past Papers 2018-2025",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Past Paper Questions",
+                "url": "https://drive.google.com/file/d/1pp3-AD23qr7jremcrmmHcTRyRok_wV_p/view?usp=drive_link"
+              },
+              {
+                "number": 2,
+                "type": "solutions",
+                "name": "Past Paper Solutions",
+                "url": "",
+                "forEpisode": 1,
+                "forPart": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "computer-applications-topic-7",
+        "title": "General Resource",
+        "episodes": [
+          {
+            "number": 1,
+            "name": "Study Resource",
+            "parts": [
+              {
+                "number": 1,
+                "type": "resource",
+                "name": "Past Paper Questions",
+                "url": "https://drive.google.com/drive/folders/1plEkbFo3BaQUdEN-C6KujxniowfVdsH5?usp=sharing"
               }
             ]
           }
