@@ -244,21 +244,21 @@
 				"number": 3,
 				"name": "Reading for Study: The SQ3R Method",
 				"parts": [
-					{ "number": 1, "type": "quiz", "name": "Reading for Study: The SQ3R Method", "url": "" }
+					{ "number": 1, "type": "quiz", "name": "Reading for Study: The SQ3R Method", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeC0HiPBdYYip96YQr5b-jj-l3_rgBzrTj9ydUgJG6Z37FSGg/viewform?usp=publish-editor" }
 				]
 				},
 				{
 				"number": 4,
 				"name": "Reading Habits and Note-Making",
 				"parts": [
-					{ "number": 1, "type": "quiz", "name": "Reading Habits and Note-Making", "url": "" }
+					{ "number": 1, "type": "quiz", "name": "Reading Habits and Note-Making", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfBeBZcxZVev-Y0sRqXP_PrWc_D72MeY0RKqBxR1_I86edvXQ/viewform?usp=publish-editor" }
 				]
 				},
 				{
 				"number": 5,
 				"name": "Examination Preparation and Reading",
 				"parts": [
-					{ "number": 1, "type": "quiz", "name": "Examination Preparation and Reading", "url": "" }
+					{ "number": 1, "type": "quiz", "name": "Examination Preparation and Reading", "url": "https://docs.google.com/forms/d/e/1FAIpQLSe7aC4LTUt8Fuie5QmWubK0T4mTwHhscg5SnQcRKydROPINFg/viewform?usp=publish-editor" }
 				]
 				},
 				{
@@ -266,7 +266,7 @@
 				"name": "Reading Skills Round-Up",
 				"parts": [
 					{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
-					{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+					{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfwO6ocwyfrj4Q0691DSB0LNXmCT-LvTm8rfUqHgvbvGtIRbQ/viewform?usp=publish-editor" },
 					{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 6, "forPart": 1 }
 				]
 				}
