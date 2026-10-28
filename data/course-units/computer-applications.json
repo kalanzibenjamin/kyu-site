@@ -1,67 +1,82 @@
 {
 	"lastUpdated": "2026-09-26",
 	"topics": [
-		{
-			"title": "Word Processing",
-			"episodes": [
 				{
-					"number": 1,
-					"name": "Introduction to Word Processing",
-					"parts": [
-						{ "number": 1, "type": "quiz", "name": "Introduction to Word Processing", "url": "" }
-					]
-				},
-				{
-					"number": 2,
-					"name": "Creating, Saving and Opening Documents",
-					"parts": [
-						{ "number": 1, "type": "resource", "name": "Creating and Saving Documents Practice", "url": "" },
-						{ "number": 2, "type": "quiz", "name": "Creating, Saving and Opening Documents", "url": "" },
-						{ "number": 3, "type": "solutions", "name": "Creating and Saving Documents Solutions", "url": "", "forEpisode": 2, "forPart": 1 }
-					]
-				},
-				{
-					"number": 3,
-					"name": "Text Formatting (Fonts, Paragraphs, Styles)",
-					"parts": [
-						{ "number": 1, "type": "quiz", "name": "Text Formatting (Fonts, Paragraphs, Styles)", "url": "" }
-					]
-				},
-				{
-					"number": 4,
-					"name": "Page Setup, Headers, Footers and Page Numbers",
-					"parts": [
-						{ "number": 1, "type": "quiz", "name": "Page Setup, Headers, Footers and Page Numbers", "url": "" }
-					]
-				},
-				{
-					"number": 5,
-					"name": "Tables, Images and Shapes in Word",
-					"parts": [
-						{ "number": 1, "type": "resource", "name": "Tables, Images and Shapes Practice", "url": "" },
-						{ "number": 2, "type": "quiz", "name": "Tables, Images and Shapes in Word", "url": "" },
-						{ "number": 3, "type": "solutions", "name": "Tables, Images and Shapes Solutions", "url": "", "forEpisode": 5, "forPart": 1 }
-					]
-				},
-				{
-					"number": 6,
-					"name": "Mail Merge, Reviewing and Printing",
-					"parts": [
-						{ "number": 1, "type": "resource", "name": "Mail Merge and Printing Practice", "url": "" },
-						{ "number": 2, "type": "quiz", "name": "Mail Merge, Reviewing and Printing", "url": "" },
-						{ "number": 3, "type": "solutions", "name": "Mail Merge and Printing Solutions", "url": "", "forEpisode": 6, "forPart": 1 }
-					]
-				},
-				{
-					"number": 7,
-					"name": "Word Processing Round-Up",
-					"parts": [
-						{ "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
-						{ "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
-						{ "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 7, "forPart": 1 }
-					]
-				}
-			]
+		  "title": "Word Processing",
+		  "episodes": [
+		    {
+		      "number": 1,
+		      "name": "Introduction to Word Processing",
+		      "parts": [
+		        { "number": 1, "type": "quiz", "name": "Introduction to Word Processing", "url": "" }
+		      ]
+		    },
+		    {
+		      "number": 2,
+		      "name": "Creating, Saving and Managing Documents",
+		      "parts": [
+		        { "number": 1, "type": "quiz", "name": "Creating, Saving and Managing Documents", "url": "" }
+		      ]
+		    },
+		    {
+		      "number": 3,
+		      "name": "Text and Paragraph Formatting",
+		      "parts": [
+		        { "number": 1, "type": "quiz", "name": "Text and Paragraph Formatting", "url": "" }
+		      ]
+		    },
+		    {
+		      "number": 4,
+		      "name": "Page Setup, Headers, Footers, Page Numbers",
+		      "parts": [
+		        { "number": 1, "type": "quiz", "name": "Page Setup, Headers, Footers, Page Numbers", "url": "" }
+		      ]
+		    },
+		    {
+		      "number": 5,
+		      "name": "Tables in Word",
+		      "parts": [
+		        { "number": 1, "type": "quiz", "name": "Tables in Word", "url": "" }
+		      ]
+		    },
+		    {
+		      "number": 6,
+		      "name": "Images, Shapes, SmartArt, Text Boxes",
+		      "parts": [
+		        { "number": 1, "type": "quiz", "name": "Images, Shapes, SmartArt, Text Boxes", "url": "" }
+		      ]
+		    },
+		    {
+		      "number": 7,
+		      "name": "Hyperlinks, Citations, Watermarks, Security",
+		      "parts": [
+		        { "number": 1, "type": "quiz", "name": "Hyperlinks, Citations, Watermarks, Security", "url": "" }
+		      ]
+		    },
+		    {
+		      "number": 8,
+		      "name": "Themes, Styles, Mail Merge",
+		      "parts": [
+		        { "number": 1, "type": "quiz", "name": "Themes, Styles, Mail Merge", "url": "" }
+		      ]
+		    },
+		    {
+		      "number": 9,
+		      "name": "Reviewing, Visual Design, Delivery, Integration",
+		      "parts": [
+		        { "number": 1, "type": "quiz", "name": "Reviewing, Visual Design, Delivery, Integration", "url": "" }
+		      ]
+		    },
+		    {
+		      "number": 10,
+		      "name": "Word Processing Round-Up",
+		      "parts": [
+		        { "number": 1, "type": "resource", "name": "Round-Up Practice", "url": "" },
+		        { "number": 2, "type": "quiz", "name": "Round-Up", "url": "" },
+		        { "number": 3, "type": "solutions", "name": "Round-Up", "url": "", "forEpisode": 10, "forPart": 1 }
+		      ]
+		    }
+		  ]
 		},
 		{
 			"title": "Presentations",
